@@ -1,0 +1,282 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Origin of the Solar System</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64056</md:content-id>
+  <md:title>Origin of the Solar System</md:title>
+  <md:abstract>By the end of this section you will be able to:
+<list><item>Describe the characteristics of planets that are used to create formation models of the solar system.</item><item>Describe how the characteristics of extrasolar systems help us to model our own solar system.</item><item>Explain the importance of collisions in the formation of the solar system.</item></list></md:abstract>
+  <md:uuid>6987df82-3cc9-4187-b91b-a0995c040c3b</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1170324992456">Much of astronomy is motivated by a desire to understand the origin of things: to find at least partial answers to age-old questions of where the universe, the Sun, Earth, and we ourselves came from. Each planet and moon is a fascinating place that may stimulate our imagination as we try to picture what it would be like to visit. Taken together, the members of the solar system preserve patterns that can tell us about the formation of the entire system. As we begin our exploration of the planets, we want to introduce our modern picture of how the solar system formed.</para>
+<para id="fs-id1170325196411">The recent discovery of hundreds of planets in orbit around other stars has shown astronomers that many exoplanetary systems can be quite different from our own solar system. For example, it is common for these systems to include planets intermediate in size between our terrestrial and giant planets. These are often called <emphasis effect="italics">superearths</emphasis>. Some exoplanet systems even have giant planets close to the star, reversing the order we see in our system. In <link class="target-chapter" document="m77137">Exoplanets</link>, we will look at these systems. But for now, let us focus on theories of how our own particular system has formed and evolved.</para><section id="fs-id1170325097401">
+<title>Looking for Patterns</title>
+<para id="fs-id1170325238214">One way to approach our question of origin is to look for regularities among the planets. We found, for example, that all the planets lie in nearly the same plane and revolve in the same direction around the Sun. The Sun also spins in the same direction about its own axis. Astronomers interpret this pattern as evidence that the Sun and planets formed together from a spinning cloud of gas and dust that we call the <term>solar nebula</term> (<link target-id="OSC_Astro_07_04_Nebula"/>).</para>
+<figure id="OSC_Astro_07_04_Nebula">
+<title>Solar Nebula.</title>
+<media id="fs-id1170325039223" alt="Artist’s conception of the Solar Nebula. Swirls of gas and dust, along with chunks of ice and rock spiral around the bright center where the Sun is beginning to shine.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_07_04_Nebula.jpg"/>
+</media>
+<caption>This artist’s conception of the solar nebula shows the flattened cloud of gas and dust from which our planetary system formed. Icy and rocky <term class="no-emphasis">planetesimal</term>s (precursors of the planets) can be seen in the foreground. The bright center is where the Sun is forming. (credit: William K. Hartmann, Planetary Science Institute)</caption>
+</figure>
+<para id="fs-id1170325079670">The composition of the planets gives another clue about origins. Spectroscopic analysis allows us to determine which elements are present in the Sun and the planets. The Sun has the same hydrogen-dominated composition as Jupiter and Saturn, and therefore appears to have been formed from the same reservoir of material. In comparison, the terrestrial planets and our Moon are relatively deficient in the light gases and the various ices that form from the common elements oxygen, carbon, and nitrogen. Instead, on Earth and its neighbors, we see mostly the rarer heavy elements such as iron and silicon. This pattern suggests that the processes that led to planet formation in the inner solar system must somehow have excluded much of the lighter materials that are common elsewhere. These lighter materials must have escaped, leaving a residue of heavy stuff.</para>
+<para id="fs-id1170324977991">The reason for this is not hard to guess, bearing in mind the heat of the Sun. The inner planets and most of the asteroids are made of rock and metal, which can survive heat, but they contain very little ice or gas, which evaporate when temperatures are high. (To see what we mean, just compare how long a rock and an ice cube survive when they are placed in the sunlight.) In the outer solar system, where it has always been cooler, the planets and their moons, as well as icy dwarf planets and comets, are composed mostly of ice and gas.</para>
+</section>
+<section id="fs-id1170325062514">
+<title>The Evidence from Far Away</title>
+<para id="fs-id1170325314502">A second approach to understanding the origins of the solar system is to look outward for evidence that other systems of planets are forming elsewhere. We cannot look back in time to the formation of our own system, but many stars in space are much younger than the Sun. In these systems, the processes of planet formation might still be accessible to direct observation. We observe that there are many other “solar nebulas” or <emphasis effect="italics">circumstellar disks</emphasis>—flattened, spinning clouds of gas and dust surrounding young stars. These disks resemble our own solar system’s initial stages of formation billions of years ago (<link target-id="OSC_Astro_07_04_Nurseries"/>).</para>
+<figure id="OSC_Astro_07_04_Nurseries">
+<title>Atlas of Planetary Nurseries.</title>
+<media id="fs-id1170325091718" alt="A Photographic Atlas of Planetary Nurseries in the Orion Nebula. These Hubble Space Telescope images show embedded circumstellar disks orbiting very young stars. Each is seen from a different angle. Some are energized to glow brightly by the light of a nearby star, while others are dark and seen in silhouette against the bright glowing gas of the Orion nebula.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_07_04_Nurseries.jpg"/>
+</media>
+<caption>These Hubble Space Telescope photos show sections of the <term class="no-emphasis">Orion Nebula</term>, a relatively close-by region where stars are currently forming. Each image shows an embedded circumstellar disk orbiting a very young star. Seen from different angles, some are energized to glow by the light of a nearby star while others are dark and seen in silhouette against the bright glowing gas of the Orion Nebula. Each is a contemporary analog of our own solar nebula—a location where planets are probably being formed today. (credit: modification of work by NASA/ESA, L. Ricci (ESO))</caption>
+</figure>
+</section>
+<section id="fs-id1170325049406">
+<title>Building Planets</title>
+<para id="fs-id1170325054720">Circumstellar disks are a common occurrence around very young stars, suggesting that disks and stars form together. Astronomers can use theoretical calculations to see how solid bodies might form from the gas and dust in these disks as they cool. These models show that material begins to coalesce first by forming smaller objects, precursors of the planets, which we call <term>planetesimals</term>.</para>
+<para id="fs-id1170325066020">Today’s fast computers can simulate the way millions of planetesimals, probably no larger than 100 kilometers in diameter, might gather together under their mutual gravity to form the planets we see today. We are beginning to understand that this process was a violent one, with planetesimals crashing into each other and sometimes even disrupting the growing planets themselves. As a consequence of those violent impacts (and the heat from radioactive elements in them), all the planets were heated until they were liquid and gas, and therefore differentiated, which helps explain their present internal structures.</para>
+<para id="fs-id1170325244959">The process of impacts and collisions in the early solar system was complex and, apparently, often random. The solar nebula model can explain many of the regularities we find in the solar system, but the random collisions of massive collections of planetesimals could be the reason for some exceptions to the “rules” of solar system behavior. For example, why do the planets Uranus and Pluto spin on their sides? Why does Venus spin slowly and in the opposite direction from the other planets? Why does the composition of the Moon resemble Earth in many ways and yet exhibit substantial differences? The answers to such questions probably lie in enormous collisions that took place in the solar system long before life on Earth began.</para>
+<para id="fs-id1170324915522">Today, some 4.5 billion years after its origin, the solar system is—thank goodness—a much less violent place. As we will see, however, some planetesimals have continued to interact and collide, and their fragments move about the solar system as roving “transients” that can make trouble for the established members of the Sun’s family, such as our own Earth.</para><note id="fs-id1170324936235" class="media-2">
+<para id="fs-id1170325066375">A great variety of <link url="https://openstaxcollege.org/l/30worldsinsolar">infographics</link> at space.com let you explore what it would be like to live on various worlds in the solar system.</para>
+</note>
+</section>
+<section id="fs-id1170325089310" class="key-concepts">
+<title>Summary</title>
+<list id="fs-idm184340848"><item>Regularities among the planets have led astronomers to hypothesize that the Sun and the planets formed together in a giant, spinning cloud of gas and dust called the solar nebula.</item><item>Astronomical observations show tantalizingly similar circumstellar disks around other stars.</item><item>Within the solar nebula, material first coalesced into planetesimals; many of these gathered together to make the planets and moons.</item><item>The remainder can still be seen as comets and asteroids.</item><item>Probably all planetary systems have formed in similar ways, but many exoplanet systems have evolved along quite different paths, as we will see in <link class="target-chapter" document="m77140">New Perspectives on Planet Formation</link>.</item></list></section>
+<section id="fs-id1170325068414" class="review-conceptual-questions">
+<title>Conceptual Questions</title><exercise id="fs-id1170325097852">
+<problem id="fs-id1170325070022">
+<para id="fs-id1170325089471">Venus rotates backward and Uranus and Pluto spin about an axis tipped nearly on its side. Based on what you learned about the motion of small bodies in the solar system and the surfaces of the planets, what might be the cause of these strange rotations?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170324923008">
+<problem id="fs-id1170325056658">
+<para id="fs-id1170324919439">What is the difference between a differentiated body and an undifferentiated body, and how might that influence a body’s ability to retain heat for the age of the solar system?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170324943670">
+<problem id="fs-id1170325083542">
+<para id="fs-id1170324905569">What does a planet need in order to retain an atmosphere? How does an atmosphere affect the surface of a planet and the ability of life to exist?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170324984134">
+<problem id="fs-id1170325067601">
+<para id="fs-id1170325083193">Which type of planets have the most moons? Where did these moons likely originate?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325045868">
+<problem id="fs-id1170324918100">
+<para id="fs-id1170325004726">What is the difference between a meteor and a meteorite?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325056102">
+<problem id="fs-id1170325074413">
+<para id="fs-id1170325085857">Explain our ideas about why the terrestrial planets are rocky and have less gas than the giant planets.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325086375">
+<problem id="fs-id1170325094882">
+<para id="fs-id1170324968515">Do all planetary systems look the same as our own?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325068386">
+<problem id="fs-id1170324915445">
+<para id="fs-id1170325068294">What is comparative planetology and why is it useful to astronomers?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325053715">
+<problem id="fs-id1170324909469">
+<para id="fs-id1170325045034">What changed in our understanding of the Moon and Moon-Earth system as a result of humans landing on the Moon’s surface?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325033428">
+<problem id="fs-id1170325076210">
+<para id="fs-id1170325047606">If Earth was to be hit by an extraterrestrial object, where in the solar system could it come from and how would we know its source region?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325077739">
+<problem id="fs-id1170324945793">
+<para id="fs-id1170325247594">List some reasons that the study of the planets has progressed more in the past few decades than any other branch of astronomy.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325039707">
+<problem id="fs-id1170324968568">
+<para id="fs-id1170325068390">Imagine you are a travel agent in the next century. An eccentric billionaire asks you to arrange a “Guinness Book of Solar System Records” kind of tour. Where would you direct him to find the following (use this chapter and <link class="target-chapter" document="m64014"/>:</para><list id="fs-id1170325053649" list-type="enumerated" number-style="upper-alpha">
+<item>the least-dense planet</item>
+<item>the densest planet</item>
+<item>the largest moon in the solar system</item>
+<item>excluding the jovian planets, the planet where you would weigh the most on its surface (Hint: Weight is directly proportional to surface gravity.)</item>
+<item>the smallest planet</item>
+<item>the planet that takes the longest time to rotate</item>
+<item>the planet that takes the shortest time to rotate</item>
+<item>the planet with a diameter closest to Earth’s</item>
+<item>the moon with the thickest atmosphere</item>
+<item>the densest moon</item>
+<item>the most massive moon</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1170325073612">
+<problem id="fs-id1170325068353">
+<para id="fs-id1170325057376">What characteristics do the worlds in our solar system have in common that lead astronomers to believe that they all formed from the same “mother cloud” (solar nebula)?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325053734">
+<problem id="fs-id1170325091077">
+<para id="fs-id1170324938252">How do terrestrial and giant planets differ? List as many ways as you can think of.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325093665">
+<problem id="fs-id1170325089123">
+<para id="fs-id1170325016878">Why are there so many craters on the Moon and so few on Earth?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325061049">
+<problem id="fs-id1170325061752">
+<para id="fs-id1170325064123">How do asteroids and comets differ?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325040072">
+<problem id="fs-id1170325186256">
+<para id="fs-id1170325082812">How and why is Earth’s Moon different from the larger moons of the giant planets?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170324969992">
+<problem id="fs-id1170324910141">
+<para id="fs-id1170325245879">Where would you look for some “original” planetesimals left over from the formation of our solar system?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325085580">
+<problem id="fs-id1170324935075">
+<para id="fs-id1170324919847">What was the solar nebula like? Why did the Sun form at its center?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325068024">
+<problem id="fs-id1170325089568">
+<para id="fs-id1170325236256">What can we learn about the formation of our solar system by studying other stars? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170324901493">
+<problem id="fs-id1170324974275">
+<para id="fs-id1170324959166">Earlier in this chapter, we modeled the solar system with Earth at a distance of about one city block from the Sun. If you were to make a model of the distances in the solar system to match your height, with the Sun at the top of your head and Pluto at your feet, which planet would be near your waist? How far down would the zone of the terrestrial planets reach?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170324921848">
+<problem id="fs-id1170325048037">
+<para id="fs-id1170325210718">Seasons are a result of the inclination of a planet’s axial tilt being inclined from the normal of the planet’s orbital plane. For example, Earth has an axis tilt of 23.4° (<link target-id="fs-id1171242141206" document="m64014"/>). Using information about just the inclination alone, which planets might you expect to have seasonal cycles similar to Earth, although different in duration because orbital periods around the Sun are different?</para></problem>
+</exercise>
+<exercise id="fs-id1170324970101">
+<problem id="fs-id1170325067672">
+<para id="fs-id1170324974878">Again using <link class="target-chapter" document="m64014"/>, which planet(s) might you expect not to have significant seasonal activity? Why?</para></problem>
+</exercise>
+<exercise id="fs-id1170325070749">
+<problem id="fs-id1170325238330">
+<para id="fs-id1170324946658">Again using <link class="target-chapter" document="m64014"/>, which planets might you expect to have extreme seasons? Why?</para></problem>
+</exercise>
+<exercise id="fs-id1170324901489">
+<problem id="fs-id1170325064049">
+<para id="fs-id1170324928018">Using some of the astronomical resources in your college library or the Internet, find five names of features on each of three other worlds that are named after real people. In a sentence or two, describe each of these people and what contributions they made to the progress of science or human thought.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325057044">
+<problem id="fs-id1170324969582">
+<para id="fs-id1170324974486">Explain why the planet Venus is differentiated, but asteroid Fraknoi, a very boring and small member of the asteroid belt, is not.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170324960179">
+<problem id="fs-id1170325091730">
+<para id="fs-id1170325058118">Would you expect as many impact craters per unit area on the surface of Venus as on the surface of Mars? Why or why not?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325061818">
+<problem id="fs-id1170325210572">
+<para id="fs-id1170325090133">Interview a sample of 20 people who are not taking an astronomy class and ask them if they can name a living astronomer. What percentage of those interviewed were able to name one? Typically, the two living astronomers the public knows these days are Stephen Hawking and Neil deGrasse Tyson. Why are they better known than most astronomers? How would your result have differed if you had asked the same people to name a movie star or a professional basketball player?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170324905042">
+<problem id="fs-id1170325246056">
+<para id="fs-id1170325061912">Using <link class="target-chapter" document="m64014"/>, complete the following table that describes the characteristics of the Galilean moons of Jupiter, starting from Jupiter and moving outward in distance.</para><table id="fs-id1170325089263" class="unnumbered" summary="This table has 4 columns and 5 rows. The first row is a header row and it labels each column, “Satellite”, “Semi-major Axis (km3)”, “Diameter”, and “Density (g/cm3)”. Under the “Satellite” column are the values “Io”, “Europa”, “Ganymede”, and “Callisto”. There are no values under the “Semi-major Axis (km3)”, “Diameter”, and “Density (g/cm3)”columns."><label/><title>Table A</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center">Moon</entry>
+<entry valign="top" align="center">Semimajor Axis (km<sup>3</sup>)</entry>
+<entry valign="top" align="center">Diameter</entry>
+<entry valign="top" align="center">Density (g/cm<sup>3</sup>)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Io</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Europa</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ganymede</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Callisto</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+</row>
+</tbody>
+
+</tgroup>
+</table><para id="fs-id1170325005271">This system has often been described as a mini solar system. Why might this be so? If Jupiter were to represent the Sun and the Galilean moons represented planets, which moons could be considered more terrestrial in nature and which ones more like gas/ice giants? Why? (Hint: Use the values in your table to help explain your categorization.)</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1170325176279" class="review-problems">
+<title>Problems</title><exercise id="fs-id1170324959207">
+<problem id="fs-id1170325082997">
+<para id="fs-id1170324930314">Calculate the density of Jupiter. Show your work. Is it more or less dense than Earth? Why?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325199769">
+<problem id="fs-id1170325072617">
+<para id="fs-id1170325268358">Calculate the density of Saturn. Show your work. How does it compare with the density of water? Explain how this can be.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325078531">
+<problem id="fs-id1170324905359">
+<para id="fs-id1170325031057">What is the density of Jupiter’s moon Europa (see <link class="target-chapter" document="m64014"/> for data on moons)? Show your work.</para></problem>
+</exercise>
+<exercise id="fs-id1170325078441">
+<problem id="fs-id1170325078444">
+<para id="fs-id1170325094701">Look at <link class="target-chapter" document="m64014"/> and indicate the moon with a diameter that is the largest fraction of the diameter of the planet or dwarf planet it orbits.</para></problem>
+</exercise>
+<exercise id="fs-id1170325175979">
+<problem id="fs-id1170325195839">
+<para id="fs-id1170325195842">Barnard’s Star, the second closest star to us, is about 56 trillion (5.6 × 10<sup>12</sup>) km away. Calculate how far it would be using the scale model of the solar system given in <link class="target-chapter" document="m64059"/>.</para></problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1170325265044">
+<term>planetesimals</term>
+<meaning id="fs-id1170325151304">objects, from tens to hundreds of kilometers in diameter, that formed in the solar nebula as an intermediate step between tiny grains and the larger planetary objects we see today; the comets and some asteroids may be leftover planetesimals</meaning>
+</definition>
+<definition id="fs-id1170325199812">
+<term>solar nebula</term>
+<meaning id="fs-id1170325078924">the cloud of gas and dust from which the solar system formed</meaning>
+</definition>
+</glossary>
+</document>

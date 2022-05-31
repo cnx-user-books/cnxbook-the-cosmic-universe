@@ -1,0 +1,17 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71578</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>5d390a9b-5e7f-4ef4-b3eb-e56d9ad462dc</md:uuid>
+</metadata>
+
+<content>
+<figure id="CNX_UPhysics_10_00_WindFarm" class="splash"><media id="fs-id1167133792460" alt="An artist's conception of our own Milky Way galaxy.">
+<image mime-type="image/jpeg" src="../../media/Milky Way.jpg" height="450" width="800"/>
+</media>
+
+<caption>An artist's conception of our own Milky Way galaxy. (Image credit: NASA/JPL-Caltech/R. Hurt (SSC/Caltech))</caption></figure><para id="fs-id1167133674194">In previous chapters, we have described the dynamics of objects that translate in one, two or three dimensions. The connection between how they move (kinematics) and why they move as they do (dynamics) was Newton's Laws. We have also described the kinematics of objects that move in circular paths (like the stars orbiting in a spiral galaxy) and rigid objects that rotate about a fixed axis. In this chapter, we seek to extend Newton's Second Law to those systems.</para></content>
+</document>

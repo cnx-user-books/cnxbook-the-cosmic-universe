@@ -1,0 +1,386 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Relativistic Velocity Transformation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64048</md:content-id>
+  <md:title>Relativistic Velocity Transformation</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Derive the equations consistent with special relativity for transforming velocities in one inertial frame of reference into another.</item>
+<item>Apply the velocity transformation equations to objects moving at relativistic speeds.</item>
+<item>Examine how the combined velocities predicted by the relativistic transformation equations compare with those expected classically.</item>
+</list></md:abstract>
+  <md:uuid>38c78cf7-7d01-48e2-b275-6f93250f7263</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167793432581">Do you remember the snowball-throwing child we showed in <link target-id="fs-id1664936" document="m64038"/>? In that example, we added velocities using the common-sense method known as the Galilean velocity transformation. However, the relativistic addition of velocities is quite different. Before explaining how velocities add in special relativity, it is important to briefly consider a classical example where the motion is not confined to one dimension. (While a complete discussion of the classical addition of velocities in more than one dimension will be presented in <link class="target-chapter" document="m64050"/>, a simple example here will help us understand what it is about relativity that is so fundamentally different.)</para><para id="import-auto-id1871882"><title>Classical Relativity</title>Let us consider an example of what two different observers see in a situation analyzed long ago by Galileo. Suppose a sailor at the top of a mast on a moving ship drops his binoculars. Where will it hit the deck? Will it hit at the base of the mast, or will it hit behind the mast because the ship is moving forward? The answer is that if air resistance is negligible, the binoculars will hit at the base of the mast at a point directly below its point of release. Now let us consider what two different observers see when the binoculars drop. One observer is on the ship and the other on shore. The binoculars have no horizontal velocity relative to the observer on the ship, and so he sees them fall straight down the mast. (See <link target-id="import-auto-id1892076"/>.) To the observer on shore, the binoculars and the ship have the <emphasis effect="italics"><emphasis effect="italics">same</emphasis></emphasis> horizontal velocity, so both move the same distance forward while the binoculars are falling. This observer sees the curved path shown in <link target-id="import-auto-id1892076"/>. Although the paths look different to the different observers, each sees the same result—the binoculars hit at the base of the mast and not behind it. To get the correct description, it is crucial to correctly specify the velocities relative to the observer.</para><figure id="import-auto-id1892076"><media id="import-auto-id1892077" alt="A person is observing a moving ship from the shore. Another person is on top of ship’s mast. The person in the ship drops binoculars and sees it dropping straight. The person on the shore sees the binoculars taking a curved trajectory.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_05_05a.jpg" width="300"/>
+      </media>
+      
+    <caption>Classical relativity. The same motion as viewed by two different observers. An observer on the moving ship sees the binoculars dropped from the top of its mast fall straight down. An observer on shore sees the binoculars take the curved path, moving forward with the ship. Both observers see the binoculars strike the deck at the base of the mast. The initial horizontal velocity is different relative to the two observers. (The ship is shown moving rather fast to emphasize the effect.)<newline/>(Source: "Addition of Velocities", OpenStax College, https://legacy.cnx.org/content/m42045/1.13/)</caption></figure><para id="eip-937">If we analyze this situation classically, it is obvious that the two observers will measure different horizontal velocities for the binoculars. After all, the boat is moving horizontally. But, classically, how would the two observers compare the vertical velocity of the binoculars. And how long would each observer think that it took the binoculars to travel from the sailor's hand to the deck of the boat?</para><para id="eip-298">The classical answer is that the two observers would measure exactly the same vertical motion (free fall) and would measure the same time of fall from the sailor's hand to the deck of the boat. This is common sense! The purely horizontal motion of the boat does not affect the vertical motion of the binoculars.</para><para id="eip-322">But, remember that the Lorentz transformation shows that even the measurement of time will be different for two observers in the relativistic case. So, as we will see, even velocities in directions other than the direction of the observers' relative motion will be measured differently by two different observers. This is definitely <emphasis>not</emphasis> common sense. But it is the truth of special relativity.</para><section id="fs-id1167793972411">
+<title>Velocity Transformations</title>
+<para id="fs-id1167793425758">Imagine a car traveling at night along a straight road, as in <link target-id="CNX_UPhysics_38_06_VTransform"/>. The driver sees the light leaving the headlights at speed <emphasis effect="italics">c</emphasis> within the car’s frame of reference. If the Galilean transformation applied to light, then the light from the car’s headlights would approach the pedestrian at a speed <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> contrary to Einstein’s postulates.</para>
+<figure id="CNX_UPhysics_38_06_VTransform">
+<media id="fs-id1167794167686" alt="An illustration of a car moving with velocity v, with light coming from the headlights at a greater velocity c.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_06_VTransform.jpg"/>
+</media>
+<caption>According to experimental results and the second postulate of relativity, light from the car’s headlights moves away from the car at speed <emphasis effect="italics">c</emphasis> and toward the observer on the sidewalk at speed <emphasis effect="italics">c</emphasis>.</caption>
+</figure>
+<para id="fs-id1167794145002">Both the distance traveled and the time of travel are different in the two frames of reference, and they must differ in a way that makes the speed of light the same in all inertial frames. The correct rules for transforming velocities from one frame to another can be obtained from the Lorentz transformation equations.</para>
+</section>
+<section id="fs-id1167794037462">
+<title>Relativistic Transformation of Velocity</title>
+<para id="fs-id1167793958278">Suppose an object <emphasis effect="italics">P</emphasis> is moving at constant velocity <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>u</m:mi></m:mstyle><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mo>,</m:mo><m:msubsup><m:mi>u</m:mi><m:mi>y</m:mi><m:mo>′</m:mo></m:msubsup><m:mo>,</m:mo><m:msubsup><m:mi>u</m:mi><m:mi>z</m:mi><m:mo>′</m:mo></m:msubsup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as measured in the <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math> frame. The <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math> frame is moving along its <m:math><m:mi>x</m:mi><m:mo>′</m:mo><m:mtext>-axis</m:mtext></m:math> at velocity <emphasis effect="italics">v</emphasis>. In an increment of time <m:math><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:math>, the particle is displaced by <m:math><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:math> along the <m:math><m:mi>x</m:mi><m:mo>′</m:mo><m:mtext>-axis.</m:mtext></m:math> Applying the Lorentz transformation equations gives the corresponding increments of time and displacement in the unprimed axes:</para>
+<equation id="fs-id1167794047379" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>γ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>d</m:mi><m:msup><m:mi>x</m:mi><m:mo>′</m:mo></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>x</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>γ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:msup><m:mi>x</m:mi><m:mo>′</m:mo></m:msup><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>d</m:mi><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>d</m:mi><m:msup><m:mi>y</m:mi><m:mo>′</m:mo></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>d</m:mi><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>d</m:mi><m:msup><m:mi>z</m:mi><m:mo>′</m:mo></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167793450736">The velocity components of the particle seen in the unprimed coordinate system are then</para>
+<equation id="fs-id1167793871264" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>γ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>γ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mi>γ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>y</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow></m:mfrac></m:mrow><m:mrow><m:mi>γ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>z</m:mi></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>z</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mi>γ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>z</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow></m:mfrac></m:mrow><m:mrow><m:mi>γ</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:msup><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1167794098369">We thus obtain the equations for the velocity components of the object as seen in frame <emphasis effect="italics">S</emphasis>:</para>
+<equation id="fs-id1167793938240" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>v</m:mi><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>u</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msubsup><m:mi>u</m:mi><m:mi>y</m:mi><m:mo>′</m:mo></m:msubsup><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>γ</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>v</m:mi><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>u</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msubsup><m:mi>u</m:mi><m:mi>z</m:mi><m:mo>′</m:mo></m:msubsup><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:mi>γ</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>v</m:mi><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mspace width="0.1em"/><m:mtext>/</m:mtext><m:mspace width="0.1em"/><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167794048810">Compare this with how the Galilean transformation of classical mechanics says the velocities transform, by adding simply as vectors:</para>
+<equation id="fs-id1167793883289" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>u</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>u</m:mi><m:mi>y</m:mi><m:mo>′</m:mo></m:msubsup><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>u</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:msubsup><m:mi>u</m:mi><m:mi>z</m:mi><m:mo>′</m:mo></m:msubsup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167793271070">When the relative velocity of the frames is much smaller than the speed of light, that is, when <m:math><m:mrow><m:mi>v</m:mi><m:mo>≪</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> the special relativity velocity addition law reduces to the Galilean velocity law. When the speed <emphasis effect="italics">v</emphasis> of <m:math><m:mi>S</m:mi><m:mo>′</m:mo></m:math> relative to <emphasis effect="italics">S</emphasis> is comparable to the speed of light, the <term>relativistic velocity addition</term> law gives a much smaller result than the <term>classical (Galilean) velocity addition</term> does.</para>
+<example id="fs-id1167793629296">
+<para id="fs-id1167794332423"><title>Velocity Transformation Equations for Light</title>
+Suppose a spaceship heading directly toward Earth at half the speed of light sends a signal to us on a laser-produced beam of light (<link target-id="CNX_UPhysics_38_06_SpLaser"/>). Given that the light leaves the ship at speed <emphasis effect="italics">c</emphasis> as observed from the ship, calculate the speed at which it approaches Earth.</para>
+<figure id="CNX_UPhysics_38_06_SpLaser">
+<media id="fs-id1167794287167" alt="An illustration of a spaceship moving to the right with velocity v=0.500c and emitting a horizontal laser beam, which propagates to the right with velocity c.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_06_SpLaser.jpg"/>
+</media>
+<caption>How fast does a light signal approach Earth if sent from a spaceship traveling at 0.500<emphasis effect="italics">c</emphasis>?</caption>
+</figure>
+<para id="fs-id1167793956742"><title>Strategy</title>
+Because the light and the spaceship are moving at relativistic speeds, we cannot use simple velocity addition. Instead, we determine the speed at which the light approaches Earth using relativistic velocity addition.</para>
+<para id="fs-id1172101970013"><title>Solution</title></para><list id="fs-id1167794090728" list-type="enumerated" number-style="lower-alpha"><item>Identify the knowns: <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo>;</m:mo><m:mi>u</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></item><item>Identify the unknown: <emphasis effect="italics">u</emphasis>.</item><item>Express the answer as an equation: <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item><item>Do the calculation:<newline/><equation id="fs-id1167793970625" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>u</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.500</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>c</m:mi></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>0.500</m:mn><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item></list><para id="fs-id1167794334666"><title>Significance</title>Relativistic velocity addition gives the correct result. Light leaves the ship at speed <emphasis effect="italics">c</emphasis> and approaches Earth at speed <emphasis effect="italics">c</emphasis>. The speed of light is independent of the relative motion of source and observer, whether the observer is on the ship or earthbound.</para>
+</example>
+<para id="fs-id1167793896607">Velocities cannot add to greater than the speed of light, provided that <emphasis effect="italics">v</emphasis> is less than <emphasis effect="italics">c</emphasis> and <m:math><m:mi>u</m:mi><m:mo>′</m:mo></m:math> does not exceed <emphasis effect="italics">c</emphasis>. The following example illustrates that relativistic velocity addition is not as symmetric as classical velocity addition.</para>
+<example id="fs-id1167793433753">
+<para id="fs-id1167793366380"><title>Relativistic Package Delivery</title>
+Suppose the spaceship in the previous example approaches Earth at half the speed of light and shoots a canister at a speed of 0.750<emphasis effect="italics">c</emphasis> (<link target-id="CNX_UPhysics_38_06_RelUPS"/>). (a) At what velocity does an earthbound observer see the canister if it is shot directly toward Earth? (b) If it is shot directly away from Earth?</para>
+<figure id="CNX_UPhysics_38_06_RelUPS">
+<media id="fs-id1167794039506" alt="The first illustration shows the spaceship moving to the right, toward the earth, with velocity v=0.500c, and a canister moving to the right with a velocity u prime = 0.750c. The second illustration shows the spaceship moving to the right, toward the earth, with velocity v=0.500c, and a canister moving to the left with a velocity u prime = -0.750c.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_06_RelUPS.jpg"/>
+</media>
+<caption>A canister is fired at 0.7500<emphasis effect="italics">c</emphasis> toward Earth or away from Earth.</caption>
+</figure>
+<para id="fs-id1167793369781"><title>Strategy</title>
+Because the canister and the spaceship are moving at relativistic speeds, we must determine the speed of the canister by an earthbound observer using relativistic velocity addition instead of simple velocity addition.</para>
+<para id="fs-id1172101791967"><title>Solution for (a)</title></para>
+<list id="fs-id1167793883736" list-type="enumerated" number-style="lower-alpha">
+<item>Identify the knowns: <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo>;</m:mo><m:mi>u</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mn>0.750</m:mn><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Identify the unknown: <emphasis effect="italics">u</emphasis>.</item>
+<item>Express the answer as an equation: <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Do the calculation:<newline/>
+<equation id="fs-id1167793299657" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>u</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>0.750</m:mn><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.750</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.909</m:mn><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1172101910154"><title>Solution for (b)</title></para>
+<list id="fs-id1167793451302" list-type="enumerated" number-style="lower-alpha">
+<item>Identify the knowns: <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo>;</m:mo><m:mi>u</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mn>−0.750</m:mn><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Identify the unknown: <emphasis effect="italics">u</emphasis>.</item>
+<item>Express the answer as an equation: <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Do the calculation:<newline/>
+<equation id="fs-id1167794049196" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>u</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−0.750</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.500</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−0.750</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−0.400</m:mn><m:mi>c</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167794155207"><title>Significance</title>
+The minus sign indicates a velocity away from Earth (in the opposite direction from <emphasis effect="italics">v</emphasis>), which means the canister is heading toward Earth in part (a) and away in part (b), as expected. But relativistic velocities do not add as simply as they do classically. In part (a), the canister does approach Earth faster, but at less than the vector sum of the velocities, which would give 1.250<emphasis effect="italics">c</emphasis>. In part (b), the canister moves away from Earth at a velocity of <m:math><m:mrow><m:mn>−0.400</m:mn><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> which is <emphasis effect="italics">faster</emphasis> than the −0.250<emphasis effect="italics">c</emphasis> expected classically. The differences in velocities are not even symmetric: In part (a), an observer on Earth sees the canister and the ship moving apart at a speed of 0.409<emphasis effect="italics">c</emphasis>, and at a speed of 0.900<emphasis effect="italics">c</emphasis> in part (b).</para>
+</example>
+<note id="fs-id1167793275057" class="check-understanding">
+<exercise id="fs-id1167793788594">
+<problem id="fs-id1167793788596">
+<para id="fs-id1167793992387"><emphasis effect="bold">Check Your Understanding</emphasis> Distances along a direction perpendicular to the relative motion of the two frames are the same in both frames. Why then are velocities perpendicular to the <emphasis effect="italics">x</emphasis>-direction different in the two frames?</para>
+</problem>
+<solution id="fs-id1167793619884">
+<para id="fs-id1167793633250">Although displacements perpendicular to the relative motion are the same in both frames of reference, the time interval between events differ, and differences in <emphasis effect="italics">dt</emphasis> and <m:math><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:math> lead to different velocities seen from the two frames.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1170325151762">
+<title>For Further Exploration</title>
+<section id="fs-id1170326097257">
+<title>Videos</title>
+<note id="fs-idm415698080" class="media-2"><para id="fs-id1170325238279">Time Dilation; an experiment with mu-mesons (1960 Educational Physics) https://www.youtube.com/watch?v=tbsdrHlLfVQ&amp;t=4s A classic 1960 educational video showing the verification of time dilation in the muon-lifetime experiment (35:53)</para></note>
+<note id="fs-idm280557616" class="media-2"><para id="fs-idm1413767568">Simultaneity - Albert Einstein and the Theory of Relativity https://www.youtube.com/watch?v=wteiuxyqtoM YouTube animation expalining the relativity of simultanaeity (2:03)</para></note>
+<note id="fs-idm220676976" class="media-2"><para id="fs-idm1391892160">Time Dilation - Albert Einstein and the Theory of Relativity: https://www.youtube.com/watch?v=KHjpBjgIMVk&amp;t=13s YouTube animation explaining time dilation (1:22)</para></note>
+</section>
+</section>
+<section id="fs-id1167793499870" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1167794051357" list-type="bulleted" bullet-style="bullet">
+<item>With classical velocity addition, velocities add like regular numbers in one-dimensional motion: <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>′</m:mo><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">v</emphasis> is the velocity between two observers, <emphasis effect="italics">u</emphasis> is the velocity of an object relative to one observer, and <m:math><m:mi>u</m:mi><m:mo>′</m:mo></m:math> is the velocity relative to the other observer.</item>
+<item>Velocities cannot add to be greater than the speed of light.</item>
+<item>Relativistic velocity addition describes the velocities of an object moving at a relativistic velocity.</item>
+</list>
+</section>
+<section id="fs-id1167793354906" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1167793593202">
+<problem id="fs-id1167794065574">
+<para id="fs-id1167794065576">If two spaceships are heading directly toward each other at 0.800<emphasis effect="italics">c</emphasis>, at what speed must a canister be shot from the first ship to approach the other at 0.999<emphasis effect="italics">c</emphasis> as seen by the second ship?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793618179">
+<problem id="fs-id1167793618181">
+<para id="fs-id1167793618183">Two planets are on a collision course, heading directly toward each other at 0.250<emphasis effect="italics">c</emphasis>. A spaceship sent from one planet approaches the second at 0.750<emphasis effect="italics">c</emphasis> as seen by the second planet. What is the velocity of the ship relative to the first planet?</para>
+</problem>
+<solution id="fs-id1167794097524">
+<para id="fs-id1167793249356">0.615<emphasis effect="italics">c</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793462690">
+<problem id="fs-id1167793462692">
+<para id="fs-id1167793503978">When a missile is shot from one spaceship toward another, it leaves the first at 0.950<emphasis effect="italics">c</emphasis> and approaches the other at 0.750<emphasis effect="italics">c</emphasis>. What is the relative velocity of the two ships?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793450526">
+<problem id="fs-id1167793515300">
+<para id="fs-id1167793515302">What is the relative velocity of two spaceships if one fires a missile at the other at 0.750<emphasis effect="italics">c</emphasis> and the other observes it to approach at 0.950<emphasis effect="italics">c</emphasis>?</para>
+</problem>
+<solution id="fs-id1167794045290">
+<para id="fs-id1167794045292">0.696<emphasis effect="italics">c</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793371632">
+<problem id="fs-id1167793371634">
+<para id="fs-id1167793371636">Prove that for any relative velocity <emphasis effect="italics">v</emphasis> between two observers, a beam of light sent from one to the other will approach at speed <emphasis effect="italics">c</emphasis> (provided that <emphasis effect="italics">v</emphasis> is less than <emphasis effect="italics">c</emphasis>, of course).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793372830">
+<problem id="fs-id1167793372832">
+<para id="fs-id1167794098950">Show that for any relative velocity <emphasis effect="italics">v</emphasis> between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that <emphasis effect="italics">v</emphasis> is less than <emphasis effect="italics">c</emphasis>, of course).</para>
+</problem>
+<solution id="fs-id1167794336249">
+<para id="fs-id1167793398651">(Proof)</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1172100944609" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1172098602739" class="unnumbered unstyled" summary="The table has two columns and nine rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Time dilation” and “delta t equals numerator delta tau divided by denominator square root 1 minus v square divided by c square equals gamma tau”. The second row contains “Lorentz factor” and “gamma equals numerator 1 divided by denominator square root 1 minus v square divided by c square”. The third row contains “Length contraction” and “L equals L subscript 0 square root 1 minus v square divided by c square equals L subscript 0 divided by gamma”. The fourth row contains “Galilean transformation” and “x equals x dash plus v t”, “y equals y dash”, “z equals z dash”, “t equals t dash”. The fifth row contains “Lorentz transformation” and “t equals numerator t dash plus v x dash divided by c square divided by denominator square root 1 minus v square divided by c square”, “x equals numerator x dash plus v t dash divided by square root 1 minus v square divided by c square”, y equals y dash”, “z equals z dash”. The sixth row contains “Inverse Lorentz transformation” and “t dash equals numerator t minus v x divided by c square divided by denominator square root 1 minus v square divided by c square”, “x dash equals numerator x minus v t divided by square root 1 minus v square divided by c square”, “y dash equals y”, “z dash equals z”. The seventh row contains “Space-time invariants” and “opening parenthesis delta s closing parenthesis square equals opening parenthesis delta x closing parenthesis square plus opening parenthesis delta y closing parenthesis square plus opening parenthesis delta z closing parenthesis square minus c square opening parenthesis delta t closing parenthesis square”, “opening parenthesis delta tau closing parenthesis square equals minus numerator opening parenthesis delta s closing parenthesis square divided by denominator c square equals opening parenthesis delta t closing parenthesis square minus numerator opening square parenthesis opening parenthesis delta x closing parenthesis square plus opening parenthesis delta y closing parenthesis square plus opening parenthesis delta z closing parenthesis square closing square parenthesis divided by denominator c square”. The eighth row contains “Relativistic velocity addition” and “u subscript x equals opening parenthesis numerator u dash subscript x plus v divided by denominator 1 plus v u dash subscript x divided by c square closing parenthesis”, “u subscript y equals opening parenthesis numerator u dash subscript y plus gamma divided by denominator 1 plus v u dash subscript x divided by c square closing parenthesis”, “u subscript z equals opening parenthesis numerator u dash subscript z plus gamma divided by denominator 1 plus v u dash subscript x divided by c square closing parenthesis”. The ninth row contains “Relativistic Doppler effect for wavelength” and “lambda subscript obs equals lambda subscript s square root numerator 1 plus v divided by c divided by denominator 1 minus v divided by c”. The tenth row contains “Relativistic Doppler effect for frequency” and “f subscript obs equals f subscript s square root numerator 1 minus v divided by c divided by denominator 1 plus v divided by c”. The eleventh row contains “Relativistic momentum” and “vector p equals lambda m vector u equals m vector u divided by square root 1 minus u square divided by c”. The twelfth row contains “Relativistic total energy” and “E equals lambda m c square where lambda equals 1 divided by square root 1 minus u square divided by c square”. The thirteenth row contains “Relativistic kinetic energy” and “K subscript rel equals opening parenthesis lambda minus 1 closing parenthesis m c square where lambda equals 1 divided by square root 1 minus u square divided by c square”. The fourteenth row contains “Length contraction” and “L equals L subscript 0 square root 1 minus v square divided by c square equals L subscript 0 divided by gamma”."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Time dilation</entry>
+<entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>τ</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>τ</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Lorentz factor</entry>
+<entry align="left"><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Length contraction</entry>
+<entry align="left"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>γ</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Galilean transformation</entry>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>t</m:mi><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>′</m:mo><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>z</m:mi><m:mo>=</m:mo><m:mi>z</m:mi><m:mo>′</m:mo><m:mo>,</m:mo><m:mspace width="0.5em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Lorentz transformation</entry>
+<entry align="left"><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>t</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>x</m:mi><m:mo>′</m:mo><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left"/>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mi>t</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left"/>
+<entry align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>′</m:mo></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left"/>
+<entry align="left"><m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mi>z</m:mi><m:mo>′</m:mo></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Inverse Lorentz transformation</entry>
+<entry align="left"><m:math><m:mrow><m:mi>t</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>v</m:mi><m:mi>x</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left"/>
+<entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>v</m:mi><m:mi>t</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left"/>
+<entry align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mi>y</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left"/>
+<entry align="left"><m:math><m:mrow><m:mi>z</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mi>z</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Space-time interval</entry>
+<entry align="left"><m:math><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>z</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Relativistic velocity addition</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>u</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>v</m:mi><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>u</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msubsup><m:mi>u</m:mi><m:mi>y</m:mi><m:mo>′</m:mo></m:msubsup><m:mtext>/</m:mtext><m:mi>γ</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>v</m:mi><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>u</m:mi><m:mi>z</m:mi></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msubsup><m:mi>u</m:mi><m:mi>z</m:mi><m:mo>′</m:mo></m:msubsup><m:mtext>/</m:mtext><m:mi>γ</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>v</m:mi><m:msubsup><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>′</m:mo></m:msubsup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1165039371212" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1167793374981">
+<problem id="fs-id1167793374983">
+<para id="fs-id1167793374986">(a) At what relative velocity is <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1.50</m:mn><m:mo>?</m:mo></m:mrow></m:math> (b) At what relative velocity is <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793551988">
+<problem id="fs-id1167793551990">
+<para id="fs-id1167793551992">(a) At what relative velocity is <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>2.00</m:mn><m:mo>?</m:mo></m:mrow></m:math> (b) At what relative velocity is <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>10.0</m:mn><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167793384928">
+<para id="fs-id1167793384930">a. 0.866<emphasis effect="italics">c</emphasis>; b. 0.995<emphasis effect="italics">c</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793384944">
+<problem id="fs-id1167793384946">
+<para id="fs-id1167793384949"><emphasis effect="bold">Unreasonable Results</emphasis> (a) Find the value of <m:math><m:mi>γ</m:mi></m:math> required for the following situation. An earthbound observer measures 23.9 h to have passed while signals from a high-velocity space probe indicate that 24.0 h have passed on board. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793376212">
+<problem id="fs-id1167793376214">
+<para id="fs-id1167793376216">(a) How long does it take the astronaut in <link target-id="fs-id1167793997754" document="m64165"/> to travel 4.30 ly at <m:math><m:mrow><m:mn>0.99944</m:mn><m:mi>c</m:mi></m:mrow></m:math> (as measured by the earthbound observer)? (b) How long does it take according to the astronaut? (c) Verify that these two times are related through time dilation with <m:math><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>30.00</m:mn></m:mrow></m:mrow></m:math> as given.</para></problem>
+<solution id="fs-id1167794324587">
+<para id="fs-id1167794324589">a. 4.303 y to four digits to show any effect; b. 0.1434 y; c. <m:math><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:msqrt><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>29.88</m:mn><m:mo>.</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793599601">
+<problem id="fs-id1167793599603">
+<para id="fs-id1167793599605">(a) How fast would an athlete need to be running for a 100-<m:math><m:mtext>m</m:mtext></m:math> race to look 100 yd long? (b) Is the answer consistent with the fact that relativistic effects are difficult to observe in ordinary circumstances? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793219328">
+<problem id="fs-id1167793219331">
+<para id="fs-id1167793219333">(a) Find the value of <m:math><m:mi>γ</m:mi></m:math> for the following situation. An astronaut measures the length of his spaceship to be 100 m, while an earthbound observer measures it to be 25.0 m. (b) What is the speed of the spaceship relative to Earth?</para>
+</problem>
+<solution id="fs-id1167793219343">
+<para id="fs-id1167793219345">a. 4.00; b. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.867</m:mn><m:mi>c</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793422000">
+<problem id="fs-id1167793422003">
+<para id="fs-id1167793422005">A clock in a spaceship runs one-tenth the rate at which an identical clock on Earth runs. What is the speed of the spaceship?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793422027">
+<problem id="fs-id1167794095442">
+<para id="fs-id1167794095444">An astronaut has a heartbeat rate of 66 beats per minute as measured during his physical exam on Earth. The heartbeat rate of the astronaut is measured when he is in a spaceship traveling at 0.5<emphasis effect="italics">c</emphasis> with respect to Earth by an observer (A) in the ship and by an observer (B) on Earth. (a) Describe an experimental method by which observer B on Earth will be able to determine the heartbeat rate of the astronaut when the astronaut is in the spaceship. (b) What will be the heartbeat rate(s) of the astronaut reported by observers A and B?</para>
+</problem>
+<solution id="fs-id1167794095457">
+<para id="fs-id1167794095459">a. A sends a radio pulse at each heartbeat to B, who knows their relative velocity and uses the time dilation formula to calculate the proper time interval between heartbeats from the observed signal. b. <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>66</m:mn><m:mspace width="0.2em"/><m:mtext>beats/min</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>57.1</m:mn><m:mspace width="0.2em"/><m:mtext>beats/min</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794326142">
+<problem id="fs-id1167794326144">
+<para id="fs-id1167794326147">A spaceship (A) is moving at speed <emphasis effect="italics">c/</emphasis>2 with respect to another spaceship (B). Observers in A and B set their clocks so that the event at (<emphasis effect="italics">x, y, z, t</emphasis>) of turning on a laser in spaceship B has coordinates (0<emphasis effect="italics">,</emphasis> 0<emphasis effect="italics">,</emphasis> 0<emphasis effect="italics">,</emphasis> 0) in A and also (0<emphasis effect="italics">,</emphasis> 0<emphasis effect="italics">,</emphasis> 0<emphasis effect="italics">,</emphasis> 0) in B. An observer at the origin of B turns on the laser at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and turns it off at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mi>τ</m:mi></m:mrow></m:math> in his time. What is the time duration between on and off as seen by an observer in A?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793245244">
+<problem id="fs-id1167793245246">
+<para id="fs-id1167793245248">Same two observers as in the preceding exercise, but now we look at two events occurring in spaceship A. A photon arrives at the origin of A at its time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and another photon arrives at <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> in the frame of ship A. (a) Find the coordinates and times of the two events as seen by an observer in frame B. (b) In which frame are the two events simultaneous and in which frame are they are not simultaneous?</para>
+</problem>
+<solution id="fs-id1167794201491">
+<para id="fs-id1167794201493">a. first photon: <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>;</m:mo></m:mrow></m:math> second photon:<newline/>
+<m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mi>t</m:mi><m:mo>′</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>v</m:mi><m:mi>x</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>c</m:mi><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>0.75</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>0.577</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mi>c</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1.93</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−9</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>′</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>x</m:mi><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>0.75</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr></m:mtable></m:math><newline/>
+b. simultaneous in A, not simultaneous in B</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793937391">
+<problem id="fs-id1167793937393">
+<para id="fs-id1167793937395">Same two observers as in the preceding exercises. A rod of length 1 m is laid out on the <emphasis effect="italics">x</emphasis>-axis in the frame of B from origin to <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math> What is the length of the rod observed by an observer in the frame of spaceship A?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793609489">
+<problem id="fs-id1167793609491">
+<para id="fs-id1167793609493">An observer at origin of inertial frame S sees a flashbulb go off at <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>15.0</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>,</m:mo></m:mrow></m:math> and <m:math><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math> at time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext><m:mo>.</m:mo></m:mrow></m:math> At what time and position in the S<m:math><m:mo>′</m:mo></m:math> system did the flash occur, if S<m:math><m:mo>′</m:mo></m:math> is moving along shared <emphasis effect="italics">x</emphasis>-direction with S at a velocity <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.6</m:mn><m:mi>c</m:mi><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="fs-id1167794172790">
+<para id="fs-id1167794172792"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>t</m:mi><m:mo>′</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>v</m:mi><m:mi>x</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.6</m:mn><m:mi>c</m:mi></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>1.88</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>′</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>v</m:mi><m:mi>t</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.60</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>4.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>−1.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>−101</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>z</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>z</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793562268">
+<problem id="fs-id1167793562270">
+<para id="fs-id1167793562272">An observer sees two events <m:math><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> apart at a separation of 800 m. How fast must a second observer be moving relative to the first to see the two events occur simultaneously?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793770701">
+<problem id="fs-id1167793770704">
+<para id="fs-id1167793770706">An observer standing by the railroad tracks sees two bolts of lightning strike the ends of a 500-m-long train simultaneously at the instant the middle of the train passes him at 50 m/s. Use the Lorentz transformation to find the time between the lightning strikes as measured by a passenger seated in the middle of the train.</para>
+</problem>
+<solution id="fs-id1167793770713">
+<para id="fs-id1167793770715"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>′</m:mo><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>′</m:mo><m:mo>+</m:mo><m:mi>v</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>;</m:mo></m:mtd></m:mtr></m:mtable></m:math><newline/>
+since <m:math><m:mrow><m:mi>v</m:mi><m:mo>≪</m:mo><m:mi>c</m:mi><m:mo>,</m:mo></m:mrow></m:math> we can ignore the term <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and find<newline/>
+<m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>′</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>−2.78</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math><newline/>
+The breakdown of Newtonian simultaneity is negligibly small, but not exactly zero, at realistic train speeds of 50 m/s.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793282608">
+<problem id="fs-id1167793282610">
+<para id="fs-id1167793282612">Two astronomical events are observed from Earth to occur at a time of 1 s apart and a distance separation of <m:math><m:mrow><m:mn>1.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> from each other. (a) Determine whether separation of the two events is space like or time like. (b) State what this implies about whether it is consistent with special relativity for one event to have caused the other?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793570072">
+<problem id="fs-id1167793570074">
+<para id="fs-id1167793570076">Two astronomical events are observed from Earth to occur at a time of 0.30 s apart and a distance separation of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> from each other. How fast must a spacecraft travel from the site of one event toward the other to make the events occur at the same time when measured in the frame of reference of the spacecraft?</para>
+</problem>
+<solution id="fs-id1167793605562">
+<para id="fs-id1167793605564"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>′</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mo>−</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.30</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mi>v</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.30</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:mfrac><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>1.35</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793541239">
+<problem id="fs-id1167793541241">
+<para id="fs-id1167793541243">A spacecraft starts from being at rest at the origin and accelerates at a constant rate <emphasis effect="italics">g</emphasis>, as seen from Earth, taken to be an inertial frame, until it reaches a speed of <emphasis effect="italics">c/</emphasis>2. (a) Show that the increment of proper time is related to the elapsed time in Earth’s frame by:</para>
+<equation id="fs-id1167793541259" class="unnumbered"><m:math><m:mrow><m:mi>d</m:mi><m:mi>τ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:msqrt><m:mi>d</m:mi><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167793542713">(b) Find an expression for the elapsed time to reach speed <emphasis effect="italics">c/</emphasis>2 as seen in Earth’s frame. (c) Use the relationship in (a) to obtain a similar expression for the elapsed proper time to reach <emphasis effect="italics">c</emphasis>/2 as seen in the spacecraft, and determine the ratio of the time seen from Earth with that on the spacecraft to reach the final speed.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793377862">
+<problem id="fs-id1167793377865">
+<para id="fs-id1167793355655">(a) All but the closest galaxies are receding from our own Milky Way Galaxy. If a galaxy <m:math><m:mrow><m:mrow><m:mn>12.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>ly</m:mtext></m:mrow></m:mrow></m:math> away is receding from us at 0.900<emphasis effect="italics">c</emphasis>, at what velocity relative to us must we send an exploratory probe to approach the other galaxy at 0.990<emphasis effect="italics">c</emphasis> as measured from that galaxy? (b) How long will it take the probe to reach the other galaxy as measured from Earth? You may assume that the velocity of the other galaxy remains constant. (c) How long will it then take for a radio signal to be beamed back? (All of this is possible in principle, but not practical.)</para>
+</problem>
+<solution id="fs-id1167793355701">
+<para id="fs-id1167793355703">Note that all answers to this problem are reported to five significant figures, to distinguish the results. a. 0.99947<emphasis effect="italics">c</emphasis>; b.<m:math><m:mrow><m:mn>1.2064</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>y;</m:mtext></m:mrow></m:math> c.<m:math><m:mrow><m:mn>1.2058</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>y</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794170763">
+<problem id="fs-id1167794170765">
+<para id="fs-id1167794170767">Suppose a spaceship heading straight toward the Earth at 0.750<emphasis effect="italics">c</emphasis> can shoot a canister at 0.500<emphasis effect="italics">c</emphasis> relative to the ship. (a) What is the velocity of the canister relative to Earth, if it is shot directly at Earth? (b) If it is shot directly away from Earth?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167794170800">
+<problem id="fs-id1167793466382">
+<para id="fs-id1167793466384">Repeat the preceding problem with the ship heading directly away from Earth.</para>
+</problem>
+<solution id="fs-id1167793466388">
+<para id="fs-id1167793466390">a. –0.400<emphasis effect="italics">c</emphasis>; b. –0.909<emphasis effect="italics">c</emphasis></para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793466404">
+<problem id="fs-id1167793466406">
+<para id="fs-id1167793466408">If a spaceship is approaching the Earth at 0.100<emphasis effect="italics">c</emphasis> and a message capsule is sent toward it at 0.100<emphasis effect="italics">c</emphasis> relative to Earth, what is the speed of the capsule relative to the ship?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793397968">
+<problem id="fs-id1167793397970">
+<para id="fs-id1167793397972">(a) Suppose the speed of light were only 3000 m/s. A jet fighter moving toward a target on the ground at 800 m/s shoots bullets, each having a muzzle velocity of 1000 m/s. What are the bullets’ velocity relative to the target? (b) If the speed of light was this small, would you observe relativistic effects in everyday life? Discuss.</para>
+</problem>
+<solution id="fs-id1167793397980">
+<para id="fs-id1167793397982">a. 1.65 km/s; b. Yes, if the speed of light were this small, speeds that we can achieve in everyday life would be larger than 1% of the speed of light and we could observe relativistic effects much more often.</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1167793938539">
+<term>classical (Galilean) velocity addition</term>
+<meaning id="fs-id1167794142090">method of adding velocities when <m:math><m:mrow><m:mi>v</m:mi><m:mtext>&lt;</m:mtext><m:mtext>&lt;</m:mtext><m:mi>c</m:mi><m:mo>;</m:mo></m:mrow></m:math> velocities add like regular numbers in one-dimensional motion: <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mo>+</m:mo><m:mi>u</m:mi><m:mo>′</m:mo><m:mo>,</m:mo></m:mrow></m:math> where <emphasis effect="italics">v</emphasis> is the velocity between two observers, <emphasis effect="italics">u</emphasis> is the velocity of an object relative to one observer, and <m:math><m:mi>u</m:mi><m:mo>′</m:mo></m:math> is the velocity relative to the other observer</meaning>
+</definition>
+<definition id="fs-id1167793583897">
+<term>relativistic velocity addition</term>
+<meaning id="fs-id1167794293139">method of adding velocities of an object moving at a relativistic speeds</meaning>
+</definition>
+</glossary>
+</document>

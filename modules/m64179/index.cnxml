@@ -1,0 +1,365 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Newtonian Synthesis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64179</md:content-id>
+  <md:title>The Newtonian Synthesis</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Explain the connection between the constants <m:math><m:mrow><m:mi>G</m:mi></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi></m:mrow></m:math></item>
+<item>Determine the mass of an astronomical body from free-fall acceleration at its surface</item>
+<item>Describe how the value of <m:math><m:mrow><m:mi>g</m:mi></m:mrow></m:math> varies due to location and Earth’s rotation</item>
+</list></md:abstract>
+  <md:uuid>ec543adc-26d4-455e-b53d-af9316951843</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168325781565">We are ready to put all of the pieces together, as Newton did, in his grand synthesis. First, we will observe how Newton’s law of gravitation applies at the surface of a planet and how it connects with what we learned earlier about free fall. Then, we will see how applying Newton's laws to the orbital motion of satellites yields Kepler's laws of planetary motion.</para><section id="fs-id1168328176987">
+<title>Weight - Gravitation Near the Earth's Surface</title><para id="fs-id1168328025357">Recall that the acceleration of a free-falling object near Earth’s surface is approximately <m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. The force causing this acceleration is called the weight of the object, and from Newton’s second law, it has the value <emphasis effect="italics">mg</emphasis>. This weight is present regardless of whether the object is in free fall. We now know that this force is the gravitational force between the object and Earth. If we substitute <emphasis effect="italics">mg</emphasis> for the magnitude of <m:math><m:mrow><m:msub><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math> in Newton’s law of universal gravitation, <emphasis effect="italics">m</emphasis> for <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, and <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math> for <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, we obtain the scalar equation</para>
+<equation id="fs-id1168056131300" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:mspace width="0.1em"/><m:mfrac><m:mrow><m:mi>m</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1168327962248">where <emphasis effect="italics">r</emphasis> is the distance between the centers of mass of the object and Earth. For objects within a few kilometers of Earth’s surface, we can take <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math> (see <link target-id="fs-id1168328266461"/>). The mass <emphasis effect="italics">m</emphasis> of the object cancels, and if we use the values from <link class="target-chapter" document="m64014">Appendix D</link>, this gives us</para><note id="fs-id1168328358237" class="equation-callout">
+<equation id="fs-id1168327935317"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mfenced><m:mrow>
+<m:mn>6.674</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>-11</m:mn></m:msup>
+<m:mfrac>
+<m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:msup><m:mtext>kg</m:mtext><m:mn>2</m:mn></m:msup></m:mrow>
+</m:mfrac>
+</m:mrow></m:mfenced>
+<m:mspace width="0.2em"/>
+<m:mfenced><m:mrow>
+<m:mn>5.974</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>24</m:mn></m:msup><m:mtext>kg</m:mtext>
+</m:mrow></m:mfenced>
+</m:mrow>
+<m:mrow><m:msup>
+<m:mrow><m:mfenced>
+<m:mrow><m:mn>6.378</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>6</m:mn></m:msup><m:mtext>m</m:mtext></m:mrow></m:mfenced></m:mrow><m:mn>2</m:mn>
+</m:msup></m:mrow>
+</m:mfrac><m:mo>=</m:mo><m:mrow><m:mn>9.801</m:mn><m:mfrac><m:mtext>N</m:mtext><m:mtext>kg</m:mtext></m:mfrac></m:mrow>
+<m:mo>=</m:mo><m:mrow><m:mn>9.801</m:mn><m:mfrac><m:mtext>m</m:mtext><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:math></equation></note>
+<para id="fs-id1168327893113">This explains why all masses free fall with the same acceleration. We have ignored the fact that Earth also accelerates toward the falling object, but that is acceptable as long as the mass of Earth is much larger than that of the object. So, here is the first part of the Newtonian synthesis - now we know where the 9.8 m/s<sup>2</sup> comes from.</para><figure id="CNX_UPhysics_13_02_RE">
+<media id="fs-id1168328266461" alt="This figure shows an illustration of the earth, with a building on its surface. A cut away of a quarter of the earth shows several layers. The center of the earth is labeled C M, and the radius from the center to the building is labeled R E. An enlarged view of the building and a portion of the earth is also shown. In this view, we see that the arrow labeled R E terminates in the building, slightly above the surface of the earth.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_02_RE.jpg"/>
+</media>
+<caption>We can take the distance between the centers of mass of Earth and an object on its surface to be the radius of Earth, provided that its size is much less than the radius of Earth.</caption>
+</figure>
+<example id="fs-id1168328298330">
+<para id="fs-id1168327858521"><title>Masses of Earth and Moon</title>
+Have you ever wondered how we know the mass of Earth? We certainly can’t place it on a scale. The values of <emphasis effect="italics">g</emphasis> and the radius of Earth were measured with reasonable accuracy centuries ago.</para>
+<list id="fs-id1168328367962" list-type="enumerated" number-style="lower-alpha">
+<item>Use the standard values of <emphasis effect="italics">g</emphasis>, <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>, and <link target-id="fs-id1168327935317"/> to find the mass of Earth.</item>
+<item>Estimate the value of <emphasis effect="italics">g</emphasis> on the Moon. Use the fact that the Moon has a radius of about 1700 km (a value of this accuracy was determined many centuries ago) and assume it has the same average density as Earth, <m:math><m:mrow><m:mn>5500</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1168325742983"><title>Strategy</title>
+With the known values of <emphasis effect="italics">g</emphasis> and <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>, we can use <link target-id="fs-id1168327935317"/> to find <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>. For the Moon, we use the assumption of equal average density to determine the mass from a ratio of the volumes of Earth and the Moon.</para>
+<para id="fs-id1168328366021"><title>Solution</title></para>
+<list id="fs-id1168056104555" list-type="enumerated" number-style="lower-alpha">
+<item>Rearranging <link target-id="fs-id1168327935317"/>, we have<newline/>
+<equation id="fs-id1168056111621" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>g</m:mi><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>G</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg.</m:mtext></m:mrow></m:math></equation></item>
+<item>The volume of a sphere is proportional to the radius cubed, so a simple ratio gives us<newline/>
+<equation id="fs-id1168056111545" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>M</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>R</m:mi><m:mtext>M</m:mtext><m:mn>3</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>3</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo stretchy="false">→</m:mo><m:msub><m:mi>M</m:mi><m:mtext>M</m:mtext></m:msub><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg.</m:mtext></m:mrow></m:math></equation><newline/>
+We now use <link target-id="fs-id1168327935317"/>.<newline/>
+<equation id="fs-id1168056092903" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>g</m:mi><m:mtext>M</m:mtext></m:msub><m:mo>=</m:mo><m:mi>G</m:mi><m:mspace width="0.1em"/><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>M</m:mtext></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mtext>M</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mn>2.5</m:mn></m:mrow><m:mrow/></m:msup><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1168328320535"><title>Significance</title>
+As soon as Cavendish determined the value of <emphasis effect="italics">G</emphasis> in 1798, the mass of Earth could be calculated. (In fact, that was the ultimate purpose of Cavendish’s experiment in the first place.) The value we calculated for <emphasis effect="italics">g</emphasis> of the Moon is incorrect. The average density of the Moon is actually only <m:math><m:mrow><m:mn>3340</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> at the surface. Newton attempted to measure the mass of the Moon by comparing the effect of the Sun on Earth’s ocean tides compared to that of the Moon. His value was a factor of two too small. The most accurate values for <emphasis effect="italics">g</emphasis> and the mass of the Moon come from tracking the motion of spacecraft that have orbited the Moon. But the mass of the Moon can actually be determined accurately without going to the Moon. Earth and the Moon orbit about a common center of mass, and careful astronomical measurements can determine that location. The ratio of the Moon’s mass to Earth’s is the ratio of [the distance from the common center of mass to the Moon’s center] to [the distance from the common center of mass to Earth’s center].</para>
+<para id="fs-id1168327950675">Later in this chapter, we will see that the mass of other astronomical bodies also can be determined by the period of small satellites orbiting them. But until Cavendish determined the value of <emphasis effect="italics">G</emphasis>, the masses of all these bodies were unknown.</para>
+</example>
+<example id="fs-id1168327872551">
+<para id="fs-id1168327869896"><title>Gravity above Earth’s Surface</title>
+What is the value of <emphasis effect="italics">g</emphasis> 400 km above Earth’s surface, where the <term class="no-emphasis">International Space Station</term> is in orbit?</para>
+<para id="fs-id1168328371919"><title>Strategy</title>
+Using the value of <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math> and noting the radius is <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mo>+</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math>, we use <link target-id="fs-id1168327935317"/> to find <emphasis effect="italics">g</emphasis>.</para>
+<para id="fs-id1168327870398">From <link target-id="fs-id1168327935317"/> we have</para>
+<equation id="fs-id1168056368732" class="unnumbered"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mfrac><m:mrow><m:mn>5.96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mo>+</m:mo><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>8.67</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168327946588"><title>Significance</title>We often see video of astronauts in space stations, apparently weightless. But clearly, the force of gravity is acting on them. Comparing the value of <emphasis effect="italics">g</emphasis> we just calculated to that on Earth <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, we see that the astronauts in the International Space Station still have 88% of their weight. They only appear to be weightless because they are in free fall.</para></example>
+<note id="fs-id1168327943799" class="check-understanding">
+<exercise id="fs-id1168327890993">
+<problem id="fs-id1168327963078">
+<para id="fs-id1168328293686"><emphasis effect="bold">Check Your Understanding</emphasis> How does your weight at the top of a tall building compare with that on the first floor? Do you think engineers need to take into account the change in the value of <emphasis effect="italics">g</emphasis> when designing structural support for a very tall building?</para>
+</problem>
+<solution id="fs-id1168327872501">
+<para id="fs-id1168328066616">The tallest buildings in the world are all less than 1 km. Since <emphasis effect="italics">g</emphasis> is proportional to the distance squared from Earth’s center, a simple ratio shows that the change in <emphasis effect="italics">g</emphasis> at 1 km above Earth’s surface is less than 0.0001%. There would be no need to consider this in structural design.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168327875806">
+<title>Planetary Orbits - Gravitation in Outer Space</title><para id="eip-274">The Moon orbits Earth. In turn, Earth and the other planets orbit the Sun. The space directly above our atmosphere is filled with artificial satellites in orbit. We examine the simplest of these orbits, the circular orbit, to understand the relationship between the speed and period of planets and satellites in relation to their positions and the bodies that they orbit.</para><para id="fs-id1168327948337">As noted at the beginning of this chapter, Nicolaus Copernicus first suggested that Earth and all other planets orbit the Sun in circles. He further noted that orbital periods increased with distance from the Sun. Later analysis by Kepler showed that these orbits are actually ellipses, but the orbits of most planets in the solar system are nearly circular. Earth’s orbital distance from the Sun varies a mere 2%. The exception is the eccentric orbit of Mercury, whose orbital distance varies nearly 40%.</para>
+<para id="fs-id1168327963508">Determining the <term>orbital speed</term> and <term>orbital period</term> of a satellite is much easier for circular orbits, so we make that assumption in the derivation that follows. We focus on objects orbiting Earth, but our results can be generalized for other cases.</para><para id="fs-id1168327954626">Consider a satellite of mass <emphasis effect="italics">m</emphasis> in a circular orbit about Earth at distance <emphasis effect="italics">r</emphasis> from the center of Earth (<link target-id="CNX_UPhysics_13_04_orbit"/>). It has centripetal acceleration directed toward the center of Earth. Earth’s gravity is the only force acting, so Newton’s second law gives</para>
+<equation id="fs-id1168056091586" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>m</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<figure id="CNX_UPhysics_13_04_orbit">
+<media id="fs-id1168327927953" alt="A drawing shows a satellite orbiting the earth at radius r. The orbit is shown as a blue circle centered on the earth. A red arrow at the satellite points toward the center of the earth and is labeled F and a green arrow tangent to the orbit is labeled v.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_04_orbit.jpg"/>
+</media>
+<caption>A satellite of mass <emphasis effect="italics">m</emphasis> orbiting at radius <emphasis effect="italics">r</emphasis> from the center of Earth. The gravitational force supplies the centripetal acceleration.</caption>
+</figure>
+<para id="fs-id1168327923585">We solve for the speed of the orbit, noting that <emphasis effect="italics">m</emphasis> cancels, to get the orbital speed</para>
+<note id="fs-id1168325663938" class="equation-callout">
+<equation id="fs-id1168328256234"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168327878750">Note that the value of <emphasis effect="italics">m</emphasis> does not appear in <link target-id="fs-id1168328256234"/>. The value of the orbital velocity depends only upon the distance from the center of the planet, and <emphasis effect="italics">not</emphasis> upon the mass of the object being acted upon.</para><para id="fs-id1168327925210">To find the period of a circular orbit, we note that the satellite travels the circumference of the orbit <m:math><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi></m:mrow></m:math> in one period <emphasis effect="italics">T</emphasis>. Using the definition of speed, we have <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mtext>/</m:mtext><m:mi>T</m:mi></m:mrow></m:math>. We substitute this into <link target-id="fs-id1168328256234"/> and rearrange to get</para>
+<note id="fs-id1168327940318" class="equation-callout">
+<equation id="fs-id1168327874347"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1168327963846">Referring to <link class="target-chapter" document="m64058"/> this is Kepler’s third law for the case of circular orbits. It also confirms Copernicus’s observation that the period of a planet increases with increasing distance from the Sun. We need only replace <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math> with <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mrow><m:mtext>Sun</m:mtext></m:mrow></m:msub></m:mrow></m:math> in <link target-id="fs-id1168327874347"/>.</para><para id="fs-id1168327963910">We conclude this section by returning to our earlier discussion about astronauts in orbit appearing to be weightless, as if they were free-falling towards Earth. In fact, they are in free fall. Consider the trajectories shown in <link target-id="CNX_UPhysics_13_04_orbit2"/>. (This figure is based on a drawing by Newton in his <emphasis effect="italics">Principia</emphasis> and also appeared earlier in <link class="target-chapter" document="m64054">Motion in Two and Three Dimensions</link>.) All the trajectories shown that hit the surface of Earth have less than orbital velocity. The astronauts would accelerate toward Earth along the noncircular paths shown and feel weightless. (Astronauts actually train for life in orbit by riding in airplanes that free fall for 30 seconds at a time.) But with the correct orbital velocity, Earth’s surface curves away from them at exactly the same rate as they fall toward Earth. Of course, staying the same distance from the surface is the point of a circular orbit.</para><figure id="CNX_UPhysics_13_04_orbit2">
+<media id="fs-id1168325860685" alt="The figure shows a drawing of the earth with a tall tower at the north pole and a horizontal arrow labeled v 0 pointing to the right. 5 trajectories that start at the top of the tower are shown. The first reaches the earth near the tower. The second reaches the earth farther from the tower, and the third even farther. The fourth trajectory hits the earth at the equator, and is tangent to the surface at the equator. The fifth trajectory is a circle concentric with the earth.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_04_orbit2.jpg"/>
+</media>
+<caption>A circular orbit is the result of choosing a tangential velocity such that Earth’s surface curves away at the same rate as the object falls toward Earth.</caption>
+</figure>
+<example id="fs-id1168327943488">
+<para id="fs-id1168327988568"><title>The International Space Station</title>
+Determine the orbital speed and period for the <term class="no-emphasis">International Space Station</term> (ISS).</para>
+<para id="fs-id1168328280705"><title>Strategy</title>
+Since the ISS orbits <m:math><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math> above Earth’s surface, the radius at which it orbits is <m:math><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mo>+</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mtext>km</m:mtext></m:mrow></m:math>. We use <link target-id="fs-id1168328256234"/> and <link target-id="fs-id1168327874347"/> to find the orbital speed and period, respectively.</para>
+<para id="fs-id1168328355545"><title>Solution</title>
+Using <link target-id="fs-id1168328256234"/>, the orbital velocity is</para>
+<equation id="fs-id1168056164742" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>5.96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.36</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mo>+</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>7.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168328297574">which is about 17,000 mph. Using <link target-id="fs-id1168327874347"/>, the period is</para>
+<equation id="fs-id1168056138315" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mo>+</m:mo><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5.96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>5.55</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168325667375">which is just over 90 minutes.</para>
+<para id="fs-id1168325783600"><title>Significance</title>
+The ISS is considered to be in low Earth orbit (LEO). Nearly all satellites are in LEO, including most weather satellites. GPS satellites, at about 20,000 km, are considered medium Earth orbit. The higher the orbit, the more energy is required to put it there and the more energy is needed to reach it for repairs. Of particular interest are the satellites in geosynchronous orbit. All fixed satellite dishes on the ground pointing toward the sky, such as TV reception dishes, are pointed toward geosynchronous satellites. These satellites are placed at the exact distance, and just above the equator, such that their period of orbit is 1 day. They remain in a fixed position relative to Earth’s surface.</para>
+</example>
+<note id="fs-id1168327868799" class="check-understanding">
+<exercise id="fs-id1168328285836">
+<problem id="fs-id1168328329090">
+<para id="fs-id1168327875124"><emphasis effect="bold">Check Your Understanding</emphasis> By what factor must the radius change to reduce the orbital velocity of a satellite by one-half? By what factor would this change the period?</para>
+</problem>
+<solution id="fs-id1168327873289">
+<para id="fs-id1168328294610">In <link target-id="fs-id1168328256234"/>, the radius appears in the denominator inside the square root. So the radius must increase by a factor of 4, to decrease the orbital velocity by a factor of 2. The circumference of the orbit has also increased by this factor of 4, and so with half the orbital velocity, the period must be 8 times longer. That can also be seen directly from <link target-id="fs-id1168327874347"/>.</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168328320372">
+<para id="fs-id1168325679177"><title>Determining the Mass of Earth</title>
+Determine the mass of Earth from the orbit of the Moon.</para>
+<para id="fs-id1168327872909"><title>Strategy</title>We use <link target-id="fs-id1168327874347"/>, solve for <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>, and substitute for the period and radius of the orbit. The radius and period of the Moon’s orbit was measured with reasonable accuracy thousands of years ago. From the astronomical data in <link class="target-chapter" document="m64014">Appendix D</link>, the period of the Moon is 27.3 days <m:math><m:mrow><m:mo>=</m:mo><m:mn>2.36</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, and the <emphasis effect="italics">average</emphasis> distance between the centers of Earth and the Moon is 384,000 km.</para><para id="fs-id1168328307401"><title>Solution</title>
+Solving for <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>,</para>
+<equation id="fs-id1168056350093" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:msup><m:mi>Τ</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.84</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.36</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168327909023"><title>Significance</title>Compare this to the value of <m:math><m:mrow><m:mn>5.95</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> that we obtained in <link target-id="fs-id1168056111621"/>, using the value of <emphasis effect="italics">g</emphasis> at the surface of Earth. Although these values are very close (~0.8%), both calculations use average values. The value of <emphasis effect="italics">g</emphasis> varies from the equator to the poles by approximately 0.5%. But the Moon has an elliptical orbit in which the value of <emphasis effect="italics">r</emphasis> varies just over 10%. (The apparent size of the full Moon actually varies by about this amount, but it is difficult to notice through casual observation as the time from one extreme to the other is many months.)</para></example>
+<note id="fs-id1168328360361" class="check-understanding">
+<exercise id="fs-id1168328201148">
+<problem id="fs-id1168328252586">
+<para id="fs-id1168328364203"><emphasis effect="bold">Check Your Understanding</emphasis> There is another consideration to this last calculation of <m:math><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math>. We derived <link target-id="fs-id1168327874347"/> assuming that the satellite orbits around the center of the astronomical body at the same radius used in the expression for the gravitational force between them. What assumption is made to justify this? Earth is about 81 times more massive than the Moon. Does the Moon orbit about the exact center of Earth?</para>
+</problem>
+<solution id="fs-id1168328196787">
+<para id="fs-id1168328311348">The assumption is that orbiting object is much less massive than the body it is orbiting. This is not really justified in the case of the Moon and Earth. Both Earth and the Moon orbit about their common center of mass. We tackle this issue in the next example.</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168328170472">
+<para id="fs-id1168327903551"><title>Galactic Speed and Period</title>Let’s revisit <link target-id="fs-id1168327873949" document="m64178"/>. Assume that the Milky Way and Andromeda galaxies are in a circular orbit about each other. What would be the velocity of each and how long would their orbital period be? Assume the mass of each is 800 billion solar masses and their centers are separated by 2.5 million light years.</para><para id="fs-id1168325630880"><title>Strategy</title>We cannot use <link target-id="fs-id1168328256234"/> and <link target-id="fs-id1168327874347"/> directly because they were derived assuming that the object of mass <emphasis effect="italics">m</emphasis> orbited about the center of a much larger planet of mass <emphasis effect="italics">M</emphasis>. We determined the gravitational force in <link target-id="fs-id1168327873949" document="m64178"/> using Newton’s law of universal gravitation. We can use Newton’s second law, applied to the centripetal acceleration of either galaxy, to determine their tangential speed. From that result we can determine the period of the orbit.</para><para id="fs-id1168325703983"><title>Solution</title>In <link target-id="fs-id1168327873949" document="m64178"/>, we found the force between the galaxies to be</para><equation id="fs-id1168056201326" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mo stretchy="false">(</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mn>800</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mrow><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>29</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168325696804">and that the acceleration of each galaxy is</para>
+<equation id="fs-id1168056066270" class="unnumbered"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>29</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>800</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168327869711">Since the galaxies are in a circular orbit, they have centripetal acceleration. If we ignore the effect of other galaxies, then the centers of mass of the two galaxies remain fixed. Hence, the galaxies must orbit about this common center of mass. For equal masses, the center of mass is exactly half way between them. So the radius of the orbit, <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub></m:mrow></m:math>, is not the same as the distance between the galaxies, but one-half that value, or 1.25 million light-years. These two different values are shown in <link target-id="CNX_UPhysics_13_04_twogalaxy"/>.</para><figure id="CNX_UPhysics_13_04_twogalaxy">
+<media id="fs-id1168327953487" alt="Two galaxies are illustrated, separated by a distance r that is shown on the diagram. The galaxy on the left is larger than the galaxy on the right. A distance from the center of the galaxy on the left to a point between the two galaxies but closer to the left is shown and labeled as r orbit.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_04_twogalaxy.jpg"/>
+</media>
+<caption>The distance between two galaxies, which determines the gravitational force between them, is <emphasis effect="italics">r</emphasis>, and is different from <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub></m:mrow></m:math>, which is the radius of orbit for each. For equal masses, <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mi>r</m:mi></m:mrow></m:math>. (credit: modification of work by Marc Van Norden)</caption>
+</figure>
+<para id="fs-id1168328214406">Using the expression for centripetal acceleration, we have</para>
+<equation id="fs-id1168056568093" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:msup><m:mtext>m/s</m:mtext><m:mn>2</m:mn></m:msup></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.25</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.5</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>15</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168328330556">Solving for the orbit velocity, we have <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>47</m:mn><m:mspace width="0.2em"/><m:mtext>km/s</m:mtext></m:mrow></m:math>. Finally, we can determine the period of the orbit directly from <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mtext>/</m:mtext><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub></m:mrow></m:math>, to find that the period is <m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>1.6</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>18</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, about 50 billion years.</para>
+<para id="fs-id1168325668147"><title>Significance</title>
+The orbital speed of 47 km/s might seem high at first. But this speed is comparable to the escape speed from the Sun, which we calculated in an earlier example. To give even more perspective, this period is nearly four times longer than the time that the Universe has been in existence.</para>
+<para id="fs-id1168328241402">In fact, the present relative motion of these two galaxies is such that they are expected to collide in about 4 billion years. Although the density of stars in each galaxy makes a direct collision of any two stars unlikely, such a collision will have a dramatic effect on the shape of the galaxies. Examples of such collisions are well known in astronomy.</para>
+</example>
+<note id="fs-id1168328170202" class="check-understanding">
+<exercise id="fs-id1168328170205">
+<problem id="fs-id1168328225324">
+<para id="fs-id1168328225326"><emphasis effect="bold">Check Your Understanding</emphasis> Galaxies are not single objects. How does the gravitational force of one galaxy exerted on the “closer” stars of the other galaxy compare to those farther away? What effect would this have on the shape of the galaxies themselves?</para>
+</problem>
+<solution id="fs-id1168327940994">
+<para id="fs-id1168328199678">The stars on the “inside” of each galaxy will be closer to the other galaxy and hence will feel a greater gravitational force than those on the outside. Consequently, they will have a greater acceleration. Even without this force difference, the inside stars would be orbiting at a smaller radius, and, hence, there would develop an elongation or stretching of each galaxy. The force difference only increases this effect.</para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1168325690981" class="media-2">
+<para id="fs-id1168325927730">See the <link url="https://openstaxcollege.org/l/21sloandigskysu">Sloan Digital Sky Survey page</link> for more information on colliding galaxies.</para>
+</note>
+</section>
+
+<section id="fs-id1168328294454" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1168325927732" list-type="bulleted" bullet-style="bullet"><item>The weight of an object is the gravitational attraction between Earth and the object.</item>
+<item>The gravitational acceleration of 9.8 m/s<sup>2</sup> for any object near Earth's surface comes directly from the calculation of the gravitational force of the Earth on that object.</item><item>Orbital velocities are determined by the mass of the body being orbited and the distance from the center of that body, and not by the mass of a much smaller orbiting object.</item>
+<item>The period of the orbit is likewise independent of the orbiting object’s mass.</item>
+<item>Bodies of comparable masses orbit about their common center of mass and their velocities and periods should be determined from Newton’s second law and law of gravitation.</item></list></section>
+<section id="fs-id1165039374258" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1171240074559" class="unnumbered unstyled" summary="This table gives the following formula in three rows: Gravitational acceleration near Earth's surface, Small g equals capital G times M-sub-E divided by R-sub-E-squared; Orbital speed of an object in a circular orbit around Earth, v-sub-orbit equals the square root of big-G times M-sub-E divided by r; Orbital period of an object in a circular orbit around Earth, T equals 2 times pi times the square root of r-cubed divided by big-G times M-sub-E"><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Gravitational acceleration near Earth's surface</entry>
+<entry align="left"><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mrow><m:msubsup><m:mi>R</m:mi><m:mtext>E</m:mtext><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+  <row>
+    <entry>Orbital speed of an object in a circular orbit around earth</entry>
+    <entry><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Orbital period of an object in circular orbit around Earth</entry>
+    <entry><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1168328270952" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1168325688883">
+<problem id="fs-id1168325688885">
+<para id="fs-id1168328221751">One student argues that a satellite in orbit is in free fall because the satellite keeps falling toward Earth. Another says a satellite in orbit is not in free fall because the acceleration due to gravity is not <m:math><m:mrow><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. With whom do you agree with and why?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328227313">
+<problem id="fs-id1168328225308">
+<para id="fs-id1168328225310">Many satellites are placed in geosynchronous orbits. What is special about these orbits? For a global communication network, how many of these satellites would be needed?</para>
+</problem>
+<solution id="fs-id1168328181926">
+<para id="fs-id1168328181928">The period of the orbit must be 24 hours. But in addition, the satellite must be located in an equatorial orbit and orbiting in the same direction as Earth’s rotation. All three criteria must be met for the satellite to remain in one position relative to Earth’s surface. At least three satellites are needed, as two on opposite sides of Earth cannot communicate with each other. (This is not technically true, as a wavelength could be chosen that provides sufficient diffraction. But it would be totally impractical.)</para>
+</solution>
+</exercise>
+</section>
+
+<section id="fs-id1168325860540" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1168328323599">
+<problem id="fs-id1168328323601">
+<para id="fs-id1168325760988">(a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is measured to be <m:math><m:mrow><m:mn>9.832</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and the radius of the Earth at the pole is 6356 km. (b) Compare this with the NASA’s Earth Fact Sheet value of <m:math><m:mrow><m:mn>5.9726</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328167976">
+<problem id="fs-id1168328167978">
+<para id="fs-id1168328331750">(a) What is the acceleration due to gravity on the surface of the Moon? (b) On the surface of Mars? The mass of Mars is <m:math><m:mrow><m:mn>6.418</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>23</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and its radius is <m:math><m:mrow><m:mn>3.38</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168328300364">
+<para id="fs-id1168328300366">a. <m:math><m:mrow><m:mn>1.62</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; b. <m:math><m:mrow><m:mn>3.75</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325781176">
+<problem id="fs-id1168325781178">
+<para id="fs-id1168328063453">(a) Calculate the acceleration due to gravity on the surface of the Sun. (b) By what factor would your weight increase if you could stand on the Sun? (Never mind that you cannot.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325680813">
+<problem id="fs-id1168325680815">
+<para id="fs-id1168325736774">The mass of a particle is 15 kg. (a) What is its weight on Earth? (b) What is its weight on the Moon? (c) What is its mass on the Moon? (d) What is its weight in outer space far from any celestial body? (e) What is its mass at this point?</para>
+</problem>
+<solution id="fs-id1168328195740">
+<para id="fs-id1168328195743">a. 147 N; b. 25.5 N; c. 15 kg; d. 0; e. 15 kg</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328270951">
+<problem id="fs-id1168328270953">
+<para id="fs-id1168328296899">On a planet whose radius is <m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, the acceleration due to gravity is <m:math><m:mrow><m:mn>18</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. What is the mass of the planet?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327873685">
+<problem id="fs-id1168327873687">
+<para id="fs-id1168327873690">The mean diameter of the planet Saturn is <m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, and its mean mass density is <m:math><m:mrow><m:mn>0.69</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>g/cm</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. Find the acceleration due to gravity at Saturn’s surface.</para>
+</problem>
+<solution id="fs-id1168328288408">
+<para id="fs-id1168328181925"><m:math><m:mrow><m:mn>12</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327916830">
+<problem id="fs-id1168327916832">
+<para id="fs-id1168327916834">The mean diameter of the planet Mercury is <m:math><m:mrow><m:mn>4.88</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, and the acceleration due to gravity at its surface is <m:math><m:mrow><m:mn>3.78</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Estimate the mass of this planet.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325908945">
+<problem id="fs-id1168327868920">
+<para id="fs-id1168327868922">The acceleration due to gravity on the surface of a planet is three times as large as it is on the surface of Earth. The mass density of the planet is known to be twice that of Earth. What is the radius of this planet in terms of Earth’s radius?</para>
+</problem>
+<solution id="fs-id1168327919880">
+<para id="fs-id1168327884398"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327933600">
+<problem id="fs-id1168327933602">
+<para id="fs-id1168327933604">A body on the surface of a planet with the same radius as Earth’s weighs 10 times more than it does on Earth. What is the mass of this planet in terms of Earth’s mass?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328288842">
+<problem id="fs-id1168328196578">
+<para id="fs-id1168328196580">If a planet with 1.5 times the mass of Earth was traveling in Earth’s orbit, what would its period be?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325626560">
+<problem id="fs-id1168325736773">
+<para id="fs-id1168325736775">Two planets in circular orbits around a star have speeds of <emphasis effect="italics">v</emphasis> and 2<emphasis effect="italics">v</emphasis>. (a) What is the ratio of the orbital radii of the planets? (b) What is the ratio of their periods?</para>
+</problem>
+<solution id="fs-id1168328287437">
+<para id="fs-id1168328311848">a. 0.25; b. 0.125</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328311854">
+<problem id="fs-id1168328181763">
+<para id="fs-id1168328181765">Using the average distance of Earth from the Sun, and the orbital period of Earth, (a) ﬁnd the centripetal acceleration of Earth in its motion about the Sun. (b) Compare this value to that of the centripetal acceleration at the equator due to Earth’s rotation.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325665712">
+<problem id="fs-id1168325665714">
+<para id="fs-id1168325665716">What is the orbital radius of an Earth satellite having a period of 1.00 h? (b) What is unreasonable about this result?</para>
+</problem>
+<solution id="fs-idm786690960">
+<para id="fs-id1168325908941">a. <m:math><m:mrow><m:mn>5.08</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math>; b. This less than the radius of Earth.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325859860">
+<problem id="fs-id1168328362012">
+<para id="fs-id1168328362014">Calculate the mass of the Sun based on data for Earth’s orbit and compare the value obtained with the Sun’s actual mass.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328064118">
+<problem id="fs-id1168328064120">
+<para id="fs-id1168327962833">Find the mass of Jupiter based on the fact that Io, its innermost moon, has an average orbital radius of 421,700 km and a period of 1.77 days.</para>
+</problem>
+<solution id="fs-id1168328288413">
+<para id="fs-id1168328288415"><m:math><m:mrow><m:mn>1.89</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325668966">
+<problem id="fs-id1168325668968">
+<para id="fs-id1168325668970">Astronomical observations of our Milky Way galaxy indicate that it has a mass of about <m:math><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:math> solar masses. A star orbiting on the galaxy’s periphery is about <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> light-years from its center. (a) What should the orbital period of that star be? (b) If its period is <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup></m:mrow></m:math> years instead, what is the mass of the galaxy? Such calculations are used to imply the existence of other matter, such as a very massive black hole at the center of the Milky Way.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328253442">
+<problem id="fs-id1168328253444">
+<para id="fs-id1168328253446">(a) In order to keep a small satellite from drifting into a nearby asteroid, it is placed in orbit with a period of 3.02 hours and radius of 2.0 km. What is the mass of the asteroid? (b) Does this mass seem reasonable for the size of the orbit?</para>
+</problem>
+<solution id="fs-id1168327988294">
+<para id="fs-id1168328355436">a. <m:math><m:mrow><m:mn>4.01</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>; b. The satellite must be outside the radius of the asteroid, so it can’t be larger than this. If it were this size, then its density would be about <m:math><m:mrow><m:mn>1200</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math>. This is just above that of water, so this seems quite reasonable.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325667706">
+<problem id="fs-id1168325667708">
+<para id="fs-id1168325667710">The Moon and Earth rotate about their common center of mass, which is located about 4700 km from the center of Earth. (This is 1690 km below the surface.) (a) Calculate the acceleration due to the Moon’s gravity at that point. (b) Calculate the centripetal acceleration of the center of Earth as it rotates about that point once each lunar month (about 27.3 d) and compare it with the acceleration found in part (a). Comment on whether or not they are equal and why they should or should not be.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325679618">
+<problem id="fs-id1168325679620">
+<para id="fs-id1168325679623">The Sun orbits the Milky Way galaxy once each <m:math><m:mrow><m:mn>2.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>years</m:mtext></m:mrow></m:math>, with a roughly circular orbit averaging a radius of <m:math><m:mrow><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> light-years. (A light-year is the distance traveled by light in 1 year.) Calculate the centripetal acceleration of the Sun in its galactic orbit. Does your result support the contention that a nearly inertial frame of reference can be located at the Sun? (b) Calculate the average speed of the Sun in its galactic orbit. Does the answer surprise you?</para>
+</problem>
+<solution id="fs-id1168328321712">
+<para id="fs-id1168328321714">a. <m:math><m:mrow><m:mn>1.66</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; Yes, the centripetal acceleration is so small it supports the contention that a nearly inertial frame of reference can be located at the Sun. b. <m:math><m:mrow><m:mn>2.17</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327963982">
+<problem id="fs-id1168328265326">
+<para id="fs-id1168328265328">A <term class="no-emphasis">geosynchronous</term> Earth satellite is one that has an orbital period of precisely 1 day. Such orbits are useful for communication and weather observation because the satellite remains above the same point on Earth (provided it orbits in the equatorial plane in the same direction as Earth’s rotation). Calculate the radius of such an orbit based on the data for Earth in <link class="target-chapter" document="m64014"/>.</para></problem>
+</exercise>
+</section>
+</content>
+</document>

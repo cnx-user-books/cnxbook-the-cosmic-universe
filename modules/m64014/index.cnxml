@@ -1,0 +1,1531 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Astronomical Data</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64014</md:content-id>
+  <md:title>Astronomical Data</md:title>
+  <md:abstract/>
+  <md:uuid>3cccd6e8-e3c4-40c3-8b95-1c78771168bc</md:uuid>
+</metadata>
+
+<content>
+<table id="fs-id1172467034377" class="span-all" summary="A table titled “Physical constants” with two columns and fourteen rows. The first row reads “astronomical unit (AU)” and “1.496 times 10 to the 11 m”. The second row reads “Light-year (ly)” and “9.461 times 10 to the 15 m”. The third row reads “parsec (pc)” and “3.086 times 10 to the 16 m = 3.262 light-years”. The fourth row reads “sidereal year (y)” and “3.156 times 10 to the 7 s”. The fifth row reads “mass of Earth (M sub Earth)” and “5.974 times 10 to the 24 kg”. The sixth row reads “equatorial radius of Earth (R sub Earth)” and “6.378 times 10 to the 6 m”. The seventh row reads “obliquity of ecliptic” and “23.4 degrees 26 minutes”. The eighth row reads “surface gravity of Earth (g)” and “9.807 m/s squared”. The ninth row reads “escape velocity of Earth (v sub Earth)” and “1.119 times 10 to the 4 m/s”. The tenth row reads “mass of Sun (M sub Sun)” and “1.989 times 10 to the 30 kg”. The eleventh row reads “equatorial radius of Sun (R sub Sun)” and “6.960 times 10 to the 8 m”. The twelfth row reads “luminosity of Sun (L sub Sun)” and “3.85 times 10 to the 26 W”. The thirteenth row reads “solar constant (flux of energy received at Earth) (S)” and “1.368 times 10 to the 3 W/m squared”. The fourteenth row reads “Hubble constant (H sub 0)” and “approximately 20 km/s per million light-years, or approximately 70 km/s per megaparsec”.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+
+<row>
+<entry namest="c1" nameend="c2" align="center">Astronomical Constants</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Name</entry>
+<entry>Value</entry>
+
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">astronomical unit (AU)</entry>
+<entry valign="top" align="left">1.496 × 10<sup>11</sup> m</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Light-year (ly)</entry>
+<entry valign="top" align="left">9.461 × 10<sup>15</sup> m</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">parsec (pc)</entry>
+<entry valign="top" align="left">3.086 × 10<sup>16</sup> m = 3.262 light-years</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">sidereal year (y)</entry>
+<entry valign="top" align="left">3.156 × 10<sup>7</sup> s</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">mass of Earth (<emphasis effect="italics">M</emphasis><sub>Earth</sub>)</entry>
+<entry valign="top" align="left">5.974 × 10<sup>24</sup> kg</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">equatorial radius of Earth (<emphasis effect="italics">R</emphasis><sub>Earth</sub>)</entry>
+<entry valign="top" align="left">6.378 × 10<sup>6</sup> m</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">obliquity of ecliptic</entry>
+<entry valign="top" align="left">23.4° 26’</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">surface gravity of Earth (<emphasis effect="italics">g</emphasis>)</entry>
+<entry valign="top" align="left">9.807 m/s<sup>2</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">escape velocity of Earth (<emphasis effect="italics">v</emphasis><sub>Earth</sub>)</entry>
+<entry valign="top" align="left">1.119 × 10<sup>4</sup> m/s</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">mass of Sun (<emphasis effect="italics">M</emphasis><sub>Sun</sub>)</entry>
+<entry valign="top" align="left">1.989 × 10<sup>30</sup> kg</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">equatorial radius of Sun (<emphasis effect="italics">R</emphasis><sub>Sun</sub>)</entry>
+<entry valign="top" align="left">6.960 × 10<sup>8</sup> m</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">luminosity of Sun (<emphasis effect="italics">L</emphasis><sub>Sun</sub>)</entry>
+<entry valign="top" align="left">3.85 × 10<sup>26</sup> W</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">solar constant (flux of energy received at Earth) (S)</entry>
+<entry valign="top" align="left">1.368 × 10<sup>3</sup> W/m<sup>2</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hubble constant (H<sub>0</sub>)</entry>
+<entry valign="top" align="left">approximately 20 km/s per million light-years, or approximately 70 km/s per megaparsec</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="fs-id1171242141206" summary="This table has 5 columns and two header rows. The first header row labels each column as follows: Celestial Object, Mean Distance from Sun in million kilometers, Period of Revolution in d equal to days or y equal to years, Period of Rotation at Equator, Eccentricity of Orbit. Each row describes 1 celestial object as follows: Sun, blank, blank, 27 d, blank; Mercury, 57.9, 88 d, 59 d, 0.206; Venus, 108.2, 224.7 d, 243 d, 0.007; Earth, 149.6, 365.26 d, 23 h 56 min 4 s, 0.017; Mars, 227.9, 687 d, 24 h 37 min 23 s, 0.093; Jupiter, 778.4, 11.9 y, 9 h 50 min 30s, 0.048; Saturn, 1426.7, 29.5 6, 10 h 14 min, 0.054; Uranus, 2871.0, 84.0 y, 17 h 14 min, 0.047; Neptune, 4498.3, 164.8 y, 16 h, 0.009; Earth’s Moon, 149.6 parentheses 0.386 from Earth parentheses, 27.3 d, 27.3 d, 0.055. The next row is the second header which contains the columns Celestial Object, Equatorial Diameter in kilometers, Mass with Earth equal to 1, Density in grams per cubic centimeter. Each row describes 1 celestial object as follows: Sun, 1392000, 333000, 1.4; Mercury, 4879, 0.06, 5.4; Venus, 12104, 0.82, 5.2; Earth, 12756, 1.00, 5.5; Mars, 6794, 0.11, 3.9; Jupiter, 142984, 317.83, 1.3; Saturn, 120536, 95.16, 0.7; Uranus, 51118, 14.54, 1.3; Neptune, 49528, 17.15, 1.6; Earth’s Moon, 3476, 0.01, 3.3."><title>Comparative Planetary Data</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Celestial Object</entry>
+<entry valign="top" align="left">Mean Distance from Sun (million km)</entry>
+<entry valign="top" align="left">Period of Revolution (d = days) (y = years)</entry>
+<entry valign="top" align="left">Period of Rotation at Equator</entry>
+<entry valign="top" align="left">Eccentricity of Orbit</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Sun</entry>
+<entry valign="top" align="left">−</entry>
+<entry valign="top" align="left">−</entry>
+<entry valign="top" align="left">27 d</entry>
+<entry valign="top" align="left">−</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mercury</entry>
+<entry valign="top" align="left">57.9</entry>
+<entry valign="top" align="left">88 d</entry>
+<entry valign="top" align="left">59 d</entry>
+<entry valign="top" align="left">0.206</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Venus</entry>
+<entry valign="top" align="left">108.2</entry>
+<entry valign="top" align="left">224.7 d</entry>
+<entry valign="top" align="left">243 d</entry>
+<entry valign="top" align="left">0.007</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Earth</entry>
+<entry valign="top" align="left">149.6</entry>
+<entry valign="top" align="left">365.26 d</entry>
+<entry valign="top" align="left">23 h 56 min 4 s</entry>
+<entry valign="top" align="left">0.017</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mars</entry>
+<entry valign="top" align="left">227.9</entry>
+<entry valign="top" align="left">687 d</entry>
+<entry valign="top" align="left">24 h 37 min 23 s</entry>
+<entry valign="top" align="left">0.093</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Jupiter</entry>
+<entry valign="top" align="left">778.4</entry>
+<entry valign="top" align="left">11.9 y</entry>
+<entry valign="top" align="left">9 h 50 min 30 s</entry>
+<entry valign="top" align="left">0.048</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Saturn</entry>
+<entry valign="top" align="left">1426.7</entry>
+<entry valign="top" align="left">29.5 6</entry>
+<entry valign="top" align="left">10 h 14 min</entry>
+<entry valign="top" align="left">0.054</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Uranus</entry>
+<entry valign="top" align="left">2871.0</entry>
+<entry valign="top" align="left">84.0 y</entry>
+<entry valign="top" align="left">17 h 14 min</entry>
+<entry valign="top" align="left">0.047</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Neptune</entry>
+<entry valign="top" align="left">4498.3</entry>
+<entry valign="top" align="left">164.8 y</entry>
+<entry valign="top" align="left">16 h</entry>
+<entry valign="top" align="left">0.009</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Earth’s Moon</entry>
+<entry valign="top" align="left">149.6 (0.386 from Earth)</entry>
+<entry valign="top" align="left">27.3 d</entry>
+<entry valign="top" align="left">27.3 d</entry>
+<entry valign="top" align="left">0.055</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left"><emphasis effect="bold">Celestial Object</emphasis></entry>
+<entry valign="top" align="left"><emphasis effect="bold">Equatorial Diameter (km)</emphasis></entry>
+<entry valign="top" align="left"><emphasis effect="bold">Mass (Earth = 1)</emphasis></entry>
+<entry valign="top" align="left"><emphasis effect="bold">Density (g/cm<sup>3</sup>)</emphasis></entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Sun</entry>
+<entry valign="top" align="left">1,392,000</entry>
+<entry valign="top" align="left">333,000.00</entry>
+<entry valign="top" align="left">1.4</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mercury</entry>
+<entry valign="top" align="left">4879</entry>
+<entry valign="top" align="left">0.06</entry>
+<entry valign="top" align="left">5.4</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Venus</entry>
+<entry valign="top" align="left">12,104</entry>
+<entry valign="top" align="left">0.82</entry>
+<entry valign="top" align="left">5.2</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Earth</entry>
+<entry valign="top" align="left">12,756</entry>
+<entry valign="top" align="left">1.00</entry>
+<entry valign="top" align="left">5.5</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mars</entry>
+<entry valign="top" align="left">6794</entry>
+<entry valign="top" align="left">0.11</entry>
+<entry valign="top" align="left">3.9</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Jupiter</entry>
+<entry valign="top" align="left">142,984</entry>
+<entry valign="top" align="left">317.83</entry>
+<entry valign="top" align="left">1.3</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Saturn</entry>
+<entry valign="top" align="left">120,536</entry>
+<entry valign="top" align="left">95.16</entry>
+<entry valign="top" align="left">0.7</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Uranus</entry>
+<entry valign="top" align="left">51,118</entry>
+<entry valign="top" align="left">14.54</entry>
+<entry valign="top" align="left">1.3</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Neptune</entry>
+<entry valign="top" align="left">49,528</entry>
+<entry valign="top" align="left">17.15</entry>
+<entry valign="top" align="left">1.6</entry>
+<entry valign="top" align="left"/>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Earth’s Moon</entry>
+<entry valign="top" align="left">3476</entry>
+<entry valign="top" align="left">0.01</entry>
+<entry valign="top" align="left">3.3</entry>
+<entry valign="top" align="left"/>
+</row>
+</tbody>
+
+</tgroup>
+</table><section id="fs-idm675806912"><title>Physical and Orbital Data for the Planets</title>
+<table id="fs-id1172466962670" class="span-all" summary="A table titled “Physical Data for the Major Planets” with nine columns and nine rows. The first row is a header row and labels each column. From left to right, the first row reads “Major Planet”, “Mean Diameter (km)”, “Mean Diameter (Earth = 1)”, “Mass (Earth = 1)”, “Mean Density (g/cm to the 3)”, “Rotation Period (d)”, “Inclination of Equator to Orbit (degrees)”, “Surface Gravity (Earth = 1[g])” and “Velocity of Escape (km/s)”. The second row reads “Mercury”, “4879”, “.38”, “0.055”, “5.43”, “58.”, “0.0”, “0.38”, and “4.3”. The third row reads “Venus”, “12,104”, “0.95”, “0.815”, “5.24”, “negative 243.”, “177”, “0.90”, and “10.4”. The fourth row reads “Earth”, “12,756”, “1.00”, “1.00”, “5.51”, “1.000”, “23.4”, “1.00”, and “11.2”. The fifth row reads “Mars”, “6779”, “0.53”, “0.11”, “3.93”, “1.026”, “25.2”, “0.38”, and “5.0”. The sixth row reads “Jupiter”, “140,000”, “10.9,” “318”, “1.33”, “0.414”, ‘3.1”, “2.53”, and “60”. The seventh row reads “Saturn” “117,000”, “9.13”, “95.2”, “0.69”, “0.440”, “26.7”, “1.07”, and “36”. The eighth row reads “Uranus”, “50,700”, “3.98”, “14.5”, “1.27”, “negative 0.718”, “97.9”, “0.89,” and “21”. The ninth row reads “Neptune”, “49,200”, “3.86”, “17.2”, “1.64”, “0.671”, “29.6, “1.14”, and “23”.">
+<tgroup cols="9">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c9">Physical Data for the Major Planets</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Major Planet</entry>
+<entry valign="top" align="center">Mean Diameter (km)</entry>
+<entry valign="top" align="center">Mean Diameter (Earth = 1)</entry>
+<entry valign="top" align="center">Mass (Earth = 1)</entry>
+<entry valign="top" align="center">Mean Density (g/cm<sup>3</sup>)</entry>
+<entry valign="top" align="center">Rotation Period (d)</entry>
+<entry valign="top" align="center">Inclination of Equator to Orbit (°)</entry>
+<entry valign="top" align="center">Surface Gravity (Earth = 1[g])</entry>
+<entry valign="top" align="center">Velocity of Escape (km/s)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Mercury</entry>
+<entry valign="top" align="left">4879</entry>
+<entry valign="top" align="left">0.38</entry>
+<entry valign="top" align="left">0.055</entry>
+<entry valign="top" align="left">5.43</entry>
+<entry valign="top" align="left">58.</entry>
+<entry valign="top" align="left">0.0</entry>
+<entry valign="top" align="left">0.38</entry>
+<entry valign="top" align="left">4.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Venus</entry>
+<entry valign="top" align="left">12,104</entry>
+<entry valign="top" align="left">0.95</entry>
+<entry valign="top" align="left">0.815</entry>
+<entry valign="top" align="left">5.24</entry>
+<entry valign="top" align="left">−243.</entry>
+<entry valign="top" align="left">177</entry>
+<entry valign="top" align="left">0.90</entry>
+<entry valign="top" align="left">10.4</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Earth</entry>
+<entry valign="top" align="left">12,756</entry>
+<entry valign="top" align="left">1.00</entry>
+<entry valign="top" align="left">1.00</entry>
+<entry valign="top" align="left">5.51</entry>
+<entry valign="top" align="left">1.000</entry>
+<entry valign="top" align="left">23.4</entry>
+<entry valign="top" align="left">1.00</entry>
+<entry valign="top" align="left">11.2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mars</entry>
+<entry valign="top" align="left">6779</entry>
+<entry valign="top" align="left">0.53</entry>
+<entry valign="top" align="left">0.11</entry>
+<entry valign="top" align="left">3.93</entry>
+<entry valign="top" align="left">1.026</entry>
+<entry valign="top" align="left">25.2</entry>
+<entry valign="top" align="left">0.38</entry>
+<entry valign="top" align="left">5.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Jupiter</entry>
+<entry valign="top" align="left">140,000</entry>
+<entry valign="top" align="left">10.9</entry>
+<entry valign="top" align="left">318</entry>
+<entry valign="top" align="left">1.33</entry>
+<entry valign="top" align="left">0.414</entry>
+<entry valign="top" align="left">3.1</entry>
+<entry valign="top" align="left">2.53</entry>
+<entry valign="top" align="left">60.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Saturn</entry>
+<entry valign="top" align="left">117,000</entry>
+<entry valign="top" align="left">9.13</entry>
+<entry valign="top" align="left">95.2</entry>
+<entry valign="top" align="left">0.69</entry>
+<entry valign="top" align="left">0.440</entry>
+<entry valign="top" align="left">26.7</entry>
+<entry valign="top" align="left">1.07</entry>
+<entry valign="top" align="left">36.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Uranus</entry>
+<entry valign="top" align="left">50,700</entry>
+<entry valign="top" align="left">3.98</entry>
+<entry valign="top" align="left">14.5</entry>
+<entry valign="top" align="left">1.27</entry>
+<entry valign="top" align="left">−0.718</entry>
+<entry valign="top" align="left">97.9</entry>
+<entry valign="top" align="left">0.89</entry>
+<entry valign="top" align="left">21.</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Neptune</entry>
+<entry valign="top" align="left">49,200</entry>
+<entry valign="top" align="left">3.86</entry>
+<entry valign="top" align="left">17.2</entry>
+<entry valign="top" align="left">1.64</entry>
+<entry valign="top" align="left">0.671</entry>
+<entry valign="top" align="left">29.6</entry>
+<entry valign="top" align="left">1.14</entry>
+<entry valign="top" align="left">23.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="fs-id1172466968568" class="span-all" summary="A table titled “Physical Data for Well-Studied Dwarf Planets” with nine columns and six rows. The first row is a header row and labels each column. From left to right, the first row reads “Well-Studied Dwarf Planet”, “Mean Diameter (km)”, “Mean Diameter (Earth = 1)”, “Mass (Earth = 1)”, “Mean Density (g/cm to the 3)”, “Rotation Period (d)”, “Inclination of Equator to Orbit (degrees)”, “Surface Gravity (Earth = 1[g])” and “Velocity of Escape (km/s)”. The second row reads “Ceres”, “950”, “0.07”, “0.0002” “2.2”, “0.378”, “3”, “0.03”, and “0.5”. The third row reads “Pluto”, “2470”, “0.18”, “0.0024”, “1.9”, “ negative 6.387”, “122”, “0.06”, and “1.3”. The fourth row reads “Haumea”, “1700”, 0.13”, “0.00073”, “0.163”, “blank”, “blank”, and “0.8”. The fifth row reads “Makemake” “1400”, “0.11”, “0.0005”, “2”, “0.321”, “blank”, “blank”, and “0.8”. The sixth row reads “Eris”, “2326”, “0.18,” “0.0028”, “2.5”, “1.25 footnote: this measurement is quite uncertain”, “blank”, “blank”, and “1.4”.">
+<tgroup cols="9">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<colspec colnum="9" colname="c9"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c9">Physical Data for Well-Studied Dwarf Planets</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Well-Studied Dwarf Planet</entry>
+<entry valign="top" align="center">Diameter (km)</entry>
+<entry valign="top" align="center">Diameter (Earth = 1)</entry>
+<entry valign="top" align="center">Mass (Earth = 1)</entry>
+<entry valign="top" align="center">Mean Density (g/cm<sup>3</sup>)</entry>
+<entry valign="top" align="center">Rotation Period (d)</entry>
+<entry valign="top" align="center">Inclination of Equator to Orbit (°)</entry>
+<entry valign="top" align="center">Surface Gravity (Earth = 1[g])</entry>
+<entry valign="top" align="center">Velocity of Escape (km/s)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Ceres</entry>
+<entry valign="top" align="left">950</entry>
+<entry valign="top" align="left">0.07</entry>
+<entry valign="top" align="left">0.0002</entry>
+<entry valign="top" align="left">2.2</entry>
+<entry valign="top" align="left">0.378</entry>
+<entry valign="top" align="left">3</entry>
+<entry valign="top" align="left">0.03</entry>
+<entry valign="top" align="left">0.5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pluto</entry>
+<entry valign="top" align="left">2470</entry>
+<entry valign="top" align="left">0.18</entry>
+<entry valign="top" align="left">0.0024</entry>
+<entry valign="top" align="left">1.9</entry>
+<entry valign="top" align="left">−6.387</entry>
+<entry valign="top" align="left">122</entry>
+<entry valign="top" align="left">0.06</entry>
+<entry valign="top" align="left">1.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Haumea</entry>
+<entry valign="top" align="left">1700</entry>
+<entry valign="top" align="left">0.13</entry>
+<entry valign="top" align="left">0.0007</entry>
+<entry valign="top" align="left">3</entry>
+<entry valign="top" align="left">0.163</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">0.8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Makemake</entry>
+<entry valign="top" align="left">1400</entry>
+<entry valign="top" align="left">0.11</entry>
+<entry valign="top" align="left">0.0005</entry>
+<entry valign="top" align="left">2</entry>
+<entry valign="top" align="left">0.321</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">0.8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Eris</entry>
+<entry valign="top" align="left">2326</entry>
+<entry valign="top" align="left">0.18</entry>
+<entry valign="top" align="left">0.0028</entry>
+<entry valign="top" align="left">2.5</entry>
+<entry valign="top" align="left">1.25<footnote id="fs-id1172466799952">This measurement is quite uncertain.</footnote></entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">1.4</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="fs-id1172467173621" class="span-all" summary="A table titled “Orbital Data for the Major Planets” with nine columns and nine rows. The first row is a header row and labels each column. From left to right, the first row reads “Major Planet”, “Semimajor Axis (AU)”, “Semimajor Axis (10 to the 6 km)”, “Sidereal Period (y)”, “Sidereal Period (d)”, “Mean Orbital Speed (km/s)”, “Orbital Eccentricity”, and “Inclination of Orbit to Ecliptic (degrees)”. The second row reads “Mercury”, “0.39”, “58”, “0.24”, “88.0”, “47.9”, “0.206”, and “7.0”. The third row reads “Venus”, “0.72”, “108.”, “0.6”, “224.7”, “35.0”, “0.007”, and “3.4”. The fourth row reads “Earth”, “1.00”, “149.”, “1.00”, “365.2”, “29.8”, “0.017”, and “0.0”. The fifth row reads “Mars”, “1.52”, “228.”, “1.88”, “687.0”, “24.1”, “0.093”, and “1.9”. The sixth row reads “Jupiter”, “5.20”, “778.”, “11.86”, “blank”, “13.1”, “0.048”, and “1.3”. The seventh row reads “Saturn”, “9.54”, “1427”, “29.46”, “blank”, “9.6”, “0.056”, and “2.5”. The eighth row reads “Uranus”, “19.19”, “2871”, “84.01”, “blank”, “6.8”, “0.046”, and “0.8”. The ninth row reads “Neptune”, “30.06”, “4497”, “164.82,” “blank”, “5.4”, “0.010”, and “1.8”.">
+<tgroup cols="8">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c8">Orbital Data for the Major Planets</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Major Planet</entry>
+<entry valign="top" align="center">Semimajor Axis (AU)</entry>
+<entry valign="top" align="center">Semimajor Axis (10<sup>6</sup> km)</entry>
+<entry valign="top" align="center">Sidereal Period (y)</entry>
+<entry valign="top" align="center">Sidereal Period (d)</entry>
+<entry valign="top" align="center">Mean Orbital Speed (km/s)</entry>
+<entry valign="top" align="center">Orbital Eccentricity</entry>
+<entry valign="top" align="center">Inclination of Orbit to Ecliptic (°)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Mercury</entry>
+<entry valign="top" align="left">0.39</entry>
+<entry valign="top" align="left">58</entry>
+<entry valign="top" align="left">0.24</entry>
+<entry valign="top" align="left">88.0</entry>
+<entry valign="top" align="left">47.9</entry>
+<entry valign="top" align="left">0.206</entry>
+<entry valign="top" align="left">7.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Venus</entry>
+<entry valign="top" align="left">0.72</entry>
+<entry valign="top" align="left">108</entry>
+<entry valign="top" align="left">0.6</entry>
+<entry valign="top" align="left">224.7</entry>
+<entry valign="top" align="left">35.0</entry>
+<entry valign="top" align="left">0.007</entry>
+<entry valign="top" align="left">3.4</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Earth</entry>
+<entry valign="top" align="left">1.00</entry>
+<entry valign="top" align="left">149</entry>
+<entry valign="top" align="left">1.00</entry>
+<entry valign="top" align="left">365.2</entry>
+<entry valign="top" align="left">29.8</entry>
+<entry valign="top" align="left">0.017</entry>
+<entry valign="top" align="left">0.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mars</entry>
+<entry valign="top" align="left">1.52</entry>
+<entry valign="top" align="left">228</entry>
+<entry valign="top" align="left">1.88</entry>
+<entry valign="top" align="left">687.0</entry>
+<entry valign="top" align="left">24.1</entry>
+<entry valign="top" align="left">0.093</entry>
+<entry valign="top" align="left">1.9</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Jupiter</entry>
+<entry valign="top" align="left">5.20</entry>
+<entry valign="top" align="left">778</entry>
+<entry valign="top" align="left">11.86</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">13.1</entry>
+<entry valign="top" align="left">0.048</entry>
+<entry valign="top" align="left">1.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Saturn</entry>
+<entry valign="top" align="left">9.54</entry>
+<entry valign="top" align="left">1427</entry>
+<entry valign="top" align="left">29.46</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">9.6</entry>
+<entry valign="top" align="left">0.056</entry>
+<entry valign="top" align="left">2.5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Uranus</entry>
+<entry valign="top" align="left">19.19</entry>
+<entry valign="top" align="left">2871</entry>
+<entry valign="top" align="left">84.01</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">6.8</entry>
+<entry valign="top" align="left">0.046</entry>
+<entry valign="top" align="left">0.8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Neptune</entry>
+<entry valign="top" align="left">30.06</entry>
+<entry valign="top" align="left">4497</entry>
+<entry valign="top" align="left">164.82</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">5.4</entry>
+<entry valign="top" align="left">0.010</entry>
+<entry valign="top" align="left">1.8</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table id="fs-id1172466799190" class="span-all" summary="A table titled “Orbital Data for Well-Studied Dwarf Planets” with nine columns and six rows. The first row is a header row and labels each column. From left to right, the first row reads “Well-Studied Dwarf Planet”, “Semimajor Axis (AU)”, “Semimajor Axis (10 to the 6 km)”, “Sidereal Period (y)”, “Sidereal Period (d)”, “Mean Orbital Speed (km/s)”, “Orbital Eccentricity”, and “Inclination of Orbit to Ecliptic (degrees)”. The second row reads “Ceres”, “2.77”, “414.0”, “4.6”, “18”, “0.08”, and “11”. The third row reads “Pluto”, “39.5”, “5915”, “248.6”, “4.7”, “0.25”, and “17.” The fourth row reads “Haumea“, “3.1”, “6452”, “283.3”, “4.5”, “0.19”, and “28.”. The fifth row reads “Makemake”, “45.8”, “6850”, “309.9”, “4.4”, “0.16”, and “29”. The sixth row reads “Eris”, “68.0”, “10,120”, “560.9”, “3.4”, “0.44”, and “44.”.">
+<tgroup cols="7">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c7">Orbital Data for Well-Studied Dwarf Planets</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Well-Studied Dwarf Planet</entry>
+<entry valign="top" align="center">Semimajor Axis (AU)</entry>
+<entry valign="top" align="center">Semimajor Axis (10<sup>6</sup> km)</entry>
+<entry valign="top" align="center">Sidereal Period (y)</entry>
+<entry valign="top" align="center">Mean Orbital Speed<newline/>(km/s)</entry>
+<entry valign="top" align="center">Orbital Eccentricity</entry>
+<entry valign="top" align="center">Inclination of Orbit to Ecliptic (°)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Ceres</entry>
+<entry valign="top" align="left">2.77</entry>
+<entry valign="top" align="left">414.0</entry>
+<entry valign="top" align="left">4.6</entry>
+<entry valign="top" align="left">18</entry>
+<entry valign="top" align="left">0.08</entry>
+<entry valign="top" align="left">11</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pluto</entry>
+<entry valign="top" align="left">39.5</entry>
+<entry valign="top" align="left">5915</entry>
+<entry valign="top" align="left">248.6</entry>
+<entry valign="top" align="left">4.7</entry>
+<entry valign="top" align="left">0.25</entry>
+<entry valign="top" align="left">17</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Haumea</entry>
+<entry valign="top" align="left">43.1</entry>
+<entry valign="top" align="left">6452</entry>
+<entry valign="top" align="left">283.3</entry>
+<entry valign="top" align="left">4.5</entry>
+<entry valign="top" align="left">0.19</entry>
+<entry valign="top" align="left">28</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Makemake</entry>
+<entry valign="top" align="left">45.8</entry>
+<entry valign="top" align="left">6850</entry>
+<entry valign="top" align="left">309.9</entry>
+<entry valign="top" align="left">4.4</entry>
+<entry valign="top" align="left">0.16</entry>
+<entry valign="top" align="left">29</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Eris</entry>
+<entry valign="top" align="left">68.0</entry>
+<entry valign="top" align="left">10,120</entry>
+<entry valign="top" align="left">560.9</entry>
+<entry valign="top" align="left">3.4</entry>
+<entry valign="top" align="left">0.44</entry>
+<entry valign="top" align="left">44</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-idm665162832"><title>Selected Moons of the Planets</title>
+<para id="fs-id1172466806590">Note: As this book goes to press, nearly two hundred moons are now known in the solar system and more are being discovered on a regular basis. Of the major planets, only Mercury and Venus do not have moons. In addition to moons of the planets, there are many moons of asteroids. In this appendix, we list only the largest and most interesting objects that orbit each planet (including dwarf planets). The number given for each planet is discoveries through 2015. For further information see https://solarsystem.nasa.gov/planets/solarsystem/moons and https://en.wikipedia.org/wiki/List_of_natural_satellites.</para>
+<table id="fs-id1172467109614" class="span-all" summary="A table titled “Selected Moons of the Planets” with seven columns and forty-five rows. The first row is a header row and labels each column “Planet (moons)”, “Satellite Name”, “Discovery”, “Semimajor Axis (km times 1000)”, “Period (d)”, “Diameter (km)”, “Mass (10 to the 20 kg)”, and “Density (g / cm cubed)”. The first row is labeled “Earth (1)”, “Moon”, “blank”, “384,” “27.32”, “3476”, “735,” and “3.3”. The second row is labeled “Mars (2)”, “Phobos”, “Hall (1877)”, “9.4”, “0.32”, “23”, “1 × 10–4”, “2.0”. The third row is labeled “Mars (2)”, Deimos”, “Hall (1877)”, “23.5”, “1.26”, “13”, “2 × 10–5”, “1.7”. The fourth row is labeled “Jupiter (67)”, Amalthea”, “Barnard (1892)”, “181”, “0.50”, “200”, “—”, “—”. The fifth row is labeled “Jupiter (67)”, “Thebe”, “Voyager (1979)”, “222”, “0.67”, “90”, “—”, “—“. The sixth row is labeled “Jupiter (67)”, “Io”, “Galileo (1610)”, “422”, “1.77”, “3630”, “894”, “3.6”. The seventh row is labeled “Jupiter (67)”, “Europa”, “Galileo (1610)”, “671”, “3.55”, “3138”, “480”, “3.0”. The eighth row is labeled “Jupiter (67)”, “Ganymede”, “Galileo (1610)”, “1070”, “7.16”, “5262”, “1482”, “1.9”. The ninth row is labeled “Jupiter (67)”, “Callisto”, “Galileo (1610)”, “1883”, “16.69”, “4800”, “1077”, “1.9”. The tenth row is labeled “Jupiter (67)”, “Himalia”, “Perrine (1904)”, “11,460”, “251”, “170”, “—”, “blank”. The eleventh row is labeled “Saturn (62)”, “Pan”, “Voyager (1985)”, “133.6”, “0.58”, “20”, “3 × 10–5”, ““, “blank”. The twelfth row is labeled “Saturn (62)”, “Atlas”, “Voyager (1980)”, “137.7”, “0.60”, “40”, “blank”, “blank”. The thirteenth row is labeled “Saturn (62)”, “Prometheus”, “Voyager (1980)”, “139.4”, “0.61”, “80”, “blank”, “blank”. The fourteenth row is labeled “Saturn (62)”, “Pandora”, “Voyager (1980)”, “141.7”, “0.63”, “100”, “blank”, “blank”. The fifteenth row is labeled “Saturn (62)”, “Janus”, “Dollfus (1966)”, “151.4”, “0.69”, “190”, “blank”, “blank”. The sixteenth row is labeled “Saturn (62)”, “Epimetheus”, “Fountain”, “Larson (1980)”, “151.4”, “0.69”, “120”, “blank”, “blank”. The seventeenth row is labeled “Saturn (62)”, “Mimas”, “Herschel (1789)”, “186”, “0.94”, “394”, “0.4”, “1.2”. The eighteenth row is labeled “Saturn (62)”, “Enceladus”, “Herschel (1789)”, “238”, “1.37”, “502”, “0.8”, “1.2”. The nineteenth row is labeled “Saturn (62)”, “Tethys”, “Cassini (1684)”, “295”, “1.89”, “1048”, “7.5”, “1.3”. The twentieth row is labeled “Saturn (62)”, “Dione”, “Cassini (1684)”, “377”, “2.74”, “1120”, “11 “, “1.3”. The twenty-first row is labeled “Saturn (62)”, “Rhea”, “Cassini (1672)”, “527”, “4.52”, “1530”, “25”, “1.3”. The twenty-second row is labeled “Saturn (62)”, “Titan”, “Huygens (1655)”, “1222”, “15.95”, “5150”, “1346”, “1.9”. The twenty-third row is labeled “Saturn (62)”, “Hyperion”, “Bond, Lassell (1848)”, “1481”, “21.3”, “270”, “blank”, “blank”. The twenty-fourth row is labeled “Saturn (62)”, “Iapetus”, “Cassini (1671)”, “3561”, “79.3”, “1435”, “19”, “1.2”. The twenty-fifth row is labeled “Saturn (62)”, “Phoebe”, “Pickering (1898)”, “12,950”, “550 (R) footnote: (R) stands for retrograde rotation (backward from the direction that most objects in the solar system revolve and rotate) ”, “220”, “blank”, “blank”. The twenty-sixth row is labeled “Uranus (27)”, “Puck”, “Voyager (1985)”, “86.0”, “0.76”, “170”, “blank”, “blank”. The twenty-seventh row is labeled “Uranus (27)”, “Miranda”, “Kuiper (1948)”, “130”, “1.41”, “485”, “0.8”, “1.3”. The twenty-eighth row is labeled “Uranus (27)”, “Ariel”, “Lassell (1851)”, “191”, “2.52”, “1160”, “13”, “1.6”. The twenty-ninth row is labeled “Uranus (27)”, “Umbriel”, “Lassell (1851)”, “266”, “4.14”, “1190”, “13”, “1.4”. The thirtieth row is labeled “Uranus (27)”, “Titania”, “Herschel (1787)”, “436”, “8.71”, “1610”, “35”, “1.6”. The thirty-first row is labeled “Uranus (27)”, “Oberon”, “Herschel (1787)”, “583”, “13.5”, “1550”, “29”, “1.5”. The thirty-second row is labeled “Neptune (14)”, “Despina”, “Voyager (1989)”, “53”, “0.33”, “150”, “blank”, “blank”. The thirty-third row is labeled “Neptune (14)”, “Galatea”, “Voyager (1989)”, “62”, “0.40”, “150”, “blank”, “blank”. The thirty-fourth row is labeled “Neptune (14)”, “Larissa”, “Voyager (1989)”, “118”, “1.12”, “400”, “blank”, “blank”. The thirty-fifth row is labeled “Neptune (14)”, “Triton”, “Lassell (1846)”, “355”, “5.88 (R)”, “2720”, “220”, “2.1”. The thirty-sixth row is labeled “Neptune (14)”, “Nereid”, “Kuiper (1949)”, “5511”, “360”, “340”, “blank”, “blank”. The thirty-seventh row is labeled “Pluto (5)”, “Charon”, “Christy (1978)”, “19.7”, “6.39”, “1200”, “blank”, “1.7”. The thirty-eighth row is labeled “Pluto (5)”, “Styx”, “Showalter et al (2012)”, “42”, “20”, “20”, “blank”, “blank”. The thirty-ninth row is labeled “Pluto (5)”, “Nix”, “Weaver et al (2005)”, “48”, “24”, “46”, “blank”, “2.1”. The fortieth row is labeled “Pluto (5)”, “Kerberos”, “Showalter et al (2011)”, “58”, “24”, “28”, “blank”, “1.4”. The forty-first row is labeled “Pluto (5)”, “Hydra”, “Weaver et al (2005)”, “65”, “38”, “61”, “blank”, “0.8”. The forty-second row is labeled “Eris (1),” “Dysnomea”, “Brown et al (2005)”, “38”, “16”, “684”, “blank”, “blank”. The forty-third row is labeled “Makemake (1),” “Parker et al (2016)”, “blank”, “blank”, “160”, “blank”, “blank”. The forty-fourth row is labeled “Haumea (2),” “Hi’iaka”, “Brown et al (2005)”, “50”, “49”, “400”, “blank”, “blank”. The forty-fifth row is labeled “Haumea (2),” “Namaka”, “Brown et al (2005)”, “39”, “35”, “200”, “blank”, “blank”.">
+<tgroup cols="8">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c8">Selected Moons of the Planets</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Planet (moons)</entry>
+<entry valign="top" align="center">Satellite Name</entry>
+<entry valign="top" align="center">Discovery</entry>
+<entry valign="top" align="center">Semimajor Axis (km × 1000)</entry>
+<entry valign="top" align="center">Period (d)</entry>
+<entry valign="top" align="center">Diameter (km)</entry>
+<entry valign="top" align="center">Mass (10<sup>20</sup> kg)</entry>
+<entry valign="top" align="center">Density (g/cm<sup>3</sup>)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Earth (1)</entry>
+<entry valign="top" align="left">Moon</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">384</entry>
+<entry valign="top" align="left">27.32</entry>
+<entry valign="top" align="left">3476</entry>
+<entry valign="top" align="left">735</entry>
+<entry valign="top" align="left">3.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="1">Mars (2)</entry>
+<entry valign="top" align="left">Phobos</entry>
+<entry valign="top" align="left">Hall (1877)</entry>
+<entry valign="top" align="left">9.4</entry>
+<entry valign="top" align="left">0.32</entry>
+<entry valign="top" align="left">23</entry>
+<entry valign="top" align="left">1 × 10<sup>−4</sup></entry>
+<entry valign="top" align="left">2.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Deimos</entry>
+<entry valign="top" align="left">Hall (1877)</entry>
+<entry valign="top" align="left">23.5</entry>
+<entry valign="top" align="left">1.26</entry>
+<entry valign="top" align="left">13</entry>
+<entry valign="top" align="left">2 × 10<sup>−5</sup></entry>
+<entry valign="top" align="left">1.7</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="6">Jupiter (67)</entry>
+<entry valign="top" align="left">Amalthea</entry>
+<entry valign="top" align="left">Barnard (1892)</entry>
+<entry valign="top" align="left">181</entry>
+<entry valign="top" align="left">0.50</entry>
+<entry valign="top" align="left">200</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Thebe</entry>
+<entry valign="top" align="left">Voyager (1979)</entry>
+<entry valign="top" align="left">222</entry>
+<entry valign="top" align="left">0.67</entry>
+<entry valign="top" align="left">90</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Io</entry>
+<entry valign="top" align="left">Galileo (1610)</entry>
+<entry valign="top" align="left">422</entry>
+<entry valign="top" align="left">1.77</entry>
+<entry valign="top" align="left">3630</entry>
+<entry valign="top" align="left">894</entry>
+<entry valign="top" align="left">3.6</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Europa</entry>
+<entry valign="top" align="left">Galileo (1610)</entry>
+<entry valign="top" align="left">671</entry>
+<entry valign="top" align="left">3.55</entry>
+<entry valign="top" align="left">3138</entry>
+<entry valign="top" align="left">480</entry>
+<entry valign="top" align="left">3.0</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ganymede</entry>
+<entry valign="top" align="left">Galileo (1610)</entry>
+<entry valign="top" align="left">1070</entry>
+<entry valign="top" align="left">7.16</entry>
+<entry valign="top" align="left">5262</entry>
+<entry valign="top" align="left">1482</entry>
+<entry valign="top" align="left">1.9</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Callisto</entry>
+<entry valign="top" align="left">Galileo (1610)</entry>
+<entry valign="top" align="left">1883</entry>
+<entry valign="top" align="left">16.69</entry>
+<entry valign="top" align="left">4800</entry>
+<entry valign="top" align="left">1077</entry>
+<entry valign="top" align="left">1.9</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Himalia</entry>
+<entry valign="top" align="left">Perrine (1904)</entry>
+<entry valign="top" align="left">11,460</entry>
+<entry valign="top" align="left">251</entry>
+<entry valign="top" align="left">170</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="14">Saturn (62)</entry>
+<entry valign="top" align="left">Pan</entry>
+<entry valign="top" align="left">Voyager (1985)</entry>
+<entry valign="top" align="left">133.6</entry>
+<entry valign="top" align="left">0.58</entry>
+<entry valign="top" align="left">20</entry>
+<entry valign="top" align="left">3 × 10<sup>−5</sup></entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Atlas</entry>
+<entry valign="top" align="left">Voyager (1980)</entry>
+<entry valign="top" align="left">137.7</entry>
+<entry valign="top" align="left">0.60</entry>
+<entry valign="top" align="left">40</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Prometheus</entry>
+<entry valign="top" align="left">Voyager (1980)</entry>
+<entry valign="top" align="left">139.4</entry>
+<entry valign="top" align="left">0.61</entry>
+<entry valign="top" align="left">80</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Pandora</entry>
+<entry valign="top" align="left">Voyager (1980)</entry>
+<entry valign="top" align="left">141.7</entry>
+<entry valign="top" align="left">0.63</entry>
+<entry valign="top" align="left">100</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Janus</entry>
+<entry valign="top" align="left">Dollfus (1966)</entry>
+<entry valign="top" align="left">151.4</entry>
+<entry valign="top" align="left">0.69</entry>
+<entry valign="top" align="left">190</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Epimetheus</entry>
+<entry valign="top" align="left">Fountain, Larson (1980)</entry>
+<entry valign="top" align="left">151.4</entry>
+<entry valign="top" align="left">0.69</entry>
+<entry valign="top" align="left">120</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mimas</entry>
+<entry valign="top" align="left">Herschel (1789)</entry>
+<entry valign="top" align="left">186</entry>
+<entry valign="top" align="left">0.94</entry>
+<entry valign="top" align="left">394</entry>
+<entry valign="top" align="left">0.4</entry>
+<entry valign="top" align="left">1.2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Enceladus</entry>
+<entry valign="top" align="left">Herschel (1789)</entry>
+<entry valign="top" align="left">238</entry>
+<entry valign="top" align="left">1.37</entry>
+<entry valign="top" align="left">502</entry>
+<entry valign="top" align="left">0.8</entry>
+<entry valign="top" align="left">1.2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tethys</entry>
+<entry valign="top" align="left">Cassini (1684)</entry>
+<entry valign="top" align="left">295</entry>
+<entry valign="top" align="left">1.89</entry>
+<entry valign="top" align="left">1048</entry>
+<entry valign="top" align="left">7.5</entry>
+<entry valign="top" align="left">1.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Dione</entry>
+<entry valign="top" align="left">Cassini (1684)</entry>
+<entry valign="top" align="left">377</entry>
+<entry valign="top" align="left">2.74</entry>
+<entry valign="top" align="left">1120</entry>
+<entry valign="top" align="left">11</entry>
+<entry valign="top" align="left">1.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Rhea</entry>
+<entry valign="top" align="left">Cassini (1672)</entry>
+<entry valign="top" align="left">527</entry>
+<entry valign="top" align="left">4.52</entry>
+<entry valign="top" align="left">1530</entry>
+<entry valign="top" align="left">25</entry>
+<entry valign="top" align="left">1.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Titan</entry>
+<entry valign="top" align="left">Huygens (1655)</entry>
+<entry valign="top" align="left">1222</entry>
+<entry valign="top" align="left">15.95</entry>
+<entry valign="top" align="left">5150</entry>
+<entry valign="top" align="left">1346</entry>
+<entry valign="top" align="left">1.9</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hyperion</entry>
+<entry valign="top" align="left">Bond, Lassell (1848)</entry>
+<entry valign="top" align="left">1481</entry>
+<entry valign="top" align="left">21.3</entry>
+<entry valign="top" align="left">270</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Iapetus</entry>
+<entry valign="top" align="left">Cassini (1671)</entry>
+<entry valign="top" align="left">3561</entry>
+<entry valign="top" align="left">79.3</entry>
+<entry valign="top" align="left">1435</entry>
+<entry valign="top" align="left">19</entry>
+<entry valign="top" align="left">1.2</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Phoebe</entry>
+<entry valign="top" align="left">Pickering (1898)</entry>
+<entry valign="top" align="left">12,950</entry>
+<entry valign="top" align="left">550 (R)<footnote id="fs-id1172467013079">R stands for retrograde rotation (backward from the direction that most objects in the solar system revolve and rotate).</footnote></entry>
+<entry valign="top" align="left">220</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="5">Uranus (27)</entry>
+<entry valign="top" align="left">Puck</entry>
+<entry valign="top" align="left">Voyager (1985)</entry>
+<entry valign="top" align="left">86.0</entry>
+<entry valign="top" align="left">0.76</entry>
+<entry valign="top" align="left">170</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Miranda</entry>
+<entry valign="top" align="left">Kuiper (1948)</entry>
+<entry valign="top" align="left">130</entry>
+<entry valign="top" align="left">1.41</entry>
+<entry valign="top" align="left">485</entry>
+<entry valign="top" align="left">0.8</entry>
+<entry valign="top" align="left">1.3</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Ariel</entry>
+<entry valign="top" align="left">Lassell (1851)</entry>
+<entry valign="top" align="left">191</entry>
+<entry valign="top" align="left">2.52</entry>
+<entry valign="top" align="left">1160</entry>
+<entry valign="top" align="left">13</entry>
+<entry valign="top" align="left">1.6</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Umbriel</entry>
+<entry valign="top" align="left">Lassell (1851)</entry>
+<entry valign="top" align="left">266</entry>
+<entry valign="top" align="left">4.14</entry>
+<entry valign="top" align="left">1190</entry>
+<entry valign="top" align="left">13</entry>
+<entry valign="top" align="left">1.4</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Titania</entry>
+<entry valign="top" align="left">Herschel (1787)</entry>
+<entry valign="top" align="left">436</entry>
+<entry valign="top" align="left">8.71</entry>
+<entry valign="top" align="left">1610</entry>
+<entry valign="top" align="left">35</entry>
+<entry valign="top" align="left">1.6</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Oberon</entry>
+<entry valign="top" align="left">Herschel (1787)</entry>
+<entry valign="top" align="left">583</entry>
+<entry valign="top" align="left">13.5</entry>
+<entry valign="top" align="left">1550</entry>
+<entry valign="top" align="left">29</entry>
+<entry valign="top" align="left">1.5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="4">Neptune (14)</entry>
+<entry valign="top" align="left">Despina</entry>
+<entry valign="top" align="left">Voyager (1989)</entry>
+<entry valign="top" align="left">53</entry>
+<entry valign="top" align="left">0.33</entry>
+<entry valign="top" align="left">150</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Galatea</entry>
+<entry valign="top" align="left">Voyager (1989)</entry>
+<entry valign="top" align="left">62</entry>
+<entry valign="top" align="left">0.40</entry>
+<entry valign="top" align="left">150</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Larissa</entry>
+<entry valign="top" align="left">Voyager (1989)</entry>
+<entry valign="top" align="left">118</entry>
+<entry valign="top" align="left">1.12</entry>
+<entry valign="top" align="left">400</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Triton</entry>
+<entry valign="top" align="left">Lassell (1846)</entry>
+<entry valign="top" align="left">355</entry>
+<entry valign="top" align="left">5.88 (R)<footnote id="fs-id1172466946999">R stands for retrograde rotation (backward from the direction that most objects in the solar system revolve and rotate).</footnote></entry>
+<entry valign="top" align="left">2720</entry>
+<entry valign="top" align="left">220</entry>
+<entry valign="top" align="left">2.1</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Nereid</entry>
+<entry valign="top" align="left">Kuiper (1949)</entry>
+<entry valign="top" align="left">5511</entry>
+<entry valign="top" align="left">360</entry>
+<entry valign="top" align="left">340</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="4">Pluto (5)</entry>
+<entry valign="top" align="left">Charon</entry>
+<entry valign="top" align="left">Christy (1978)</entry>
+<entry valign="top" align="left">19.7</entry>
+<entry valign="top" align="left">6.39</entry>
+<entry valign="top" align="left">1200</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">1.7</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Styx</entry>
+<entry valign="top" align="left">Showalter et al (2012)</entry>
+<entry valign="top" align="left">42</entry>
+<entry valign="top" align="left">20</entry>
+<entry valign="top" align="left">20</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Nix</entry>
+<entry valign="top" align="left">Weaver et al (2005)</entry>
+<entry valign="top" align="left">48</entry>
+<entry valign="top" align="left">24</entry>
+<entry valign="top" align="left">46</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">2.1</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Kerberos</entry>
+<entry valign="top" align="left">Showalter et al (2011)</entry>
+<entry valign="top" align="left">58</entry>
+<entry valign="top" align="left">24</entry>
+<entry valign="top" align="left">28</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">1.4</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hydra</entry>
+<entry valign="top" align="left">Weaver et al (2005)</entry>
+<entry valign="top" align="left">65</entry>
+<entry valign="top" align="left">38</entry>
+<entry valign="top" align="left">61</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">0.8</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Eris (1)</entry>
+<entry valign="top" align="left">Dysnomea</entry>
+<entry valign="top" align="left">Brown et al (2005)</entry>
+<entry valign="top" align="left">38</entry>
+<entry valign="top" align="left">16</entry>
+<entry valign="top" align="left">684</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Makemake (1)</entry>
+<entry valign="top" align="left">(MK2)</entry>
+<entry valign="top" align="left">Parker et al (2016)</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">160</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left" morerows="1">Haumea (2)</entry>
+<entry valign="top" align="left">Hi’iaka</entry>
+<entry valign="top" align="left">Brown et al (2005)</entry>
+<entry valign="top" align="left">50</entry>
+<entry valign="top" align="left">49</entry>
+<entry valign="top" align="left">400</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Namaka</entry>
+<entry valign="top" align="left">Brown et al (2005)</entry>
+<entry valign="top" align="left">39</entry>
+<entry valign="top" align="left">35</entry>
+<entry valign="top" align="left">200</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="eip-986"><title>The Nearest Stars, Brown Dwarfs, and White Dwarfs</title><table id="fs-id1172468044848" class="span-all" summary="A table titled “The Nearest Stars, Brown Dwarfs, and White Dwarfs” with eight columns and forty rows. The first row is a header row and labels the columns “Star”, “System”, “Discovery Name”, “Distance (light-year)”, “Spectral Type”, “Location: RA footnote: Location (right ascension) given for Epoch 2000.0”, “Location: Dec footnote: Location (declination) given for Epoch 2000.0”, “Luminosity (Sun = 1)”. The second row reads “blank”, “blank”, “Sun”, “blank”, “G2 V”, “blank”, “blank”, “1”. The third row reads “1”, “1”, “Proxima Centauri”, “4.2”, “M5.5 V”, “14 29”, “negative 62 40”, “5 times 10 to the negative 5”. The fourth row reads “2”, “2”, “Alpha Centauri A”, “4.4”, “G2 V”, “14 39”, “negative 60 50”, “1.5”. The fifth row reads “3”, “Alpha Centauri B”, “4.4”, “K2 IV”, “14 39”, “negative 60 50”, “0.5”. The sixth row reads “4”, “3”, “Barnard’s Star “, “6.0”, “M4 V”, “17 57”, “+04 42”, “4.4 times 10 to the negative 4”. The seventh row reads “5”, “4”, “Wolf 359 “, “7.8”, “M6 V”, “10 56”, “+07 00”, “2 times 10 to the negative 5”. The eighth row reads “6”, “5”, “Lalande 21 185 “, “8.3”, “M2 V”, “11 03”, “+35 58”, “5.7 times 10 to the negative 3”. The ninth row reads “7”, “6”, “Sirius A”, “8.6”, “A1 V”, “06 45”, “negative 16 42”, “23.1”. The tenth row reads “8”, “Sirius B”, “8.6”, “DA2 footnote: White dwarf stellar remnant”, “06 45”, “negative 16 43”, “2.5 times 10 to the negative 3”. The eleventh row reads “9”, “7”, “Luyten 726-8 A “, “8.7”, “M5.5 V”, “01 39”, “negative 17 57”, “6 times 10 to the negative 5”. The twelfth row reads “10”, “Luyten 726-8 B (UV Ceti)”, “8.7”, “M6 V”, “01 39”, “negative 17 57”, “4 times 10 to the negative 5”. The thirteenth row reads “11”, “8”, “Ross 154”, “9.7”, “M.05 V”, “18 49”, “negative 23 50”, “5 times 10 to the negative 4”. The fourteenth row reads “12”, “9”, “Ross 248 (HH Andromedae)”, “10.3”, “M5.5 V”, “23 41”, “+44 10”, “1.0 times 10 to the negative 4”. The fifteenth row reads “13”, “10”, “Epsilon Eridani “, “10.5”, “K2 V”, “03 32”, “negative 09 27”, “0.29”. The sixteenth row reads “14”, “11”, “Lacaille 9352 “, “10.7”, “M0.5 V”, “23 05”, “negative 35 51”, “0.011”. The seventeenth row reads “15”, “12”, “Ross 128 (FI Virginis)”, “10.9”, “M4 V”, “11 47”, “+00 48”, “3.4 times 10 to the negative 4”. The eighteenth row reads “16”, “13”, “Luyten 789-6 A (EZ Aquarii A)”, “11.3”, “M5 V”, “22 38”, “negative 15 17”, “5 times 10 to the negative 5”. The nineteenth row reads “17”, “Luyten 789-6 B (EZ Aquarii B)”, “11.3”, “M5.5 V”, “22 38”, “negative 15 15”, “5 times 10 to the negative 5”. The twentieth row reads “18”, “Luyten 789-6 C (EZ Aquarii C)”, “11.3”, “M6.5 V”, “22 38”, “negative 15 17”, “2 times 10 to the negative 5”. The twenty-first row reads “19”, “14”, “61 Cygni A “, “11.4”, “K5 V”, “21 06”, “+38 44”, “0.086”. The twenty-second row reads “20”, “61 Cygni B”, “11.4”, “K7 V”, “21 06”, “+38 44”, “0.041”. The twenty-third row reads “21”, “15”, “Procyon A”, “11.4”, “F51V”, “07 39”, “+05 13”, “7.38”. The twenty-fourth row reads “22”, “Procyon B”, “11.4”, “wd footnote: White dwarf stellar remnant”, “07 39”, “+05 13”, “5.5 times 10 to the negative 4”. The twenty-fifth row reads “23”, “16”, “Sigma 2398 A”, “11.5”, “M3 V”, “18 42”, “+59 37”, “0.003”. The twenty-sixth row reads “24”, “Sigma 2398 B”, “11.5”, “M3.5 V”, “18 42”, “+59 37”, “1.4 times 10 to the negative 3”. The twenty-seventh row reads “25”, “17”, “Groombridge 34 A (GX Andromedae)”, “11.6”, “M1.5 V”, “00 18”, “+44 01”, “6.4 times 10 to the negative 3”. The twenty-eighth row reads “26”, “Groombridge 34 B (GQ Andromedae)”, “11.6”, “M3.5 V”, “00 18”, “+44 01”, “4.1 times 10 to the negative 4”. The twenty-ninth row reads “27”, “18”, “Epsilon Indi A”, “11.8”, “K5 V”, “22 03”, “negative 56 46”, “0.150”. The thirtieth row reads “28”, “Epsilon Indi Ba”, “11.7”, “T1 footnote: Brown dwarf”, “22 04”, “negative 56 46”, “blank”. The thirty-first row reads “29”, “Epsilon Indi Bb”, “11.7”, “T6 footnote: Brown dwarf”, “22 04”, “negative 56 46”, “blank”. The thirty-second row reads “30”, “19”, “G 51-15 (DX Cancri)”, “11.8”, “M6.5 V”, “08 29”, “+26 46”, “1 times 10 to the negative 5”. The thirty-third row reads “31”, “20”, “Tau Ceti “, “11.9”, “G8.5 V”, “01 44”, “negative 15 56”, “0.458”. The thirty-fourth row reads “32”, “21”, “Luyten 372-58”, “12.0”, “M5 V”, “03 35”, “negative 44 30”, “7 times 10 to the negative 5”. The thirty-fifth row reads “33”, “22”, “Luyten 725-32 (YZ Ceti)”, “12.1”, “M4.5 V”, “01 12”, “negative 16 59”, “1.8 times 10 to the negative 4”. The thirty-sixth row reads “34”, “23”, “Luyten’s Star”, “12.4”, “M3.5 V”, “07 27”, “+05 13”, “1.4 times 10 to the negative 3”. The thirty-seventh row reads “35”, “24”, “SCR J184-6357 A”, “12.6”, “M8.5 V”, “18 45 footnote: Brown dwarf”, “negative 63 57”, “1 times 10 to the negative 6”. The thirty-eighth row reads “37”, “25”, “Teegarden’s Star”, “12.5”, “M6 V”, “02 53”, “+16 52”, “1 times 10 to the negative 5”. The thirty-ninth row reads “38”, “26”, “Kapteyn’s Star”, “12.8”, “M1 V”, “05 11”, “negative 45 01”, “3.8 times 10 to the negative 3”. The fortieth row reads “39”, “27”, “Lacaille 8760 (AX Microscopium)”, “12.9”, “K7 V”, “21 17”, “negative 38 52”, “0.029”.">
+<tgroup cols="8">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<colspec colnum="6" colname="c6"/>
+<colspec colnum="7" colname="c7"/>
+<colspec colnum="8" colname="c8"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="center" namest="c1" nameend="c8">The Nearest Stars, Brown Dwarfs, and White Dwarfs</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="center">Star</entry>
+<entry valign="top" align="center">System</entry>
+<entry valign="top" align="center">Discovery Name</entry>
+<entry valign="top" align="center">Distance (light-year)</entry>
+<entry valign="top" align="center">Spectral Type</entry>
+<entry valign="top" align="center">Location: RA<footnote id="fs-id1172468376593">Location (right ascension) given for Epoch 2000.0</footnote></entry>
+<entry valign="top" align="center">Location: Dec<footnote id="fs-id1172468047432">Location (declination) given for Epoch 2000.0</footnote></entry>
+<entry valign="top" align="center">Luminosity (Sun = 1)</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left"/>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Sun</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">G2 V</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">—</entry>
+<entry valign="top" align="left">1</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1</entry>
+<entry valign="top" align="left">1</entry>
+<entry valign="top" align="left">Proxima Centauri</entry>
+<entry valign="top" align="left">4.2</entry>
+<entry valign="top" align="left">M5.5 V</entry>
+<entry valign="top" align="left">14 29</entry>
+<entry valign="top" align="left">−62 40</entry>
+<entry valign="top" align="left">5 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">2</entry>
+<entry valign="top" align="left">2</entry>
+<entry valign="top" align="left">Alpha Centauri A</entry>
+<entry valign="top" align="left">4.4</entry>
+<entry valign="top" align="left">G2 V</entry>
+<entry valign="top" align="left">14 39</entry>
+<entry valign="top" align="left">−60 50</entry>
+<entry valign="top" align="left">1.5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">3</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Alpha Centauri B</entry>
+<entry valign="top" align="left">4.4</entry>
+<entry valign="top" align="left">K2 IV</entry>
+<entry valign="top" align="left">14 39</entry>
+<entry valign="top" align="left">−60 50</entry>
+<entry valign="top" align="left">0.5</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">4</entry>
+<entry valign="top" align="left">3</entry>
+<entry valign="top" align="left">Barnard’s Star</entry>
+<entry valign="top" align="left">6.0</entry>
+<entry valign="top" align="left">M4 V</entry>
+<entry valign="top" align="left">17 57</entry>
+<entry valign="top" align="left">+04 42</entry>
+<entry valign="top" align="left">4.4 × 10<sup>−4</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">5</entry>
+<entry valign="top" align="left">4</entry>
+<entry valign="top" align="left">Wolf 359</entry>
+<entry valign="top" align="left">7.8</entry>
+<entry valign="top" align="left">M6 V</entry>
+<entry valign="top" align="left">10 56</entry>
+<entry valign="top" align="left">+07 00</entry>
+<entry valign="top" align="left">2 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">6</entry>
+<entry valign="top" align="left">5</entry>
+<entry valign="top" align="left">Lalande 21 185</entry>
+<entry valign="top" align="left">8.3</entry>
+<entry valign="top" align="left">M2 V</entry>
+<entry valign="top" align="left">11 03</entry>
+<entry valign="top" align="left">+35 58</entry>
+<entry valign="top" align="left">5.7 × 10<sup>−3</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">7</entry>
+<entry valign="top" align="left">6</entry>
+<entry valign="top" align="left">Sirius A</entry>
+<entry valign="top" align="left">8.6</entry>
+<entry valign="top" align="left">A1 V</entry>
+<entry valign="top" align="left">06 45</entry>
+<entry valign="top" align="left">−16 42</entry>
+<entry valign="top" align="left">23.1</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">8</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Sirius B</entry>
+<entry valign="top" align="left">8.6</entry>
+<entry valign="top" align="left">DA2<footnote id="fs-id1172468261565">White dwarf stellar remnant</footnote></entry>
+<entry valign="top" align="left">06 45</entry>
+<entry valign="top" align="left">−16 43</entry>
+<entry valign="top" align="left">2.5 × 10<sup>−3</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">9</entry>
+<entry valign="top" align="left">7</entry>
+<entry valign="top" align="left">Luyten 726-8 A</entry>
+<entry valign="top" align="left">8.7</entry>
+<entry valign="top" align="left">M5.5 V</entry>
+<entry valign="top" align="left">01 39</entry>
+<entry valign="top" align="left">−17 57</entry>
+<entry valign="top" align="left">6 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">10</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Luyten 726-8 B (UV Ceti)</entry>
+<entry valign="top" align="left">8.7</entry>
+<entry valign="top" align="left">M6 V</entry>
+<entry valign="top" align="left">01 39</entry>
+<entry valign="top" align="left">−17 57</entry>
+<entry valign="top" align="left">4 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">11</entry>
+<entry valign="top" align="left">8</entry>
+<entry valign="top" align="left">Ross 154</entry>
+<entry valign="top" align="left">9.7</entry>
+<entry valign="top" align="left">M.05 V</entry>
+<entry valign="top" align="left">18 49</entry>
+<entry valign="top" align="left">−23 50</entry>
+<entry valign="top" align="left">5 × 10<sup>−4</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">12</entry>
+<entry valign="top" align="left">9</entry>
+<entry valign="top" align="left">Ross 248 (HH Andromedae)</entry>
+<entry valign="top" align="left">10.3</entry>
+<entry valign="top" align="left">M5.5 V</entry>
+<entry valign="top" align="left">23 41</entry>
+<entry valign="top" align="left">+44 10</entry>
+<entry valign="top" align="left">1.0 × 10<sup>−4</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">13</entry>
+<entry valign="top" align="left">10</entry>
+<entry valign="top" align="left">Epsilon Eridani</entry>
+<entry valign="top" align="left">10.5</entry>
+<entry valign="top" align="left">K2 V</entry>
+<entry valign="top" align="left">03 32</entry>
+<entry valign="top" align="left">−09 27</entry>
+<entry valign="top" align="left">0.29</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">14</entry>
+<entry valign="top" align="left">11</entry>
+<entry valign="top" align="left">Lacaille 9352</entry>
+<entry valign="top" align="left">10.7</entry>
+<entry valign="top" align="left">M0.5 V</entry>
+<entry valign="top" align="left">23 05</entry>
+<entry valign="top" align="left">−35 51</entry>
+<entry valign="top" align="left">0.011</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">15</entry>
+<entry valign="top" align="left">12</entry>
+<entry valign="top" align="left">Ross 128 (FI Virginis)</entry>
+<entry valign="top" align="left">10.9</entry>
+<entry valign="top" align="left">M4 V</entry>
+<entry valign="top" align="left">11 47</entry>
+<entry valign="top" align="left">+00 48</entry>
+<entry valign="top" align="left">3.4 × 10<sup>−4</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">16</entry>
+<entry valign="top" align="left">13</entry>
+<entry valign="top" align="left">Luyten 789-6 A (EZ Aquarii A)</entry>
+<entry valign="top" align="left">11.3</entry>
+<entry valign="top" align="left">M5 V</entry>
+<entry valign="top" align="left">22 38</entry>
+<entry valign="top" align="left">−15 17</entry>
+<entry valign="top" align="left">5 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">17</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Luyten 789-6 B (EZ Aquarii B)</entry>
+<entry valign="top" align="left">11.3</entry>
+<entry valign="top" align="left">M5.5 V</entry>
+<entry valign="top" align="left">22 38</entry>
+<entry valign="top" align="left">−15 15</entry>
+<entry valign="top" align="left">5 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">18</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Luyten 789-6 C (EZ Aquarii C)</entry>
+<entry valign="top" align="left">11.3</entry>
+<entry valign="top" align="left">M6.5 V</entry>
+<entry valign="top" align="left">22 38</entry>
+<entry valign="top" align="left">−15 17</entry>
+<entry valign="top" align="left">2 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">19</entry>
+<entry valign="top" align="left">14</entry>
+<entry valign="top" align="left">61 Cygni A</entry>
+<entry valign="top" align="left">11.4</entry>
+<entry valign="top" align="left">K5 V</entry>
+<entry valign="top" align="left">21 06</entry>
+<entry valign="top" align="left">+38 44</entry>
+<entry valign="top" align="left">0.086</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">20</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">61 Cygni B</entry>
+<entry valign="top" align="left">11.4</entry>
+<entry valign="top" align="left">K7 V</entry>
+<entry valign="top" align="left">21 06</entry>
+<entry valign="top" align="left">+38 44</entry>
+<entry valign="top" align="left">0.041</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">21</entry>
+<entry valign="top" align="left">15</entry>
+<entry valign="top" align="left">Procyon A</entry>
+<entry valign="top" align="left">11.4</entry>
+<entry valign="top" align="left">F51V</entry>
+<entry valign="top" align="left">07 39</entry>
+<entry valign="top" align="left">+05 13</entry>
+<entry valign="top" align="left">7.38</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">22</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Procyon B</entry>
+<entry valign="top" align="left">11.4</entry>
+<entry valign="top" align="left">wd<footnote id="fs-id1172468013558">White dwarf stellar remnant</footnote></entry>
+<entry valign="top" align="left">07 39</entry>
+<entry valign="top" align="left">+05 13</entry>
+<entry valign="top" align="left">5.5 × 10<sup>−4</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">23</entry>
+<entry valign="top" align="left">16</entry>
+<entry valign="top" align="left">Sigma 2398 A</entry>
+<entry valign="top" align="left">11.5</entry>
+<entry valign="top" align="left">M3 V</entry>
+<entry valign="top" align="left">18 42</entry>
+<entry valign="top" align="left">+59 37</entry>
+<entry valign="top" align="left">0.003</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">24</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Sigma 2398 B</entry>
+<entry valign="top" align="left">11.5</entry>
+<entry valign="top" align="left">M3.5 V</entry>
+<entry valign="top" align="left">18 42</entry>
+<entry valign="top" align="left">+59 37</entry>
+<entry valign="top" align="left">1.4 × 10<sup>−3</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">25</entry>
+<entry valign="top" align="left">17</entry>
+<entry valign="top" align="left">Groombridge 34 A (GX Andromedae)</entry>
+<entry valign="top" align="left">11.6</entry>
+<entry valign="top" align="left">M1.5 V</entry>
+<entry valign="top" align="left">00 18</entry>
+<entry valign="top" align="left">+44 01</entry>
+<entry valign="top" align="left">6.4 × 10<sup>−3</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">26</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Groombridge 34 B (GQ Andromedae)</entry>
+<entry valign="top" align="left">11.6</entry>
+<entry valign="top" align="left">M3.5 V</entry>
+<entry valign="top" align="left">00 18</entry>
+<entry valign="top" align="left">+44 01</entry>
+<entry valign="top" align="left">4.1 × 10<sup>−4</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">27</entry>
+<entry valign="top" align="left">18</entry>
+<entry valign="top" align="left">Epsilon Indi A</entry>
+<entry valign="top" align="left">11.8</entry>
+<entry valign="top" align="left">K5 V</entry>
+<entry valign="top" align="left">22 03</entry>
+<entry valign="top" align="left">−56 46</entry>
+<entry valign="top" align="left">0.150</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">28</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Epsilon Indi Ba</entry>
+<entry valign="top" align="left">11.7</entry>
+<entry valign="top" align="left">T1<footnote id="fs-id1172468293376">Brown dwarf</footnote></entry>
+<entry valign="top" align="left">22 04</entry>
+<entry valign="top" align="left">−56 46</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">29</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">Epsilon Indi Bb</entry>
+<entry valign="top" align="left">11.7</entry>
+<entry valign="top" align="left">T6<footnote id="fs-id1172468018797">Brown dwarf</footnote></entry>
+<entry valign="top" align="left">22 04</entry>
+<entry valign="top" align="left">−56 46</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">30</entry>
+<entry valign="top" align="left">19</entry>
+<entry valign="top" align="left">G 51-15 (DX Cancri)</entry>
+<entry valign="top" align="left">11.8</entry>
+<entry valign="top" align="left">M6.5 V</entry>
+<entry valign="top" align="left">08 29</entry>
+<entry valign="top" align="left">+26 46</entry>
+<entry valign="top" align="left">1 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">31</entry>
+<entry valign="top" align="left">20</entry>
+<entry valign="top" align="left">Tau Ceti</entry>
+<entry valign="top" align="left">11.9</entry>
+<entry valign="top" align="left">G8.5 V</entry>
+<entry valign="top" align="left">01 44</entry>
+<entry valign="top" align="left">−15 56</entry>
+<entry valign="top" align="left">0.458</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">32</entry>
+<entry valign="top" align="left">21</entry>
+<entry valign="top" align="left">Luyten 372-58</entry>
+<entry valign="top" align="left">12.0</entry>
+<entry valign="top" align="left">M5 V</entry>
+<entry valign="top" align="left">03 35</entry>
+<entry valign="top" align="left">−44 30</entry>
+<entry valign="top" align="left">7 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">33</entry>
+<entry valign="top" align="left">22</entry>
+<entry valign="top" align="left">Luyten 725-32 (YZ Ceti)</entry>
+<entry valign="top" align="left">12.1</entry>
+<entry valign="top" align="left">M4.5 V</entry>
+<entry valign="top" align="left">01 12</entry>
+<entry valign="top" align="left">−16 59</entry>
+<entry valign="top" align="left">1.8 × 10<sup>−4</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">34</entry>
+<entry valign="top" align="left">23</entry>
+<entry valign="top" align="left">Luyten’s Star</entry>
+<entry valign="top" align="left">12.4</entry>
+<entry valign="top" align="left">M3.5 V</entry>
+<entry valign="top" align="left">07 27</entry>
+<entry valign="top" align="left">+05 13</entry>
+<entry valign="top" align="left">1.4 × 10<sup>−3</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">35</entry>
+<entry valign="top" align="left">24</entry>
+<entry valign="top" align="left">SCR J184-6357 A</entry>
+<entry valign="top" align="left">12.6</entry>
+<entry valign="top" align="left">M8.5 V</entry>
+<entry valign="top" align="left">18 45</entry>
+<entry valign="top" align="left">−63 57</entry>
+<entry valign="top" align="left">1 × 10<sup>−6</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">36</entry>
+<entry valign="top" align="left"/>
+<entry valign="top" align="left">SCR J184-6357 B</entry>
+<entry valign="top" align="left">12.7</entry>
+<entry valign="top" align="left">T6<footnote id="fs-id1172467962338">Brown dwarf</footnote></entry>
+<entry valign="top" align="left">18 45</entry>
+<entry valign="top" align="left">−63 57</entry>
+<entry valign="top" align="left">—</entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">37</entry>
+<entry valign="top" align="left">25</entry>
+<entry valign="top" align="left">Teegarden’s Star</entry>
+<entry valign="top" align="left">12.5</entry>
+<entry valign="top" align="left">M6 V</entry>
+<entry valign="top" align="left">02 53</entry>
+<entry valign="top" align="left">+16 52</entry>
+<entry valign="top" align="left">1 × 10<sup>−5</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">38</entry>
+<entry valign="top" align="left">26</entry>
+<entry valign="top" align="left">Kapteyn’s Star</entry>
+<entry valign="top" align="left">12.8</entry>
+<entry valign="top" align="left">M1 V</entry>
+<entry valign="top" align="left">05 11</entry>
+<entry valign="top" align="left">−45 01</entry>
+<entry valign="top" align="left">3.8 × 10<sup>−3</sup></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">39</entry>
+<entry valign="top" align="left">27</entry>
+<entry valign="top" align="left">Lacaille 8760 (AX Microscopium)</entry>
+<entry valign="top" align="left">12.9</entry>
+<entry valign="top" align="left">K7 V</entry>
+<entry valign="top" align="left">21 17</entry>
+<entry valign="top" align="left">−38 52</entry>
+<entry valign="top" align="left">0.029</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-idm412635216">
+<title>Stellar Data</title>
+<para id="fs-id1172467001315">Note: These are the stars that <emphasis effect="italics">appear</emphasis> the brightest visually, as seen from our vantage point on Earth. They are not the stars that are intrinsically the most luminous.</para><figure id="OSC_Astro_AstroTable_Brightest20_App_J">
+<media id="fs-id1163976746193" alt="A table titled “The Brightest Twenty Stars” with eleven columns and twenty-one rows. The first row is a header row and labels each column: “Traditional Name footnote: The brightest stars typically have names from antiquity. Next to each star’s ancient name, we have added a column with its name in the system originated by Bayer”, “Bayer Name”, “Luminosity (Sun = 1)”, “Distance (light-year) footnote: The distances of the more remote stars are estimated from their spectral types and apparent brightnesses and are only approximate. The luminosities for those stars are approximate to the same degree.”, “Spectral Type”, “Proper Motion: RA (arcsec/y)”, “Proper Motion: Dec (arcsec/y)”, “Right Ascension (h) footnote: Right ascension given for Epoch 2000.0”, “Right Ascension (m) footnote: Right ascension given for Epoch 2000.0”, “Declination (deg) footnote: Declination given for Epoch 2000.0”, “Declination (min) footnote: Declination given for Epoch 2000.0”. The second row reads “Sirius “, “α Canis Majoris”, “22.5”, “8.6”, “A1 V”, “−0.5”, “−1.2”, “06”, “45.2”, “−16”, “43”. The third row reads “Canopus “, “α Carinae”, “13,500”, “309”, “F0 II”, “+0.02”, “+0.02”, “06”, “24.0”, “−52”, “42”. The fourth row reads “Rigil Kentaurus”, “α Centauri”, “1.94”, “4.32”, “G2 V + K IV”, “−3.7”, “+0.5”, “14”, “39.7”, “−60”, “50”. The fifth row reads “Arcturus “, “α Bootis”, “120”, “36.72”, “K1.5 III”, “−1.1”, “−2.0”, “14”, “15.7”, “+19”, “11”. The sixth row reads “Vega “, “α Lyrae”, “49”, “25.04”, “A0 V”, “+0.2”, “+0.3”, “18”, “36.9”, “+38”, “47”. The seventh row reads “Capella “, “α Aurigae”, “140”, “42.80”, “G8 III + G0 III”, “+0.08”, “−0.4”, “05”, “16.7”, “+46”, “00”. The eighth row reads “Rigel “, “β Orionis”, “50,600”, “863”, “B8 I”, “+0.00”, “+0.00”, “05”, “14.5”, “−08”, “12”. The ninth row reads “Procyon”, “α Canis Minoris”, “7.31”, “11.46”, “F5 IV-V”, “−0.7”, “−1.0”, “07”, “39.3”, “+05”, “14”. The tenth row reads “Achernar “, “α Eridani”, “1030”, “139”, “B3 V”, “+0.10”, “−0.04”, “01”, “37.7”, “−57”, “14”. The eleventh row reads “Betelgeuse “, “α Orionis”, “13,200”, “498”, “M2 I”, “+0.02”, “+0.01”, “05”, “55.2”, “+07”, “24”. The twelfth row reads “Hadar”, “β Centauri”, “7050”, “392”, “B1 III”, “−0.03”, “−0.02”, “14”, “03.8”, “−60”, “22”. The thirteenth row reads “Altair “, “α Aquilae”, “11.2”, “16.73”, “A7 V”, “+0.5”, “+0.4”, “19”, “50.8”, “+08”, “52”. The fourteenth row reads “Acrux “, “α Crucis”, “4090”, “322”, “B0.5 IV + B1 V”, “−0.04”, “−0.01”, “12”, “26.6”, “−63”, “06”. The fifteenth row reads “Aldebaran”, “α Tauri”, “160”, “66.64”, “K5 III”, “+0.1”, “−0.2”, “04”, “35.9”, “+16”, “31”. The sixteenth row reads “Spica “, “α Virginis”, “2030”, “250”, “B1 III-IV + B2 V”, “−0.04”, “−0.03”, “13”, “25.2”, “−11”, “10”. The seventeenth row reads “Antares”, “α Scorpii”, “9290”, “554”, “M1.5 I + B2.5 V”, “−0.01”, “−0.02”, “16”, “29.4”, “−26”, “26”. The eighteenth row reads “Pollux “, “β Geminorum”, “31.6”, “33.78”, “K0 III”, “−0.6”, “−0.05”, “07”, “45.3”, “+28”, “02”. The nineteenth row reads “Fomalhaut “, “α Piscis Austrini”, “17.2”, “25.13”, “A3 V”, “+0.03”, “−0.2”, “22”, “57.6”, “−29”, “37”. The twentieth row reads “Mimosa”, “β Crucis”, “1980”, “279”, “B0.5 III”, “−0.04”, “−0.02”, “12”, “47.7”, “−59”, “41”. The twenty-first row reads “Deneb “, “α Cygni”, “50,600”, “1412”, “A2 I”, “+0.00”, “+0.00”, “20”, “41.4”, “+45”, “17”.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_AstroTable_Brightest20_App_J.jpg"/>
+</media>
+<caption>The brightest stars typically have names from antiquity. Next to each star’s ancient name, we have added a column with its name in the system originated by Bayer (see the <link document="m59905" target-id="fs-id1165721974313">Naming Stars</link> feature box.) The distances of the more remote stars are estimated from their spectral types and apparent brightnesses and are only approximate. The luminosities for those stars are approximate to the same degree. Right ascension and declination is given for Epoch 2000.0.</caption>
+</figure>
+</section>
+<section id="fs-idm438647936">
+<title>Galaxies Visible from 40°N Latitude</title>
+<figure id="Galaxies_table_40_deg_N"><media id="fs-idm472036768" alt="A table titled “Galaxies” with eleven columns and twenty rows.">
+<image mime-type="image/jpeg" src="../../media/Galaxies_table_40_deg_N.jpg" width="1024"/>
+</media><caption>Source: <link url="https://commons.wikimedia.org/wiki/User:Roberto_Mura">Roberto Mura</link>, <link url="https://commons.wikimedia.org/wiki/File:Galaxies_table_40°N.png">Galaxies table 40°N</link>, file type, <link url="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</link></caption></figure></section>
+</content>
+</document>

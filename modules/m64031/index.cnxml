@@ -1,0 +1,25 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64031</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>102ad1f1-486f-4253-8592-c493fc5956e6</md:uuid>
+</metadata>
+
+<content>
+<figure id="CNX_UPhysics_10_00_WindFarm" class="splash"><media id="fs-id1167133792460" alt="A photo of a Ferris wheel at an amusement park.">
+<image mime-type="image/jpeg" print-width="4in" src="../../media/Ferris-Wheel.jpg"/>
+</media>
+
+<caption>A person moving on a ferris wheel undergoes circular motion. Such motion can also be considered one-dimensional in a mathematical sense.(credit:Tiia Monto [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)])</caption></figure><para id="fs-id1167133674194">In <link class="target-chapter" document="m63994">Motion Along a Straight Line</link>, we described motion (kinematics) in one dimension, and introduced important concepts like displacement, velocity and acceleration. The type of motion we considered there is called <term>translational motion</term>, because the moving object undergoes a translation from place to place in space. However, we know from everyday life that <term>rotational motion</term> is also very important and that many objects that move have both translation and rotation. The wind turbines in our chapter opening image are a prime example of how rotational motion impacts our daily lives, as the market for clean energy sources continues to grow.</para><para id="eip-421">As we shall discover in <link class="target-chapter" document="m64058"/>, the objects that we study in astronomy often move (translate) in paths that follow the shapes of conic sections (ellipses, parabolas, hyperbolas or circles). Those paths are the mathematical solutions to the equations of motion which arise in the study of objects subjected to the force of gravity. A circular path is the simplest, special case of this kind of motion.</para><para id="eip-500">Before considering rotating objects, we will begin by examining the idealization of a single point object moving in a path that is shaped as a perfect circle. Of course, such an object is actually translating in a two dimensional manner. But, as we will see, a mathematical analogy will allow us to describe that object using the kinematic equations of one dimensional motion.</para>
+<para id="eip-860"><link target-id="OSC_Astro_03_04_Solar"/> shows the orbital paths of some objects in our solar system. The motions of the planets around the Sun, although they actually move along elliptical paths, can (at least initially) be approximated as being circular motion.</para><figure id="OSC_Astro_03_04_Solar">
+<title>Orbits of Objects in Our Solar System</title>
+<media id="fs-id1163975481052" alt="Solar System Orbits. At the center of this illustration is the Sun, with the orbits of the inner planets drawn as black circles. The elliptical orbits of the comets Halley, Kopff, and Encke are shown in red. Encke’s orbit extends across the orbits of Mercury, Venus, Earth and Mars, while the orbits of Kopff and Halley extend beyond the orbit of Jupiter. The circular orbits of the asteroids Ceres, Pallas, Vesta, and Hygeia are shown in blue, and fall mostly between the orbits of Earth and Jupiter.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_03_04_Solar.jpg"/>
+</media>
+<caption>We see the orbits of typical comets and asteroids compared with those of the planets Mercury, Venus, Earth, Mars, and Jupiter (shown in black). Shown in red are three comets: Halley, Kopff, and Encke. In blue are the four largest asteroids: <term class="no-emphasis">Ceres</term>, Pallas, <term class="no-emphasis">Vesta</term>, and Hygeia. While the orbits of the comets and asteroids are obviously elliptical, those of the planets can be well approximated as circular.</caption>
+</figure>
+<para id="fs-id1167133465214">Finally, to conclude the chapter, we will address the fixed-axis rotation of an extended object. Fixed-axis rotation describes the rotation around a fixed axis of a <term class="no-emphasis">rigid body</term>; that is, an object that does not deform as it moves. We will show how to apply all of the ideas we’ve developed up to this point about rotational and translational motion to such an object rotating around a fixed axis.</para></content>
+</document>

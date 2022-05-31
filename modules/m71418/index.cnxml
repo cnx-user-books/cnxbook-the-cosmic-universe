@@ -1,0 +1,283 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Work</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71418</md:content-id>
+  <md:title>Work</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Represent the work done by any force</item>
+<item>Evaluate the work done for various forces</item>
+</list></md:abstract>
+  <md:uuid>51b3cd15-1992-43ea-a6fa-f23148ccc374</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039420652">In physics, <term>work</term> represents a type of energy. Work is done when a <emphasis>force</emphasis> acts on something that undergoes a <emphasis>displacement</emphasis> from one position to another. Forces can vary as a function of position, and displacements can be along various paths between two points. The mathematical expression for work involves the magnitude and direction of the force vector, the magnitude and direction of the displacement vector. The work done by a force is the scalar product (or "dot product") between the force vector and a vector representing the displacement of the object. In moving an object from location <emphasis effect="bold">r<sub>1</sub></emphasis> to <emphasis effect="bold">r<sub>2</sub></emphasis>, the work done by the force <emphasis effect="bold">F</emphasis> is:</para>
+
+<note id="fs-idm547046672" class="equation-callout"><title>Definition of Work</title><equation id="fs-idm354064080">
+<m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mover><m:mi mathvariant="bold">F</m:mi><m:mo>→</m:mo></m:mover><m:mo>⋅</m:mo><m:mover><m:mi mathvariant="bold">Δr</m:mi><m:mo>→</m:mo></m:mover><m:mo>=</m:mo><m:mover><m:mi mathvariant="bold">F</m:mi><m:mo>→</m:mo></m:mover><m:mo>⋅</m:mo><m:mrow><m:mo>(</m:mo><m:mover><m:msub><m:mi mathvariant="bold">r</m:mi><m:mn>2</m:mn></m:msub><m:mo>→</m:mo></m:mover><m:mo>-</m:mo><m:mover><m:msub><m:mi mathvariant="bold">r</m:mi><m:mn>1</m:mn></m:msub><m:mo>→</m:mo></m:mover><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>F</m:mi><m:mo/><m:mi>Δr</m:mi><m:mrow><m:mtext>cos</m:mtext><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation></note>
+
+<para id="eip-479">where <m:math><m:mrow><m:mi>F</m:mi></m:mrow></m:math> is the magnitude of the force vector, <m:math><m:mrow><m:mi>Δr</m:mi></m:mrow></m:math> is the magnitude of the displacement vector, and <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math> is the angle between the two vectors.</para><para id="fs-id1165039284907">The units of work are units of force multiplied by units of length, which in the SI system is newtons times meters, <m:math><m:mrow><m:mtext>N</m:mtext><m:mo>·</m:mo><m:mtext>m.</m:mtext></m:mrow></m:math> This combination is called a <term class="no-emphasis">joule</term>, for historical reasons that we will mention later, and is abbreviated as J. In the English system, still used in the United States, the unit of force is the pound (lb) and the unit of distance is the foot (ft), so the unit of work is the foot-pound <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>ft</m:mtext><m:mo>·</m:mo><m:mtext>lb</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:math></para>
+<section id="fs-id1165039441834">
+<title>Example</title><para id="fs-id1165038983319"><link target-id="CNX_UPhysics_07_01_Mower"/>(a) shows a person exerting a constant force <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> along the handle of a lawn mower, which makes an angle <m:math><m:mi>θ</m:mi></m:math> with the horizontal. The horizontal displacement of the lawn mower, over which the force acts, is <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math> The work done on the lawn mower is <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>·</m:mo><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>, which the figure also illustrates as the horizontal component of the force times the magnitude of the displacement.</para><figure id="CNX_UPhysics_07_01_Mower">
+<media id="fs-id1165039396167" alt="Figure a shows a person pushing a lawn mower with a constant force. The displacement is a horizontal vector d pointing to the right. The force F is a vector pointing down and to the right, along the handle of the lawn mower, at an angle theta below the horizontal. The component of the force parallel to the displacement is F cosine theta. The equation W equals F d cosine theta is shown in the figure. Figure b shows a person holding a briefcase. The force F is upward. The displacement is zero. Figure c shows the person in b walking horizontally while holding the briefcase. The force F is upward, as in b. The displacement d is horizontal to the right. Theta equals ninety degrees and cosine theta equals zero.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_01_Mower.jpg"/>
+</media>
+<caption>Work done by a constant force. (a) A person pushes a lawn mower with a constant force. The component of the force parallel to the displacement is the work done, as shown in the equation in the figure. (b) A person holds a briefcase. No work is done because the displacement is zero. (c) The person in (b) walks horizontally while holding the briefcase. No work is done because <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math> is zero.</caption>
+</figure>
+<para id="fs-id1165039324266"><link target-id="CNX_UPhysics_07_01_Mower"/>(b) shows a person holding a briefcase. The person must exert an upward force, equal in magnitude to the weight of the briefcase, but this force does no work, because the displacement over which it acts is zero. So why do you eventually feel tired just holding the briefcase, if you’re not doing any work on it? The answer is that muscle fibers in your arm are contracting and doing work inside your arm, even though the force your muscles exert externally on the briefcase doesn’t do any work on it. (Part of the force you exert could also be tension in the bones and ligaments of your arm, but other muscles in your body would be doing work to maintain the position of your arm.)</para>
+<para id="fs-id1165039276503">In <link target-id="CNX_UPhysics_07_01_Mower"/>(c), where the person in (b) is walking horizontally with constant speed, the work done by the person on the briefcase is still zero, but now because the angle between the force exerted and the displacement is <m:math><m:mrow><m:mn>90</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> (<m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> perpendicular to <m:math><m:mrow><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>d</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math>) and <m:math><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mn>90</m:mn><m:mtext>°</m:mtext><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+<example id="fs-id1165035735914">
+<para id="fs-id1165035689084"><title>Calculating the Work You Do to Push a Lawn Mower</title>
+How much work is done on the lawn mower by the person in <link target-id="CNX_UPhysics_07_01_Mower"/>(a) if he exerts a constant force of 75.0 N at an angle <m:math><m:mrow><m:mn>35</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> below the horizontal and pushes the mower 25.0 m on level ground?</para>
+<para id="fs-id1165038975168"><title>Strategy</title>
+We can solve this problem by substituting the given values into the definition of work done on an object by a constant force, stated in the equation <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math>. The force, angle, and displacement are given, so that only the work <emphasis effect="italics">W</emphasis> is unknown.</para>
+<para id="fs-id1165039192054"><title>Solution</title>
+The equation for the work is</para>
+<equation id="fs-id1165039122508" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mi>d</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039512985">Substituting the known values gives</para>
+<equation id="fs-id1165039047453" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>75.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>25.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>35.0</m:mn><m:mtext>°</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1.54</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165039115149"><title>Significance</title>Even though one and a half kilojoules may seem like a lot of work, it’s only about as much work as you could do by burning one sixth of a gram of fat.</para></example>
+<para id="fs-id1165039192177">When you mow the grass, other forces act on the lawn mower besides the force you exert—namely, the contact force of the ground and the gravitational force of Earth. Let’s consider the work done by these forces in general. For an object moving on a surface, the displacement <m:math><m:mrow><m:mi>Δ</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>r</m:mi></m:mstyle><m:mo stretchy="true">→</m:mo></m:mover></m:mrow></m:math> is tangent to the surface. The part of the contact force on the object that is perpendicular to the surface is the normal force <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>N</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> Since the cosine of the angle between the normal and the tangent to a surface is zero, we have</para><equation id="fs-id1165035614017" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mtext>N</m:mtext></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>N</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>·</m:mo><m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation><para id="fs-id1165035633954">The normal force never does work under these circumstances. (Note that if the displacement <m:math><m:mrow><m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math> did have a relative component perpendicular to the surface, the object would either leave the surface or break through it, and there would no longer be any normal contact force. However, if the object is more than a particle, and has an internal structure, the normal contact force can do work on it, for example, by displacing it or deforming its shape.)</para><para id="fs-id1165035669881">The part of the contact force on the object that is parallel to the surface is friction, <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>f</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> For this object sliding along the surface, kinetic friction <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>f</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>k</m:mtext></m:msub></m:mrow></m:math> is opposite to <m:math><m:mrow><m:mi>Δ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> relative to the surface, so the work done by kinetic friction is negative. If the magnitude of <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>f</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>k</m:mtext></m:msub></m:mrow></m:math> is constant (as it would be if all the other forces on the object were constant), then the work done by friction is</para><note id="fs-id1165039470629" class="equation-callout">
+<equation id="fs-id1165039084851"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>f</m:mi><m:mi>k</m:mi></m:msub><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>l</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow><m:mo>,</m:mo></m:mrow></m:math>
+</equation></note>
+<para id="fs-id1165039104500">where <m:math><m:mrow><m:mrow><m:mo>|</m:mo><m:mrow><m:msub><m:mi>l</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math> is the path length on the surface. The minus sign comes from the fact that the force of friction and the displacement vectors are in opposite directions, hence <m:math><m:mrow><m:mtext>cos</m:mtext><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>-1</m:mn></m:math>.(Note that, especially if the work done <emphasis effect="italics">by</emphasis> a force is negative, people may refer to the work done <emphasis effect="italics">against</emphasis> this force, where <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>against</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>by</m:mtext></m:mrow></m:msub></m:mrow></m:math>. The work done against a force may also be viewed as the work required to overcome this force, as in “How much work is required to overcome…?”) The force of static friction, however, can do positive or negative work. When you walk, the force of static friction exerted by the ground on your back foot accelerates you for part of each step. If you’re slowing down, the force of the ground on your front foot decelerates you. If you’re driving your car at the speed limit on a straight, level stretch of highway, the negative work done by kinetic friction of air resistance is balanced by the positive work done by the static friction of the road on the drive wheels. You can pull the rug out from under an object in such a way that it slides backward relative to the rug, but forward relative to the floor. In this case, kinetic friction exerted by the rug on the object could be in the same direction as the displacement of the object, relative to the floor, and do positive work. The bottom line is that you need to analyze each particular case to determine the work done by the forces, whether positive, negative or zero.</para><example id="fs-id1165039346377">
+<para id="fs-id1165039191988"><title>Moving a Couch</title>
+You decide to move your couch to a new position on your horizontal living room floor. The normal force on the couch is 1 kN and the coefficient of friction is 0.6. (a) You first push the couch 3 m parallel to a wall and then 1 m perpendicular to the wall (<emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis> in <link target-id="CNX_UPhysics_07_01_Couch"/>). How much work is done by the frictional force? (b) You don’t like the new position, so you move the couch straight back to its original position (<emphasis effect="italics">B</emphasis> to <emphasis effect="italics">A</emphasis> in <link target-id="CNX_UPhysics_07_01_Couch"/>). What was the total work done against friction moving the couch away from its original position and back again?</para>
+<figure id="CNX_UPhysics_07_01_Couch">
+<media id="fs-id1165035734027" alt="Points A and B are connected by a segment to the right, length 3 m, and a vertical segment up of length 1 m. These segments are path a, shown in blue. A and B are also connected by a straight segment, shown in orange as path b. the segments of path a form the sides of a right triangle, and path b is the hypotenuse of the triangle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_01_Couch.jpg"/>
+</media>
+<caption>Top view of paths for moving a couch.</caption>
+</figure>
+<para id="fs-id1165039322249"><title>Strategy</title>
+The magnitude of the force of kinetic friction on the couch is constant, equal to the coefficient of friction times the normal force, <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mi>K</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mi>K</m:mi></m:msub><m:mi>N</m:mi></m:mrow></m:math>. Therefore, the work done by it is <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>f</m:mi><m:mi>K</m:mi></m:msub><m:mi>d</m:mi></m:mrow></m:math>, where <emphasis effect="italics">d</emphasis> is the path length traversed. The segments of the paths are the sides of a right triangle, so the path lengths are easily calculated. In part (b), you can use the fact that the work done against a force is the negative of the work done by the force.</para>
+<para id="fs-id1165039084155"><title>Solution</title></para>
+<list id="fs-id1165039486765" list-type="enumerated" number-style="lower-alpha">
+<item>The work done by friction is<newline/>
+<equation id="fs-id1165039441760" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>kN</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.4</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>The length of the path along the hypotenuse is <m:math><m:mrow><m:msqrt><m:mrow><m:mn>10</m:mn></m:mrow></m:msqrt><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, so the total work done against friction is<newline/>
+<equation id="fs-id1165039477439" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>kN</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.2em"/><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mn>0</m:mn></m:mrow></m:msqrt><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4.3</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+</item>
+</list>
+<para id="fs-id1165039025798"><title>Significance</title>
+The total path over which the work of friction was evaluated began and ended at the same point (it was a closed path), so that the total displacement of the couch was zero. However, the total work was not zero. The reason is that forces like friction are classified as nonconservative forces, or dissipative forces, as we discuss in the next chapter.</para>
+</example>
+<note id="fs-id1165035619436" class="check-understanding">
+<exercise id="fs-id1165039334352">
+<problem id="fs-id1165039119395">
+<para id="fs-id1165039388441"><emphasis effect="bold">Check Your Understanding</emphasis> Can kinetic friction ever be a constant force for all paths?</para>
+</problem>
+<solution id="fs-id1165039113910">
+<para id="fs-id1165039458429">No, only its magnitude can be constant; its direction must change, to be always opposite the relative displacement along the surface.</para>
+</solution>
+</exercise>
+</note>
+<para id="fs-id1165039251149">The other force on the lawn mower mentioned above was Earth’s gravitational force, or the weight of the mower. Near the surface of Earth, the gravitational force on an object of mass <emphasis effect="italics">m</emphasis> has a constant magnitude, <emphasis effect="italics">mg</emphasis>, and constant direction, vertically down. Therefore, the work done by gravity on an object is the dot product of its weight and its displacement. In many cases, it is convenient to express the dot product for gravitational work in terms of the <emphasis effect="italics">x</emphasis>-, <emphasis effect="italics">y</emphasis>-, and <emphasis effect="italics">z</emphasis>-components of the vectors. A typical coordinate system has the <emphasis effect="italics">x</emphasis>-axis horizontal and the <emphasis effect="italics">y</emphasis>-axis vertically up. Then the gravitational force is <m:math><m:mrow><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>j</m:mi></m:mstyle><m:mo stretchy="true">^</m:mo></m:mover><m:mo>,</m:mo></m:mrow></m:math> so the work done by gravity, over any path from <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis>, is</para>
+<note id="fs-id1165039074188" class="equation-callout">
+<equation id="fs-id1165035740928"><label/><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>grav</m:mtext><m:mo>,</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mover accent="true"><m:mstyle mathvariant="bold" mathsize="normal"><m:mi>j</m:mi></m:mstyle><m:mo stretchy="true">^</m:mo></m:mover><m:mo>·</m:mo><m:mo stretchy="false">(</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mi>A</m:mi></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math>
+</equation>
+</note>
+<para id="fs-id1165039418533">The work done by a constant force of gravity on an object depends only on the object’s weight and the difference in height through which the object is displaced. Gravity does negative work on an object that moves upward (<m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>y</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math>), or, in other words, you must do positive work against gravity to lift an object upward. Alternately, gravity does positive work on an object that moves downward (<m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>&lt;</m:mo><m:msub><m:mi>y</m:mi><m:mi>A</m:mi></m:msub></m:mrow></m:math>), or you do negative work against gravity to “lift” an object downward, controlling its descent so it doesn’t drop to the ground. (“Lift” is used as opposed to “drop”.)</para>
+<example id="fs-id1165039051160">
+<para id="fs-id1165039103925"><title>Shelving a Book</title>
+You lift an oversized library book, weighing 20 N, 1 m vertically down from a shelf, and carry it 3 m horizontally to a table (<link target-id="CNX_UPhysics_07_01_Shelf"/>). How much work does gravity do on the book? (b) When you’re finished, you move the book in a straight line back to its original place on the shelf. What was the total work done against gravity, moving the book away from its original position on the shelf and back again?</para>
+<figure id="CNX_UPhysics_07_01_Shelf">
+<media id="fs-id1165039276842" alt="Point A is at a shelf at the top of a bookcase. Point B is a location on a table, to the right of the bookcase. The vertical distance from the shelf to the level of the table is 1 m, and the horizontal distance from the bookcase to the table is 3 m. Path a is a straight line from the shelf down 1 m. Path b is a horizontal segment from the bookcase to the table, and then diagonally up and to the left to the shelf.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_01_Shelf.jpg"/>
+</media>
+<caption>Side view of the paths for moving a book to and from a shelf. </caption>
+</figure>
+<para id="fs-id1165035662996"><title>Strategy</title>
+We have just seen that the work done by a constant force of gravity depends only on the weight of the object moved and the difference in height for the path taken, <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. We can evaluate the difference in height to answer (a) and (b).</para>
+<para id="fs-id1165039237451"><title>Solution</title></para>
+<list id="fs-id1165039065872" list-type="enumerated" number-style="lower-alpha">
+<item>Since the book starts on the shelf and is lifted down <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, we have<newline/>
+<equation id="fs-id1165039040031" class="unnumbered"><label/><m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>There is zero difference in height for any path that begins and ends at the same place on the shelf, so <m:math><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+<para id="fs-id1165035677373"><title>Significance</title>
+Gravity does positive work (20 J) when the book moves down from the shelf. The gravitational force between two objects is an attractive force, which does positive work when the objects get closer together. Gravity does zero work (0 J) when the book moves horizontally from the shelf to the table and negative work (−20 J) when the book moves from the table back to the shelf. The total work done by gravity is zero <m:math><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>+</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>−</m:mtext><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">]</m:mo><m:mo>.</m:mo></m:mrow></m:math> Unlike friction or other dissipative forces, described in <link target-id="fs-id1165039346377"/>, the total work done against gravity, over any closed path, is zero. Positive work is done against gravity on the upward parts of a closed path, but an equal amount of negative work is done against gravity on the downward parts. In other words, work done <emphasis effect="italics">against</emphasis> gravity, lifting an object <emphasis effect="italics">up</emphasis>, is “given back” when the object comes back down. Forces like gravity (those that do zero work over any closed path) are classified as conservative forces and play an important role in physics.</para>
+</example>
+<note id="fs-id1165039200010" class="check-understanding">
+<exercise id="fs-id1165039340728">
+<problem id="fs-id1165039244036">
+<para id="fs-id1165039214012"><emphasis effect="bold">Check Your Understanding</emphasis> Can Earth’s gravity ever be a constant force for all paths?</para>
+</problem>
+<solution id="fs-id1165039384100">
+<para id="fs-id1165039298249">No, it’s only approximately constant near Earth’s surface.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1165039082323" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165039385638" list-type="bulleted" bullet-style="bullet"><item>The work done by a force, acting over some displacement, is the dot product of the force and the displacement.</item>
+<item>The work done <emphasis effect="italics">against</emphasis> a force is the negative of the work done <emphasis effect="italics">by</emphasis> the force.</item>
+<item>The work done by a normal or frictional contact force must be determined in each particular case.</item>
+<item>The work done by the force of gravity, on an object near the surface of Earth, depends only on the weight of the object and the difference in height through which it moved.</item>
+</list></section>
+<section id="fs-id1165039463291" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165039296456">
+<problem id="fs-id1165039296458">
+<para id="fs-id1165039296460">Give an example of something we think of as work in everyday circumstances that is not work in the scientific sense. Is energy transferred or changed in form in your example? If so, explain how this is accomplished without doing work.</para>
+</problem>
+<solution id="fs-id1165039286846">
+<para id="fs-id1165039324212">When you push on the wall, this “feels” like work; however, there is no displacement so there is no physical work. Energy is consumed, but no energy is transferred.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035654547">
+<problem id="fs-id1165035654549">
+<para id="fs-id1165035654551">Give an example of a situation in which there is a force and a displacement, but the force does no work. Explain why it does no work.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039315368">
+<problem id="fs-id1165039315370">
+<para id="fs-id1165039315372">Describe a situation in which a force is exerted for a long time but does no work. Explain.</para>
+</problem>
+<solution id="fs-id1165039475722">
+<para id="fs-id1165039475724">If you continue to push on a wall without breaking through the wall, you continue to exert a force with no displacement, so no work is done.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039464506">
+<problem id="fs-id1165039464508">
+<para id="fs-id1165039464510">A body moves in a circle at constant speed. Does the centripetal force that accelerates the body do any work? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039247264">
+<problem id="fs-id1165039247267">
+<para id="fs-id1165039247269">Suppose you throw a ball upward and catch it when it returns at the same height. How much work does the gravitational force do on the ball over its entire trip?</para>
+</problem>
+<solution id="fs-id1165039344836">
+<para id="fs-id1165039344838">The total displacement of the ball is zero, so no work is done.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035714566">
+<problem id="fs-id1165035714569">
+<para id="fs-id1165035714571">Why is it more difficult to do sit-ups while on a slant board than on a horizontal surface? (See below.)</para>
+<media id="fs-id1165039307994" alt="Illustrations of a person doing sit ups while on a slanted board (with feet above the head) and of a person doing sit ups while on a horizontal surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_01_Situps_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165035615851">
+<problem id="fs-id1165039271443">
+<para id="fs-id1165039271445">As a young man, Tarzan climbed up a vine to reach his tree house. As he got older, he decided to build and use a staircase instead. Since the work of the gravitational force <emphasis effect="italics">mg</emphasis> is path independent, what did the King of the Apes gain in using stairs?</para>
+</problem>
+<solution id="fs-id1165039295141">
+<para id="fs-id1165039295143">Both require the same gravitational work, but the stairs allow Tarzan to take this work over a longer time interval and hence gradually exert his energy, rather than dramatically by climbing a vine.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165035696890" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165039107033">
+<problem id="fs-id1165039390947">
+<para id="fs-id1165039390949">How much work does a supermarket checkout attendant do on a can of soup he pushes 0.600 m horizontally with a force of 5.00 N?</para>
+</problem>
+<solution id="fs-id1165039390954">
+<para id="fs-id1165039346071">3.00 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039346076">
+<problem id="fs-id1165035676672">
+<para id="fs-id1165035676674">A 75.0-kg person climbs stairs, gaining 2.50 m in height. Find the work done to accomplish this task.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039308628">
+<problem id="fs-id1165039255779">
+<para id="fs-id1165039255781">(a) Calculate the work done on a 1500-kg elevator car by its cable to lift it 40.0 m at constant speed, assuming friction averages 100 N. (b) What is the work done on the lift by the gravitational force in this process? (c) What is the total work done on the lift?</para>
+</problem>
+<solution id="fs-id1165039088654">
+<para id="fs-id1165039088656">a. 593 kJ; b. –589 kJ; c. 0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039088661">
+<problem id="fs-id1165039341004">
+<para id="fs-id1165039341006">Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline. Only 30% of the gasoline goes into useful work by the force that keeps the car moving at constant speed despite friction. (The energy content of gasoline is about 140 MJ/gal.) (a) What is the magnitude of the force exerted to keep the car moving at constant speed? (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035726285">
+<problem id="fs-id1165035726287">
+<para id="fs-id1165035726289">Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a ramp that makes an angle of <m:math><m:mrow><m:mn>20.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> with the horizontal (see below). He exerts a force of 500 N on the crate parallel to the ramp and moves at a constant speed. Be certain to include the work he does on the crate and on his body to get up the ramp.</para>
+<media id="fs-id1165039099726" alt="A person is pushing a crate up a ramp. The person is pushing with force F parallel to the ramp.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_01_PushCrate_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039106028">
+<para id="fs-id1165039245131">3.14 kJ</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039245136">
+<problem id="fs-id1165039401776">
+<para id="fs-id1165039401778">How much work is done by the boy pulling his sister 30.0 m in a wagon as shown below? Assume no friction acts on the wagon.</para>
+<media id="fs-id1165039401782" alt="A person is pulling a wagon with a girl in it. The person is pulling with force vector F of 50 Newtons at an angle of 30 degrees to the horizontal. The displacement is a vector d of 30 meters.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_07_01_PullWagon_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165039335253">
+<problem id="fs-id1165039335255">
+<para id="fs-id1165039335257">A shopper pushes a grocery cart 20.0 m at constant speed on level ground, against a 35.0 N frictional force. He pushes in a direction <m:math><m:mrow><m:mn>25.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> below the horizontal. (a) What is the work done on the cart by friction? (b) What is the work done on the cart by the gravitational force? (c) What is the work done on the cart by the shopper? (d) Find the force the shopper exerts, using energy considerations. (e) What is the total work done on the cart?</para>
+</problem>
+<solution id="fs-id1165039187568">
+<para id="fs-id1165039187570">a. –700 J; b. 0; c. 700 J; d. 38.6 N; e. 0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039341252">
+<problem id="fs-id1165039341254">
+<para id="fs-id1165039341256">A constant 20-N force pushes a small ball in the direction of the force over a distance of 5.0 m. What is the work done by the force?</para>
+</problem>
+<solution id="fs-id1165039439994">
+<para id="fs-id1165039439997">100 J</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039257266">
+<problem id="fs-id1165039257268">
+<para id="fs-id1165039257270">A toy cart is pulled a distance of 6.0 m in a straight line across the floor. The force pulling the cart has a magnitude of 20 N and is directed at <m:math><m:mrow><m:mn>37</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> above the horizontal. What is the work done by this force?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039345933">
+<problem id="fs-id1165039345935">
+<para id="fs-id1165039345937">A 5.0-kg box rests on a horizontal surface. The coefficient of kinetic friction between the box and surface is <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mi>K</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.50</m:mn><m:mo>.</m:mo></m:mrow></m:math> A horizontal force pulls the box at constant velocity for 10 cm. Find the work done by (a) the applied horizontal force, (b) the frictional force, and (c) the net force.</para>
+</problem>
+<solution id="fs-id1165039426356">
+<para id="fs-id1165039426358">a. 2.45 J; b. – 2.45 J; c. 0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035718313">
+<problem id="fs-id1165035718315">
+<para id="fs-id1165035718317">A sled plus passenger with total mass 50 kg is pulled 20 m across the snow <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>μ</m:mi><m:mi>k</m:mi></m:msub><m:mo>=</m:mo><m:mn>0.20</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> at constant velocity by a force directed <m:math><m:mrow><m:mn>25</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> above the horizontal. Calculate (a) the work of the applied force, (b) the work of friction, and (c) the total work.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039276834">
+<problem id="fs-id1165039276836">
+<para id="fs-id1165035734558">Suppose that the sled plus passenger of the preceding problem is pushed 20 m across the snow at constant velocity by a force directed <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math> below the horizontal. Calculate (a) the work of the applied force, (b) the work of friction, and (c) the total work.</para>
+</problem>
+<solution id="fs-id1165039369683">
+<para id="fs-id1165039369685">a. 2.22 kJ; b. −2.22 kJ; c. 0</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039125138">
+<problem id="fs-id1165039125141">
+<para id="fs-id1165039125143">How much work is done against the gravitational force on a 5.0-kg briefcase when it is carried from the ground floor to the roof of the Empire State Building, a vertical climb of 380 m?</para>
+</problem>
+<solution id="fs-id1165035700704">
+<para id="fs-id1165035700706">18.6 kJ</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1165039354076">
+<term>work</term>
+<meaning id="fs-id1165035663968">done when a force acts on something that undergoes a displacement from one position to another</meaning>
+</definition>
+<definition id="fs-id1165035663973">
+<term>work done by a force</term>
+<meaning id="fs-id1165035663979">the dot product of the force vector and the displacement vector (from the initial position to the final position) along the path over which the force acts</meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,121 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Preface</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63936</md:content-id>
+  <md:title>Preface</md:title>
+  <md:abstract/>
+  <md:uuid>ff2da2a2-7698-4a78-9c08-6d182ab1d84d</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-idm685326784">Welcome to <emphasis effect="italics">The Cosmic Universe</emphasis>. This textbook was written in collaboration with the OpenStax project, whose purpose is to increase student access to high-quality learning materials, while maintaining the highest standards of academic rigor at little to no cost. It was created by re-organizing and editing some material from the OpenStax textbooks <emphasis effect="italics">University Physics</emphasis><footnote id="eip-idm983421312">https://legacy.cnx.org/content/col11994/1.1/</footnote> and <emphasis effect="italics">Astronomy</emphasis><footnote id="eip-idm1017552112"> https://legacy.cnx.org/content/col11992/1.10/</footnote>, and by the addition of new material.</para><section id="fs-idm487028112">
+<title>About OpenStax</title>
+<para id="fs-idm608614144">OpenStax is a nonprofit based at Rice University, and it’s our mission to improve student access to education. Our first openly licensed college textbook was published in 2012 and our library has since scaled to over 20 books used by hundreds of thousands of students across the globe. Our adaptive learning technology, designed to improve learning outcomes through personalized educational paths, is currently being piloted for K–12 and college. The OpenStax mission is made possible through the generous support of philanthropic foundations. Through these partnerships and with the help of additional low-cost resources from our OpenStax partners, OpenStax is breaking down the most common barriers to learning and empowering students and instructors to succeed.</para>
+</section>
+<section id="fs-idm1834265616"><title>About <emphasis effect="italics">The Cosmic Universe</emphasis></title><para id="fs-idm390831312"><emphasis effect="italics">The Cosmic Universe</emphasis> is based upon the first semester of the four-semester, calculus-based, introductory physics-course sequence at Gustavus Adolphus College. The text has been developed to meet the scope and sequence of that course. The entire four-semester sequence at Gustavus, like virtually all university physics courses, provides a foundation for a career in mathematics, science, or engineering. This book provides a unique combination and ordering of material centered on a theme of astrophysics.
+It is distinctive in that it:
+<list id="fs-idm512393632" list-type="bulleted" bullet-style="open-circle"><item>intersperses material from both "classical" and "modern" physics;</item>
+<item>treats the use of calculus in ways that are largely conceptual; and</item>
+<item>serves as a one-semester introduction to astrophysics suitable for physics, astronomy or pre-engineering majors.</item></list></para><para id="fs-idm631656144"><title>Motivation for The Cosmic Universe</title>Over the years at Gustavus, the successful retention of good students in the physics major has always been a concern. Certainly, a physics major is one of the most challenging paths through college, and it is definitely not for everyone. As professors of the liberal arts, we are always happy if a student finds another major that is truly their passion. We also understand that not every college student has the mathematical aptitude for our subject. And, to be honest, we also accept the fact that some will leave physics because they do not wish to put in the level of effort required to succeed in such a rigorous major.
+Our concerns over the years have focused on a group of hard-working, interested students who seem to leave the physics major sometime in the first year. Although these particular students have demonstrated both the ability and the work ethic to succeed in our program, and even though they have yet to find another major interest, they seem to leave for one of three reasons:
+<list id="eip-idm355607952" list-type="enumerated"><item>They do not find the material in the first-year courses to be particularly interesting or relevant in the world of the 21st century.</item>
+<item>They are bored by the early repetition of material that they recently covered in high school (especially classical mechanics).</item>
+<item>They feel overwhelmed by the immediate use of calculus, especially because they are taking their first semester of college calculus, while some of their peers in the physics class have had more advanced high-school mathematics preparation.</item></list></para></section><section id="fs-idm445346384"><title>Scope, Coverage and Organization</title><para id="fs-idm516882080"><title>Context for The Cosmic Universe</title>The four-semester, introductory course sequence at Gustavus Adolphus College consists of:
+<list id="fs-idm702268784" list-type="enumerated"><item>The Cosmic Universe</item>
+<item>The Mechanical Universe</item>
+<item>The Electromagnetic Universe</item>
+<item>The Quantum Universe</item></list>
+The intent of the sequence is to cover 100% of the topical material normally taught in any undergraduate physics program (and found in any good undergraduate textbook). However, we have re-ordered the topics by using a sequence of themes (obvious from the course names). In that way, the "story lines" for each course are coherent and facilitate better student understanding of the underlying physics concepts.<newline/><newline/>By incorporating the history of ideas, the thematic approaches lead directly to an understanding of the scientific method - not as some dry set of steps, but as an actual, evolving human experience. As teachers at a liberal arts college, we feel that every physics major should also understand how history, science, politics, religion, and ethics interact as parts of that experience.<newline/><newline/>And, we also feel that it is important for physics majors to encounter, early in their college careers, the major unanswered questions in physics, many of which are part of the study of astrophysics and cosmology - e.g. dark matter and dark energy.</para><para id="eip-idm194766032"><emphasis effect="italics">The Cosmic Universe</emphasis> textbook contains material from various subfields of physics, from classical mechanics to optics to relativity to quantum mechanics. The choice of topics and of the astrophysics theme were made to provide a first-semester experience that is:
+<list id="eip-idm273082480" list-type="bulleted" bullet-style="open-circle"><item><emphasis>Interesting</emphasis>, because it deals with a very active field of current study in physics</item>
+<item><emphasis>New</emphasis> to virtually all of the students, because it involves topics not taught in most high-school physics courses</item>
+<item><emphasis>Rigorously mathematical</emphasis> in its approach, at the level of algebra and introductory calculus, more so than a traditional college textbook in introductory astronomy</item>
+<item><emphasis>Not dependent upon</emphasis> previous fluency in the use of <emphasis>calculus</emphasis></item>
+<item>Presented using a <emphasis>coherent story line</emphasis></item></list></para><para id="eip-294"><title>Calculus in <emphasis effect="italics">The Cosmic Universe</emphasis></title>The fact that The Cosmic Universe course is taken mostly by students in their first semester of college strongly influences our use of calculus in this book. Many introductory calculus-based physics texts will, in an early chapter, derive the equations of one-dimensional kinematics using integrals. For our student audience, where up to 50% are simultaneously enrolled in their first semester of college calculus, such an approach can be discouraging and therefore counterproductive.<newline/><newline/>Knowing that they are studying (first) limits and (next) derivatives and then (perhaps by the end of the semester) integration influences our use of calculus. We attempt to include calculus, conceptually at first, and hope that its physical significance (of the derivative in particular) and practical applications can enhance the students' understanding of both the physics and the math. As we are fond of asking our students, "Why did Newton invent the calculus in the first place?"</para><para id="eip-410">The book is organized as follows:</para><list id="fs-idm614928176" list-type="labeled-item"><title>Preliminaries</title><item>Introduction</item>
+<item>Chapter 1: Introducing Physics</item>
+<item>Chapter 2: The Universe at Its Limits</item>
+</list><list id="fs-idm608937616" list-type="labeled-item"><title>Unit 1: Kinematics</title><item>Chapter 3: Motion Along a Straight Line</item>
+<item>Chapter 4: Circular Motion as One-Dimensional Motion</item>
+<item>Chapter 5: Relativistic Kinematics</item>
+<item>Chapter 6: Introduction to Vectors</item>
+<item>Chapter 7: Motion Two and Three Dimensions</item>
+
+
+</list><list id="fs-idm512353808" list-type="labeled-item"><title>Unit 2: Dynamics and Solar System I</title><item>Chapter 8: Overview of the Solar System</item>
+<item>Chapter 9: Newton's Synthesis</item>
+<item>Chapter 10: Newton's Laws for Rotations</item>
+<item>Chapter 11: Work and Energy</item>
+<item>Chapter 12: Linear Momentum</item>
+<item>Chapter 13: Angular Momentum</item></list><list id="fs-idm347298000" list-type="labeled-item"><title>Unit 3: Optics</title><item>Chapter 14: Geometric Optics - Light as Rays</item>
+<item>Chapter 15: Image Formation</item>
+<item>Chapter 16: Physical Optics - Light as Waves</item>
+<item>Chapter 17: Interference</item>
+<item>Chapter 18  Diffraction</item>
+<item>Chapter 19: Spectroscopy</item>
+<item>Chapter 20: Quantum Optics - The Origins of Light</item>
+</list><list id="fs-idm633198112" list-type="labeled-item"><title>Unit 4: Thermodynamics and Solar System II</title><item>Chapter 21: Introductory Thermodynamics</item>
+<item>Chapter 22: Kinetic Theory</item>
+<item>Chapter 23: Nuclear Energy and the Solar System</item>
+<item>Chapter 24: Comparative Planetology</item>
+<item>Chapter 25: Exoplanets</item>
+<item>Chapter 26: The Sun</item></list><list id="fs-idm623891232" list-type="labeled-item"><title>Unit 5: Stars, Galaxies and Cosmology</title><item>Chapter 27: Stellar Properties</item>
+<item>Chapter 28: Celestial Distances</item>
+<item>Chapter 29: Stellar Life Cycles</item>
+<item>Chapter 30: The Deaths of Stars</item>
+<item>Chapter 31: The Milky Way Galaxy</item>
+<item>Chapter 32: Galaxies</item>
+<item>Chapter 33: The Evolution and Distribution of Galaxies</item>
+<item>Chapter 34: Big Bang Cosmology</item></list></section><section id="fs-idm403417680"><title>Assessments That Reinforce Key Concepts</title><para id="fs-idm445634992">Many of the assessments that were built into the OpenStax books <emphasis effect="italics">University Physics</emphasis> and <emphasis effect="italics">Astronomy</emphasis> have been retained.</para><para id="fs-idm414893264">In-chapter <emphasis effect="bold">Examples</emphasis> generally follow a three-part format of Strategy, Solution, and Significance to emphasize how to approach a problem, how to work with the equations, and how to check and generalize the result. Examples are often followed by <emphasis effect="bold">Check Your Understanding</emphasis> questions and answers to help reinforce for students the important ideas of the examples. <emphasis effect="bold">Problem-Solving Strategies</emphasis> in each chapter break down methods of approaching various types of problems into steps students can follow for guidance. The book also includes exercises at the end of each chapter so students can practice what they’ve learned.</para>
+<list id="fs-idm674701584" list-type="bulleted" bullet-style="open-circle"><item><emphasis effect="bold">Conceptual questions</emphasis> do not require calculation but test student learning of the key concepts.</item>
+<item><emphasis effect="bold">Problems</emphasis> categorized by section test student problem-solving skills and the ability to apply ideas to practical situations.</item>
+<item><emphasis effect="bold">Additional Problems</emphasis> apply knowledge across the chapter, forcing students to identify what concepts and equations are appropriate for solving given problems. Randomly located throughout the problems are <emphasis effect="bold">Unreasonable Results</emphasis> exercises that ask students to evaluate the answer to a problem and explain why it is not reasonable and what assumptions made might not be correct.</item>
+<item><emphasis effect="bold">Challenge Problems</emphasis> extend text ideas to interesting but difficult situations.</item>
+<item><emphasis effect="bold">For Further Exploration.</emphasis> This section offers a list of website and videos so students can delve into topics of interest, whether for their own learning, for homework, extra credit, or papers.</item>
+</list><para id="fs-idm483192464">Answers for selected exercises are available in an <emphasis effect="bold">Answer Key</emphasis> at the end of the book.</para>
+
+</section><section id="fs-idm322693200"><title>About the Authors</title><section id="fs-idm1702326864"><title><emphasis effect="italics">The Cosmic Universe</emphasis></title><para id="fs-idm696744912"><emphasis>Steven H. Mellema, Gustavus Adolphus College</emphasis><newline/>
+Dr. Steve Mellema has taught introductory and advanced physics for over 30 years at Gustavus Adolphus College, where he is currently Professor of Physics. He began his teaching career as a Peace Corps volunteer in Malaysia, where he taught both chemistry and physics in secondary schools, worked on curriculum development, and conducted technical training for science teachers. Dr. Mellema has a PhD in Physics from Ohio University, and he was a post-doctoral research associate in nuclear physics at both Ohio University and the University of Wisconsin - Madison, before joining the Gustavus faculty. Dr. Mellema has experience with research in Physics Education, including two Fulbright Professorships in Malaysia, the latest of which involved bringing active-learning methods into university physics classrooms there.</para></section><section id="fs-idm1693658464" class="sr-contrib-auth"><title>Senior Contributing Authors - <emphasis effect="italics">Open Stax University Physics</emphasis></title><para id="fs-idm495747952">Samuel J. Ling, Truman State University<newline/>Jeff Sanny, Loyola Marymount University<newline/>Bill Moebs, PhD</para></section><section id="fs-idm707644080" class="contrib-auth"><title>Contributing Authors - <emphasis effect="italics">OpenStax University Physics</emphasis></title><para id="fs-idm1408843328">David Anderson, Albion College
+<newline/>Daniel Bowman, Ferrum College
+<newline/>Dedra Demaree, Georgetown University
+<newline/>Gerald Friedman, Santa Fe Community College
+<newline/>Lev Gasparov, University of North Florida
+<newline/>Edw. S. Ginsberg, University of Massachusetts
+<newline/>Alice Kolakowska, University of Memphis
+<newline/>Lee LaRue, Paris Junior College
+<newline/>Mark Lattery, University of Wisconsin
+<newline/>Richard Ludlow, Daniel Webster College
+<newline/>Patrick Motl, Indiana University–Kokomo
+<newline/>Tao Pang, University of Nevada–Las Vegas
+<newline/>Kenneth Podolak, Plattsburgh State University
+<newline/>Takashi Sato, Kwantlen Polytechnic University
+<newline/>David Smith, University of the Virgin Islands
+<newline/>Joseph Trout, Richard Stockton College
+<newline/>Kevin Wheelock, Bellevue College</para></section><section id="eip-id1817475" class="sr-contrib-auth"><title>Senior Contributing Authors - <emphasis effect="italics">OpenStax Astronomy</emphasis></title><para id="eip-idm400004624">Andrew Fraknoi, Foothill College<newline/>David Morrison, National Aeronautics and Space Administration<newline/>
+Sidney C. Wolff, National Optical Astronomy Observatories (Emeritus)</para></section><section id="eip-id1172001437164" class="contrib-auth">
+<title>Contributing Authors - <emphasis effect="italics">OpenStax Astronomy</emphasis></title><para id="eip-id1172018279911">John Beck, Stanford University<newline/>
+Susan D. Benecchi, Planetary Science Institute<newline/>
+John Bochanski, Rider University<newline/>
+Howard Bond, Pennsylvania State University, Emeritus, Space Telescope Science Institute<newline/>
+Jennifer Carson, Occidental College<newline/>
+Bryan Dunne, University of Illinois at Urbana-Champaign<newline/>
+Martin Elvis, Harvard-Smithsonian Center for Astrophysics<newline/>
+Debra Fischer, Yale University<newline/>
+Heidi Hammel, Association of Universities for Research in Astronomy<newline/>
+Tori Hoehler, NASA Ames Research Center<newline/>
+Douglas Ingram, Texas Christian University<newline/>
+Steven Kawaler, Iowa State University<newline/>
+Lloyd Knox, University of California, Davis<newline/>
+Mark Krumholz, Australian National University<newline/>
+James Lowenthal, Smith College<newline/>
+Siobahn Morgan, University of Northern Iowa<newline/>
+Daniel Perley, California Institute of Technology<newline/>
+Claire Raftery, National Solar Observatory<newline/>
+Deborah Scherrer, retired, Stanford University<newline/>
+Phillip Scherrer, Stanford University<newline/>
+Sanjoy Som, Blue Marble Space Institute of Science, NASA Ames Research Center<newline/>
+Wes Tobin, Indiana University East<newline/>
+William H. Waller, retired, Tufts University, Rockport (MA) Public Schools<newline/>
+Todd Young, Wayne State College<newline/></para></section>
+</section>
+</content>
+</document>

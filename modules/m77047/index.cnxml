@@ -1,0 +1,372 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Relativistic Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m77047</md:content-id>
+  <md:title>Relativistic Energy</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Explain how the work-energy theorem leads to an expression for the relativistic kinetic energy of an object</item>
+<item>Show how the relativistic energy relates to the classical kinetic energy, and sets a limit on the speed of any object with mass</item>
+<item>Describe how the total energy of a particle is related to its mass and velocity</item>
+<item>Explain how relativity relates to energy-mass equivalence, and some of the practical implications of energy-mass equivalence</item>
+<item>Exlpain what is meant by the binding energy of a nucleus.</item>
+</list></md:abstract>
+  <md:uuid>9ab39116-f5f0-4de2-aba5-b34b87be15b7</md:uuid>
+</metadata>
+
+<content>
+<para id="eip-324">In order to understand the ways in which energy is manifest in our solar system, we return briefly to our discussion of Einstein's theory of relativity begun in <link class="target-chapter" document="m64038">Relativistic Kinematics</link>.</para><para id="fs-id1167794049176">The tokamak in <link target-id="CNX_UPhysics_38_09_Tokamak"/> is a form of experimental fusion reactor, which can change mass to energy. Nuclear reactors are proof of the relationship between energy and matter.</para>
+<para id="fs-id1167793772036">Conservation of energy is one of the most important laws in physics. Not only does energy have many important forms, but each form can be converted to any other. We know that classically, the total amount of energy in a system remains constant. Relativistically, energy is still conserved, but energy-mass equivalence must now be taken into account, for example, in the reactions that occur within a nuclear reactor. Relativistic energy is intentionally defined so that it is conserved in all inertial frames, just as is the case for relativistic momentum. As a consequence, several fundamental quantities are related in ways not known in classical physics. All of these relationships have been verified by experimental results and have fundamental consequences. The altered definition of energy contains some of the most fundamental and spectacular new insights into nature in recent history.</para>
+<figure id="CNX_UPhysics_38_09_Tokamak">
+<media id="fs-id1167793929509" alt="A photo of the NSTX tokamak.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_09_Tokamak.jpg"/>
+</media>
+<caption>The National Spherical Torus Experiment (NSTX) is a fusion reactor in which hydrogen isotopes undergo fusion to produce helium. In this process, a relatively small mass of fuel is converted into a large amount of energy. (credit: Princeton Plasma Physics Laboratory)</caption>
+</figure>
+<section id="fs-id1167793265050"><title>Kinetic Energy and the Ultimate Speed Limit</title><para id="fs-id1167794098255">The first postulate of relativity states that the laws of physics are the same in all inertial frames. Einstein showed that the law of conservation of energy of a particle is valid relativistically, but for energy expressed in terms of velocity and mass in a way consistent with relativity.</para>
+<para id="fs-id1167793278303">Consider first the relativistic expression for the kinetic energy. We again use <emphasis effect="italics">u</emphasis> for velocity to distinguish it from relative velocity <emphasis effect="italics">v</emphasis> between observers. Classically, kinetic energy is related to mass and speed by the familiar expression <m:math><m:mrow><m:mi>K</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> The corresponding relativistic expression for kinetic energy can be obtained from the work-energy theorem. This theorem states that the net work on a system goes into kinetic energy. Specifically, if a force, expressed as <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>γ</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> accelerates a particle from rest to its final velocity, the work done on the particle should be equal to its final kinetic energy. The result is:</para>
+<note id="fs-id1167794328350">
+<title>Relativistic Kinetic Energy</title>
+<para id="fs-id1167793840214"><term>Relativistic kinetic energy</term> of any particle of mass <emphasis effect="italics">m</emphasis> is</para>
+<equation id="fs-id1167794210641"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167793450493">When an object is motionless, its speed is <m:math><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and</para>
+<equation id="fs-id1167794023693" class="unnumbered"><label/><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></equation>
+<para id="fs-id1167794118697">so that <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> at rest, as expected. But the expression for relativistic kinetic energy (such as total energy and rest energy) does not look much like the classical <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> To show that the expression for <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub></m:mrow></m:math> reduces to the classical expression for kinetic energy at low speeds, we use the binomial expansion to obtain an approximation for <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>ε</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math> valid for small <m:math><m:mi>ε</m:mi></m:math>:</para>
+<equation id="fs-id1167794094175" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>ε</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>ε</m:mi><m:mo>+</m:mo><m:mtext>​</m:mtext><m:mfrac><m:mrow><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>!</m:mo></m:mrow></m:mfrac><m:msup><m:mi>ε</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mo>⋯</m:mo><m:mo>≈</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>ε</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1167794041256">by neglecting the very small terms in <m:math><m:mrow><m:msup><m:mi>ε</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and higher powers of <m:math><m:mi>ε</m:mi><m:mo>.</m:mo></m:math> Choosing <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mrow><m:mrow><m:mo>−</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> leads to the conclusion that <emphasis effect="italics">γ</emphasis> at nonrelativistic speeds, where <m:math><m:mrow><m:mi>ε</m:mi><m:mo>=</m:mo><m:mrow><m:mi>u</m:mi><m:mtext>/</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow></m:math> is small, satisfies</para>
+<equation id="fs-id1167793951072" class="unnumbered"><label/><m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mrow><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mtext>/</m:mtext><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>−1</m:mn><m:mtext>/</m:mtext><m:mn>2</m:mn></m:mrow></m:msup><m:mo>≈</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167793452760">A binomial expansion is a way of expressing an algebraic quantity as a sum of an infinite series of terms. In some cases, as in the limit of small speed here, most terms are very small. Thus, the expression derived here for <m:math><m:mi>γ</m:mi></m:math> is not exact, but it is a very accurate approximation. Therefore, at low speed:</para>
+<equation id="fs-id1167793541287" class="unnumbered"><label/><m:math><m:mrow><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1167793260719">Entering this into the expression for relativistic kinetic energy gives</para>
+<equation id="fs-id1167793929059" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mo>]</m:mo></m:mrow><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>class</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167794333656">That is, relativistic kinetic energy becomes the same as classical kinetic energy when <m:math><m:mrow><m:mi>u</m:mi><m:mtext>&lt;</m:mtext><m:mtext>&lt;</m:mtext><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1167793376153">It is even more interesting to investigate what happens to kinetic energy when the speed of an object approaches the speed of light. We know that <m:math><m:mi>γ</m:mi></m:math> becomes infinite as <emphasis effect="italics">u</emphasis> approaches <emphasis effect="italics">c</emphasis>, so that <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub></m:mrow></m:math> also becomes infinite as the velocity approaches the speed of light (<link target-id="CNX_UPhysics_38_09_Kinetic"/>). The increase in <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub></m:mrow></m:math> is far larger than in <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>class</m:mtext></m:mrow></m:msub></m:mrow></m:math> as <emphasis effect="italics">v</emphasis> approaches <emphasis effect="italics">c.</emphasis> An infinite amount of work (and, hence, an infinite amount of energy input) is required to accelerate a mass to the speed of light.</para>
+<note id="fs-id1167793452078">
+<title>The Speed of Light</title>
+<para id="fs-id1167793566126">No object with mass can attain the <term>speed of light</term>.</para>
+</note>
+<para id="fs-id1167793473813">The speed of light is the ultimate speed limit for any particle having mass. All of this is consistent with the fact that velocities less than <emphasis effect="italics">c</emphasis> always add to less than <emphasis effect="italics">c</emphasis>. Both the relativistic form for kinetic energy and the ultimate speed limit being <emphasis effect="italics">c</emphasis> have been confirmed in detail in numerous experiments. No matter how much energy is put into accelerating a mass, its velocity can only approach—not reach—the speed of light.</para>
+<figure id="CNX_UPhysics_38_09_Kinetic">
+<media id="fs-id1167793819429" alt="This is a graph of the kinetic energy as a function of speed. Two curves are shown: the relativistic kinetic energy and the classical kinetic energy. Both curves are small at low speeds. The relativistic energy rises faster than the classical energy and has a vertical asymptote at u=c. The classical energy crosses u=c at a finite value and continues to increase but remains finite for u&gt;c.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_09_Kinetic.jpg"/>
+</media>
+<caption>This graph of <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub></m:mrow></m:math> versus velocity shows how kinetic energy increases without bound as velocity approaches the speed of light. Also shown is <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>class</m:mtext></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:math> the classical kinetic energy.</caption>
+</figure>
+<example id="fs-id1167794137030">
+<para id="fs-id1167793939020"><title>Comparing Kinetic Energy</title>
+An electron has a velocity <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.990</m:mn><m:mi>c</m:mi><m:mo>.</m:mo></m:mrow></m:math> (a) Calculate the kinetic energy in MeV of the electron. (b) Compare this with the classical value for kinetic energy at this velocity. (The mass of an electron is <m:math><m:mrow><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math>)</para>
+<para id="fs-id1167793706094"><title>Strategy</title>
+The expression for relativistic kinetic energy is always correct, but for (a), it must be used because the velocity is highly relativistic (close to <emphasis effect="italics">c</emphasis>). First, we calculate the relativistic factor <m:math><m:mi>γ</m:mi><m:mo>,</m:mo></m:math> and then use it to determine the relativistic kinetic energy. For (b), we calculate the classical kinetic energy (which would be close to the relativistic value if <emphasis effect="italics">v</emphasis> were less than a few percent of <emphasis effect="italics">c</emphasis>) and see that it is not the same.</para>
+<para id="fs-id1163710852044"><title>Solution for (a)</title>
+For part (a):</para>
+<list id="fs-id1167794011770" list-type="enumerated" number-style="lower-alpha">
+<item>Identify the knowns: <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.990</m:mn><m:mi>c</m:mi><m:mo>;</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg.</m:mtext></m:mrow></m:math></item>
+<item>Identify the unknown: <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Express the answer as an equation: <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> with <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Do the calculation. First calculate <m:math><m:mrow><m:mi>γ</m:mi><m:mo>.</m:mo></m:mrow></m:math> Keep extra digits because this is an intermediate calculation:<newline/>
+<equation id="fs-id1167793964778" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>γ</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.990</m:mn><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>7.0888</m:mn><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><newline/>
+Now use this value to calculate the kinetic energy:<newline/>
+<equation id="fs-id1167793953243" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7.0888</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>m/s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4.9922</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Convert units:<newline/>
+<equation id="fs-id1167793287562" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.9922</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J)</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext></m:mrow><m:mrow><m:mn>1.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>3.12</m:mn><m:mspace width="0.2em"/><m:mtext>MeV.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1163712425823"><title>Solution for (b)</title>
+For part (b):</para>
+<list id="fs-id1167793586344" list-type="enumerated" number-style="lower-alpha">
+<item>List the knowns: <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.990</m:mn><m:mi>c</m:mi><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mtext>kg.</m:mtext></m:mrow></m:math></item>
+<item>List the unknown: <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Express the answer as an equation: <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>class</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Do the calculation:<newline/>
+<equation id="fs-id1167794186794" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>class</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mi>m</m:mi><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>0.990</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4.0179</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Convert units:<newline/>
+<equation id="fs-id1167793287384" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>class</m:mtext></m:mrow></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>4.0179</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−14</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>MeV</m:mtext></m:mrow><m:mrow><m:mn>1.60</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0.251</m:mn><m:mspace width="0.2em"/><m:mtext>Mev.</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1167793773752"><title>Significance</title>
+As might be expected, because the velocity is 99.0% of the speed of light, the classical kinetic energy differs significantly from the correct relativistic value. Note also that the classical value is much smaller than the relativistic value. In fact, <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mtext>/</m:mtext><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>class</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>12.4</m:mn></m:mrow></m:math> in this case. This illustrates how difficult it is to get a mass moving close to the speed of light. Much more energy is needed than predicted classically. Ever-increasing amounts of energy are needed to get the velocity of a mass a little closer to that of light. An energy of 3 MeV is a very small amount for an electron, and it can be achieved with present-day particle accelerators. SLAC, for example, can accelerate electrons to over <m:math><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mtext>eV</m:mtext><m:mo>=</m:mo><m:mn>50,000</m:mn><m:mspace width="0.2em"/><m:mtext>MeV.</m:mtext></m:mrow></m:math></para>
+</example>
+<para id="fs-id1167793928006">Is there any point in getting <emphasis effect="italics">v</emphasis> a little closer to <emphasis effect="italics">c</emphasis> than 99.0% or 99.9%? The answer is yes. We learn a great deal by doing this. The energy that goes into a high-velocity mass can be converted into any other form, including into entirely new particles. In the Large Hadron Collider in <link target-id="CNX_UPhysics_38_09_Accel"/>, charged particles are accelerated before entering the ring-like structure. There, two beams of particles are accelerated to their final speed of about 99.7% the speed of light in opposite directions, and made to collide, producing totally new species of particles. Most of what we know about the substructure of matter and the collection of exotic short-lived particles in nature has been learned this way. Patterns in the characteristics of these previously unknown particles hint at a basic substructure for all matter. These particles and some of their characteristics will be discussed in a later chapter on particle physics.</para>
+<figure id="CNX_UPhysics_38_09_Accel"><media id="fs-id1167793265164" alt="A photo of Geneva with the location of CERN and the two rings are shown. The smaller ring is inside but tangent to the larger one.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_09_Accel.jpg"/>
+</media>
+
+<caption>The European Organization for Nuclear Research (called CERN after its French name) operates the largest particle accelerator in the world, straddling the border between France and Switzerland. (credit: modification of work by NASA)</caption></figure></section><section id="fs-id1167793462597">
+<title>Total Relativistic Energy</title>
+<para id="fs-id1167793409803">The expression for kinetic energy can be rearranged to:</para>
+<equation id="fs-id1167794050779" class="unnumbered"><label/><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>K</m:mi><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167793844627">Einstein argued in a separate article, also later published in 1905, that if the energy of a particle changes by <m:math><m:mrow><m:mi>Δ</m:mi><m:mi>E</m:mi><m:mo>,</m:mo></m:mrow></m:math> its mass changes by <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>Δ</m:mtext><m:mi>E</m:mi><m:mtext>/</m:mtext><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math> Abundant experimental evidence since then confirms that <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> corresponds to the energy that the particle of mass <emphasis effect="italics">m</emphasis> has when at rest. For example, when a neutral pion of mass <emphasis effect="italics">m</emphasis> at rest decays into two photons, the photons have zero mass but are observed to have total energy corresponding to <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> for the pion. Similarly, when a particle of mass <emphasis effect="italics">m</emphasis> decays into two or more particles with smaller total mass, the observed kinetic energy imparted to the products of the decay corresponds to the decrease in mass. Thus, <emphasis effect="italics">E</emphasis> is the total relativistic energy of the particle, and <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is its rest energy.</para>
+<note id="fs-id1167793941329">
+<title>Total Energy</title>
+<para id="fs-id1167794022006"><term>Total energy</term> <emphasis effect="italics">E</emphasis> of a particle is</para>
+<equation id="fs-id1167794126844"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1167793640285">where <emphasis effect="italics">m</emphasis> is mass, <emphasis effect="italics">c</emphasis> is the speed of light, <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:math> and <emphasis effect="italics">u</emphasis> is the velocity of the mass relative to an observer.</para>
+</note>
+<note id="fs-id1167793449667">
+<title>Rest Energy</title>
+<para id="fs-id1167793475387"><term>Rest energy</term> of an object is</para>
+<equation id="fs-id1167793475392"><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167793503960">This is the correct form of Einstein’s most famous equation, which for the first time showed that energy is related to the mass of an object at rest. For example, if energy is stored in the object, its rest mass increases. This also implies that mass can be destroyed to release energy. The implications of these first two equations regarding relativistic energy are so broad that they were not completely recognized for some years after Einstein published them in 1905, nor was the experimental proof that they are correct widely recognized at first. Einstein, it should be noted, did understand and describe the meanings and implications of his theory.</para>
+<example id="fs-id1167793503963">
+<para id="fs-id1167794296595"><title>Calculating Rest Energy</title>
+Calculate the rest energy of a 1.00-g mass.</para>
+<para id="fs-id1167793706089"><title>Strategy</title>
+One gram is a small mass—less than one-half the mass of a penny. We can multiply this mass, in SI units, by the speed of light squared to find the equivalent rest energy.</para>
+<para id="fs-id1172101036521"><title>Solution</title></para>
+<list id="fs-id1167793886580" list-type="enumerated" number-style="lower-alpha">
+<item>Identify the knowns: <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mtext>kg</m:mtext><m:mo>;</m:mo></m:mrow></m:math> <m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mtext>m/s.</m:mtext></m:mrow></m:math></item>
+<item>Identify the unknown: <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Express the answer as an equation: <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Do the calculation:<newline/>
+<equation id="fs-id1167793435676" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mrow><m:mn>−3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mspace width="0.2em"/><m:mo>·</m:mo><m:msup><m:mrow><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext><m:msup><m:mrow><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item>Convert units. Noting that <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>J,</m:mtext></m:mrow></m:math> we see the rest energy is:<newline/>
+<equation id="fs-id1167793362209" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1167794181304"><title>Significance</title>
+This is an enormous amount of energy for a 1.00-g mass. Rest energy is large because the speed of light <emphasis effect="italics">c</emphasis> is a large number and <m:math><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is a very large number, so that <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is huge for any macroscopic mass. The <m:math><m:mrow><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup><m:mtext>J</m:mtext></m:mrow></m:math> rest mass energy for 1.00 g is about twice the energy released by the Hiroshima atomic bomb and about 10,000 times the kinetic energy of a large aircraft carrier.</para>
+</example>
+<para id="fs-id1167793778225">Today, the practical applications of <emphasis effect="italics">the conversion of mass into another form of energy</emphasis>, such as in nuclear weapons and nuclear power plants, are well known. But examples also existed when Einstein first proposed the correct form of relativistic energy, and he did describe some of them. Nuclear radiation had been discovered in the previous decade, and it had been a mystery as to where its energy originated. The explanation was that, in some nuclear processes, a small amount of mass is destroyed and energy is released and carried by nuclear radiation. But the amount of mass destroyed is so small that it is difficult to detect that any is missing. Although Einstein proposed this as the source of energy in the radioactive salts then being studied, it was many years before there was broad recognition that mass could be and, in fact, commonly is, converted to energy (<link target-id="CNX_UPhysics_38_09_FusAndFiss"/>).</para>
+<figure id="CNX_UPhysics_38_09_FusAndFiss"><media id="fs-id1167794041899" alt="Photos of the Sun and of the Susquehanna Steam Electric Station are shown.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_38_09_FusAndFiss.jpg"/>
+</media>
+
+<caption>(a) The sun and (b) the Susquehanna Steam Electric Station both convert mass into energy—the sun via nuclear fusion, and the electric station via nuclear fission. (credit a: modification of work by NASA/SDO (AIA) )</caption></figure><para id="fs-id1167793417222">Because of the relationship of rest energy to mass, we now consider mass to be a form of energy rather than something separate. There had not been even a hint of this prior to Einstein’s work. Energy-mass equivalence is now known to be the source of the sun’s energy, the energy of nuclear decay, and even one of the sources of energy keeping Earth’s interior hot.</para>
+</section>
+<section id="eip-434"><title>The Atomic Nucleus</title><para id="fs-id1170324945566">The nucleus of an atom is not just a loose collection of elementary particles. Inside the nucleus, particles are held together by a very powerful force called the <term class="no-emphasis">strong nuclear force</term>. This is short-range force, only capable of acting over distances about the size of the atomic nucleus. A quick thought experiment shows how important this force is. Take a look at your finger and consider the atoms composing it. Among them is carbon, one of the basic elements of life. Focus your imagination on the nucleus of one of your carbon atoms. It contains six protons, which have a positive charge, and six neutrons, which are neutral. Thus, the nucleus has a net charge of six positives. If only the electrical force were acting, the protons in this and every carbon atom would find each other very repulsive and fly apart.</para>
+<para id="fs-id1170324934944">The strong nuclear force is an attractive force, stronger than the electrical force, and it keeps the particles of the nucleus tightly bound together. We saw earlier that if under the force of gravity a star “shrinks”—bringing its atoms closer together—gravitational energy is released. In the same way, if particles come together under the strong nuclear force and unite to form an atomic nucleus, some of the nuclear energy is released. The energy given up in such a process is called the <emphasis effect="italics">binding energy</emphasis> of the nucleus.</para>
+<para id="fs-id1170325342849">When such <term class="no-emphasis">binding energy</term> is released, the resulting nucleus has slightly less mass than the sum of the masses of the particles that came together to form it. In other words, the energy comes from the loss of mass. This slight deficit in mass is only a small fraction of the mass of one proton. But because each bit of lost mass can provide a lot of energy (remember, <emphasis effect="italics">E</emphasis> = <emphasis effect="italics">mc</emphasis><sup>2</sup>), this nuclear energy release can be quite substantial.</para>
+<para id="fs-id1170325065963">Measurements show that the binding energy is greatest for atoms with a mass near that of the iron nucleus (with a combined number of protons and neutrons equal to 56) and less for both the lighter and the heavier nuclei. Iron, therefore, is the most stable element: since it gives up the most energy when it forms, it would require the most energy to break it back down into its component particles.</para>
+<para id="fs-id1170325355088">What this means is that, in general, when light atomic nuclei come together to form a heavier one (up to iron), mass is lost and energy is released. This joining together of atomic nuclei is called nuclear <term>fusion</term>.</para>
+<para id="fs-id1170325073328">Energy can also be produced by breaking up heavy atomic nuclei into lighter ones (down to iron); this process is called nuclear <term>fission</term>. Nuclear fission was the process we learned to use first—in atomic bombs and in nuclear reactors used to generate electrical power—and it may therefore be more familiar to you. Fission also sometimes occurs spontaneously in some unstable nuclei through the process of natural radioactivity. But fission requires big, complex nuclei, whereas we know that the stars are made up predominantly of small, simple nuclei. So we must look to fusion first to explain the energy of the Sun and the stars (<link target-id="OSC_Astro_16_02_FissFusion"/>).</para>
+<figure id="OSC_Astro_16_02_FissFusion">
+<title>Fusion and Fission.</title>
+<media id="fs-id1170325089229" alt="In (a) one white sphere and one green sphere join together. In (b), a ball consisting of many smaller white and green spheres breaks apart into two smaller balls of green and white spheres.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_16_02_FissFusion.jpg"/>
+</media>
+<caption>(a) In fusion, light atomic nuclei join together to form a heavier nuclei, releasing energy in the process. (b) In fission, energy is produced by the breaking up of heavy, complex nuclei into lighter ones.</caption></figure><para id="eip-466">Clearly, then, to understand the transformations of mass and energy in our solar system, we must learn a bit of nuclear physics, which will be the topic of the next few sections.</para></section><section id="fs-idm577738432" class="key-concepts"><title>Summary</title><list id="fs-id1167794314620" list-type="bulleted" bullet-style="bullet">
+<item>The relativistic work-energy theorem is <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>E</m:mi><m:mo>−</m:mo><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>Relativistically, <m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub></m:mrow></m:math> is the relativistic kinetic energy.</item>
+<item>An object of <emphasis effect="italics">mass</emphasis> <emphasis effect="italics">m</emphasis> at velocity <emphasis effect="italics">u</emphasis> has kinetic energy <m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></item>
+<item>At low velocities, relativistic kinetic energy reduces to classical kinetic energy.</item>
+<item>No object with mass can attain the speed of light, because an infinite amount of work and an infinite amount of energy input is required to accelerate a mass to the speed of light.</item>
+<item>Relativistic energy is conserved as long as we define it to include the possibility of mass changing to energy.</item>
+<item>The total energy of a particle with mass <emphasis effect="italics">m</emphasis> traveling at speed <emphasis effect="italics">u</emphasis> is defined as <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math> and <emphasis effect="italics">u</emphasis> denotes the velocity of the particle.</item>
+<item>The rest energy of an object of mass <emphasis effect="italics">m</emphasis> is <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> meaning that mass is a form of energy. If energy is stored in an object, its mass increases. Mass can be destroyed to release energy.</item>
+<item>The <emphasis effect="italics">binding energy</emphasis> of a nucleus is the energy given up when its constituent particles (neutrons and protons) are bound together.</item><item>As a result of the binding energy, the mass of a nucleus is somewhat less than the mass of its constituent particles before that are bound together.</item>
+</list>
+</section><section id="fs-id1172100944609" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1172098602739" class="unnumbered unstyled" summary="The table has two columns and two rows. The first column has the names of the equations and the second column lists the equation. From left to right, the first row contains “Relativistic kinetic energy” and “K subscript rel equals opening parenthesis lambda minus 1 closing parenthesis m c square where lambda equals 1 divided by square root 1 minus u square divided by c square”. The second row contains “Length contraction” and “L equals L subscript 0 square root 1 minus v square divided by c square equals L subscript 0 divided by gamma”."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Relativistic total energy</entry>
+<entry align="left"><m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Relativistic kinetic energy</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>rel</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<section id="fs-id1167794032273" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167794032281">
+<problem id="fs-id1167794032283">
+<para id="fs-id1167794032285">How are the classical laws of conservation of energy and conservation of mass modified by modern relativity?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793788572">
+<problem id="fs-id1167793788574">
+<para id="fs-id1167793788576">What happens to the mass of water in a pot when it cools, assuming no molecules escape or are added? Is this observable in practice? Explain.</para>
+</problem>
+<solution id="fs-id1167793788582">
+<para id="fs-id1167793788584">Because it loses thermal energy, which is the kinetic energy of the random motion of its constituent particles, its mass decreases by an extremely small amount, as described by energy-mass equivalence.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167793495017">
+<problem id="fs-id1167793495020">
+<para id="fs-id1167793495022">Consider a thought experiment. You place an expanded balloon of air on weighing scales outside in the early morning. The balloon stays on the scales and you are able to measure changes in its mass. Does the mass of the balloon change as the day progresses? Discuss the difficulties in carrying out this experiment.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793638889">
+<problem id="fs-id1167793638891">
+<para id="fs-id1167793638893">The mass of the fuel in a nuclear reactor decreases by an observable amount as it puts out energy. Is the same true for the coal and oxygen combined in a conventional power plant? If so, is this observable in practice for the coal and oxygen? Explain.</para>
+</problem>
+<solution id="fs-id1167793638900">
+<para id="fs-id1167794296565">Yes, in principle there would be a similar effect on mass for any decrease in energy, but the change would be so small for the energy changes in a chemical reaction that it would be undetectable in practice.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794296573">
+<problem id="fs-id1167794296575">
+<para id="fs-id1167794296577">We know that the velocity of an object with mass has an upper limit of <emphasis effect="italics">c</emphasis>. Is there an upper limit on its momentum? Its energy? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167793633482">
+<problem id="fs-id1167793633484">
+<para id="fs-id1167793633486">Given the fact that light travels at <emphasis effect="italics">c</emphasis> , can it have mass? Explain.</para>
+</problem>
+<solution id="fs-id1167793633495">
+<para id="fs-id1167793633497">Not according to special relativity. Nothing with mass can attain the speed of light.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167794097177">
+<problem id="fs-id1167794097180">
+<para id="fs-id1167794097182">If you use an Earth-based telescope to project a laser beam onto the moon, you can move the spot across the moon’s surface at a velocity greater than the speed of light. Does this violate modern relativity? (Note that light is being sent from the Earth to the moon, not across the surface of the moon.)</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1167794181332" class="review-problems"><title>Problems</title><exercise id="eip-idm398632432">
+<problem id="eip-idm398632176">
+<para id="eip-idm398631920">(a) Using data from <link target-id="fs-id1165036086155" document="m71571"/>, find the mass destroyed when the energy in a barrel of crude oil is released. (b) Given these barrels contain 200 liters and assuming the density of crude oil is <m:math><m:mrow><m:mn>750</m:mn><m:msup><m:mrow><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> what is the ratio of mass destroyed to original mass, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:mo>?</m:mo></m:mrow></m:math></para></problem>
+<solution id="eip-idm634011024">
+<para id="eip-idm606149856">a. <m:math><m:mrow><m:mrow><m:mn>6.56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>200</m:mn><m:mspace width="0.2em"/><m:mtext>L</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>/1000 L</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>750</m:mn><m:mspace width="0.2em"/><m:mtext>kg/m</m:mtext></m:mrow><m:mn>3</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>150</m:mn><m:mspace width="0.2em"/><m:mtext>kg;</m:mtext><m:mspace width="0.2em"/></m:mrow></m:math> therefore, <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>4.37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="eip-idm408932496">
+<problem id="eip-idm408932240">
+<para id="eip-idm408931984">(a) Calculate the energy released by the destruction of 1.00 kg of mass. (b) How many kilograms could be lifted to a 10.0 km height by this amount of energy?</para>
+</problem>
+</exercise>
+<exercise id="eip-idm464751808">
+<problem id="eip-idm464751552">
+<para id="eip-idm464751296">What is the rest energy of an electron, given its mass is <m:math><m:mrow><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>?</m:mo></m:mrow></m:math> Give your answer in joules and MeV.</para>
+</problem>
+<solution id="eip-idm436875936">
+<para id="eip-idm436875680">0.512 MeV according to the number of significant figures stated. The exact value is closer to 0.511 MeV.</para>
+</solution>
+</exercise>
+<exercise id="eip-idm424189200">
+<problem id="eip-idm424188944">
+<para id="eip-idm424188688">Find the rest energy in joules and MeV of a proton, given its mass is <m:math><m:mrow><m:mn>1.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>.</m:mo></m:mrow></m:math></para>
+</problem>
+</exercise>
+<exercise id="eip-idm487848496">
+<problem id="eip-idm487848240">
+<para id="eip-idm487847984">If the rest energies of a proton and a neutron (the two constituents of nuclei) are 938.3 and 939.6 MeV, respectively, what is the difference in their mass in kilograms?</para>
+</problem>
+<solution id="eip-idm487847280">
+<para id="eip-idm526807216"><m:math><m:mrow><m:mn>2.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>;</m:mo></m:mrow></m:math> to two digits because the difference in rest mass energies is found to two digits</para>
+</solution>
+</exercise>
+<exercise id="eip-idm413519920">
+<problem id="eip-idm413519664">
+<para id="eip-idm413519408">The Big Bang that began the universe is estimated to have released <m:math><m:mrow><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mn>68</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of energy. How many stars could half this energy create, assuming the average star’s mass is <m:math><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>
+?</para>
+</problem>
+</exercise>
+<exercise id="eip-idm442641920">
+<problem id="eip-idm442641664">
+<para id="eip-idm442641408">A supernova explosion of a <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> star produces <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>44</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of energy. (a) How many kilograms of mass are converted to energy in the explosion? (b) What is the ratio <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:math> of mass destroyed to the original mass of the star?</para>
+</problem>
+<solution id="eip-idm654527248">
+<para id="eip-idm654526992">a. <m:math><m:mrow><m:mrow><m:mn>1.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>5.56</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="eip-idm488795760">
+<problem id="eip-idm488795504">
+<para id="eip-idm488795248">(a) Using data from <link target-id="fs-id1165036086155" document="m71571"/>, calculate the mass converted to energy by the fission of uranium in a 10-kiloton bomb. (b) If the original mass of uranium in such a bomb is 64 kg, what is the ratio of mass destroyed to the original mass, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi><m:mo>?</m:mo></m:mrow></m:math></para></problem>
+</exercise>
+<exercise id="eip-idm436311232">
+<problem id="eip-idm436310976">
+<para id="eip-idm463849552">(a) Using data from <link target-id="fs-id1165036086155" document="m71571"/>, calculate the amount of mass converted to energy by the fusion of hydrogen in a 9-megaton bomb. (b) If the original mass of hydrogen in such a bomb is 114 kg, what is the ratio of mass destroyed to the original mass, <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:math>
+? (c) How does this compare with <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi><m:mtext>/</m:mtext><m:mi>m</m:mi></m:mrow></m:math> for the fission of uranium in <link target-id="eip-idm488795504"/>?</para></problem>
+<solution id="eip-idm424159072">
+<para id="eip-idm424158816">a. <m:math><m:mrow><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−1</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>3.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math> c. <m:math><m:mrow><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>m</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:mrow></m:math> is greater for hydrogen</para></solution>
+</exercise>
+<exercise id="eip-idm421948128">
+<problem id="eip-idm421947872">
+<para id="eip-idm421947616">There is approximately <m:math><m:mrow><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mn>34</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of energy available from fusion of hydrogen in the world’s oceans. (a) If <m:math><m:mrow><m:mn>1</m:mn><m:msup><m:mn>0</m:mn><m:mrow><m:mn>33</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math> of this energy were utilized, what would be the decrease in mass of the oceans? (b) How great a volume of water does this correspond to? (c) Comment on whether this is a significant fraction of the total mass of the oceans.</para>
+</problem>
+</exercise>
+<exercise id="eip-idm527924288">
+<problem id="eip-idm537944560">
+<para id="eip-idm537944304">A muon has a rest mass energy of 105.7 MeV, and it decays into an electron and a massless particle. (a) If all the lost mass is converted into the electron’s kinetic energy, find <m:math><m:mi>γ</m:mi></m:math> for the electron. (b) What is the electron’s velocity?</para>
+</problem>
+<solution id="eip-idm537942832">
+<para id="eip-idm537942576">a. 208; b. 0.999988<emphasis effect="italics">c</emphasis>; six digits used to show difference from c</para>
+</solution>
+</exercise>
+<exercise id="eip-idm519784784">
+<problem id="eip-idm519784528">
+<para id="eip-idm519784272">A <m:math><m:mi>π</m:mi></m:math>-meson is a particle that decays into a muon and a massless particle. The <m:math><m:mi>π</m:mi></m:math>-meson has a rest mass energy of 139.6 MeV, and the muon has a rest mass energy of 105.7 MeV. Suppose the <m:math><m:mi>π</m:mi></m:math>-meson is at rest and all of the missing mass goes into the muon’s kinetic energy. How fast will the muon move?</para>
+</problem>
+</exercise>
+<exercise id="eip-idm461968256">
+<problem id="eip-idm461968000">
+<para id="eip-idm461967744">(a) Calculate the relativistic kinetic energy of a 1000-kg car moving at 30.0 m/s if the speed of light were only 45.0 m/s. (b) Find the ratio of the relativistic kinetic energy to classical.</para>
+</problem>
+<solution id="eip-idm461967024">
+<para id="eip-idm461966768">a. <m:math><m:mrow><m:mn>6.92</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo></m:mrow></m:math> b. 1.54</para>
+</solution>
+</exercise>
+<exercise id="eip-idm515915968">
+<problem id="eip-idm515915712">
+<para id="eip-idm515915456">Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium nucleus has a mass of <m:math><m:mrow><m:mn>6.80</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and is given 5.00 MeV of kinetic energy, what is its velocity?</para>
+</problem>
+</exercise>
+<exercise id="eip-idm514737440">
+<problem id="eip-idm514737184">
+<para id="eip-idm514736928">(a) Beta decay is nuclear decay in which an electron is emitted. If the electron is given 0.750 MeV of kinetic energy, what is its velocity? (b) Comment on how the high velocity is consistent with the kinetic energy as it compares to the rest mass energy of the electron.</para>
+</problem>
+<solution id="eip-idm514736128">
+<para id="eip-idm514735872">a. 0.914<emphasis effect="italics">c</emphasis>; b. The rest mass energy of an electron is 0.511 MeV, so the kinetic energy is approximately 150% of the rest mass energy. The electron should be traveling close to the speed of light.</para>
+</solution>
+</exercise>
+<exercise id="eip-idm537010448">
+<problem id="eip-idm537010192">
+<para id="eip-idm537009936">Suppose you use an average of <m:math><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math> of electric energy per month in your home. (a) How long would 1.00 g of mass converted to electric energy with an efficiency of 38.0% last you? (b) How many homes could be supplied at the <m:math><m:mrow><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>kW</m:mtext><m:mo>·</m:mo><m:mtext>h</m:mtext></m:mrow></m:math> per month rate for one year by the energy from the described mass conversion?</para>
+</problem>
+</exercise>
+<exercise id="eip-idm326220704">
+<problem id="eip-idm326220448">
+<para id="eip-idm326220192">(a) A nuclear power plant converts energy from nuclear fission into electricity with an efficiency of 35.0%. How much mass is destroyed in one year to produce a continuous 1000 MW of electric power? (b) Do you think it would be possible to observe this mass loss if the total mass of the fuel is <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>?</m:mo></m:mrow></m:math></para>
+</problem>
+<solution id="eip-idm474549856">
+<para id="eip-idm474549600">a. 1.00 kg; b. This much mass would be measurable, but probably not observable just by looking because it is 0.01% of the total mass.</para>
+</solution>
+</exercise>
+<exercise id="eip-idm410832880">
+<problem id="eip-idm410832624">
+<para id="eip-idm410832368">Nuclear-powered rockets were researched for some years before safety concerns became paramount. (a) What fraction of a rocket’s mass would have to be destroyed to get it into a low Earth orbit, neglecting the decrease in gravity? (Assume an orbital altitude of 250 km, and calculate both the kinetic energy (classical) and the gravitational potential energy needed.) (b) If the ship has a mass of <m:math><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> (100 tons), what total yield nuclear explosion in tons of TNT is needed?</para>
+</problem>
+</exercise>
+<exercise id="eip-idm658824272">
+<problem id="eip-idm658824016">
+<para id="eip-idm658823760">The sun produces energy at a rate of <m:math><m:mrow><m:mn>3.85</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>26</m:mn></m:mrow></m:msup></m:mrow></m:math> W by the fusion of hydrogen. About 0.7% of each kilogram of hydrogen goes into the energy generated by the Sun. (a) How many kilograms of hydrogen undergo fusion each second? (b) If the sun is 90.0% hydrogen and half of this can undergo fusion before the sun changes character, how long could it produce energy at its current rate? (c) How many kilograms of mass is the sun losing per second? (d) What fraction of its mass will it have lost in the time found in part (b)?</para>
+</problem>
+<solution id="eip-idm408837568">
+<para id="eip-idm408837312">a. <m:math><m:mrow><m:mrow><m:mn>6.06</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg/s</m:mtext></m:mrow><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>4.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>y</m:mtext><m:mo>;</m:mo></m:mrow></m:math> c. <m:math><m:mrow><m:mrow><m:mn>4.27</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>;</m:mo></m:mrow></m:math> d. 0.32%</para>
+</solution>
+</exercise></section>
+</content>
+<glossary>
+<definition id="fs-id1167794215993">
+<term>relativistic kinetic energy</term>
+<meaning id="fs-id1167794215998">kinetic energy of an object moving at relativistic speeds</meaning>
+</definition>
+<definition id="fs-id1167794216002">
+<term>rest energy</term>
+<meaning id="fs-id1167794216008">energy stored in an object at rest: <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1167794216029">
+<term>speed of light</term>
+<meaning id="fs-id1167794216034">ultimate speed limit for any particle having mass</meaning>
+</definition>
+<definition id="fs-id1167794127467">
+<term>total energy</term>
+<meaning id="fs-id1167794127472">sum of all energies for a particle, including rest energy and kinetic energy, given for a particle of mass <emphasis effect="italics">m</emphasis> and speed <emphasis effect="italics">u</emphasis> by <m:math><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>γ</m:mi><m:mi>m</m:mi><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></meaning>
+</definition>
+<definition id="fs-id1170325276212">
+<term>fission</term>
+<meaning id="fs-id1170325265957">breaking up of heavier atomic nuclei into lighter ones</meaning>
+</definition>
+<definition id="fs-id1170325016080">
+<term>fusion</term>
+<meaning id="fs-id1170325182961">building up of heavier atomic nuclei from lighter ones</meaning>
+</definition>
+</glossary>
+</document>

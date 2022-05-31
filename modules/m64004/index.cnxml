@@ -1,0 +1,591 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Free Fall</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64004</md:content-id>
+  <md:title>Free Fall</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Use the kinematic equations with the variables y and g to analyze free-fall motion.</item>
+<item>Describe how the values of the position, velocity, and acceleration change during a free fall.</item>
+<item>Solve for the position, velocity, and acceleration as functions of time when an object is in a free fall.</item>
+</list></md:abstract>
+  <md:uuid>6cde6fb5-1cce-48b4-b72b-63612b4445a0</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168328059538">An interesting application of <link target-id="fs-id1168329153584" document="m63980"/> through <link target-id="fs-id1168326834410" document="m71622"/> is called <emphasis effect="italics">free fall</emphasis>, which describes the motion of an object falling in a gravitational field, such as near the surface of Earth or other celestial objects of planetary size. Let’s assume the body is falling in a straight line perpendicular to the surface, so its motion is one-dimensional. For example, we can estimate the depth of a vertical mine shaft by dropping a rock into it and listening for the rock to hit the bottom. But “falling,” in the context of free fall, does not necessarily imply the body is moving from a greater height to a lesser height. If a ball is thrown upward, the equations of free fall apply equally to its ascent as well as its descent.</para><section id="fs-id1168327990156">
+<title>Gravity</title>
+<para id="fs-id1168325667499">The most remarkable and unexpected fact about falling objects is that if air resistance and friction are negligible, then in a given location all objects fall toward the center of Earth with the <emphasis effect="italics">same constant acceleration</emphasis>, <emphasis effect="italics">independent of their mass</emphasis>. This experimentally determined fact is unexpected because we are so accustomed to the effects of air resistance and friction that we expect light objects to fall slower than heavy ones. Until <term class="no-emphasis">Galileo</term> Galilei (1564–1642) proved otherwise, people believed that a heavier object has a greater acceleration in a free fall. We now know this is not the case. In the absence of air resistance, heavy objects arrive at the ground at the same time as lighter objects when dropped from the same height <link target-id="CNX_UPhysics_03_05_Gravity"/>.</para>
+<figure id="CNX_UPhysics_03_05_Gravity">
+<media id="fs-id1168328222641" alt="Left figure shows a hammer and a feather falling down in air. Hammer is below the feather. Middle figure shows a hammer and a feather falling down in vacuum. Hammer and feather are at the same level. Right figure shows astronaut on the surface of the moon with hammer and a feather lying on the ground.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_05_Gravity.jpg"/>
+</media>
+<caption>A hammer and a feather fall with the same constant acceleration if air resistance is negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated in 1971 on the Moon, where the acceleration from gravity is only 1.67 m/s2 and there is no atmosphere.</caption>
+</figure>
+<para id="fs-id1168328332010">In the real world, <term class="no-emphasis">air resistance</term> can cause a lighter object to fall slower than a heavier object of the same size. A tennis ball reaches the ground after a baseball dropped at the same time. (It might be difficult to observe the difference if the height is not large.) Air resistance opposes the motion of an object through the air, and friction between objects—such as between clothes and a laundry chute or between a stone and a pool into which it is dropped—also opposes motion between them.</para>
+<para id="fs-id1168328066720">For the ideal situations of these first few chapters, an object <emphasis effect="italics">falling without air resistance or friction</emphasis> is defined to be in <term>free fall</term>. The force of gravity causes objects to fall toward the center of Earth. The acceleration of free-falling objects is therefore called <term>acceleration due to gravity</term>. Acceleration due to gravity is constant, which means we can apply the kinematic equations to any falling object where air resistance and friction are negligible. This opens to us a broad class of interesting situations.</para>
+<para id="fs-id1168328327109">Acceleration due to gravity is so important that its magnitude is given its own symbol, <emphasis effect="italics">g</emphasis>. It is constant at any given location on Earth and has the average value</para>
+<equation id="fs-id1168325737439" class="unnumbered"><label/><m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.81</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mtext>or</m:mtext><m:mspace width="0.2em"/><m:mn>32.2</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>ft/s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1168325674483">Although <emphasis effect="italics">g</emphasis> varies from 9.78 m/s<sup>2</sup> to 9.83 m/s<sup>2</sup>, depending on latitude, altitude, underlying geological formations, and local topography, let’s use an average value of 9.8 m/s<sup>2</sup> rounded to two significant figures in this text unless specified otherwise. Neglecting these effects on the value of <emphasis effect="italics">g</emphasis> as a result of position on Earth’s surface, as well as effects resulting from Earth’s rotation, we take the direction of acceleration due to gravity to be downward (toward the center of Earth). In fact, its direction <emphasis effect="italics">defines</emphasis> what we call vertical. Note that whether acceleration <emphasis effect="italics">a</emphasis> in the kinematic equations has the value +<emphasis effect="italics">g</emphasis> or −<emphasis effect="italics">g</emphasis> depends on how we define our coordinate system. If we define the upward direction as positive, then <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>−9.8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math> and if we define the downward direction as positive, then <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</section>
+<section id="fs-id1168328201399">
+<title>One-Dimensional Motion Involving Gravity</title>
+<para id="fs-id1168328298217">The best way to see the basic features of motion involving gravity is to start with the simplest situations and then progress toward more complex ones. So, we start by considering straight up-and-down motion with no air resistance or friction. These assumptions mean the velocity (if there is any) is vertical. If an object is dropped, we know the initial velocity is zero when in free fall. When the object has left contact with whatever held or threw it, the object is in free fall. When the object is thrown, it has the same initial speed in free fall as it did before it was released. When the object comes in contact with the ground or any other object, it is no longer in free fall and its acceleration of <emphasis effect="italics">g</emphasis> is no longer valid. Under these circumstances, the motion is one-dimensional and has constant acceleration of magnitude <emphasis effect="italics">g</emphasis>. We represent vertical displacement with the symbol <emphasis effect="italics">y</emphasis>.</para>
+<note id="fs-id1168328198469">
+<title>Kinematic Equations for Objects in Free Fall</title>
+<para id="fs-id1168328323260">We assume here that acceleration equals −<emphasis effect="italics">g</emphasis> (with the positive direction upward).</para>
+<equation id="fs-id1168328328571"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mtext>​</m:mtext><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>t</m:mi></m:mrow></m:math></equation>
+<equation id="fs-id1168327858521"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation>
+<equation id="fs-id1168328282779"><m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation>
+</note>
+<note id="fs-id1168327878077" class="problem-solving">
+<title>Problem-Solving Strategy: Free Fall</title>
+<list id="fs-id1168328364214" list-type="enumerated" number-style="arabic">
+<item>Decide on the sign of the acceleration of gravity. In <link target-id="fs-id1168328328571"/> through <link target-id="fs-id1168328282779"/>, acceleration <emphasis effect="italics">g</emphasis> is negative, which says the positive direction is upward and the negative direction is downward. In some problems, it may be useful to have acceleration <emphasis effect="italics">g</emphasis> as positive, indicating the positive direction is downward.</item>
+<item>Draw a sketch of the problem. This helps visualize the physics involved.</item>
+<item>Record the knowns and unknowns from the problem description. This helps devise a strategy for selecting the appropriate equations to solve the problem.</item>
+<item>Decide which of <link target-id="fs-id1168328328571"/> through <link target-id="fs-id1168328282779"/> are to be used to solve for the unknowns.</item>
+</list>
+</note>
+<example id="fs-id1168328199305">
+<para id="fs-id1168328070696"><title>Free Fall of a Ball</title>
+<link target-id="CNX_UPhysics_03_05_Building"/> shows the positions of a ball, at 1-s intervals, with an initial velocity of 4.9 m/s downward, that is thrown from the top of a 98-m-high building. (a) How much time elapses before the ball reaches the ground? (b) What is the velocity when it arrives at the ground?</para>
+<figure id="CNX_UPhysics_03_05_Building">
+<media id="fs-id1168328180500" alt="Figure shows the ball thrown downward from a tall building at a speed of - 4.9 meters per second. After one second, ball is lower by 9.8 meters and has a speed of -14.7 meters per second. After two seconds, ball is lower by 29.4 meters and has a speed of -24.5 meters per second. After three seconds, ball is lower by 58.8 meters and has a speed of -34.5 meters per second. After four seconds, ball is lower by 98.0 meters and has a speed of -44.1 meters per second.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_05_Building.jpg"/>
+</media>
+<caption>The positions and velocities at 1-s intervals of a ball thrown downward from a tall building at 4.9 m/s.</caption>
+</figure>
+<para id="fs-id1168327893349"><title>Strategy</title>
+Choose the origin at the top of the building with the positive direction upward and the negative direction downward. To find the time when the position is −98 m, we use <link target-id="fs-id1168327858521"/>, with <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>−4.9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+<para id="fs-id1168328290350"><title>Solution</title></para>
+<list id="fs-id1168328318327" list-type="enumerated" number-style="lower-alpha">
+<item>Substitute the given values into the equation:<newline/>
+<equation id="fs-id1168328064579" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>98.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><newline/>
+This simplifies to<newline/>
+<equation id="fs-id1168325660674" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
+This is a quadratic equation with roots <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−5.0</m:mn><m:mi mathvariant="normal">s</m:mi><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mi mathvariant="normal">s</m:mi></m:mrow></m:math>. The positive root is the one we are interested in, since time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> is the time when the ball is released at the top of the building. (The time <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−5.0</m:mn><m:mi mathvariant="normal">s</m:mi></m:mrow></m:math> represents the fact that a ball thrown upward from the ground would have been in the air for 5.0 s when it passed by the top of the building moving downward at 4.9 m/s.)</item>
+<item>Using <link target-id="fs-id1168328328571"/>, we have<newline/>
+<equation id="fs-id1168328307683" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−4.9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−44.1</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1168327872094"><title>Significance</title>
+For situations when two roots are obtained from a quadratic equation in the time variable, we must look at the physical significance of both roots to determine which is correct. Since <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> corresponds to the time when the ball was released, the negative root would correspond to a time before the ball was released, which is not physically meaningful. When the ball hits the ground, its velocity is not immediately zero, but as soon as the ball interacts with the ground, its acceleration is not <emphasis effect="italics">g</emphasis> and it accelerates with a different value over a short time to zero velocity. This problem shows how important it is to establish the correct coordinate system and to keep the signs of <emphasis effect="italics">g</emphasis> in the kinematic equations consistent.</para>
+</example>
+<example id="fs-id1168328253686">
+<para id="fs-id1168327961362"><title>Vertical Motion of a Baseball</title>
+A batter hits a baseball straight upward at home plate and the ball is caught 5.0 s after it is struck <link target-id="CNX_UPhysics_03_05_Batter"/>. (a) What is the initial velocity of the ball? (b) What is the maximum height the ball reaches? (c) How long does it take to reach the maximum height? (d) What is the acceleration at the top of its path? (e) What is the velocity of the ball when it is caught? Assume the ball is hit and caught at the same location.</para>
+<figure id="CNX_UPhysics_03_05_Batter">
+<media id="fs-id1168327943024" alt="Left picture shows a baseball player hitting the ball at time equal zero seconds. Right picture shows a baseball player catching the ball at time equal five seconds.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_05_Batter.jpg"/>
+</media>
+<caption>A baseball hit straight up is caught by the catcher 5.0 s later.</caption>
+</figure>
+<para id="fs-id1168327911565"><title>Strategy</title>
+Choose a coordinate system with a positive <emphasis effect="italics">y</emphasis>-axis that is straight up and with an origin that is at the spot where the ball is hit and caught.</para>
+<para id="fs-id1168325720924"><title>Solution</title></para>
+<list id="fs-id1168328332423" list-type="enumerated" number-style="lower-alpha">
+<item><link target-id="fs-id1168327858521"/> gives<newline/>
+<equation id="fs-id1168327964735" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></equation><newline/>
+<equation id="fs-id1168327890725" class="unnumbered"><label/><m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mo>)</m:mo></m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>,</m:mo></m:mrow></m:math></equation><newline/>
+which gives <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>24.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/sec</m:mtext></m:mrow></m:math>.</item>
+<item>At the maximum height, <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. With <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>24.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, <link target-id="fs-id1168328282779"/> gives<newline/>
+<equation id="fs-id1168328308152" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation><newline/>
+<equation id="fs-id1168327935061" class="unnumbered"><label/><m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>24.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></equation><newline/>
+or<newline/>
+<equation id="fs-id1168327924285" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>30.6</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item>To find the time when <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, we use <link target-id="fs-id1168328328571"/>:<newline/>
+<equation id="fs-id1168328257195" class="unnumbered"><label/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>t</m:mi></m:mrow></m:math></equation><newline/>
+<equation id="fs-id1168328170901" class="unnumbered"><label/><m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>24.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
+This gives <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>. Since the ball rises for 2.5 s, the time to fall is 2.5 s.</item>
+<item>The acceleration is 9.8 m/s<sup>2</sup> everywhere, even when the velocity is zero at the top of the path. Although the velocity is zero at the top, it is changing at the rate of 9.8 m/s<sup>2</sup> downward.</item>
+<item>The velocity at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5.0</m:mn><m:mi mathvariant="normal">s</m:mi></m:mrow></m:math> can be determined with <link target-id="fs-id1168328328571"/>:<newline/>
+<equation id="fs-id1168328327661" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>v</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>t</m:mi></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>24.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>−</m:mo><m:mn>9.8</m:mn><m:msup><m:mtext>m/s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>−24.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+</list>
+<para id="fs-id1168328319759"><title>Significance</title>
+The ball returns with the speed it had when it left. This is a general property of free fall for any initial velocity. We used a single equation to go from throw to catch, and did not have to break the motion into two segments, upward and downward. We are used to thinking of the effect of gravity is to create free fall downward toward Earth. It is important to understand, as illustrated in this example, that objects moving upward away from Earth are also in a state of free fall.</para>
+</example>
+<note id="fs-id1168328183645" class="check-understanding">
+<exercise id="fs-id1168327914860">
+<problem id="fs-id1168328246337">
+<para id="fs-id1168327960691"><emphasis effect="bold">Check Your Understanding</emphasis> A chunk of ice breaks off a glacier and falls 30.0 m before it hits the water. Assuming it falls freely (there is no air resistance), how long does it take to hit the water? Which quantity increases faster, the speed of the ice chunk or its distance traveled?</para>
+</problem>
+<solution id="fs-id1168327925554">
+<para id="fs-id1168328358520">It takes 2.47 s to hit the water. The quantity distance traveled increases faster.</para>
+</solution>
+</exercise>
+</note>
+<example id="fs-id1168327878457">
+<para id="fs-id1168328302155"><title>Rocket Booster</title>
+A small rocket with a booster blasts off and heads straight upward. When at a height of <m:math><m:mrow><m:mn>5.0</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:math> and velocity of 200.0 m/s, it releases its booster. (a) What is the maximum height the booster attains? (b) What is the velocity of the booster at a height of 6.0 km? Neglect air resistance.</para>
+<figure id="CNX_UPhysics_03_05_Rocket">
+<media id="fs-id1168327915590" alt="Figure shows a rocket releasing a booster.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_03_05_Rocket.jpg"/>
+</media>
+<caption>A rocket releases its booster at a given height and velocity. How high and how fast does the booster go?</caption>
+</figure>
+<para id="fs-id1168325735735"><title>Strategy</title>
+We need to select the coordinate system for the acceleration of gravity, which we take as negative downward. We are given the initial velocity of the booster and its height. We consider the point of release as the origin. We know the velocity is zero at the maximum position within the acceleration interval; thus, the velocity of the booster is zero at its maximum height, so we can use this information as well. From these observations, we use <link target-id="fs-id1168328282779"/>, which gives us the maximum height of the booster. We also use <link target-id="fs-id1168328282779"/> to give the velocity at 6.0 km. The initial velocity of the booster is 200.0 m/s.</para>
+<para id="fs-id1168327931304"><title>Solution</title></para>
+<list id="fs-id1168328317292" list-type="enumerated" number-style="lower-alpha">
+<item>From <link target-id="fs-id1168328282779"/>, <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. With <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, we can solve for <emphasis effect="italics">y</emphasis>:<newline/>
+<equation id="fs-id1168325703973" class="unnumbered"><label/><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>−2</m:mn><m:mi>g</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:mrow><m:mrow><m:mn>−2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2040.8</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation><newline/>
+This solution gives the maximum height of the booster in our coordinate system, which has its origin at the point of release, so the maximum height of the booster is roughly 7.0 km.</item>
+<item>An altitude of 6.0 km corresponds to<m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> in the coordinate system we are using. The other initial conditions are<m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>200.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>.<newline/>
+We have, from <link target-id="fs-id1168328282779"/>,<newline/>
+<equation id="fs-id1168328242196" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>200.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mi>v</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>142.8</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1168328051167"><title>Significance</title>
+We have both a positive and negative solution in (b). Since our coordinate system has the positive direction upward, the +142.8 m/s corresponds to a positive upward velocity at 6000 m during the upward leg of the trajectory of the booster. The value <emphasis effect="italics">v</emphasis> = −142.8 m/s corresponds to the velocity at 6000 m on the downward leg. This example is also important in that an object is given an initial velocity at the origin of our coordinate system, but the origin is at an altitude above the surface of Earth, which must be taken into account when forming the solution.</para>
+</example>
+<note id="fs-id1168328169767" class="media-2">
+<para id="fs-id1168328316544">Visit <link url="https://openstaxcollege.org/l/21equatgraph">this site</link> to learn about graphing polynomials. The shape of the curve changes as the constants are adjusted. View the curves for the individual terms (for example, <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">bx</emphasis>) to see how they add to generate the polynomial curve.</para>
+</note>
+</section>
+<section id="fs-id1168327963423" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1168328063182" list-type="bulleted" bullet-style="bullet">
+<item>An object in free fall experiences constant acceleration if air resistance is negligible.</item>
+<item>On Earth, all free-falling objects have an acceleration <emphasis effect="italics">g</emphasis> due to gravity, which averages <m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.81</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</item>
+<item>For objects in free fall, the upward direction is normally taken as positive for displacement, velocity, and acceleration.</item>
+</list>
+</section>
+<section id="fs-id1168328221898" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1168328293440">
+<problem id="fs-id1168328246197">
+<para id="fs-id1168327872873">What is the acceleration of a rock thrown straight upward on the way up? At the top of its flight? On the way down? Assume there is no air resistance.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328260222">
+<problem id="fs-id1168327909273">
+<para id="fs-id1168327863610">An object that is thrown straight up falls back to Earth. This is one-dimensional motion. (a) When is its velocity zero? (b) Does its velocity change direction? (c) Does the acceleration have the same sign on the way up as on the way down?</para>
+</problem>
+<solution id="fs-id1168327958884">
+<para id="fs-id1168328230611">a. at the top of its trajectory; b. yes, at the top of its trajectory; c. yes</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327925204">
+<problem id="fs-id1168327984165">
+<para id="fs-id1168325632078">Suppose you throw a rock nearly straight up at a coconut in a palm tree and the rock just misses the coconut on the way up but hits the coconut on the way down. Neglecting air resistance and the slight horizontal variation in motion to account for the hit and miss of the coconut, how does the speed of the rock when it hits the coconut on the way down compare with what it would have been if it had hit the coconut on the way up? Is it more likely to dislodge the coconut on the way up or down? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328296713">
+<problem id="fs-id1168327939517">
+<para id="fs-id1168328200254">The severity of a fall depends on your speed when you strike the ground. All factors but the acceleration from gravity being the same, how many times higher could a safe fall on the Moon than on Earth (gravitational acceleration on the Moon is about one-sixth that of the Earth)?</para>
+</problem>
+<solution id="fs-id1168325788809">
+<para id="fs-id1168328070568">Earth <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>g</m:mi><m:mi>t</m:mi></m:mrow></m:math>; Moon <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mfrac><m:mi>g</m:mi><m:mn>6</m:mn></m:mfrac><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mspace width="0.5em"/><m:mi>v</m:mi><m:mo>=</m:mo><m:msup><m:mi>v</m:mi><m:mo>′</m:mo></m:msup><m:mspace width="0.5em"/><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>g</m:mi><m:mn>6</m:mn></m:mfrac><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mspace width="0.5em"/><m:msup><m:mi>t</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>t</m:mi></m:mrow></m:math>; Earth <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> Moon <m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mo>′</m:mo></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mspace width="0.2em"/><m:mfrac><m:mi>g</m:mi><m:mn>6</m:mn></m:mfrac><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:mn>6</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>−6</m:mn><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−6</m:mn><m:mi>y</m:mi></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327871044">
+<problem id="fs-id1168328246033">
+<para id="fs-id1168328066760">How many times higher could an astronaut jump on the Moon than on Earth if her takeoff speed is the same in both locations (gravitational acceleration on the Moon is about on-sixth of that on Earth)?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168328228344" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1168325735578">
+<problem id="fs-id1168328279441">
+<para id="fs-id1168328279443">Calculate the displacement and velocity at times of (a) 0.500 s, (b) 1.00 s, (c) 1.50 s, and (d) 2.00 s for a ball thrown straight up with an initial velocity of 15.0 m/s. Take the point of release to be <m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328277363">
+<problem id="fs-id1168328277365">
+<para id="fs-id1168328178839">Calculate the displacement and velocity at times of (a) 0.500 s, (b) 1.00 s, (c) 1.50 s, (d) 2.00 s, and (e) 2.50 s for a rock thrown straight down with an initial velocity of 14.0 m/s from the Verrazano Narrows Bridge in New York City. The roadway of this bridge is 70.0 m above the water.</para>
+</problem>
+<solution id="fs-id1168327932118">
+<para id="fs-id1168327932121">a. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−8.23</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mn>18.9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mtd></m:mtr></m:mtable></m:math>;<newline/>
+b. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−18.9</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>23.8</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mtd></m:mtr></m:mtable></m:math>;<newline/>
+c. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−32.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>v</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mn>28.7</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mtd></m:mtr></m:mtable></m:math>;<newline/>
+d. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−47.6</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>v</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mn>33.6</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mtd></m:mtr></m:mtable></m:math>;<newline/>
+e. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−65.6</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msub><m:mi>v</m:mi><m:mn>5</m:mn></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mn>38.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327876168">
+<problem id="fs-id1168327876170">
+<para id="fs-id1168325860502">A basketball referee tosses the ball straight up for the starting tip-off. At what velocity must a basketball player leave the ground to rise 1.25 m above the floor in an attempt to get the ball?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168328204005">
+<problem id="fs-id1168325630369">
+<para id="fs-id1168325630371">A rescue helicopter is hovering over a person whose boat has sunk. One of the rescuers throws a life preserver straight down to the victim with an initial velocity of 1.40 m/s and observes that it takes 1.8 s to reach the water. (a) List the knowns in this problem. (b) How high above the water was the preserver released? Note that the downdraft of the helicopter reduces the effects of air resistance on the falling life preserver, so that an acceleration equal to that of gravity is reasonable.</para>
+</problem>
+<solution id="fs-id1168327876420">
+<para id="fs-id1168325673481">a. Knowns: <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>m/s</m:mtext><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>−1.4</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mspace width="0.5em"/><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/>
+b.
+<m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>−1.4</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mo>(</m:mo><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mtext>sec</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.8</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>−18.4</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> and the origin is at the rescuers, who are 18.4 m above the water.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328379493">
+<problem id="fs-id1168328379495">
+<para id="fs-id1168328165219"><emphasis effect="bold">Unreasonable results</emphasis> A dolphin in an aquatic show jumps straight up out of the water at a velocity of 15.0 m/s. (a) List the knowns in this problem. (b) How high does his body rise above the water? To solve this part, first note that the final velocity is now a known, and identify its value. Then, identify the unknown and discuss how you chose the appropriate equation to solve for it. After choosing the equation, show your steps in solving for the unknown, checking units, and discuss whether the answer is reasonable. (c) How long a time is the dolphin in the air? Neglect any effects resulting from his size or orientation.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168327942440">
+<problem id="fs-id1168327942442">
+<para id="fs-id1168327943751">A diver bounces straight up from a diving board, avoiding the diving board on the way down, and falls feet first into a pool. She starts with a velocity of 4.00 m/s and her takeoff point is 1.80 m above the pool. (a) What is her highest point above the board? (b) How long a time are her feet in the air? (c) What is her velocity when her feet hit the water?</para>
+</problem>
+<solution id="fs-id1168328246433">
+<para id="fs-id1168328246435">a. <m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>g</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.82</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>; b. to the apex <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0.41</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> times 2 to the board = 0.82 s from the board to the water <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1.80</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math><m:math><m:mrow><m:mn>−1.8</m:mn><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>4.9</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mn>4.9</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4.0</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>1.80</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, solution to quadratic equation gives 1.13 s; c. <m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mspace width="0.5em"/><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mrow><m:mtext>s</m:mtext><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−1.80</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>7.16</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168327917021">
+<problem id="fs-id1168327917023">
+<para id="fs-id1168327917025">(a) Calculate the height of a cliff if it takes 2.35 s for a rock to hit the ground when it is thrown straight up from the cliff with an initial velocity of 8.00 m/s. (b) How long a time would it take to reach the ground if it is thrown straight down with the same speed?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325702557">
+<problem id="fs-id1168325702559">
+<para id="fs-id1168325702562">A very strong, but inept, shot putter puts the shot straight up vertically with an initial velocity of 11.0 m/s. How long a time does he have to get out of the way if the shot was released at a height of 2.20 m and he is 1.80 m tall?</para>
+</problem>
+<solution id="fs-id1168328325887">
+<para id="fs-id1168328317596">Time to the apex: <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1.12</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> times 2 equals 2.24 s to a height of 2.20 m. To 1.80 m in height is an additional 0.40 m. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−0.40</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>−11.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−0.40</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mspace width="0.5em"/><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>−11.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>0.40</m:mn><m:mo>=</m:mo><m:mn>−11.0</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>4.9</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mtext>or</m:mtext><m:mspace width="0.5em"/><m:mn>4.9</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11.0</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>0.40</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mtd></m:mtr></m:mtable></m:math>.<newline/>
+Take the positive root, so the time to go the additional 0.4 m is 0.04 s. Total time is <m:math><m:mrow><m:mn>2.24</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mspace width="0.2em"/><m:mo>+</m:mo><m:mn>0.04</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mspace width="0.2em"/><m:mo>=</m:mo><m:mn>2.28</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168328242029">
+<problem id="fs-id1168328242031">
+<para id="fs-id1168328242034">You throw a ball straight up with an initial velocity of 15.0 m/s. It passes a tree branch on the way up at a height of 7.0 m. How much additional time elapses before the ball passes the tree branch on the way back down?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325736839">
+<problem id="fs-id1168325736841">
+<para id="fs-id1168325736843">A kangaroo can jump over an object 2.50 m high. (a) Considering just its vertical motion, calculate its vertical speed when it leaves the ground. (b) How long a time is it in the air?</para>
+</problem>
+<solution id="fs-id1168328168679">
+<para id="fs-id1168328279776">a. <m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.5em"/><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mi>y</m:mi><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.50</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>7.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:math>; b. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0.72</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> times 2 gives 1.44 s in the air</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168325878341">
+<problem id="fs-id1168325878343">
+<para id="fs-id1168325878345">Standing at the base of one of the cliffs of Mt. Arapiles in Victoria, Australia, a hiker hears a rock break loose from a height of 105.0 m. He can’t see the rock right away, but then does, 1.50 s later. (a) How far above the hiker is the rock when he can see it? (b) How much time does he have to move before the rock hits his head?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168325780878">
+<problem id="fs-id1168327989882">
+<para id="fs-id1168327989884">There is a 250-m-high cliff at Half Dome in Yosemite National Park in California. Suppose a boulder breaks loose from the top of this cliff. (a) How fast will it be going when it strikes the ground? (b) Assuming a reaction time of 0.300 s, how long a time will a tourist at the bottom have to get out of the way after hearing the sound of the rock breaking loose (neglecting the height of the tourist, which would become negligible anyway if hit)? The speed of sound is 335.0 m/s on this day.</para>
+</problem>
+<solution id="fs-id1168327989886">
+<para id="fs-id1168327930574">a. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>70.0</m:mn><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math>; b. time heard after rock begins to fall: 0.75 s, time to reach the ground: 6.09 s</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1168057474798" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1170904098526" class="unnumbered unstyled" summary="This table gives the following formulae: Displacement, Delta x equal to xf minus xi; Total displacement, delta x subscript total equal to summation of delta xi, Average velocity, v bar equal to delta x by delta t equal to x2 minus x1 upon t2 minus t1; Instantaneous velocity, v of t equal to dx t by dt; Average speed equal to s bar equal to total distance upon elapsed time; Instantaneous speed equal to mod v of t; Average acceleration, a bar equal to delta v by delta t equal to vf minus v0 upon tf minus t0; Instantaneous acceleration, a of t equal to dv t by dt; Position from average velocity, x equal to x0 plus v bar t; Average velocity, v bar equal to v0 plus v by 2; Velocity from acceleration, v equal to v 0 plus at where a is constant; Position from velocity and acceleration, x equal to x0 plus v0t plus half a t squared where a is constant; Velocity from distance, v squared equal to v0 squared plus 2 a open parentheses x minus x0 close parentheses where a is constant; Velocity of free fall, v equal to v0 minus gt, positive upwards; Height of free fall, y equal to y0 plus v0 t minus half g t squared; Velocity of free fall from height, v squared equal to v0 squared – 2g open parentheses y minus y0 close parentheses; Velocity from acceleration, v of t equal to integration of a of t dt plus C1; Position from velocity, x of t equal to integration of v of t dt plus C2."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Displacement</entry><entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mtext>f</m:mtext></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Total displacement</entry><entry align="left"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo> <m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>x</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Average velocity</entry><entry align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>x</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Instantaneous velocity</entry><entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Average speed</entry><entry align="left"><m:math><m:mrow><m:mtext>Average speed</m:mtext><m:mo>=</m:mo><m:mover accent="true"><m:mi>s</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Total distance</m:mtext></m:mrow><m:mrow><m:mtext>Elapsed time</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Instantaneous speed</entry><entry align="left"><m:math><m:mrow><m:mtext>Instantaneous speed</m:mtext><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>|</m:mo></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Average acceleration</entry><entry align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mi>f</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mi>f</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Instantaneous acceleration</entry><entry align="left"><m:math><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>d</m:mi><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Position from average velocity</entry><entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mi>t</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Average velocity</entry><entry align="left"><m:math><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>v</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocity from acceleration</entry><entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mspace width="0.5em"/><m:mo stretchy="false">(</m:mo><m:mtext>constant</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mtext>)</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Position from velocity and acceleration</entry><entry align="left"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.5em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>constant</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mrow><m:mtext>)</m:mtext></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocity from distance</entry><entry align="left"><m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="0.5em"/><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>constant</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi></m:mrow><m:mtext>)</m:mtext></m:mrow></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocity of free fall</entry><entry align="left"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>−</m:mo><m:mi>g</m:mi><m:mi>t</m:mi><m:mspace width="0.2em"/><m:mtext>(positive upward)</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Height of free fall</entry><entry align="left"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Velocity of free fall from height</entry><entry align="left"><m:math><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>v</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table></section>
+<section id="fs-id1168055383615" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1168057332320">
+<problem id="fs-id1168057426599">
+<para id="fs-id1168057426601">When given the acceleration function, what additional information is needed to find the velocity function and position function?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168055137769" class="review-additional-problems">
+<title>Additional Problems</title>
+<exercise id="fs-id1168057389393">
+<problem id="fs-id1168057389395">
+<para id="fs-id1168057389397">Professional baseball player Nolan Ryan could pitch a baseball at approximately 160.0 km/h. At that average velocity, how long did it take a ball thrown by Ryan to reach home plate, which is 18.4 m from the pitcher’s mound? Compare this with the average reaction time of a human to a visual stimulus, which is 0.25 s.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168057491154">
+<problem id="fs-id1168057460178">
+<para id="fs-id1168057460180">An airplane leaves Chicago and makes the 3000-km trip to Los Angeles in 5.0 h. A second plane leaves Chicago one-half hour later and arrives in Los Angeles at the same time. Compare the average velocities of the two planes. Ignore the curvature of Earth and the difference in altitude between the two cities.</para>
+</problem>
+<solution id="fs-id1168055151090">
+<para id="fs-id1168057460183">Take west to be the positive direction.<newline/>
+1st plane: <m:math><m:mrow><m:mover><m:mi>ν</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mn>600</m:mn><m:mspace width="0.2em"/><m:mtext>km/h</m:mtext></m:mrow></m:math><newline/>
+2nd plane <m:math><m:mrow><m:mover accent="true"><m:mi>ν</m:mi><m:mtext>–</m:mtext></m:mover><m:mo>=</m:mo><m:mn>667.0</m:mn><m:mspace width="0.2em"/><m:mtext>km/h</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055309763">
+<problem id="fs-id1168055269127">
+<para id="fs-id1168055269129"><emphasis effect="bold">Unreasonable Results</emphasis> A cyclist rides 16.0 km east, then 8.0 km west, then 8.0 km east, then 32.0 km west, and finally 11.2 km east. If his average velocity is 24 km/h, how long did it take him to complete the trip? Is this a reasonable time?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168057455309">
+<problem id="fs-id1168057455311">
+<para id="fs-id1168057455313">An object has an acceleration of <m:math><m:mrow><m:mo>+</m:mo><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. At <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, its velocity is <m:math><m:mrow><m:mo>−</m:mo><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mtext>cm/s</m:mtext></m:mrow></m:math>. Determine the object’s velocities at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> and <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168055302745">
+<para id="fs-id1168055302748"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math>, <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>3.4</m:mn><m:mspace width="0.2em"/><m:mtext>cm/s</m:mtext><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mn>4</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>cm/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8.2</m:mn><m:mspace width="0.2em"/><m:mtext>cm/s</m:mtext></m:mrow></m:math> <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8.2</m:mn><m:mo>+</m:mo><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mi>t</m:mi></m:mrow></m:math>; <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>−7.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm/s</m:mtext><m:mspace width="0.5em"/><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>−1.0</m:mn><m:mspace width="0.2em"/><m:mtext>cm/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055308636">
+<problem id="fs-id1168055308638">
+<para id="fs-id1168055175652">A particle moving at constant acceleration has velocities of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2.0</m:mn></m:mrow></m:math> s and <m:math><m:mrow><m:mo>−</m:mo><m:mn>7.6</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> at <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5.2</m:mn></m:mrow></m:math> s. What is the acceleration of the particle?</para>
+</problem>
+<solution id="fs-id1168055307822">
+<para id="fs-id1168055307824"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055390931">
+<problem id="fs-id1168055390933">
+<para id="fs-id1168057323571">A train is moving up a steep grade at constant velocity (see following figure) when its caboose breaks loose and starts rolling freely along the track. After 5.0 s, the caboose is 30 m behind the train. What is the acceleration of the caboose?</para>
+<media id="fs-id1168057244126" alt="Figure shows a train moving up a hill.">
+<image mime-type="image/jpeg" src="CNX_UPhysics_03_04_Prob8_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1168055478200">
+<problem id="fs-id1168055478202">
+<para id="fs-id1168055120320">An electron is moving in a straight line with a velocity of <m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math> m/s. It enters a region 5.0 cm long where it undergoes an acceleration of <m:math><m:mrow><m:mn>6.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> along the same straight line. (a) What is the electron’s velocity when it emerges from this region? b) How long does the electron take to cross the region?</para>
+</problem>
+<solution id="fs-id1168055302554">
+<para id="fs-id1168055302556">a.<newline/><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>8.7</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>;<newline/>b. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>7.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055124622">
+<problem id="fs-id1168055124624">
+<para id="fs-id1168055022035">An ambulance driver is rushing a patient to the hospital. While traveling at 72 km/h, she notices the traffic light at the upcoming intersections has turned amber. To reach the intersection before the light turns red, she must travel 50 m in 2.0 s. (a) What minimum acceleration must the ambulance have to reach the intersection before the light turns red? (b) What is the speed of the ambulance when it reaches the intersection?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055146907">
+<problem id="fs-id1168055146909">
+<para id="fs-id1168055146911">A motorcycle that is slowing down uniformly covers 2.0 successive km in 80 s and 120 s, respectively. Calculate (a) the acceleration of the motorcycle and (b) its velocity at the beginning and end of the 2-km trip.</para>
+</problem>
+<solution id="fs-id1168057524743">
+<para id="fs-id1168055283058"><m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>80.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>80.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>; <m:math><m:mrow><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext><m:mo>=</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mn>200.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>200.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> solve simultaneously to get <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>0.1</m:mn></m:mrow><m:mrow><m:mn>2400.0</m:mn></m:mrow></m:mfrac><m:msup><m:mrow><m:mtext>km/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0.014167</m:mn><m:mspace width="0.2em"/><m:mtext>km/s</m:mtext></m:mrow></m:math>, which is <m:math><m:mrow><m:mn>51.0</m:mn><m:mspace width="0.2em"/><m:mtext>km/h</m:mtext></m:mrow></m:math>. Velocity at the end of the trip is <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>21.0</m:mn><m:mspace width="0.2em"/><m:mtext>km/h</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055392099">
+<problem id="fs-id1168055392101">
+<para id="fs-id1168055315002">A cyclist travels from point A to point B in 10 min. During the first 2.0 min of her trip, she maintains a uniform acceleration of <m:math><m:mrow><m:mn>0.090</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. She then travels at constant velocity for the next 5.0 min. Next, she decelerates at a constant rate so that she comes to a rest at point B 3.0 min later. (a) Sketch the velocity-versus-time graph for the trip. (b) What is the acceleration during the last 3 min? (c) How far does the cyclist travel?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055171580">
+<problem id="fs-id1168055392018">
+<para id="fs-id1168055392021">Two trains are moving at 30 m/s in opposite directions on the same track. The engineers see simultaneously that they are on a collision course and apply the brakes when they are 1000 m apart. Assuming both trains have the same acceleration, what must this acceleration be if the trains are to stop just short of colliding?</para>
+</problem>
+<solution id="fs-id1168055171872">
+<para id="fs-id1168055392024"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>−0.9</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055151366">
+<problem id="fs-id1168055151368">
+<para id="fs-id1168057341878">A 10.0-m-long truck moving with a constant velocity of 97.0 km/h passes a 3.0-m-long car moving with a constant velocity of 80.0 km/h. How much time elapses between the moment the front of the truck is even with the back of the car and the moment the back of the truck is even with the front of the car?</para>
+<media id="fs-id1168055140967" alt="Top drawing shows passenger car with a speed of 80 kilometers per hour in front of the truck with the speed of 97 kilometers per hour. Middle drawing shows passenger car with a speed of 80 kilometers per hour parallel to the truck with the speed of 97 kilometers per hour. Bottom drawing shows passenger car with a speed of 80 kilometers per hour behind the truck with a speed of 97 kilometers per hour.">
+<image mime-type="image/jpeg" src="CNX_UPhysics_03_04_Prob10_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1168055463266">
+<problem id="fs-id1168055237626">
+<para id="fs-id1168055237628">A police car waits in hiding slightly off the highway. A speeding car is spotted by the police car doing 40 m/s. At the instant the speeding car passes the police car, the police car accelerates from rest at 4 m/s<sup>2</sup> to catch the speeding car. How long does it take the police car to catch the speeding car?</para>
+</problem>
+<solution id="fs-id1168055306834">
+<para id="fs-id1168055306836">Equation for the speeding car: This car has a constant velocity, which is the average velocity, and is not accelerating, so use the equation for displacement with <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>:<m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mi>t</m:mi><m:mo>=</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mi>t</m:mi></m:mrow></m:math>; Equation for the police car: This car is accelerating, so use the equation for displacement with <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, since the police car starts from rest: <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>; Now we have an equation of motion for each car with a common parameter, which can be eliminated to find the solution. In this case, we solve for <m:math><m:mi>t</m:mi></m:math>. Step 1, eliminating <m:math><m:mi>x</m:mi></m:math>: <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>; Step 2, solving for <m:math><m:mi>t</m:mi></m:math>: <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mover accent="true"><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover></m:mrow><m:mi>a</m:mi></m:mfrac></m:mrow></m:math>. The speeding car has a constant velocity of 40 m/s, which is its average velocity. The acceleration of the police car is 4 m/s<sup>2</sup>. Evaluating <emphasis effect="italics">t</emphasis>, the time for the police car to reach the speeding car, we have <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mover accent="true"><m:mi>v</m:mi><m:mtext>–</m:mtext></m:mover></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>40</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168057464878">
+<problem id="fs-id1168057464880">
+<para id="fs-id1168057424743">Pablo is running in a half marathon at a velocity of 3 m/s. Another runner, Jacob, is 50 meters behind Pablo with the same velocity. Jacob begins to accelerate at 0.05 m/s<sup>2</sup>. (a) How long does it take Jacob to catch Pablo? (b) What is the distance covered by Jacob? (c) What is the final velocity of the Jacob?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055283140">
+<problem id="fs-id1168055283142">
+<para id="fs-id1168057354249"><emphasis effect="bold">Unreasonable results</emphasis> A runner approaches the finish line and is 75 m away; her average speed at this position is 8 m/s. She decelerates at this point at 0.5 m/s<sup>2</sup>. How long does it take her to cross the finish line from 75 m away? Is this reasonable?</para>
+</problem>
+<solution id="fs-id1168055381859">
+<para id="fs-id1168055310472">At this acceleration she comes to a full stop in <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mn>0.5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>16</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>, but the distance covered is <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mspace width="0.2em"/><m:mtext>m/s(16</m:mtext><m:mspace width="0.2em"/><m:mtext>s)</m:mtext><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>16</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>64</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, which is less than the distance she is away from the finish line, so she never finishes the race.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055095438">
+<problem id="fs-id1168055095440">
+<para id="fs-id1168055470146">An airplane accelerates at 5.0 m/s<sup>2</sup> for 30.0 s. During this time, it covers a distance of 10.0 km. What are the initial and final velocities of the airplane?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055124263">
+<problem id="fs-id1168055124265">
+<para id="fs-id1168055124267">Compare the distance traveled of an object that undergoes a change in velocity that is twice its initial velocity with an object that changes its velocity by four times its initial velocity over the same time period. The accelerations of both objects are constant.</para>
+</problem>
+<solution id="fs-id1168055323241">
+<para id="fs-id1168055394272"><m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>3</m:mn></m:mfrac><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055309203">
+<problem id="fs-id1168057481425">
+<para id="fs-id1168057481427">An object is moving east with a constant velocity and is at position <m:math><m:mrow><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>at</m:mtext><m:mspace width="0.2em"/><m:mtext>time</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>t</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. (a) With what acceleration must the object have for its total displacement to be zero at a later time <emphasis effect="italics">t</emphasis> ? (b) What is the physical interpretation of the solution in the case for <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055237526">
+<problem id="fs-id1168055237528">
+<para id="fs-id1168055391626">A ball is thrown straight up. It passes a 2.00-m-high window 7.50 m off the ground on its path up and takes 1.30 s to go past the window. What was the ball’s initial velocity?</para>
+</problem>
+<solution id="fs-id1168055391633">
+<para id="fs-id1168054945814"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>7.9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math> velocity at the bottom of the window.<newline/>
+<m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>7.9</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math><newline/>
+<m:math><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mo>=</m:mo><m:mn>14.1</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055282726">
+<problem id="fs-id1168057457672">
+<para id="fs-id1168057457674">A coin is dropped from a hot-air balloon that is 300 m above the ground and rising at 10.0 m/s upward. For the coin, find (a) the maximum height reached, (b) its position and velocity 4.00 s after being released, and (c) the time before it hits the ground.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055388728">
+<problem id="fs-id1168057522468">
+<para id="fs-id1168057522470">A soft tennis ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.10 m. (a) Calculate its velocity just before it strikes the floor. (b) Calculate its velocity just after it leaves the floor on its way back up. (c) Calculate its acceleration during contact with the floor if that contact lasts 3.50 ms <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> (d) How much did the ball compress during its collision with the floor, assuming the floor is absolutely rigid?</para>
+</problem>
+<solution id="fs-id1168055325521">
+<para id="fs-id1168055309415">a. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>5.42</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>4.64</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>2874.28</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+d. <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168057461827">
+<problem id="fs-id1168057461829">
+<para id="fs-id1168057461831"><emphasis effect="bold">Unreasonable results</emphasis>. A raindrop falls from a cloud 100 m above the ground. Neglect air resistance. What is the speed of the raindrop when it hits the ground? Is this a reasonable number?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055124296">
+<problem id="fs-id1168055124298">
+<para id="fs-id1168055124300">Compare the time in the air of a basketball player who jumps 1.0 m vertically off the floor with that of a player who jumps 0.3 m vertically.</para>
+</problem>
+<solution id="fs-id1168057418927">
+<para id="fs-id1168057418929">Consider the players fall from rest at the height 1.0 m and 0.3 m.<newline/>
+0.9 s<newline/>
+0.5 s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168057556789">
+<problem id="fs-id1168057556792">
+<para id="fs-id1168055311511">Suppose that a person takes 0.5 s to react and move his hand to catch an object he has dropped. (a) How far does the object fall on Earth, where <m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>?</m:mo></m:mrow></m:math> (b) How far does the object fall on the Moon, where the acceleration due to gravity is 1/6 of that on Earth?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055274264">
+<problem id="fs-id1168055274266">
+<para id="fs-id1168055274268">A hot-air balloon rises from ground level at a constant velocity of 3.0 m/s. One minute after liftoff, a sandbag is dropped accidentally from the balloon. Calculate (a) the time it takes for the sandbag to reach the ground and (b) the velocity of the sandbag when it hits the ground.</para>
+</problem>
+<solution id="fs-id1168055469821">
+<para id="fs-id1168055469823">a. <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>6.37</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> taking the positive root;<newline/>
+b. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>59.5</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168055469798">
+<problem id="fs-id1168055308954">
+<para id="fs-id1168055308957">(a) A world record was set for the men’s 100-m dash in the 2008 Olympic Games in Beijing by Usain Bolt of Jamaica. Bolt “coasted” across the finish line with a time of 9.69 s. If we assume that Bolt accelerated for 3.00 s to reach his maximum speed, and maintained that speed for the rest of the race, calculate his maximum speed and his acceleration. (b) During the same Olympics, Bolt also set the world record in the 200-m dash with a time of 19.30 s. Using the same assumptions as for the 100-m dash, what was his maximum speed for this race?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055309639">
+<problem id="fs-id1168055309641">
+<para id="fs-id1168055309644">An object is dropped from a height of 75.0 m above ground level. (a) Determine the distance traveled during the first second. (b) Determine the final velocity at which the object hits the ground. (c) Determine the distance traveled during the last second of motion before hitting the ground.</para>
+</problem>
+<solution id="fs-id1168055273683">
+<para id="fs-id1168055273685">a. <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4.9</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>;<newline/>
+b. <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>38.3</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>;<newline/>
+c. <m:math><m:mrow><m:mn>−33.3</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1168052793064">
+<problem id="fs-id1168052793066">
+<para id="fs-id1168052793068">A steel ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.45 m. (a) Calculate its velocity just before it strikes the floor. (b) Calculate its velocity just after it leaves the floor on its way back up. (c) Calculate its acceleration during contact with the floor if that contact lasts 0.0800 ms <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>8.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> (d) How much did the ball compress during its collision with the floor, assuming the floor is absolutely rigid?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055324264">
+<problem id="fs-id1168055324266">
+<para id="fs-id1168055273765">An object is dropped from a roof of a building of height <emphasis effect="italics">h</emphasis>. During the last second of its descent, it drops a distance <emphasis effect="italics">h</emphasis>/3. Calculate the height of the building.</para>
+</problem>
+<solution id="fs-id1168055491899">
+<para id="fs-id1168055491901"><m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <emphasis effect="italics">h</emphasis> = total height and time to drop to ground<newline/>
+<m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> in <emphasis effect="italics">t</emphasis> – 1 seconds it drops 2/3<emphasis effect="italics">h</emphasis><newline/>
+<m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> or <m:math><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mo>±</m:mo><m:msqrt><m:mrow><m:msup><m:mn>6</m:mn><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>·</m:mo><m:mn>3</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>±</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>24</m:mn></m:mrow></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math><newline/>
+<emphasis effect="italics">t</emphasis> = 5.45 s and <emphasis effect="italics">h</emphasis> = 145.5 m. Other root is less than 1 s. Check for <emphasis effect="italics">t</emphasis> = 4.45 s <m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>g</m:mi><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>97.0</m:mn></m:mrow></m:math> m <m:math><m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>145.5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1163713292662" class="review-challenge">
+<title>Challenge Problems</title>
+<exercise id="fs-id1168055309429">
+<problem id="fs-id1168055309431">
+<para id="fs-id1168055309433">In a 100-m race, the winner is timed at 11.2 s. The second-place finisher’s time is 11.6 s. How far is the second-place finisher behind the winner when she crosses the finish line? Assume the velocity of each runner is constant throughout the race.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168057481407">
+<problem id="fs-id1168057481409">
+<para id="fs-id1168057481411">A cyclist sprints at the end of a race to clinch a victory. She has an initial velocity of 11.5 m/s and accelerates at a rate of 0.500 m/s<sup>2</sup> for 7.00 s. (a) What is her final velocity? (b) The cyclist continues at this velocity to the finish line. If she is 300 m from the finish line when she starts to accelerate, how much time did she save? (c) The second-place winner was 5.00 m ahead when the winner started to accelerate, but he was unable to accelerate, and traveled at 11.8 m/s until the finish line. What was the difference in finish time in seconds between the winner and runner-up? How far back was the runner-up when the winner crossed the finish line?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168055309457">
+<problem id="fs-id1168057239209">
+<para id="fs-id1168057239211">In 1967, New Zealander Burt Munro set the world record for an Indian motorcycle, on the Bonneville Salt Flats in Utah, of 295.38 km/h. The one-way course was 8.00 km long. Acceleration rates are often described by the time it takes to reach 96.0 km/h from rest. If this time was 4.00 s and Burt accelerated at this rate until he reached his maximum speed, how long did it take Burt to complete the course?</para>
+</problem>
+<solution id="fs-id1168057239219">
+<para id="fs-id1168057720330"><m:math><m:mrow><m:mn>96</m:mn><m:mspace width="0.2em"/><m:mtext>km/h</m:mtext><m:mo>=</m:mo><m:mn>26.67</m:mn><m:mspace width="0.2em"/><m:mtext>m/s,</m:mtext><m:mspace width="0.2em"/><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>26.67</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.67</m:mn><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>, 295.38 km/h = 82.05 m/s, <m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>12.3</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> time to accelerate to maximum speed<newline/>
+<m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>504.55</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> distance covered during acceleration<newline/>
+<m:math><m:mrow><m:mn>7495.44</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> at a constant speed<newline/>
+<m:math><m:mrow><m:mfrac><m:mrow><m:mn>7495.44</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mn>82.05</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>91.35</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math> so total time is <m:math><m:mrow><m:mn>91.35</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>+</m:mo><m:mn>12.3</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext><m:mo>=</m:mo><m:mn>103.65</m:mn><m:mspace width="0.2em"/><m:mtext>s</m:mtext></m:mrow></m:math>.</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1168328179405">
+<term>acceleration due to gravity</term>
+<meaning id="fs-id1168328179411">acceleration of an object as a result of gravity</meaning>
+</definition>
+<definition id="fs-id1168328329319">
+<term>free fall</term>
+<meaning id="fs-id1168328319810">the state of movement that results from gravitational force only</meaning>
+</definition>
+</glossary>
+</document>

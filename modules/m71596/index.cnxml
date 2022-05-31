@@ -1,0 +1,21 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71596</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>7e9941af-ecbe-40d8-aa62-1024f9255c5d</md:uuid>
+</metadata>
+
+<content>
+<figure id="OSC_Astro_17_00_Color" class="splash">
+<title>Star Colors.</title>
+<media id="fs-id1170323969380" alt="Time exposure photograph of the night sky, showing stars as semi-circular streaks of light, rather than points, due to the rotation of the Earth.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_17_00_Color.jpg"/>
+</media>
+<caption>This long time exposure shows the colors of the stars. The circular motion of the stars across the image is provided by Earth’s rotation. The various colors of the stars are caused by their different temperatures. (credit: modification of work by ESO/A.Santerne)</caption>
+</figure>
+
+<para id="fs-id1170326314777">Here's another view of the night sky. It is obvious that stars do not all appear equally bright, but we understand that this has to do with each star's intrinsic luminosity and its distance away from Earth. However, as we have noted before, the stars we observe are also not all the same color. To understand why, we must delve deeper into the nature and properties of light as an electromagnetic wave. That study will lead us to even more information about stars, including their temperatures and their velocities toward or away from us.</para></content>
+</document>

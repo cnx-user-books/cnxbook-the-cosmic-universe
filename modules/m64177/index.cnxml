@@ -1,0 +1,221 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Centripetal Force</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64177</md:content-id>
+  <md:title>Centripetal Force</md:title>
+  <md:abstract>By the end of the section, you will be able to:
+<list>
+<item>Explain the equation for centripetal acceleration</item>
+<item>Apply Newton’s second law to develop the equation for centripetal force</item>
+<item>Use circular motion concepts in solving problems involving Newton’s laws of motion</item>
+</list></md:abstract>
+  <md:uuid>ef819d8d-e9c7-4d0d-ad21-ac22511afe5c</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165035615464">In <link class="target-chapter" document="m64054">Motion in Two and Three Dimensions</link>, we examined the basic concepts of circular motion. An object undergoing circular motion, like a race car going around a corner, must be accelerating because it is changing the direction of its velocity. We proved that this centrally directed acceleration, called <term class="no-emphasis">centripetal acceleration</term>, is given by the formula</para><equation id="fs-id1165039232609" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></equation>
+<para id="fs-id1165039098371">where <emphasis effect="italics">v</emphasis> is the velocity of the object, directed along a tangent line to the curve at any instant. If we know the angular velocity <m:math><m:mi>ω</m:mi></m:math>, then we can use</para>
+<equation id="fs-id1165038988718" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165035863155">Angular velocity gives the rate at which the object is turning through the curve, in units of rad/s. This acceleration acts along the radius of the curved path and is thus also referred to as a radial acceleration.</para>
+<para id="fs-id1165039311347">An acceleration must be produced by a force. Any force or combination of forces can cause a centripetal or radial acceleration. Just a few examples are the tension in the rope on a tether ball, the force of Earth’s gravity on the Moon, friction between roller skates and a rink floor, a banked roadway’s force on a car, and forces on the tube of a spinning centrifuge. Any net force causing uniform circular motion is called a <term>centripetal force</term>. The direction of a centripetal force is toward the center of curvature, the same as the direction of centripetal acceleration. According to Newton’s second law of motion, net force is mass times acceleration: <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi><m:mo>.</m:mo></m:mrow></m:math> For uniform circular motion, the acceleration is the centripetal acceleration:<emphasis effect="italics"><sub>.</sub></emphasis><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math> Thus, the magnitude of centripetal force <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> is</para>
+<equation id="fs-id1165039345908" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039303226">By substituting the expressions for centripetal acceleration <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>;</m:mo><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo></m:mrow></m:math> we get two expressions for the centripetal force <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> in terms of mass, velocity, angular velocity, and radius of curvature:</para>
+<note id="fs-id1165039517621" class="equation-callout">
+<equation id="fs-id1165039069818"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>;</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165035706721">You may use whichever expression for centripetal force is more convenient. Centripetal force <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub></m:mrow></m:math><sub/>is always perpendicular to the path and points to the center of curvature, because <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> is perpendicular to the velocity and points to the center of curvature. Note that if you solve the first expression for <emphasis effect="italics">r</emphasis>, you get</para>
+<equation id="fs-id1165039094906" class="unnumbered"><label/><m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039310439">This implies that for a given mass and velocity, a large centripetal force causes a small radius of curvature—that is, a tight curve, as in <link target-id="CNX_UPhysics_06_03_CentForce"/>.</para>
+<figure id="CNX_UPhysics_06_03_CentForce">
+<media id="fs-id1165039315627" alt="The figure consists of two semicircles. The semicircle on the left has radius r and bigger than the one on the right, which has radius r prime. In both the figures, the direction of the motion is given as counter-clockwise along the semicircles. A point is shown on the path, where the radius is shown with an arrow pointing out from the center of the semicircle. At the same point, the centripetal force, F sub c, is shown pointing inward, in the opposite direction to that of radius arrow. The velocity, v, is shown at this point as well, and it is tangent to the semicircle, pointing left and up, perpendicular to the forces. In both the figures, the velocity is same, but the radius prime is smaller and centripetal force is larger in the figure on the right. It is noted that vector F sub c is parallel to vector a sub c since vector F sub c equals m times vector a sub c.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_CentForce.jpg"/>
+</media>
+<caption>The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> the smaller the radius of curvature <emphasis effect="italics">r</emphasis> and the sharper the curve. The second curve has the same <emphasis effect="italics">v</emphasis>, but a larger <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub></m:mrow></m:math> produces a smaller <emphasis effect="italics">r</emphasis>′.</caption>
+</figure>
+<example id="fs-id1165039113797">
+<para id="fs-id1165039337640"><title>What Coefficient of Friction Do Cars Need on a Flat Curve?</title>
+(a) Calculate the centripetal force exerted on a 900.0-kg car that negotiates a 500.0-m radius curve at 25.00 m/s. (b) Assuming an unbanked curve, find the minimum static coefficient of friction between the tires and the road, static friction being the reason that keeps the car from slipping (<link target-id="CNX_UPhysics_06_03_RedCar"/>).</para>
+<figure id="CNX_UPhysics_06_03_RedCar"><media id="fs-id1165035614003" alt="In this figure, a car is shown, driving away from the viewer and turning to the left on a level surface.  The following forces are shown on the car: w pointing straight down, N pointing straight up, and f which equals F sub c which equals mu sub s times N, pointing to the left. The forces w and N act on the body of the car, while f acts where the wheel contacts the ground. The free body diagram is shown to the side of the illustration of the car and shows the forces w, N, and f as arrows with their tails all meeting at a point.">
+<image mime-type="image/jpeg" src="../../media/unnamed.jpg"/>
+</media>
+
+<caption>This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.</caption></figure><para id="fs-id1165039285311"><title>Strategy</title></para>
+<list id="fs-id1168586337861" list-type="enumerated" number-style="lower-alpha">
+<item>We know that <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math> Thus,<newline/>
+<equation id="fs-id1165035681116" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>900.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>25.00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>500.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1125</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
+<item><link target-id="CNX_UPhysics_06_03_RedCar"/> shows the forces acting on the car on an unbanked (level ground) curve. Friction is to the left, keeping the car from slipping, and because it is the only horizontal force acting on the car, the friction is the centripetal force in this case. We know that the maximum static friction (at which the tires roll but do not slip) is <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>N</m:mi><m:mo>,</m:mo></m:mrow></m:math> where <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub></m:mrow></m:math> is the static coefficient of friction and <emphasis effect="italics">N</emphasis> is the normal force. The normal force equals the car’s weight on level ground, so <m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math> Thus the centripetal force in this situation is<newline/>
+<equation id="fs-id1165039325486" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>≡</m:mo><m:mi>f</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>N</m:mi><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
+Now we have a relationship between centripetal force and the coefficient of friction. Using the equation<newline/>
+<equation id="fs-id1165039250680" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>,</m:mo></m:mrow></m:math></equation><newline/>
+we obtain<newline/>
+<equation id="fs-id1165039374168" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
+We solve this for <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>,</m:mo></m:mrow></m:math> noting that mass cancels, and obtain<newline/>
+<equation id="fs-id1165039052741" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>r</m:mi><m:mi>g</m:mi></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
+Substituting the knowns,<newline/>
+<equation id="fs-id1165039104568" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>25.00</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>500.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.13</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation><newline/>
+(Because coefficients of friction are approximate, the answer is given to only two digits.)</item>
+</list>
+<para id="fs-id1165039083344"><title>Significance</title>
+The coefficient of friction found in <link target-id="CNX_UPhysics_06_03_RedCar"/>(b) is much smaller than is typically found between tires and roads. The car still negotiates the curve if the coefficient is greater than 0.13, because static friction is a responsive force, able to assume a value less than but no more than <m:math><m:mrow><m:msub><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:msub><m:mi>N</m:mi><m:mo>.</m:mo></m:mrow></m:math> A higher coefficient would also allow the car to negotiate the curve at a higher speed, but if the coefficient of friction is less, the safe speed would be less than 25 m/s. Note that mass cancels, implying that, in this example, it does not matter how heavily loaded the car is to negotiate the turn. Mass cancels because friction is assumed proportional to the normal force, which in turn is proportional to mass. If the surface of the road were banked, the normal force would be less, as discussed next.</para>
+</example>
+<note id="fs-id1165035722482" class="check-understanding">
+<exercise id="fs-id1165039073815">
+<problem id="fs-id1165039044607">
+<para id="fs-id1165039073474"><emphasis effect="bold">Check Your Understanding</emphasis> A car moving at 96.8 km/h travels around a circular curve of radius 182.9 m on a flat country road. What must be the minimum coefficient of static friction to keep the car from slipping?</para>
+</problem>
+<solution id="fs-id1165039077205">
+<para id="fs-id1165038962554">0.40</para>
+</solution>
+</exercise>
+</note>
+<section id="fs-id1165039374258" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1171240074559" class="unnumbered unstyled" summary="This table gives the following formulae: Centripetal force in terms of linear velocity, F-sub-c is equal to m times v-squared over r; Centripetal force in terms of angular velocity, F-sub-c equal to m times r times omega-squared"><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Centripetal force in terms of linear velocity</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Centripetal force in terms of angular velocity</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>r</m:mi><m:msup><m:mi>ω</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1165039026731" class="review-conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1165039075190">
+<problem id="fs-id1165035760150">
+<para id="fs-id1165035718736">If you wish to reduce the stress (which is related to centripetal force) on high-speed tires, would you use large- or small-diameter tires? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039326296">
+<problem id="fs-id1165035715382">
+<para id="fs-id1165038959750">Define centripetal force. Can any type of force (for example, tension, gravitational force, friction, and so on) be a centripetal force? Can any combination of forces be a centripetal force?</para>
+</problem>
+<solution id="fs-id1165039453744">
+<para id="fs-id1165035687039">Centripetal force is defined as any net force causing uniform circular motion. The centripetal force is not a new kind of force. The label “centripetal” refers to <emphasis effect="italics">any</emphasis> force that keeps something turning in a circle. That force could be tension, gravity, friction, electrical attraction, the normal force, or any other force. Any combination of these could be the source of centripetal force, for example, the centripetal force at the top of the path of a tetherball swung through a vertical circle is the result of both tension and gravity.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039510688">
+<problem id="fs-id1165038990778">
+<para id="fs-id1165039496835">If centripetal force is directed toward the center, why do you feel that you are ‘thrown’ away from the center as a car goes around a curve? Explain.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039003212">
+<problem id="fs-id1165039384949">
+<para id="fs-id1165039113906">Race car drivers routinely cut corners, as shown below (Path 2). Explain how this allows the curve to be taken at the greatest speed.</para>
+<media id="fs-id1165039497191" alt="Two paths are shown inside a race track through a ninety degree curve. Two cars, a red and a blue one,  and their paths of travel are shown. The blue car is making a tight turn on path one, which is the inside path along the track. The red car is shown overtaking the first car, while taking a wider turn and crossing in front of the blue car into the inside path and then back out of it.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P4_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165035743127">
+<para id="fs-id1165039312717">The driver who cuts the corner (on Path 2) has a more gradual curve, with a larger radius. That one will be the better racing line. If the driver goes too fast around a corner using a racing line, he will still slide off the track; the key is to stay at the maximum value of static friction. So, the driver wants maximum possible speed and maximum friction. Consider the equation for centripetal force: <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:math> where <emphasis effect="italics">v</emphasis> is speed and <emphasis effect="italics">r</emphasis> is the radius of curvature. So by decreasing the curvature (1/<emphasis effect="italics">r</emphasis>) of the path that the car takes, we reduce the amount of force the tires have to exert on the road, meaning we can now increase the speed, <emphasis effect="italics">v</emphasis>. Looking at this from the point of view of the driver on Path 1, we can reason this way: the sharper the turn, the smaller the turning circle; the smaller the turning circle, the larger is the required centripetal force. If this centripetal force is not exerted, the result is a skid.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039393190">
+<problem id="fs-id1165039073338">
+<para id="fs-id1165035726450">Many amusement parks have rides that make vertical loops like the one shown below. For safety, the cars are attached to the rails in such a way that they cannot fall off. If the car goes over the top at just the right speed, gravity alone will supply the centripetal force. What other force acts and what is its direction if:</para>
+<para id="fs-id1165039284952">(a) The car goes over the top at faster than this speed?</para>
+<para id="fs-id1165039000642">(b) The car goes over the top at slower than this speed?</para>
+<media id="fs-id1165039287645" alt="A photo of a roller coaster with a vertical loop. The loop has a tighter curvature at the top than at the bottom, making an inverted teardrop shape.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P5_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165039264324">
+<problem id="fs-id1165039066680">
+<para id="fs-id1165035685329">What causes water to be removed from clothes in a spin-dryer?</para>
+</problem>
+<solution id="fs-id1165039477270">
+<para id="fs-id1165035735743">The barrel of the dryer provides a centripetal force on the clothes (including the water droplets) to keep them moving in a circular path. As a water droplet comes to one of the holes in the barrel, it will move in a path tangent to the circle.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039302968">
+<problem id="fs-id1165039458614">
+<para id="fs-id1165035703891">As a skater forms a circle, what force is responsible for making his turn? Use a free-body diagram in your answer.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039347286">
+<problem id="fs-id1165039021031">
+<para id="fs-id1165039264802">A car rounds a curve and encounters a patch of ice with a very low coefficient of kinetic fiction. The car slides off the road. Describe the path of the car as it leaves the road.</para>
+</problem>
+<solution id="fs-id1165039077662">
+<para id="fs-id1165039267294">Since the radial friction with the tires supplies the centripetal force, and friction is nearly 0 when the car encounters the ice, the car will obey Newton’s first law and go off the road in a straight line path, tangent to the curve. A common misconception is that the car will follow a curved path off the road.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039098388">
+<problem id="fs-id1165039087924">
+<para id="fs-id1165038974400">Two friends are having a conversation. Anna says a satellite in orbit is in free fall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in free fall because the acceleration due to gravity is not <m:math><m:mrow><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Who do you agree with and why?</para>
+</problem>
+<solution id="fs-id1165039083736">
+<para id="fs-id1165035704143">Anna is correct. The satellite is freely falling toward Earth due to gravity, even though gravity is weaker at the altitude of the satellite, and <emphasis effect="italics">g</emphasis> is not <m:math><m:mrow><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Free fall does not depend on the value of <emphasis effect="italics">g</emphasis>; that is, you could experience free fall on Mars if you jumped off Olympus Mons (the tallest volcano in the solar system).</para>
+</solution>
+</exercise>
+</section><section id="fs-id1165035734743" class="review-problems"><title>Problems</title><exercise id="fs-id1165039087650">
+<problem id="fs-id1165039479306">
+<para id="fs-id1165035682097">(a) A 22.0-kg child is riding a playground merry-go-round that is rotating at 40.0 rev/min. What centripetal force is exerted if he is 1.25 m from its center? (b) What centripetal force is exerted if the merry-go-round rotates at 3.00 rev/min and he is 8.00 m from its center? (c) Compare each force with his weight.</para>
+</problem>
+<solution id="fs-id1165039026811">
+<para id="fs-id1165039331654">a. 483 N; b. 17.4 N; c. 2.24, 0.0807</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039100614">
+<problem id="fs-id1165039242547">
+<para id="fs-id1165039209500">Calculate the centripetal force on the end of a 100-m (radius) wind turbine blade that is rotating at 0.5 rev/s. Assume the mass is 4 kg.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039045013">
+<problem id="fs-id1165039045015">
+<para id="fs-id1165039125365">Modern roller coasters have vertical loops like the one shown here. The radius of curvature is smaller at the top than on the sides so that the downward centripetal acceleration at the top will be greater than the acceleration due to gravity, keeping the passengers pressed firmly into their seats. (a) What is the speed of the roller coaster at the top of the loop if the radius of curvature there is 15.0 m and the downward acceleration of the car is 1.50 <emphasis effect="italics">g</emphasis>? (b) How high above the top of the loop must the roller coaster start from rest, assuming negligible friction? (c) If it actually starts 5.00 m higher than your answer to (b), how much energy did it lose to friction? Its mass is <m:math><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>.</para>
+<media id="fs-id1165035733795" alt="An illustration of a loop of a roller. The radius of curvature is smaller at the top than on the sides and bottom. The radius of the loop at the tom is shown and labeled as r sub minimum. The radius at the lowest part of the loop is labeled as r sub maximum.  The track is on the inside surface of the loop. The motion is indicated by arrows, starting at ground level to the right of the loop, going up inside the loop on the left, then down the inside right of the loop, and out again at ground level on the left. Four location on the track, A, B, C, and D and B, are labeled. Point A is at ground level, to the right of the loop, where the track is straight and horizontal. Point B is part way up the left side of the loop. Point C is part way up the right side of the loop, at the same level as point B. Point D is at ground level, to the left of the loop, where the track is straight and horizontal.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P24_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165039091562">
+<problem id="fs-id1165039234647">
+<para id="fs-id1165039234649">A child of mass 40.0 kg is in a roller coaster car that travels in a loop of radius 7.00 m. At point A the speed of the car is 10.0 m/s, and at point B, the speed is 10.5 m/s. Assume the child is not holding on and does not wear a seat belt. (a) What is the force of the car seat on the child at point A? (b) What is the force of the car seat on the child at point B? (c) What minimum speed is required to keep the child in his seat at point A?</para>
+<media id="fs-id1165039439426" alt="An illustration of a loop of a roller coaster with a child seated in a car approaching the loop. The track is on the inside surface of the loop. Two location on the loop, A and B, are labeled. Point A is at the top of the loop. Point B is down and to the left of A. The angle between the radii to points A and B is thirty degrees.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_06_03_P26_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039194995">
+<para id="fs-id1165039084153">a. 179 N; b. 290 N; c. 8.3 m/s</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039445011">
+<problem id="fs-id1165039445013">
+<para id="fs-id1165039516436">In the simple Bohr model of the ground state of the hydrogen atom, the electron travels in a circular orbit around a fixed proton. The radius of the orbit is <m:math><m:mrow><m:mn>5.28</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m,</m:mtext></m:mrow></m:math> and the speed of the electron is <m:math><m:mrow><m:mn>2.18</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:math> The mass of an electron is <m:math><m:mrow><m:mn>9.11</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−31</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>. What is the force on the electron?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039295768">
+<problem id="fs-id1165039440552">
+<para id="fs-id1165039440554">The CERN particle accelerator is circular with a circumference of 7.0 km. (a) What is the acceleration of the protons <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:math> that move around the accelerator at <m:math><m:mrow><m:mn>5</m:mn><m:mi>%</m:mi></m:mrow></m:math> of the speed of light? (The speed of light is <m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>3.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math>) (b) What is the force on the protons?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039071024">
+<problem id="fs-id1165039237696">
+<para id="fs-id1165039237698">A car rounds an unbanked curve of radius 65 m. If the coefficient of static friction between the road and car is 0.70, what is the maximum speed at which the car traverse the curve without slipping?</para>
+</problem>
+<solution id="fs-id1165039269152">
+<para id="fs-id1165039269154">21 m/s</para>
+</solution>
+</exercise>
+</section></content>
+<glossary>
+<definition id="fs-id1165039353624">
+<term>centripetal force</term>
+<meaning id="fs-id1165039106544">any net force causing uniform circular motion</meaning>
+</definition>
+</glossary>
+</document>

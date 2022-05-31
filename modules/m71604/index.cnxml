@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71604</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>92ba0ad6-0541-4a03-81f9-5fbfe628d0dd</md:uuid>
+</metadata>
+
+<content>
+<figure id="CNX_UPhysics_43_00_Sun">
+<media id="fs-id1170902952061" alt="A picture of the sun.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_43_00_Sun.jpg"/>
+</media>
+<caption>The Sun is powered by nuclear fusion in its core. The core converts approximately <m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>38</m:mn></m:mrow></m:msup></m:mrow></m:math> protons/second into helium at a temperature of 14 million K. This process releases energy in the form of photons, neutrinos, and other particles. (credit: modification of work by EIT SOHO Consortium, ESA, NASA)</caption>
+</figure>
+<para id="eip-911"><term>Thermal energy</term> plays many important roles in our solar system. In this chapter we will examine its sources and their consequences.</para><para id="fs-id1170902929587">The Sun is the main source of energy in the solar system. The Sun is 109 Earth diameters across, and accounts for more than <m:math><m:mrow><m:mn>99</m:mn><m:mtext>%</m:mtext></m:mrow></m:math> of the total mass of the solar system. The Sun shines by fusing hydrogen nuclei—protons—deep inside its interior. Because of this, we must study some properties of the atomic nucleus. The nucleus lies at the center of an atom, and consists of protons and neutrons. A deep understanding of the nucleus also leads to numerous valuable technologies, including devices to date ancient rocks, map the galactic arms of the Milky Way, and generate electrical power.</para></content>
+</document>

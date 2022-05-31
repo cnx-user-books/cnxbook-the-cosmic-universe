@@ -1,0 +1,252 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Brightness of Stars</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m76888</md:content-id>
+  <md:title>The Brightness of Stars</md:title>
+  <md:abstract><list>
+<item>Explain how and why the amount of light we see from an object depends upon its distance</item>
+<item>Explain the difference between luminosity and apparent brightness</item>
+<item>Understand how astronomers specify brightness with magnitudes</item>
+</list></md:abstract>
+  <md:uuid>6306dcb4-2aab-4fe1-9846-75c3728540a8</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id1170324178164">
+<title>Luminosity</title>
+<para id="fs-id1170326499880">Perhaps the most important characteristic of a star is its <term>luminosity</term>—the total amount of energy at all wavelengths that it emits per second. Earlier, we saw that the Sun puts out a tremendous amount of energy every second. (And there are stars far more luminous than the Sun out there.) To make the comparison among stars easy, astronomers express the luminosity of other stars in terms of the Sun’s luminosity. For example, the luminosity of <term class="no-emphasis">Sirius</term> is about 25 times that of the Sun. We use the symbol <emphasis effect="italics">L</emphasis><sub>Sun</sub> to denote the Sun’s luminosity; hence, that of Sirius can be written as 25 <emphasis effect="italics">L</emphasis><sub>Sun</sub>. In a later chapter, we will see that if we can measure how much energy a star emits and we also know its mass, then we can calculate how long it can continue to shine before it exhausts its nuclear energy and begins to die.</para>
+</section>
+<section id="fs-id1163975639889">
+<title>Propagation of Light</title>
+<para id="fs-id1163975354150">Let’s think for a moment about how <term class="no-emphasis">light</term> from a lightbulb moves through space. As waves expand, they travel away from the bulb, not just toward your eyes but in all directions. They must therefore cover an ever-widening space. Yet the total amount of light available can’t change once the light has left the bulb. This means that, as the same expanding shell of light covers a larger and larger area, there must be less and less of it in any given place. Light (and all other electromagnetic radiation) gets weaker and weaker as it gets farther from its source.</para>
+<para id="fs-id1163975427934">The increase in the area that the light must cover is proportional to the square of the distance that the light has traveled (<link target-id="OSC_Astro_05_01_Invlight"/>). If we stand twice as far from the source, our eyes will intercept two-squared (2 × 2), or four times less light. If we stand 10 times farther from the source, we get 10-squared, or 100 times less light. You can see how this weakening means trouble for sources of light at astronomical distances. One of the nearest stars, <term class="no-emphasis">Alpha Centauri</term> A, emits about the same total energy as the Sun. But it is about 270,000 times farther away, and so it appears about 73 billion times fainter. No wonder the stars, which close-up would look more or less like the Sun, look like faint pinpoints of light from far away.</para>
+<figure id="OSC_Astro_05_01_Invlight">
+<title>Inverse Square Law for Light.</title>
+<media id="fs-id1163975361267" alt="Figure illustrating the inverse square law for light. At left is a spherical light source such as a star. Four arrows move radially outward from the source toward the right, with each arrow representing one corner of a square. At one unit away from the source (labeled 1), the arrows are close together to form a square one unit high, and thus one unit square. At the next labeled unit (labeled 2), two steps away from the source, the square is now two units high, and thus four units square. At this distance from the source the energy is 4 times less than at step 1. The final labeled step (labeled 3) is 3 units away, thus the square bounded by the arrows is now 9 units in area, and the energy is 9 times less than at step 1.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_05_01_Invlight.jpg"/>
+</media>
+<caption>As light radiates away from its source, it spreads out in such a way that the energy per unit area (the amount of energy passing through one of the small squares) decreases as the square of the distance from its source.</caption>
+</figure>
+<para id="fs-id1163975466771">This idea—that the apparent brightness of a source (how bright it looks to us) gets weaker with distance in the way we have described—is known as the <term>inverse square law</term> for light propagation. In this respect, the propagation of light is similar to the effects of gravity. Remember that the force of gravity between two attracting masses is also inversely proportional to the square of their separation.</para>
+<note id="eip-526"><title>Inverse Square Law for Light</title><para id="eip-idm345481504">As an equation:</para><equation id="eip-idm367176096"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></equation></note><example id="fs-id1163975530807">
+<para id="fs-id1163975483503"><title>The Inverse Square Law for Light</title>
+The intensity of a 120-W lightbulb observed from a distance 2 m away is 2.4 W/m<sup>2</sup>. What would be the intensity if this distance was doubled?</para>
+<para id="fs-id1163975554556"><title>Solution</title>
+If we move twice as far away, then the answer will change according to the inverse square of the distance, so the new intensity will be (1/2)<sup>2</sup> = 1/4 of the original intensity, or 0.6 W/m<sup>2</sup>.</para>
+<para id="fs-id1163974340641"><title>Check Your Learning</title>
+How many times brighter or fainter would a star appear if it were moved to:</para>
+<list id="fs-id1163974189549" list-type="enumerated" number-style="lower-alpha">
+<item>twice its present distance?</item>
+<item>ten times its present distance?</item>
+<item>half its present distance?</item>
+</list>
+<note id="fs-id1163975429050">
+<title>Answer:</title>
+<para id="fs-id1163974228324">a. <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>; b. <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>100</m:mn></m:mrow></m:mfrac></m:mrow></m:math>; c. <m:math><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mtext>1/2</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
+</note>
+</example>
+</section>
+<section id="fs-id1170323919545">
+<title>Apparent Brightness</title>
+<para id="fs-id1170323800078">Astronomers are careful to distinguish between the luminosity of the star (the total energy output) and the amount of energy that happens to reach our eyes or a telescope on Earth. Stars are democratic in how they produce radiation; they emit the same amount of energy in every direction in space. Consequently, only a minuscule fraction of the energy given off by a star actually reaches an observer on Earth. We call the amount of a star’s energy that reaches a given area (say, one square meter) each second here on Earth its <term>apparent brightness</term>. If you look at the night sky, you see a wide range of apparent brightnesses among the stars. Most stars, in fact, are so dim that you need a telescope to detect them.</para>
+<para id="fs-id1170326092885">If all stars were the same luminosity—if they were like standard bulbs with the same light output—we could use the difference in their apparent brightnesses to tell us something we very much want to know: how far away they are. Imagine you are in a big concert hall or ballroom that is dark except for a few dozen 25-watt bulbs placed in fixtures around the walls. Since they are all 25-watt bulbs, their luminosity (energy output) is the same. But from where you are standing in one corner, they do <emphasis effect="italics">not</emphasis> have the same apparent brightness. Those close to you appear brighter (more of their light reaches your eye), whereas those far away appear dimmer (their light has spread out more before reaching you). In this way, you can tell which bulbs are closest to you. In the same way, if all the stars had the same luminosity, we could immediately infer that the brightest-appearing stars were close by and the dimmest-appearing ones were far away.</para>
+<para id="fs-id1170326285830">To pin down this idea more precisely, we know exactly how light fades with increasing distance. The energy we receive is inversely proportional to the square of the distance. If, for example, we have two stars of the same luminosity and one is twice as far away as the other, it will look four times dimmer than the closer one. If it is three times farther away, it will look nine (three squared) times dimmer, and so forth.</para><para id="fs-id1170323924812">Alas, the stars do not all have the same luminosity. (Actually, we are pretty glad about that because having many different types of stars makes the universe a much more interesting place.) But this means that if a star looks dim in the sky, we cannot tell whether it appears dim because it has a low luminosity but is relatively nearby, or because it has a high luminosity but is very far away. To measure the luminosities of stars, we must first compensate for the dimming effects of distance on light, and to do that, we must know how far away they are. Distance is among the most difficult of all astronomical measurements. We will return to how it is determined after we have learned more about the stars. For now, we will describe how astronomers specify the apparent brightness of stars.</para>
+</section>
+<section id="fs-id1170326160113"><title>The Magnitude Scale</title><para id="fs-id1170323979320">The process of measuring the apparent brightness of stars is called <emphasis effect="italics">photometry</emphasis> (from the Greek <emphasis effect="italics">photo</emphasis> meaning “light” and –<emphasis effect="italics">metry</emphasis> meaning “to measure”). Astronomical photometry began with <term class="no-emphasis">Hipparchus</term>. Around 150 B.C.E., he erected an observatory on the island of Rhodes in the Mediterranean. There he prepared a catalog of nearly 1000 stars that included not only their positions but also estimates of their apparent brightnesses.</para><para id="fs-id1170324245167">Hipparchus did not have a telescope or any instrument that could measure apparent brightness accurately, so he simply made estimates with his eyes. He sorted the stars into six brightness categories, each of which he called a <term>magnitude</term>. He referred to the brightest stars in his catalog as first-magnitudes stars, whereas those so faint he could barely see them were sixth-magnitude stars. During the nineteenth century, astronomers attempted to make the scale more precise by establishing exactly how much the apparent brightness of a sixth-magnitude star differs from that of a first-magnitude star. Measurements showed that we receive about 100 times more light from a first-magnitude star than from a sixth-magnitude star. Based on this measurement, astronomers then defined an accurate magnitude system in which a difference of five magnitudes corresponds exactly to a brightness ratio of 100:1. In addition, the magnitudes of stars are decimalized; for example, a star isn’t just a “second-magnitude star,” it has a magnitude of 2.0 (or 2.1, 2.3, and so forth). So what number is it that, when multiplied together five times, gives you this factor of 100? Play on your calculator and see if you can get it. The answer turns out to be about 2.5, which is the fifth root of 100. This means that a magnitude 1.0 star and a magnitude 2.0 star differ in brightness by a factor of about 2.5. Likewise, we receive about 2.5 times as much light from a magnitude 2.0 star as from a magnitude 3.0 star. What about the difference between a magnitude 1.0 star and a magnitude 3.0 star? Since the difference is 2.5 times for each “step” of magnitude, the total difference in brightness is 2.5 × 2.5 = 6.25 times.</para>
+<para id="fs-id1170326274493">Here are a few rules of thumb that might help those new to this system. If two stars differ by 0.75 magnitudes, they differ by a factor of about 2 in brightness. If they are 2.5 magnitudes apart, they differ in brightness by a factor of 10, and a 4-magnitude difference corresponds to a difference in brightness of a factor of 40.You might be saying to yourself at this point, “Why do astronomers continue to use this complicated system from more than 2000 years ago?” That’s an excellent question and, as we shall discuss, astronomers today can use other ways of expressing how bright a star looks. But because this system is still used in many books, star charts, and computer apps, we felt we had to introduce students to it (even though we were very tempted to leave it out.)</para>
+<para id="eip-125"><title>Apparent Magnitude</title>In fact, the correct term for this quantity is the <term>apparent magnitude</term>, because we are talking about the magnitude as it appears to (or is measured by) an observer on Earth. The symbol for apparent magnitude us usually a lower case <emphasis effect="italics">m</emphasis>.</para><para id="eip-278">For reasons that will become clear shortly, to avoid ambiguity, it would be best if astronomers always used the terminology of <emphasis>apparent magnitude</emphasis>. Unfortunately, this quantity is sometimes refereed to simply as the <emphasis>magnitude</emphasis> of a star or other astronomical object. We shall treat the two terms as synonymous.</para><para id="fs-id1170326423193">The brightest stars, those that were traditionally referred to as first-magnitude stars, actually turned out (when measured accurately) not to be identical in brightness. For example, the brightest star in the sky, <term class="no-emphasis">Sirius</term>, sends us about 10 times as much light as the average first-magnitude star. On the modern magnitude scale, Sirius, the star with the brightest apparent magnitude, has been assigned a magnitude of −1.5. Other objects in the sky can appear even brighter. <term class="no-emphasis">Venus</term> at its brightest is of magnitude −4.4, while the Sun has a magnitude of −26.8. <link target-id="OSC_Astro_17_01_Apparent"/> shows the range of observed magnitudes from the brightest to the faintest, along with the actual magnitudes of several well-known objects. The important fact to remember when using magnitude is that the system goes backward: the <emphasis effect="italics">larger</emphasis> the magnitude, the <emphasis effect="italics">fainter</emphasis> the object you are observing.</para>
+<figure id="OSC_Astro_17_01_Apparent">
+<title>Apparent Magnitudes of Well-Known Objects.</title>
+<media id="fs-id1170326212127" alt="Illustration of the apparent magnitudes of well-known objects, and the faintest magnitudes observable by the naked eye, binoculars, and telescopes. At bottom is a scale labeled “Apparent magnitude”. The scale goes from -30 on the left, to zero in the center to +35 on the right. Above the scale are listed astronomical objects and telescopes, with lines connecting each to the scale below at its appropriate (and approximate) magnitude. Starting from the left we find the Sun at -26, the Moon at -13, Venus (at brightest) at -4.5, Jupiter and Mars at -3, Sirius at -1.5, Alpha Centauri at zero, Betelgeuse at about +0.5, Polaris at +2, the faintest object visible to the unaided eye at +6, Barnard’s Star at about +9, the faintest object visible with binoculars at +10, 1-meter telescope limit at about +19, faintest object visible with 4-meter telescope at about +26, Hale telescope limit at about +27, and finally the limit of Hubble &amp; Keck at about +30.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_17_01_Apparent.jpg"/>
+</media>
+<caption>The faintest <term class="no-emphasis">magnitude</term>s that can be detected by the unaided eye, binoculars, and large telescopes are also shown.</caption>
+</figure>
+<section id="fs-id1170326432456"><title>The Modern Magnitude Equation</title><para id="eip-idm838225200">Even scientists can’t calculate fifth roots in their heads, so astronomers have summarized the above discussion in an equation to help calculate the difference in brightness for stars with different magnitudes. If <emphasis effect="italics">m</emphasis><sub>1</sub> and <emphasis effect="italics">m</emphasis><sub>2</sub> are the magnitudes of two stars, then we can calculate the ratio of their brightness <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> using this equation:</para><note id="eip-idm992617168" class="equation-callout"><equation id="fs-id1170326257776"><label/><m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>2.5</m:mn><m:mspace width="0.2em"/><m:mtext>log</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mspace width="3em"/><m:mtext>or</m:mtext><m:mspace width="3em"/><m:mfrac><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mn>2.5</m:mn></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msup></m:mrow></m:math></equation></note>
+<para id="fs-id1170323819501">Here is another way to write this equation:</para>
+<equation id="fs-id1170326041693" class="unnumbered"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>0.2</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1170326030235">Let’s do a real example, just to show how this works. Imagine that an astronomer has discovered something special about a dim star (magnitude 8.5), and she wants to tell her students how much dimmer the star is than <term class="no-emphasis">Sirius</term>. Star 1 in the equation will be our dim star and star 2 will be Sirius.</para>
+<para id="fs-id1170326316791"><title>Solution</title>
+Remember, Sirius has a magnitude of −1.5. In that case:</para>
+<equation id="fs-id1170326331161" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:mfrac><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mn>100</m:mn><m:mn>0.2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>8.5</m:mn><m:mo>−</m:mo><m:mo>(</m:mo><m:mn>−1.5</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mn>100</m:mn><m:mn>0.2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>100</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>10,000</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation></section><note id="fs-id1170326450929" class="check-understanding"><exercise id="eip-idm1027262576"><problem id="eip-idm1027262448"><para id="eip-idm1027262320">
+It is a common misconception that <term class="no-emphasis">Polaris</term> (magnitude 2.0) is the brightest star in the sky, but, as we saw, that distinction actually belongs to Sirius (magnitude −1.5). How does Sirius’ apparent brightness compare to that of Polaris?</para></problem>
+<solution id="eip-idm336270224"><para id="fs-id1170326563248"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>b</m:mi><m:mrow><m:mtext>Sirius</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mrow><m:mtext>Polaris</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mn>100</m:mn><m:mn>0.2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2.0</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>−1.5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mn>100</m:mn><m:mn>0.2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>3.5</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>100</m:mn><m:mn>0.7</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math></para></solution></exercise><para id="fs-id1164755036494">(Hint: If you only have a basic calculator, you may wonder how to take 100 to the 0.7th power. But this is something you can ask Google to do. Google now accepts mathematical questions and will answer them. So try it for yourself. Ask Google, “What is 100 to the 0.7th power?”)</para>
+<para id="fs-id1164755013784">Our calculation shows that Sirius’ apparent brightness is 25 times greater than Polaris’ apparent brightness.</para></note>
+</section><section id="eip-23"><title>Absolute Magnitude</title><para id="eip-204">We already understand that objects with a large apparent brightness are not necessarily the most luminous objects (and vice versa), because of the fact that the objects may lie at different distances from Earth. The core ideas here may also be expressed using the concept of an <term>absolute magnitude</term>.
+</para><note id="eip-604">The <emphasis>absolute magnitude</emphasis> of an astronomical object is defined as the magnitude that would be measured by an observer located exactly 10 parsecs (about 32.6 light-years) away from that object.</note><para id="eip-294">By defining absolute magnitude in this way, we see that it places all objects the same distance from a hypothetical observer. Thus, a comparison of the absolute magnitudes of any two object is a direct comparison of their luminosities. As explained before, this makes for a logarithmic (or power law) comparison when expressed mathematically. The algebraic symbol used for the absolute magnitude of an object is a capital <emphasis effect="italics">M</emphasis>.</para><para id="eip-6">By analogy with our discussion of brightness above, we can calculate the difference in luminosity for two stars with different absolute magnitudes. If <emphasis effect="italics">M</emphasis><sub>1</sub> and <emphasis effect="italics">M</emphasis><sub>2</sub> are the absolute magnitudes of two stars, then, by analogy with <link target-id="fs-id1170326257776"/> we can calculate the ratio of their luminosities <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math> as:</para><note id="eip-idm1033686480" class="equation-callout"><equation id="eip-529"><label/><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>0.2</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>M</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msup></m:mrow></m:math></equation></note><para id="eip-198">Now, we should probably point out the obvious here, namely that <emphasis>absolute magnitude</emphasis> is more of a theoretical quantity than an experimental one. After all, to actually measure it we would have to ride a spaceship to a location that was precisely 10 parsecs away for the object we want to study, and only then perform a measurement of its apparent magnitude. Still, as we shall see in subsequent chapters, there are various theories that allow us to make good estimates of the absolute magnitude of a star or galaxy. So, it has been a useful quantity for astronomers, in popular use for more than a century.</para><para id="eip-780">Let's return to the stars Sirius and Polaris for a numerical example. Sirius has an absolute magnitude of 1.4, while the absolute magnitude of Polaris is -3.6. So, the ratio of their luminosities is:</para><para id="eip-790"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>Polaris</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>Sirius</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>0.2</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mn>Sirius</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>M</m:mi><m:mn>Polaris</m:mn></m:msub></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>0.2</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1.4</m:mn><m:mo>−</m:mo><m:mfenced><m:mn>-3.6</m:mn></m:mfenced></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>0.2</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>100</m:mn><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math></para><para id="eip-487">So, Polaris is 100 times more luminous than Sirius. But, how can that be? (Sirius is much brighter in our sky than Polaris!) The answer is the obvious one: Polaris is much farther away from Earth (around 400 light years) than Sirius (which is less than 10 light years away).</para></section><section id="fs-id1170326130545">
+<title>Other Units of Brightness</title>
+<para id="fs-id1170326385819">Although the magnitude scale is still used for visual astronomy, it is not used at all in newer branches of the field. In radio astronomy, for example, no equivalent of the magnitude system has been defined. Rather, radio astronomers measure the amount of energy being collected each second by each square meter of a radio telescope and express the brightness of each source in terms of, for example, watts per square meter.</para>
+<para id="fs-id1170323847268">Similarly, most researchers in the fields of infrared, X-ray, and gamma-ray astronomy use energy per area per second rather than magnitudes to express the results of their measurements. Nevertheless, astronomers in all fields are careful to distinguish between the <emphasis effect="italics">luminosity</emphasis> of the source (even when that luminosity is all in X-rays) and the amount of energy that happens to reach us on Earth. After all, the luminosity is a really important characteristic that tells us a lot about the object in question, whereas the energy that reaches Earth is an accident of cosmic geography.</para>
+<para id="fs-id1170326029903">To make the comparison among stars easy, in this text, we avoid the use of magnitudes as much as possible and will express the luminosity of other stars in terms of the Sun’s luminosity. For example, the luminosity of Sirius is 25 times that of the Sun. We use the symbol <emphasis effect="italics">L</emphasis><sub>Sun</sub> to denote the Sun’s luminosity; hence, that of Sirius can be written as 25 <emphasis effect="italics">L</emphasis><sub>Sun</sub>.</para>
+</section>
+<section id="eip-902"><title>Color Filters, Magnitudes, and Measurements of Stellar Brightness</title><para id="eip-737">As we have said, there have been many measurements of the brightness of stars expressed in terms of an <term>apparent magnitude</term>. The large number of such measurements is in part due to the fact that <term>photometry</term>, a simple, direct measurement of apparent brightness, is significantly easier to carry out than <term>spectroscopy</term>, the complete determination of intensity vs. wavelength, like the temperature curves in <link document="m76901" target-id="OSC_Astro_05_02_Illustrate"/>. (You will learn more about the significance of such measurements in the chapter on <link class="target-chapter" document="m71596">Spectroscopy</link>.)
+</para><para id="eip-77">As we will learn in the section on <link class="target-chapter" document="m77152">Colors of Stars</link>, that property is very important. (We have already seen that Wien's Law provides a connection between a star's color and its temperature.) In order to make a crude determination of the color of a star, it is possible to make photometric measurements of its apparent magnitude by passing the star's light through various colored filters, each one designed to transmit light over a limited range of wavelengths. The standard set of filters are labeled U,B,V, R and I. The initials stand for ultraviolet, blue, visible, infrared and far-infrared respectively.</para><figure id="eip-idm510276912"><title>The UBV Filter System</title><media id="uvbpic" alt="Pass bands for the U, B and V filters">
+    <image mime-type="image/jpeg" src="../../media/UBV-System.jpg"/>
+  </media>
+  
+<caption>These curves show the wavelength distributions for light transmission through U, B and V filters. (Note that the horizontal axis label "Wellenlänge" is German for "Wavelength".) credit: Michael Oestreicher, Wikimedia Commons
+  </caption></figure><para id="eip-724"><link target-id="eip-idm510276912"/> shows the wavelength ranges for transmission by U, B and V filters. As can be seen by comparison with <link document="m76901" target-id="OSC_Astro_05_02_Illustrate"/>, the U filter passes ultraviolet light, the B filter passes primarily blue light, and the V filter passes most visible wavelengths. Often, the apparent magnitude of an astronomical object measured using one of these filters is referred to by the filter letter, e.g. a "B magnitude".</para><para id="eip-468">Suppose that we make two measurements of the same star, one through a V filter, and the other through a B filter. If we call the two measured magnitudes <emphasis effect="italics">V</emphasis> and <emphasis effect="italics">B</emphasis> respectively, then let's consider the significance of the quantity <m:math><m:mrow><m:mi>B</m:mi><m:mo>-</m:mo><m:mi>V</m:mi></m:mrow></m:math>.</para><para id="eip-214">Recalling that apparent magnitudes are a "backwards quantity", i.e. the smaller the number the brighter the star, we see that <emphasis effect="italics">B-V</emphasis> is a measure of the "redness" of a star. Why? Suppose that we have two stars with equal visible brightness. Then, their <emphasis effect="italics">V</emphasis> magnitudes will be the same. But, if one is a very blue star, and the other a very red star, the blue star will have a smaller <emphasis effect="italics">B</emphasis> magnitude, and therefore a smaller value of <emphasis effect="italics">B-V</emphasis>. The red star will have a larger <emphasis effect="italics">B</emphasis> magnitude, and therefore a larger value of <emphasis effect="italics">B-V</emphasis>. For this reason, the quantity <emphasis effect="italics">B-V</emphasis> is called a <term>color index</term>.</para></section>
+<section id="fs-id1170326280780" class="key-concepts">
+<title>Summary</title>
+<list id="fs-idm208364720"><item>The total energy emitted per second by a star is called its luminosity.</item><item>How bright a star looks from the perspective of Earth is its apparent brightness.</item><item>The apparent brightness of a star depends on both its luminosity and its distance from Earth. Thus, the determination of apparent brightness and measurement of the distance to a star provide enough information to calculate its luminosity.</item><item>The apparent brightnesses of stars are often expressed in terms of magnitudes, which is an old system based on how human vision interprets relative light intensity.</item></list>
+</section>
+<section id="fs-id1165036736165" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1170904202787" class="unnumbered unstyled" summary="This table gives the following formulae: Apparent brightness, b equal to L divided by 4 times pi times d-squared; Brightness ratio, b2 over b1 is equal to 100 rasied to the power of 0.2 times m1 minus m2; Luminosity ratio, L2 over L1 is equal to 100 rasied to the power of 0.2 times M1 minus M2"><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Apparent brightness</entry>
+<entry align="left"><m:math><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>L</m:mi><m:mrow><m:mn>4</m:mn><m:mi>π</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Brightness ratio</entry>
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>0.2</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Luminosity ratio</entry>
+<entry align="left"><m:math><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mrow><m:mn>100</m:mn></m:mrow><m:mrow><m:mn>0.2</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>M</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:msup></m:mrow></m:math></entry>
+</row></tbody>
+
+
+
+
+</tgroup>
+</table></section>
+<section id="fs-idm618043984" class="review-conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1170322666811">
+<problem id="fs-id1170322976442">
+<para id="fs-id1170325023954">What two factors determine how bright a star appears to be in the sky?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325087260">
+<problem id="fs-id1170325278050">
+<para id="fs-id1170325246298">If the star Sirius emits 23 times more energy than the Sun, why does the Sun appear brighter in the sky?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325264072">
+<problem id="fs-id1170322966211">
+<para id="fs-id1170320621585">What star appears the brightest in the sky (other than the Sun)? The second brightest? Use <link class="target-chapter" document="m64014">Appendix D</link> to find the answers.</para></problem>
+</exercise><exercise id="eip-393"><problem id="eip-252"><table id="eip-573" summary="There are seven rows and three columns. The heading row costs of the Star Name, Absolute Magnitude, and Apparent Magnitude. The six stars listed are as follows: Row 2 - Aldebaran, -0.2, +0.9; Row 3 - Alpha Centauri A, +4.4, 0.0; Row 4 - Anares, -4.5, +0.9; Row 5 - Canopus, -3.1, -0.7; Row 6 - Regulus, -0.6, +1.4; Row 7 - Spica, -3.6, +0.9"><title>Bright Stars</title>
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis>Star</emphasis></entry>
+    <entry><emphasis>Absolute Magnitude (M)</emphasis></entry>
+    <entry><emphasis>Apparent Magnitude (m)</emphasis></entry>
+  </row>
+  <row>
+    <entry>Aldebaran</entry>
+    <entry>-0.2</entry>
+    <entry>+0.9</entry>
+  </row>
+  <row>
+    <entry>Alpha Centauri A</entry>
+    <entry>+4.4</entry>
+    <entry>0.0</entry>
+  </row>
+  <row>
+    <entry>Antares</entry>
+    <entry>-4.5</entry>
+    <entry>+0.9</entry>
+  </row>
+  <row>
+    <entry>Canopus</entry>
+    <entry>-3.1</entry>
+    <entry>-0.7</entry>
+  </row>
+  <row>
+    <entry>Regulus</entry>
+    <entry>-0.6</entry>
+    <entry>+1.4</entry>
+  </row>
+  <row>
+    <entry>Spica</entry>
+    <entry>-3.6</entry>
+    <entry>+0.9</entry>
+  </row>
+</tbody>
+
+
+</tgroup><caption>Apparent and Absolute Magnitudes of Several Bright Stars</caption>
+</table>
+  <para id="eip-420">Consider the table above. Which of the listed stars appears brightest in the sky? Which is the dimmest?
+  </para><para id="eip-idm203432528">Which is the most luminous? Which is the least luminous?</para></problem>
+
+</exercise>
+</section><section id="fs-idm294014400" class="review-problems"><title>Problems</title><exercise id="fs-id1170325125548"><problem id="fs-id1170325453554">
+<para id="fs-id1170325210967">In <link class="target-chapter" document="m64014">Appendix D</link>, how much more luminous is the most luminous of the stars than the least luminous?</para></problem>
+</exercise><para id="fs-id1170320529370">For <link target-id="fs-id1170324934159"/> through <link target-id="fs-id1170323128504"/>, use the equations relating magnitude and apparent brightness.</para>
+<exercise id="fs-id1170324934159">
+<problem id="fs-id1170325345536">
+<para id="fs-id1170322814938">Verify that if two stars have a difference of five magnitudes, this corresponds to a factor of 100 in the ratio <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>;</m:mo></m:mrow></m:math> that 2.5 magnitudes corresponds to a factor of 10; and that 0.75 magnitudes corresponds to a factor of 2.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325276777">
+<problem id="fs-id1170325166823">
+<para id="fs-id1170324939062">As seen from Earth, the Sun has an apparent magnitude of about −26.7. What is the apparent magnitude of the Sun as seen from Saturn, about 10 AU away? (Remember that one AU is the distance from Earth to the Sun and that the brightness decreases as the inverse square of the distance.) Would the Sun still be the brightest star in the sky?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325242335">
+<problem id="fs-id1170322748372">
+<para id="fs-id1170322857838">An astronomer is investigating a faint star that has recently been discovered in very sensitive surveys of the sky. The star has a magnitude of 16. How much less bright is it than Antares, a star with magnitude roughly equal to 1?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170322669628">
+<problem id="fs-id1170324949463">
+<para id="fs-id1170322739516">The center of a faint but active galaxy has magnitude 26. How much less bright does it look than the very faintest star that our eyes can see, roughly magnitude 6?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170323128504">
+<problem id="fs-id1170322757153">
+<para id="fs-id1170322757155">Do the previous problem again, this time using the information that the Sun is 150,000,000 km away. You will get a very large number of km as your answer. To get a better feeling for how the distances compare, try calculating the time it takes light at a speed of 299,338 km/s to travel from the Sun to Earth and from Alpha Centauri to Earth. For Alpha Centauri, figure out how long the trip will take in years as well as in seconds.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325433164">
+<problem id="fs-id1170325433166">
+<para id="fs-id1170325370835">Star A and Star B have different apparent brightnesses but identical luminosities. If Star A is 20 light-years away from Earth and Star B is 40 light-years away from Earth, which star appears brighter and by what factor?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325299804">
+<problem id="fs-id1170325299806">
+<para id="fs-id1170325299808">Star A and Star B have different apparent brightnesses but identical luminosities. Star A is 10 light-years away from Earth and appears 36 times brighter than Star B. How far away is Star B?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1170325220419">
+<problem id="fs-id1170325090922">
+<para id="fs-id1170325090924">The star Sirius A has an apparent magnitude of −1.5. Sirius A has a dim companion, Sirius B, which is 10,000 times less bright than Sirius A. What is the apparent magnitude of Sirius B? Can Sirius B be seen with the naked eye?</para>
+</problem>
+</exercise><exercise id="eip-471"><problem id="eip-412">
+  <para id="eip-611">
+    Referring to <link target-id="eip-573"/>, what is the ratio of the luminosities of the stars Antares and Aldebaran?
+  </para>
+</problem>
+
+<solution id="eip-213">
+  <para id="eip-idm750531488">
+    52.5
+  </para>
+</solution>
+</exercise>
+</section></content>
+<glossary>
+<definition id="fs-id1170326160623">
+<term>apparent brightness</term>
+<meaning id="fs-id1170326086731">a measure of the amount of light received by Earth from a star or other object—that is, how bright an object appears in the sky, as contrasted with its luminosity</meaning>
+</definition>
+<definition id="fs-id1170326186380">
+<term>luminosity</term>
+<meaning id="fs-id1170326176944">the rate at which a star or other object emits electromagnetic energy into space; the total power output of an object</meaning>
+</definition>
+<definition id="fs-id1163975714427">
+<term>inverse square law</term>
+<meaning id="fs-id1163975561153">(for light) the amount of energy (light) flowing through a given area in a given time decreases in proportion to the square of the distance from the source of energy or light</meaning>
+</definition>
+<definition id="fs-id1170326245113">
+<term>magnitude</term>
+<meaning id="fs-id1170326449101">an older system of measuring the amount of light we receive from a star or other luminous object; the larger the magnitude, the less radiation we receive from the object</meaning>
+</definition>
+<definition id="fs-idm305058720"><term>apparent magnitude</term><meaning id="fs-idm321952592">synonym for magnitude</meaning></definition>
+<definition id="fs-idm257778912"><term>absolute magnitude</term><meaning id="fs-idm317310016">the apparent magnitude that would be measured by an observer located at a distance of 10 parsecs from a luminous object</meaning></definition>
+</glossary>
+</document>

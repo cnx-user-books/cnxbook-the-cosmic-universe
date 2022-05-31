@@ -1,0 +1,182 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Gravitational Wave Astronomy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m77323</md:content-id>
+  <md:title>Gravitational Wave Astronomy</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Describe what a gravitational wave is, what can produce it, and how fast it propagates</item>
+<item>Understand the basic mechanisms used to detect gravitational waves</item>
+</list></md:abstract>
+  <md:uuid>24de1129-1815-419c-b9ba-fb15daa0fb45</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168047214576">Another part of Einstein’s ideas about gravity can be tested as a way of checking the theory that underlies black holes. According to general relativity, the geometry of spacetime depends on where matter is located. Any rearrangement of matter—say, from a sphere to a sausage shape—creates a disturbance in spacetime. This disturbance is called a <term>gravitational wave</term>, and relativity predicts that it should spread outward at the speed of light. The big problem with trying to study such waves is that they are tremendously weaker than electromagnetic waves and correspondingly difficult to detect.</para>
+<section id="fs-id1168047709734">
+<title>Proof from a Pulsar</title>
+<para id="fs-id1168047749082">We’ve had indirect evidence for some time that gravitational waves exist. In 1974, astronomers Joseph Taylor and Russell Hulse discovered a pulsar (with the designation PSR1913+16) orbiting another neutron star. Pulled by the powerful gravity of its companion, the pulsar is moving at about one-tenth the speed of light in its orbit.</para>
+<para id="fs-id1168047665512">According to general relativity, this system of stellar corpses should be radiating energy in the form of gravitational waves at a high enough rate to cause the pulsar and its companion to spiral closer together. If this is correct, then the orbital period should decrease (according to Kepler’s third law) by one ten-millionth of a second per orbit. Continuing observations showed that the period is decreasing by precisely this amount. Such a loss of energy in the system can be due only to the radiation of gravitational waves, thus confirming their existence. Taylor and Hulse shared the 1993 Nobel Prize in physics for this work.</para>
+</section>
+<section id="fs-id1168047374142">
+<title>Direct Observations</title>
+<para id="fs-id1168047611656">Although such an indirect proof convinced physicists that gravitational waves exist, it is even more satisfying to detect the waves directly. What we need are phenomena that are powerful enough to produce gravitational waves with amplitudes large enough that we can measure them. Theoretical calculations suggest some of the most likely events that would give a burst of gravitational waves strong enough that our equipment on Earth could measure it:</para>
+<list id="fs-id1168047993967" list-type="bulleted" bullet-style="bullet">
+<item>the coalescence of two neutron stars in a binary system that spiral together until they merge</item>
+<item>the swallowing of a neutron star by a black hole</item>
+<item>the coalescence (merger) of two black holes</item>
+<item>the implosion of a really massive star to form a neutron star or a black hole</item>
+<item>the first “shudder” when space and time came into existence and the universe began</item>
+</list>
+<para id="fs-id1168047379020">For the last four decades, scientists have been developing an audacious experiment to try to detect <term class="no-emphasis">gravitational wave</term>s from a source on this list. The US experiment, which was built with collaborators from the UK, Germany, Australia and other countries, is named <term class="no-emphasis">LIGO</term> (Laser Interferometer Gravitational-Wave Observatory). LIGO currently has two observing stations, one in Louisiana and the other in the state of Washington. The effects of gravitational waves are so small that confirmation of their detection will require simultaneous measurements by two widely separated facilities. Local events that might cause small motions within the observing stations and mimic gravitational waves—such as small earthquakes, ocean tides, and even traffic—should affect the two sites differently.</para>
+<para id="fs-id1168047287079">Each of the <term class="no-emphasis">LIGO</term> stations consists of two 4-kilometer-long, 1.2-meter-diameter vacuum pipes arranged in an L-shape. A test mass with a mirror on it is suspended by wire at each of the four ends of the pipes. Ultra-stable laser light is reflected from the mirrors and travels back and forth along the vacuum pipes (<link target-id="OSC_Astro_24_08_LIGO"/>). If gravitational waves pass through the LIGO instrument, then, according to Einstein’s theory, the waves will affect local spacetime—they will alternately stretch and shrink the distance the laser light must travel between the mirrors ever so slightly. When one arm of the instrument gets longer, the other will get shorter, and vice versa.</para>
+<figure id="OSC_Astro_24_08_LIGO">
+<title>Gravitational Wave Telescope.</title>
+<media id="fs-id1168047785695" alt="Aerial Photograph of the LIGO Facility. The main building is shown at center, with one of the 4-km long tubes extending toward the horizon at upper left. A portion of the other tube is seen at right.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_24_08_LIGO.jpg"/>
+</media>
+<caption>An aerial view of the LIGO facility at Livingston, Louisiana. Extending to the upper left and far right of the image are the 4-kilometer-long detectors. (credit: modification of work by Caltech/MIT/LIGO Laboratory)</caption>
+</figure>
+<para id="fs-id1168047373803">The challenge of this experiment lies in that phrase “ever so slightly.” In fact, to detect a gravitational wave, the change in the distance to the mirror must be measured with an accuracy of <emphasis effect="italics">one ten-thousandth the diameter of a proton</emphasis>. In 1972, Rainer Weiss of MIT wrote a paper suggesting how this seemingly impossible task might be accomplished.</para>
+<para id="fs-id1168047628029">A great deal of new technology had to be developed, and work on the laboratory, with funding from the National Science Foundation, began in 1979. A full-scale prototype to demonstrate the technology was built and operated from 2002 to 2010, but the prototype was not expected to have the sensitivity required to actually detect gravitational waves from an astronomical source. Advanced LIGO, built to be more precise with the improved technology developed in the prototype, went into operation in 2015—and almost immediately detected gravitational waves.</para>
+<para id="fs-id1168047572709">What LIGO found was <term class="no-emphasis">gravitational wave</term>s produced in the final fraction of a second of the merger of two black holes (<link target-id="OSC_Astro_24_08_Merger"/>). The black holes had masses of 20 and 36 times the mass of the Sun, and the merger took place 1.3 billion years ago—the gravitational waves occurred so far away that it has taken that long for them, traveling at the speed of light, to reach us.</para>
+<para id="fs-id1168047390265">In the cataclysm of the merger, about three times the mass of the Sun was converted to energy (recall E = mc<sup>2</sup>). During the tiny fraction of a second for the merger to take place, this event produced power about 10 times the power produced by all the stars in the entire visible universe—but the power was all in the form of gravitational waves and hence was invisible to our instruments, except to LIGO. The event was recorded in Louisiana about 7 milliseconds before the detection in Washington—just the right distance given the speed at which gravitational waves travel—and indicates that the source was located somewhere in the southern hemisphere sky. Unfortunately, the merger of two black holes is not expected to produce any light, so this is the only observation we have of the event.</para><figure id="OSC_Astro_24_08_Merger">
+<title>Signal Produced by a Gravitational Wave.</title>
+<media id="fs-id1168047331964" alt="Signal Produced by a Gravitational Wave. Panel (a), at top, shows three measurements of a gravitational wave signal. At top is the “LIGO Hanford Data”, at center is the “LIGO Livingston Data” and bottom is the combined plot of “LIGO Hanford Data (shifted) and LIGO Livingston Data”. The vertical axis for each measurement is labeled “Strain (10-21)”, ranging from -1.0 at bottom to 1.0 at top, in increments of 0.5. The horizontal axis is labeled “Time (sec)”, ranging from 0.25 at left to 0.45 at right, in increments of 0.05. Each plot begins at left with a slight oscillation between -0.05 and 0.05 until T = 0.35 sec, when the oscillations increase in amplitude to -1.0 to 1.0. At T = 0.425 sec the oscillations diminish to their original levels. Panel (b), at bottom, shows an artist’s impression of two black holes orbiting each other. Of note is the distortion of the light from background stars due to the strong gravitational field of the pair.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_24_08_Merger.jpg"/>
+</media>
+<caption>(a) The top panel shows the signal measured at Hanford, Washington; the middle panel shows the signal measured at Livingston, Louisiana. The smoother thin curve in each panel shows the predicted signal, based on Einstein’s general theory of relativity, produced by the merger of two black holes. The bottom panel shows a superposition of the waves detected at the two LIGO observatories. Note the remarkable agreement of the two independent observations and of the observations with theory. (b) The painting shows an artist’s impression of two massive black holes spiraling inward toward an eventual merger. (credit a, b: modification of work by SXS)</caption>
+</figure>
+<para id="fs-id1168047548421">This detection by LIGO (and another one of a different black hole merger a few months later) opened a whole new window on the universe. One of the experimenters compared the beginning of gravitational wave astronomy to the era when silent films were replaced by movies with sound (comparing the vibration of spacetime during the passing of a gravitational wave to the vibrations that sound makes).</para>
+<para id="fs-id1168047723107">By the end of 2018, LIGO had detected eight more mergers of black holes. Six of these, like the initial discovery, involved mergers of black holes with a range of masses that have been observed only by gravitational waves. In one merger, black holes with masses of 31 and 25 times the mass of the Sun merged to form a spinning black hole with a mass of about 53 times the mass the Sun. Some of these events were detected not only by the two LIGO detectors, but also by a newly operational European gravitational wave observatory, Virgo. Another event was caused by the merger of 40- and 29-solar-mass black holes, and resulted in a 66-mass black hole. Astronomers are not yet sure just how black holes in this mass range form.
+</para><para id="fs-id1168047969016">Two other mergers detected by LIGO involved black holes with stellar masses comparable to those of black holes in X-ray binary systems. In one case, the merging black holes had masses of 14 and 8 times the mass of the Sun. The other event, again detected by both LIGO and Virgo, was produced by a merger of black holes with masses of 7 and 12 times the mass of the Sun. None of the mergers of black holes was detected in any other way besides gravitational waves. It is quite likely that the merger of black holes does not produce any electromagnetic radiation.
+</para><para id="fs-id1168047294409">In late 2017, data from all three gravitational wave observatories was used to locate the position in the sky of a fifth event, which was produced by the merger of objects with masses of 1.1 to 1.6 times the mass of the Sun. This is the mass range for neutron stars (see <link class="target-chapter" document="m77325">The Milky Way Galaxy</link>), so in this case, what was observed was the spiraling together of two neutron stars. Data obtained from all three observatories enabled scientists to narrow down the area in the sky where the event occurred. The Fermi satellite offered a fourth set of observational data, detecting a flash of gamma rays at the same time, which confirms the long-standing hypothesis that mergers of neutron stars are progenitors of short gamma-ray bursts. The <emphasis effect="italics">Swift</emphasis> satellite also detected a flash of ultraviolet light at the same time, and in the same part of the sky. This was the first time that a gravitational wave event had been detected with any kind of electromagnetic wave.
+</para><para id="fs-id1168047218340">The combined observations from LIGO, Virgo, Fermi, and <emphasis effect="italics">Swift</emphasis> showed that this source was located in NGC 4993, a galaxy at a distance of about 130 million light-years in the direction of the constellation Hydra. With a well-defined position, ground-based observatories could point their telescopes directly at the source and obtain its spectrum. These observations showed that the merger ejected material with a mass of about 6 percent of the mass of the Sun, and a speed of one-tenth the speed of light. This material is rich in heavy elements. First estimates suggest that the merger produced about 200 Earth masses of gold, and around 500 Earth masses of platinum. This makes clear that neutron star mergers are a significant source of heavy elements. As additional detections of such events improve theoretical estimates of the frequency at which neutron star mergers occur, it may well turn out that the vast majority of heavy elements have been created in such cataclysms.
+</para><para id="eip-84">Observing the merger of black holes via gravitational waves also means that we can now test Einstein’s general theory of relativity where its effects are very strong—close to black holes—and not weak, as they are near Earth. One remarkable result from these detections is that the signals measured so closely match the theoretical predictions made using Einstein’s theory. Once again, Einstein’s revolutionary idea is found to be the correct description of nature.
+</para><para id="eip-286">Because of the scientific significance of the observations of gravitational waves, three of the LIGO project leaders—Rainer Weiss of MIT, and Kip Thorne and Barry Barish of Caltech—were awarded the Nobel Prize in 2017.
+</para><para id="eip-21">Several facilities similar to LIGO and Virgo are under construction in other countries to contribute to gravitational wave astronomy and help us pinpoint more precisely pinpoint the location of signals we detect in the sky. The European Space Agency (ESA) is exploring the possibility of building an even larger detector for gravitational waves in space. The goal is to launch a facility called eLISA sometime in the mid 2030s. The design calls for three detector arms, each a million kilometers in length, for the laser light to travel in space. This facility could detect the merger of distant supermassive black holes, which might have occurred when the first generation of stars formed only a few hundred million years after the Big Bang.
+</para><para id="eip-676">In December 2015, ESA launched LISA Pathfinder and successfully tested the technology required to hold two gold-platinum cubes in a state of weightless, perfect rest, relative to one another. While LISA Pathfinder cannot detect gravitational waves, such stability is required if eLISA is to be able to detect the small changes in path length produced by passing gravitational waves.
+</para><para id="eip-94">We should end by acknowledging that the ideas discussed in this chapter may seem strange and overwhelming, especially the first time you read them. The consequences of the general theory of relatively take some getting used to. But they make the universe more bizarre—and interesting—than you probably thought before you took this course.
+</para></section>
+<section id="fs-id1168047580572" class="key-concepts">
+<title>Summary</title>
+<list id="fs-idm1306415488"><item>General relativity predicts that the rearrangement of matter in space should produce gravitational waves.</item><item>The existence of such waves was first confirmed in observations of a pulsar in orbit around another neutron star whose orbits were spiraling closer and losing energy in the form of gravitational waves.</item><item>In 2015, LIGO found gravitational waves directly by detecting the signal produced by the merger of two stellar-mass black holes, opening a new window on the universe.</item></list>
+</section>
+<section id="fs-id1168047517236">
+<title>For Further Exploration</title>
+<section id="fs-id1168048219307"><title>Websites</title><section id="fs-id1168048475991"><title><emphasis effect="italics">Death of Stars</emphasis></title><note id="eip-idm1014520304" class="media-2"><para id="fs-id1168048570521">Crab Nebula: <link url="http://chandra.harvard.edu/xray_sources/crab/crab.html">http://chandra.harvard.edu/xray_sources/crab/crab.html</link>. A short, colorfully written introduction to the history and science involving the best-known supernova remant.</para></note>
+
+<note id="eip-idm389139584" class="media-2"><para id="fs-id1168048287722">Introduction to Neutron Stars: <link url="https://www.astro.umd.edu/~miller/nstar.html">https://www.astro.umd.edu/~miller/nstar.html</link>. Coleman Miller of the University of Maryland maintains this site, which goes from easy to hard as you get into it, but it has lots of good information about corpses of massive stars.</para></note>
+
+<note id="eip-idm371357008" class="media-2"><para id="fs-id1168048376633">Introduction to Pulsars (by Maryam Hobbs at the Australia National Telescope Facility): <link url="http://www.atnf.csiro.au/outreach/education/everyone/pulsars/index.html">http://www.atnf.csiro.au/outreach/education/everyone/pulsars/index.html</link>.</para></note>
+
+<note id="eip-idm934873968" class="media-2"><para id="fs-id1168048648837">Magnetars, Soft Gamma Repeaters, and Very Strong Magnetic Fields: <link url="http://solomon.as.utexas.edu/magnetar.html">http://solomon.as.utexas.edu/magnetar.html</link>. Robert Duncan, one of the originators of the idea of magnetars, assembled this site some years ago.</para></note></section><section id="fs-id1168047738399"><title><emphasis effect="italics">Black Holes</emphasis></title><note id="eip-idm216276480" class="media-2"><para id="fs-id1168047384979">Black Hole Encyclopedia: <link url="http://blackholes.stardate.org">http://blackholes.stardate.org</link>. From StarDate at the University of Texas McDonald Observatory.</para></note>
+
+<note id="eip-idm449775632" class="media-2"><para id="fs-id1168047646306">Black Holes: <link url="http://science.nasa.gov/astrophysics/focus-areas/black-holes">http://science.nasa.gov/astrophysics/focus-areas/black-holes</link>. NASA overview of black holes, along with links to the most recent news and discoveries.</para></note>
+
+<note id="eip-idm504517184" class="media-2"><para id="fs-id1168047919149">Black Holes FAQ: <link url="http://cfpa.berkeley.edu/Education/BHfaq.html">http://cfpa.berkeley.edu/Education/BHfaq.html</link>. Frequently asked questions about black holes, answered by Ted Bunn of UC–Berkeley’s Center for Particle Astrophysics.</para></note>
+<note id="eip-idm288198480" class="media-2"><para id="fs-id1168047996838">Black Holes: Gravity’s Relentless Pull: <link url="http://hubblesite.org/explore_astronomy/black_holes/home.html">http://hubblesite.org/explore_astronomy/black_holes/home.html</link>. The Hubble Space Telescope’s Journey to a Black Hole and Black Hole Encyclopedia (a good introduction for beginners).</para></note>
+<note id="eip-idm323910768" class="media-2">
+<para id="fs-id1168048058834">Introduction to Black Holes: <link url="http://www.damtp.cam.ac.uk/research/gr/public/bh_intro.html">http://www.damtp.cam.ac.uk/research/gr/public/bh_intro.html</link>. The Cambridge University Relativity Group’s pages on black holes and related calculations.</para>
+</note>
+<note id="eip-idm425173216" class="media-2"><para id="fs-id1168047378309">March 1918: Testing Einstein: <link url="http://www.nature.com/nature/podcast/index-pastcast-2014-03-20.html">http://www.nature.com/nature/podcast/index-pastcast-2014-03-20.html</link>. Nature Podcast about the 1919 eclipse expedition that proved Einstein’s General Theory of Relativity.</para></note>
+<note id="eip-idm484979424" class="media-2"><para id="fs-id1168047384895">Movies from the Edge of Spacetime: <link url="http://archive.ncsa.illinois.edu/Cyberia/NumRel/MoviesEdge.html">http://archive.ncsa.illinois.edu/Cyberia/NumRel/MoviesEdge.html</link>. Physicists simulate the behavior of various black holes.</para></note>
+<note id="eip-idm444936368" class="media-2"><para id="fs-id1168048145976">Virtual Trips into Black Holes and Neutron Stars: <link url="http://antwrp.gsfc.nasa.gov/htmltest/rjn_bht.html">http://antwrp.gsfc.nasa.gov/htmltest/rjn_bht.html</link>. By Robert Nemiroff at Michigan Technological University.</para></note></section><section id="fs-id1168047210335"><title><emphasis effect="italics">Gravitational Waves</emphasis></title><note id="eip-idm1455447184" class="media-2"><para id="fs-id1168047793930">Advanced LIGO: <link url="https://www.advancedligo.mit.edu">https://www.advancedligo.mit.edu</link>. The full story on this gravitational wave observatory.</para></note>
+<note id="eip-idm484981360" class="media-2"><para id="fs-id1168047698801">eLISA: <link url="https://www.elisascience.org">https://www.elisascience.org</link>.</para></note>
+<note id="eip-idm998123344" class="media-2"><para id="fs-id1168047134505">Gravitational Waves Detected, Confirming Einstein’s Theory: <link url="http://www.nytimes.com/2016/02/12/science/ligo-gravitational-waves-black-holes-einstein.html">http://www.nytimes.com/2016/02/12/science/ligo-gravitational-waves-black-holes-einstein.html</link>. <emphasis effect="italics">New York Times</emphasis> article and videos on the discovery of gravitational waves.</para></note>
+<note id="eip-idm1195644128" class="media-2"><para id="fs-id1168047696508">Gravitational Waves Discovered from Colliding Black Holes: <link url="http://www.scientificamerican.com/article/gravitational-waves-discovered-from-colliding-black-holes1">http://www.scientificamerican.com/article/gravitational-waves-discovered-from-colliding-black-holes1</link>. <emphasis effect="italics">Scientific American</emphasis> coverage of the discovery of gravitational waves (note the additional materials available in the menu at the right).</para></note>
+<note id="eip-idm994524496" class="media-2"><para id="fs-id1168047947117">LIGO Caltech: <link url="https://www.ligo.caltech.edu">https://www.ligo.caltech.edu</link>.</para></note></section></section><section id="fs-id1168047912717"><title>Videos</title><section id="fs-id1168048652564"><title><emphasis effect="italics">Death of Stars</emphasis></title><note id="eip-idm653642000" class="media-2">
+<para id="fs-id1168048251944">BBC interview with Antony Hewish: <link url="http://www.bbc.co.uk/archive/scientists/10608.shtml">http://www.bbc.co.uk/archive/scientists/10608.shtml</link>. (40:54).</para></note>
+<note id="eip-idm492707984" class="media-2"><para id="fs-id1168048485208">Black Widow Pulsars: The Vengeful Corpses of Stars: <link url="https://www.youtube.com/watch?v=Fn-3G_N0hy4">https://www.youtube.com/watch?v=Fn-3G_N0hy4</link>. A public talk in the Silicon Valley Astronomy Lecture Series by Dr. Roger Romani (Stanford University) (1:01:47).</para></note>
+<note id="eip-idm553469920" class="media-2"><para id="fs-id1168046066934">Hubblecast 64: It all ends with a bang!: <link url="http://www.spacetelescope.org/videos/hubblecast64a/">http://www.spacetelescope.org/videos/hubblecast64a/</link>. HubbleCast Program introducing Supernovae with Dr. Joe Liske (9:48).</para></note>
+<note id="eip-idm341343040" class="media-2"><para id="fs-id1168048719473">Space Movie Reveals Shocking Secrets of the Crab Pulsar: <link url="http://hubblesite.org/newscenter/archive/releases/2002/24/video/c/">http://hubblesite.org/newscenter/archive/releases/2002/24/video/c/</link>. A sequence of Hubble and Chandra Space Telescope images of the central regions of the Crab Nebula have been assembled into a very brief movie accompanied by animation showing how the pulsar affects its environment; it comes with some useful background material (40:06).</para></note></section><section id="fs-id1168047340886"><title><emphasis effect="italics">Black Holes</emphasis></title><note id="eip-idm1148185168" class="media-2">
+<para id="fs-id1168047358835">Black Holes: The End of Time or a New Beginning?: <link url="https://www.youtube.com/watch?v=mgtJRsdKe6Q">https://www.youtube.com/watch?v=mgtJRsdKe6Q</link>. 2012 Silicon Valley Astronomy Lecture by Roger Blandford (1:29:52).</para></note>
+<note id="eip-idm910690176" class="media-2"><para id="fs-id1168047643082">Death by Black Hole: <link url="http://www.openculture.com/2009/02/death_by_black_hole_and_its_kind_of_funny.htm">http://www.openculture.com/2009/02/death_by_black_hole_and_its_kind_of_funny.htm</link>. Neil deGrasse Tyson explains spaghettification with only his hands (5:34).</para></note>
+<note id="eip-idm187569248" class="media-2"><para id="fs-id1168047793804">Hearts of Darkness: Black Holes in Space: <link url="https://www.youtube.com/watch?v=4tiAOldypLk">https://www.youtube.com/watch?v=4tiAOldypLk</link>. 2010 Silicon Valley Astronomy Lecture by Alex Filippenko (1:56:11).</para></note></section><section id="fs-id1168047357205"><title><emphasis effect="italics">Gravitational Waves</emphasis></title><note id="eip-idm459318448" class="media-2">
+<para id="fs-id1168047964232">Journey of a Gravitational Wave: <link url="https://www.youtube.com/watch?v=FlDtXIBrAYE">https://www.youtube.com/watch?v=FlDtXIBrAYE</link>. Introduction from LIGO Caltech (2:55).</para></note>
+<note id="eip-idm382400480" class="media-2"><para id="fs-id1168047727447">LIGO’s First Detection of Gravitational Waves: <link url="https://www.youtube.com/watch?v=gw-i_VKd6Wo">https://www.youtube.com/watch?v=gw-i_VKd6Wo</link>. Explanation and animations from PBS Digital Studio (9:31).</para></note>
+<note id="eip-idm372224144" class="media-2"><para id="fs-id1168047352871">Two Black Holes Merge into One: <link url="https://www.youtube.com/watch?v=I_88S8DWbcU">https://www.youtube.com/watch?v=I_88S8DWbcU</link>. Simulation from LIGO Caltech (0:35).</para></note>
+<note id="eip-idm363237696" class="media-2"><para id="fs-id1168047606428">What the Discovery of Gravitational Waves Means: <link url="https://www.youtube.com/watch?v=jMVAgCPYYHY">https://www.youtube.com/watch?v=jMVAgCPYYHY</link>. TED Talk by Allan Adams (10:58).</para></note></section></section></section>
+<section id="fs-id1168047547046" class="review-conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1168048571919">
+<problem id="fs-id1168048378558">
+<para id="fs-id1168048539340">A star begins its life with a mass of 5 <emphasis effect="italics">M</emphasis><sub>Sun</sub> but ends its life as a white dwarf with a mass of 0.8 <emphasis effect="italics">M</emphasis><sub>Sun</sub>. List the stages in the star’s life during which it most likely lost some of the mass it started with. How did mass loss occur in each stage?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168046063918">
+<problem id="fs-id1168048284910">
+<para id="fs-id1168048507062">How can the Crab Nebula shine with the energy of something like 100,000 Suns when the star that formed the nebula exploded almost 1000 years ago? Who “pays the bills” for much of the radiation we see coming from the nebula?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168048484019">
+<problem id="fs-id1168048545522">
+<para id="fs-id1168048516202">Suppose no stars more massive than about 2 <emphasis effect="italics">M</emphasis><sub>Sun</sub> had ever formed. Would life as we know it have been able to develop? Why or why not?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168046067471">
+<problem id="fs-id1168046300714">
+<para id="fs-id1168046122581">You have discovered two star clusters. The first cluster contains mainly main-sequence stars, along with some red giant stars and a few white dwarfs. The second cluster also contains mainly main-sequence stars, along with some red giant stars, and a few neutron stars—but no white dwarf stars. What are the relative ages of the clusters? How did you determine your answer?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168048356090">
+<problem id="fs-id1168048365487">
+<para id="fs-id1168048348214">A supernova remnant was recently discovered and found to be approximately 150 years old. Provide possible reasons that this supernova explosion escaped detection.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168048320990">
+<problem id="fs-id1168048653220">
+<para id="fs-id1168048565732">Based upon the evolution of stars, place the following elements in order of least to most common in the Galaxy: gold, carbon, neon. What aspects of stellar evolution formed the basis for how you ordered the elements?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168047332593">
+<problem id="fs-id1168047179763">
+<para id="fs-id1168047964225">What is a gravitational wave and why was it so hard to detect?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168047969635">
+<problem id="fs-id1168047297306">
+<para id="fs-id1168047649077">What are some strong sources of gravitational waves that astronomers hope to detect in the future?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168047363972">
+<problem id="fs-id1168047342819">
+<para id="fs-id1168047340310">Suppose the amount of mass in a black hole doubles. Does the event horizon change? If so, how does it change?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168047871811">
+<problem id="fs-id1168047823124">
+<para id="fs-id1168047807912">Look elsewhere in this book for necessary data, and indicate what the final stage of evolution—white dwarf, neutron star, or black hole—will be for each of these kinds of stars.</para>
+<list id="fs-id1168047368283" list-type="enumerated" number-style="upper-alpha">
+<item>Spectral type-O main-sequence star</item>
+<item>Spectral type-B main-sequence star</item>
+<item>Spectral type-A main-sequence star</item>
+<item>Spectral type-G main-sequence star</item>
+<item>Spectral type-M main-sequence star</item>
+</list>
+</problem>
+</exercise>
+<exercise id="fs-id1168047664006">
+<problem id="fs-id1168047688068">
+<para id="fs-id1168047216681">Which is likely to be more common in our Galaxy: white dwarfs or black holes? Why?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168047537064">
+<problem id="fs-id1168047359206">
+<para id="fs-id1168047722797">If the Sun could suddenly collapse to a black hole, how would the period of Earth’s revolution about it differ from what it is now?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1168046008280" class="review-additional-problems"><title>Additional Problems</title><exercise id="fs-id1168048585449">
+<problem id="fs-id1168048349687">
+<para id="fs-id1168048592691">One way to calculate the radius of a star is to use its luminosity and temperature and assume that the star radiates approximately like a blackbody. Astronomers have measured the characteristics of central stars of planetary nebulae and have found that a typical central star is 16 times as luminous and 20 times as hot (about 110,000 K) as the Sun. Find the radius in terms of the Sun’s. How does this radius compare with that of a typical white dwarf?</para>
+</problem>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1168047145537">
+<term>gravitational wave</term>
+<meaning id="fs-id1168047721952">a disturbance in the curvature of spacetime caused by changes in how matter is distributed; gravitational waves propagate at (or near) the speed of light.</meaning>
+</definition>
+</glossary>
+</document>

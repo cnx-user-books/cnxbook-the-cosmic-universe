@@ -1,0 +1,160 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Common Forces</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64174</md:content-id>
+  <md:title>Common Forces</md:title>
+  <md:abstract>By the end of the section, you will be able to:
+<list>
+<item>Define normal and tension forces</item>
+<item>Distinguish between real and fictitious forces</item>
+<item>Apply Newton’s laws of motion to solve problems involving a variety of forces</item>
+</list></md:abstract>
+  <md:uuid>0a5b71dc-24b8-406a-a687-2a9d9bd84fb7</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165038191777">Forces are given many names, such as push, pull, thrust, and weight. Traditionally, forces have been grouped into several categories and given names relating to their source, how they are transmitted, or their effects. Several of these categories are discussed in this section, together with some interesting applications. Further examples of forces are discussed later in this text.</para>
+<section id="fs-id1165037885366">
+<title>A Catalog of Forces: Normal, Tension, and Other Examples of Forces</title>
+<para id="fs-id1165038336240">A catalog of forces will be useful for reference as we solve various problems involving force and motion. These forces include normal force, tension, and friction.</para><section id="fs-id1165037980604"><title>Normal force</title><para id="fs-id1165038165790">Weight (also called the force of gravity) is a pervasive force that acts at all times and must be counteracted to keep an object from falling. You must support the weight of a heavy object by pushing up on it when you hold it stationary, as illustrated in <link target-id="CNX_UPhysics_05_06_DogChow"/>(a). But how do inanimate objects like a table support the weight of a mass placed on them, such as shown in <link target-id="CNX_UPhysics_05_06_DogChow"/>(b)? When the bag of dog food is placed on the table, the table sags slightly under the load. This would be noticeable if the load were placed on a card table, but even a sturdy oak table deforms when a force is applied to it. Unless an object is deformed beyond its limit, it will exert a restoring force much like a deformed spring (or a trampoline or diving board). The greater the deformation, the greater the restoring force. Thus, when the load is placed on the table, the table sags until the restoring force becomes as large as the weight of the load. At this point, the net external force on the load is zero. That is the situation when the load is stationary on the table. The table sags quickly and the sag is slight, so we do not notice it. But it is similar to the sagging of a trampoline when you climb onto it.</para>
+<figure id="CNX_UPhysics_05_06_DogChow">
+<media id="fs-id1165036895430" alt="Figure a shows a person holding a bag of dog food just above a table. Force F subscript hand points up and force w points down. These are also shown in a free body diagram. Figure b shows the bag placed on the table, which sags with the weight. Force N points up and w points down. These are also shown in a free body diagram.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_06_DogChow.jpg"/>
+</media>
+<caption>(a) The person holding the bag of dog food must supply an upward force <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>hand</m:mtext></m:mrow></m:msub></m:mrow></m:math> equal in magnitude and opposite in direction to the weight of the food <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>w</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> so that it doesn’t drop to the ground. (b) The card table sags when the dog food is placed on it, much like a stiff trampoline. Elastic restoring forces in the table grow as it sags until they supply a force <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>N</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> equal in magnitude and opposite in direction to the weight of the load.</caption>
+</figure>
+<para id="fs-id1165036746811">We must conclude that whatever supports a load, be it animate or not, must supply an upward force equal to the weight of the load, as we assumed in a few of the previous examples. If the force supporting the weight of an object, or a load, is perpendicular to the surface of contact between the load and its support, this force is defined as a <term>normal force</term> and here is given by the symbol <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>N</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math> (This is not the newton unit for force, or N.) The word <emphasis effect="italics">normal</emphasis> means perpendicular to a surface. This means that the normal force experienced by an object resting on a horizontal surface can be expressed in vector form as follows:</para>
+<note id="fs-id1165038367427" class="equation-callout">
+<equation id="fs-id1165038283372"><label/><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>N</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165038232366">In scalar form, this becomes</para>
+<note id="fs-id1165038395423" class="equation-callout">
+<equation id="fs-id1165036894744"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165038365074">The normal force can be less than the object’s weight if the object is on an incline.</para>
+<para id="fs-id1165038003522">When an object rests on an incline that makes an angle <m:math><m:mi>θ</m:mi></m:math> with the horizontal, the force of gravity acting on the object is divided into two components: a force acting perpendicular to the plane, <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:math>, and a force acting parallel to the plane, <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:math> (<link target-id="CNX_UPhysics_05_06_FBDIncline"/>). The normal force <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>N</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is typically equal in magnitude and opposite in direction to the perpendicular component of the weight <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:math>. The force acting parallel to the plane, <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:math>, causes the object to accelerate down the incline.</para>
+<figure id="CNX_UPhysics_05_06_FBDIncline">
+<media id="fs-id1165036893873" alt="Figure shows a point object on a slope of angle theta with the horizontal. Force w points vertically down from the point. Wx points down and parallel to the slope. Wy points down and perpendicular to the slope. The angle between w and wy is theta. The figure includes these equations: wx is equal to w sine theta is equal to mg sine theta, and wy is equal to w cos theta is equal to mg cos theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_06_FBDincline.jpg"/>
+</media>
+<caption>An object rests on an incline that makes an angle <m:math><m:mi>θ</m:mi></m:math> with the horizontal.</caption>
+</figure>
+<para id="fs-id1165038313936">Be careful when resolving the weight of the object into components. If the incline is at an angle <m:math><m:mi>θ</m:mi></m:math> to the horizontal, then the magnitudes of the weight components are</para>
+<equation id="fs-id1165038384169" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mi>w</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></equation>
+<para id="fs-id1165038166759">and</para>
+<equation id="fs-id1165038238309" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mi>w</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165037972410">We use the second equation to write the normal force experienced by an object resting on an inclined plane:</para>
+<note id="fs-id1165036778390" class="equation-callout">
+<equation id="fs-id1165038217577"><label/><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165037934793">Instead of memorizing these equations, it is helpful to be able to determine them from reason. To do this, we draw the right angle formed by the three weight vectors. The angle <m:math><m:mi>θ</m:mi></m:math> of the incline is the same as the angle formed between <emphasis effect="italics">w</emphasis> and <m:math><m:mrow><m:msub><m:mi>w</m:mi><m:mi>y</m:mi></m:msub></m:mrow></m:math>. Knowing this property, we can use trigonometry to determine the magnitude of the weight components:</para>
+<equation id="fs-id1165038157910" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="left"><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>w</m:mi><m:mi>y</m:mi></m:msub></m:mrow><m:mi>w</m:mi></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>w</m:mi><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mi>w</m:mi><m:mspace width="0.2em"/><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>w</m:mi><m:mi>x</m:mi></m:msub></m:mrow><m:mi>w</m:mi></m:mfrac><m:mo>,</m:mo><m:mspace width="0.5em"/><m:msub><m:mi>w</m:mi><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mi>w</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mspace width="0.2em"/><m:mtext>sin</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<note id="fs-id1165037986092" class="check-understanding">
+<exercise id="fs-id1165037982849">
+<problem id="fs-id1165038053494">
+<para id="fs-id1165037968340"><emphasis effect="bold">Check Your Understanding</emphasis> A force of 1150 N acts parallel to a ramp to push a 250-kg gun safe into a moving van. The ramp is frictionless and inclined at <m:math><m:mrow><m:mn>17</m:mn><m:mtext>°</m:mtext><m:mo>.</m:mo></m:mrow></m:math> (a) What is the acceleration of the safe up the ramp? (b) If we consider friction in this problem, with a friction force of 120 N, what is the acceleration of the safe?</para>
+</problem>
+<solution id="fs-id1165038172763">
+<para id="fs-id1165038300317">a. <m:math><m:mrow><m:mn>1.7</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math> b. <m:math><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</note>
+</section><section id="fs-id1165036765556">
+<title>Tension</title>
+<para id="fs-id1165038276815">A <term>tension</term> is a force along the length of a medium; in particular, it is a pulling force that acts along a stretched flexible connector, such as a rope or cable. The word “tension” comes from a Latin word meaning “to stretch.” Not coincidentally, the flexible cords that carry muscle forces to other parts of the body are called <emphasis effect="italics">tendons</emphasis>.</para>
+<para id="fs-id1165038033538">Any flexible connector, such as a string, rope, chain, wire, or cable, can only exert a pull parallel to its length; thus, a force carried by a flexible connector is a tension with a direction parallel to the connector. Tension is a pull in a connector. Consider the phrase: “You can’t push a rope.” Instead, tension force pulls outward along the two ends of a rope.</para>
+<para id="fs-id1165036892570">Consider a person holding a mass on a rope, as shown in <link target-id="CNX_UPhysics_05_06_MassOnRope"/>. If the 5.00-kg mass in the figure is stationary, then its acceleration is zero and the net force is zero. The only external forces acting on the mass are its weight and the tension supplied by the rope. Thus,</para>
+<equation id="fs-id1165038270373" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>T</m:mi><m:mo>−</m:mo><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165038218150">where <emphasis effect="italics">T</emphasis> and <emphasis effect="italics">w</emphasis> are the magnitudes of the tension and weight, respectively, and their signs indicate direction, with up being positive. As we proved using Newton’s second law, the tension equals the weight of the supported mass:</para>
+<note id="fs-id1165038200068" class="equation-callout">
+<equation id="fs-id1165038270425"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>w</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165036778505">Thus, for a 5.00-kg mass (neglecting the mass of the rope), we see that</para>
+<equation id="fs-id1165038237848" class="unnumbered"><label/><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>49.0</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1165038230020">If we cut the rope and insert a spring, the spring would extend a length corresponding to a force of 49.0 N, providing a direct observation and measure of the tension force in the rope.</para>
+<figure id="CNX_UPhysics_05_06_MassOnRope">
+<media id="fs-id1165038364070" alt="Figure shows mass m hanging from a rope. Two arrows of equal length, both labeled T are shown along the rope, one pointing up and the other pointing down. An arrow labeled w points down. A free body diagram shows T pointing up and w pointing down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_06_MassOnRope.jpg"/>
+</media>
+<caption>When a perfectly flexible connector (one requiring no force to bend it) such as this rope transmits a force <m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>T</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>,</m:mo></m:mrow></m:math> that force must be parallel to the length of the rope, as shown. By Newton’s third law, the rope pulls with equal force but in opposite directions on the hand and the supported mass (neglecting the weight of the rope). The rope is the medium that carries the equal and opposite forces between the two objects. The tension anywhere in the rope between the hand and the mass is equal. Once you have determined the tension in one location, you have determined the tension at all locations along the rope.</caption>
+</figure>
+<para id="fs-id1165038039979">Flexible connectors are often used to transmit forces around corners, such as in a hospital traction system, a tendon, or a bicycle brake cable. If there is no friction, the tension transmission is undiminished; only its direction changes, and it is always parallel to the flexible connector, as shown in <link target-id="CNX_UPhysics_05_06_Connector"/>.</para>
+<figure id="CNX_UPhysics_05_06_Connector">
+<media id="fs-id1165037973421" alt="Figure a shows the muscle structure of a human finger. Broad muscles at the base are labeled extensor muscles. These are attached to the extensor tendons. Tendons along the length of the finger are labeled flexor tendons. Arrows labeled T are shown from the upper part of the finger towards the base. Figure b shows a bicycle. Arrows labeled T are shown from the centre of the back wheel to the seat bar, from the seat bar to the handle bar and from the handle towards the back of the bicycle.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_06_Connector.jpg"/>
+</media>
+<caption>(a) Tendons in the finger carry force <emphasis effect="italics">T</emphasis> from the muscles to other parts of the finger, usually changing the force’s direction but not its magnitude (the tendons are relatively friction free). (b) The brake cable on a bicycle carries the tension <emphasis effect="italics">T</emphasis> from the brake lever on the handlebars to the brake mechanism. Again, the direction but not the magnitude of <emphasis effect="italics">T</emphasis> is changed.</caption>
+</figure>
+</section>
+<section id="fs-id1165036887187">
+<title>Friction</title>
+<para id="fs-id1165036887193">Friction is a resistive force opposing motion or its tendency. Imagine an object at rest on a horizontal surface. The net force acting on the object must be zero, leading to equality of the weight and the normal force, which act in opposite directions. If the surface is tilted, the normal force balances the component of the weight perpendicular to the surface. If the object does not slide downward, the component of the weight parallel to the inclined plane is balanced by friction. This is discussed in greater detail in section on <link class="target-chapter" document="m64176">Friction</link>.</para></section>
+</section>
+<section id="fs-id1165036895852" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165038237678" list-type="bulleted" bullet-style="bullet"><item>When an object rests on a surface, the surface applies a force to the object that supports the weight of the object. This supporting force acts perpendicular to and away from the surface. It is called a normal force.</item>
+<item>When an object rests on a nonaccelerating horizontal surface, the magnitude of the normal force is equal to the weight of the object.</item>
+<item>When an object rests on an inclined plane that makes an angle <m:math><m:mi>θ</m:mi></m:math> with the horizontal surface, the weight of the object can be resolved into components that act perpendicular and parallel to the surface of the plane.</item>
+<item>The pulling force that acts along a stretched flexible connector, such as a rope or cable, is called tension. When a rope supports the weight of an object at rest, the tension in the rope is equal to the weight of the object. If the object is accelerating, tension is greater than weight, and if it is decelerating, tension is less than weight.</item>
+<item>The force of friction is a force experienced by a moving object (or an object that has a tendency to move) parallel to the interface opposing the motion (or its tendency).</item>
+
+</list></section>
+<section id="fs-id1165036893500" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165036842462">
+<problem id="fs-id1165036842465">
+<para id="fs-id1165036842467">A table is placed on a rug. Then a book is placed on the table. What does the floor exert a normal force on?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036842480">
+<problem id="fs-id1165036842482">
+<para id="fs-id1165036842484">A particle is moving to the right. (a) Can the force on it to be acting to the left? If yes, what would happen? (b) Can that force be acting downward? If yes, why?</para>
+</problem>
+<solution id="fs-id1165036892601">
+<para id="fs-id1165036892603">a. Yes, the force can be acting to the left; the particle would experience deceleration and lose speed. B. Yes, the force can be acting downward because its weight acts downward even as it moves to the right.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165036892612" class="review-problems"><title>Problems</title><exercise id="fs-id1165036882059">
+<problem id="fs-id1165036882061">
+<para id="fs-id1165036882063">What force does a trampoline have to apply to Jennifer, a 45.0-kg gymnast, to accelerate her straight up at <m:math><m:mrow><m:mn>7.50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>? The answer is independent of the velocity of the gymnast—she can be moving up or down or can be instantly stationary.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036763040"><problem id="fs-id1165036763042">
+<para id="fs-id1165036763044">Calculate the tension in a vertical strand of spider web if a spider of mass <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−5</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> hangs motionless on it.</para>
+</problem>
+<solution id="fs-id1165036763084">
+<para id="fs-id1165036763086"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>1.96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−4</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math><newline/></para></solution>
+</exercise><exercise id="fs-id1165038056544">
+<problem id="fs-id1165038056546">
+<para id="fs-id1165038056548">Suppose Kevin, a 60.0-kg gymnast, climbs a rope. (a) What is the tension in the rope if he climbs at a constant speed? (b) What is the tension in the rope if he accelerates upward at a rate of <m:math><m:mrow><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165036900436">
+<problem id="fs-id1165036900438">
+<para id="fs-id1165036900440">Consider the baby being weighed in the following figure. (a) What is the mass of the infant and basket if a scale reading of 55 N is observed? (b) What is tension <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> in the cord attaching the baby to the scale? (c) What is tension <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> in the cord attaching the scale to the ceiling, if the scale has a mass of 0.500 kg? (d) Sketch the situation, indicating the system of interest used to solve each part. The masses of the cords are negligible.</para>
+<media id="fs-id1165036900464" alt="Figure shows a baby in a basket attached to a spring scale, which in turn is fixed from a rigid support. Arrow T2 points down from the support. Another arrow T2 points up from the top of the scale. Arrow T1 points down from the bottom of the scale. Another arrow T1 points up from the basket. Arrow w points down from the basket. The scale has markings from 0 to 300 Newtons.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_06_BabyWeight_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165036900476">
+<para id="fs-id1165036900479">a. 5.6 kg; b. 55 N; c. <m:math><m:mrow><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>60</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math>;<newline/>d.<newline/>
+<media id="fs-id1165038304550" alt="Figure a shows a baby in a basket, with arrow T1 pointing up and arrow w pointing down. Figure b shows a free body diagram of arrow T1 pointing down. Figure c shows a free body diagram of T1 pointing down, T2 pointing up and mg pointing down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_06_BabyWtFBDS_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+</section></content>
+<glossary>
+<definition id="fs-id1165038364586">
+<term>normal force</term>
+<meaning id="fs-id1165038364592">force supporting the weight of an object, or a load, that is perpendicular to the surface of contact between the load and its support; the surface applies this force to an object to support the weight of the object</meaning>
+</definition>
+<definition id="fs-id1165038364598">
+<term>tension</term>
+<meaning id="fs-id1165038364603">pulling force that acts along a stretched flexible connector, such as a rope or cable</meaning>
+</definition>
+</glossary>
+</document>

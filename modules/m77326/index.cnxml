@@ -1,0 +1,33 @@
+<document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
+
+<title>Introduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m77326</md:content-id>
+  <md:title>Introduction</md:title>
+  <md:abstract/>
+  <md:uuid>7b6606c8-1468-4e61-9379-60642c162ff2</md:uuid>
+</metadata>
+
+<content>
+<figure id="OSC_Astro_27_00_HUDFQuasar">
+<title>Hubble Ultra-Deep Field.</title>
+<media id="fs-id1163976959263" alt="The Distant Universe. The panel at left shows the deepest picture of the sky in visible light. The filed is uniformly scattered with galaxies of all types. The panel at right is the deepest picture of the sky taken in X-rays. The field is uniformly covered with tiny points of light, much smaller than the images of galaxies seen on the left.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_27_00_HUDFQuasar.jpg"/>
+</media>
+<caption>The deepest picture of the sky in visible light (left) shows huge numbers of galaxies in a tiny patch of sky, only 1/100 the area of the full Moon. In contrast, the deepest picture of the sky taken in X-rays (right) shows large numbers of point-like quasars, which astronomers have shown are supermassive black holes at the very centers of galaxies. (credit left: modification of work by NASA, ESA, H. Teplitz and M. Rafelski (IPAC/Caltech), A. Koekemoer (STScI), R. Windhorst (Arizona State University), and Z. Levay (STScI); credit right: modification of work by ESO/Mario Nonino, Piero Rosati, ESO GOODS Team)</caption>
+</figure>
+<para id="fs-id1163976787863">During the first half of the twentieth century, astronomers viewed the universe of galaxies as a mostly peaceful place. They assumed that galaxies formed billions of years ago and then evolved slowly as the populations of stars within them formed, aged, and died. That placid picture completely changed in the last few decades of the twentieth century.</para>
+<para id="fs-id1163973245486">Today, astronomers can see that the universe is often shaped by violent events, including cataclysmic explosions of supernovae, collisions of whole galaxies, and the tremendous outpouring of energy as matter interacts in the environment surrounding very massive black holes. The key event that began to change our view of the universe was the discovery of a new class of objects: quasars.</para>
+<figure id="OSC_Astro_28_00_ColGalax">
+<title>Colliding Galaxies.</title>
+<media id="fs-id1163974244904" alt="Colliding Galaxies. The panel on the left is a ground-based image of NCG 4038 and 4039, with streams of material torn out of the galaxies during the collision at center left and upper right. The panel on the right shows the cores of the two galaxies taken by the Hubble Space Telescope.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_28_00_ColGalax.jpg"/>
+</media>
+<caption>Collisions and mergers of galaxies strongly influence their evolution. On the left is a ground-based image of two colliding galaxies (NCG 4038 and 4039), sometimes nicknamed the Antennae galaxies. The long, luminous tails are material torn out of the galaxies by tidal forces during the collision. The right image shows the inner regions of these two galaxies, as taken by the Hubble Space Telescope. The cores of the twin galaxies are the orange blobs to the lower left and upper right of the center of the image. Note the dark lanes of dust crossing in front of the bright regions. The bright pink and blue star clusters are the result of a burst of star formation stimulated by the collision. (credit left: modification of work by Bob and Bill Twardy/Adam Block/NOAO/AURA/NSF; credit right: modification of work by NASA, ESA, and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration)</caption>
+</figure>
+<para id="fs-id1163975337296">How and when did galaxies like our Milky Way form? Which formed first: stars or galaxies? Can we see direct evidence of the changes galaxies undergo over their lifetimes? If so, what determines whether a galaxy will “grow up” to be spiral or elliptical? And what is the role of “nature versus nurture”? That is to say, how much of a galaxy’s development is determined by what it looks like when it is born and how much is influenced by its environment?</para>
+<para id="fs-id1163975630438">Astronomers today have the tools needed to explore the universe almost back to the time it began. The huge new telescopes and sensitive detectors built in the last decades make it possible to obtain both images and spectra of galaxies so distant that their light has traveled to reach us for more than 13 billion years—more than 90% of the way back to the Big Bang: we can use the finite speed of light and the vast size of the universe as a cosmic time machine to peer back and observe how galaxies formed and evolved over time. Studying galaxies so far away in any detail is always a major challenge, largely because their distance makes them appear very faint. However, today’s large telescopes on the ground and in space are finally making such a task possible.</para>
+
+</content>
+
+</document>

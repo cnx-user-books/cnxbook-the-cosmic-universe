@@ -1,0 +1,291 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Drawing Free-Body Diagrams</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64175</md:content-id>
+  <md:title>Drawing Free-Body Diagrams</md:title>
+  <md:abstract>By the end of the section, you will be able to:
+<list>
+<item>Explain the rules for drawing a free-body diagram</item>
+<item>Construct free-body diagrams for different situations</item>
+</list></md:abstract>
+  <md:uuid>48d0af27-5cf5-4472-8ebd-c1f890a5040f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039077991">The first step in describing and analyzing most phenomena in physics involves the careful drawing of a free-body diagram. Free-body diagrams have been used in examples throughout this chapter. Remember that a free-body diagram must only include the external forces acting on the body of interest. Once we have drawn an accurate free-body diagram, we can apply Newton’s first law if the body is in equilibrium (balanced forces; that is, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>) or Newton’s second law if the body is accelerating (unbalanced force; that is, <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>).</para>
+<para id="fs-id1165039401582">In <link class="target-chapter" document="m64169">Forces</link>, we gave a brief problem-solving strategy to help you understand free-body diagrams. Here, we add some details to the strategy that will help you in constructing these diagrams.</para><note id="fs-id1165039487891" class="problem-solving">
+<title>Problem-Solving Strategy: Constructing Free-Body Diagrams</title>
+<para id="fs-id1165039446536">Observe the following rules when constructing a free-body diagram:</para>
+<list id="fs-id1165039107283" list-type="enumerated" number-style="arabic"><item>Draw the object under consideration; it does not have to be artistic. At first, you may want to draw a circle around the object of interest to be sure you focus on labeling the forces acting on the object. If you are treating the object as a particle (no size or shape and no rotation), represent the object as a point. We often place this point at the origin of an <emphasis effect="italics">xy</emphasis>-coordinate system.</item>
+<item>Include all forces that act on the object, representing these forces as vectors. Consider the types of forces described in <link class="target-chapter" document="m64174">Common Forces</link>—normal force, friction, and tension—as well as weight and applied force. Do not include the net force on the object. With the exception of gravity, all of the forces we have discussed require direct contact with the object. However, forces that the object exerts on its environment must not be included. We never include both forces of an action-reaction pair.</item>
+<item>Convert the free-body diagram into a more detailed diagram showing the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components of a given force (this is often helpful when solving a problem using Newton’s first or second law). In this case, place a squiggly line through the original vector to show that it is no longer in play—it has been replaced by its <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components.</item>
+<item>If there are two or more objects, or bodies, in the problem, draw a separate free-body diagram for each object.</item>
+</list><para id="fs-id1165038980244"><emphasis effect="italics">Note:</emphasis> If there is acceleration, we do not directly include it in the free-body diagram; however, it may help to indicate acceleration outside the free-body diagram. You can label it in a different color to indicate that it is separate from the free-body diagram.</para>
+</note>
+<para id="fs-id1165039123909">Let’s apply the problem-solving strategy in drawing a free-body diagram for a sled. In <link target-id="CNX_UPhysics_05_07_FBDSled"/>(a), a sled is pulled by force <emphasis effect="bold">P</emphasis> at an angle of <m:math><m:mrow><m:mn>30</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>. In part (b), we show a free-body diagram for this situation, as described by steps 1 and 2 of the problem-solving strategy. In part (c), we show all forces in terms of their <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components, in keeping with step 3.</para>
+<figure id="CNX_UPhysics_05_07_FBDSled">
+<media id="fs-id1165039123622" alt="Figure a shows a sled of 15 kg. An arrow labeled P pointing right and up forms an angle of 30 degrees with the horizontal. Figure b is a free body diagram with P, N pointing up and w pointing down. Figure c is a free body diagram with P, N, w and two components of P: Px pointing right and Py pointing up.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_FBDSled.jpg"/>
+</media>
+<caption>(a) A moving sled is shown as (b) a free-body diagram and (c) a free-body diagram with force components.</caption>
+</figure>
+<example id="fs-id1165039092428">
+<para id="fs-id1165038973504"><title>Two Blocks on an Inclined Plane</title>
+Construct the free-body diagram for object A and object B in <link target-id="CNX_UPhysics_05_07_BlockAB"/>.</para>
+<para id="fs-id1165039073989"><title>Strategy</title>
+We follow the four steps listed in the problem-solving strategy.</para>
+<para id="fs-id1165039304581"><title>Solution</title>
+We start by creating a diagram for the first object of interest. In <link target-id="CNX_UPhysics_05_07_BlockAB"/>(a), object A is isolated (circled) and represented by a dot.</para>
+<figure id="CNX_UPhysics_05_07_BlockAB">
+<media id="fs-id1165039294194" alt="Figure a shows two objects on an inclined plane, sloping down to the left. Object A is on top of object B. A free body diagram shows T pointing right and up, parallel to the plane, N subscript BA pointing left and up, perpendicular to the plane, f subscript BA pointing left and down, parallel to the plane and w subscript A pointing vertically down. W subscript A is weight of block A, T is tension, N subscript BA is normal force exerted by B on A, f subscript BA is friction force exerted by B on A. Figure b shows the objects on the slope in the same manner. A free body diagram has f subscript B and f subscript AB pointing right and up, parallel to the slope, N subscript B pointing left and up perpendicular to the slope, w subscript B pointing vertically down and N subscript AB pointing down and right, perpendicular to the slope. W subscript B is weight of block B, N subscript AB is normal force exerted by A on B, N subscript B is normal force exerted by the incline plane on B. f subscript AB is friction force exerted by A on B. f subscript B is friction force exerted by the incline plane on B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_BlockAB.jpg"/>
+</media>
+<caption>(a) The free-body diagram for isolated object A. (b) The free-body diagram for isolated object B. Comparing the two drawings, we see that friction acts in the opposite direction in the two figures. Because object A experiences a force that tends to pull it to the right, friction must act to the left. Because object B experiences a component of its weight that pulls it to the left, down the incline, the friction force must oppose it and act up the ramp. Friction always acts opposite the intended direction of motion.</caption>
+</figure>
+<para id="fs-id1165039003890">We now include any force that acts on the body. Here, no applied force is present. The weight of the object acts as a force pointing vertically downward, and the presence of the cord indicates a force of tension pointing away from the object. Object A has one interface and hence experiences a normal force, directed away from the interface. The source of this force is object B, and this normal force is labeled accordingly. Since object B has a tendency to slide down, object A has a tendency to slide up with respect to the interface, so the friction <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>BA</m:mtext></m:mrow></m:msub></m:mrow></m:math> is directed downward parallel to the inclined plane.</para>
+<para id="fs-id1165039292034">As noted in step 4 of the problem-solving strategy, we then construct the free-body diagram in <link target-id="CNX_UPhysics_05_07_BlockAB"/>(b) using the same approach. Object B experiences two normal forces and two friction forces due to the presence of two contact surfaces. The interface with the inclined plane exerts external forces of <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mtext>B</m:mtext></m:msub></m:mrow></m:math>, and the interface with object B exerts the normal force <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:msub></m:mrow></m:math> and friction <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:msub></m:mrow></m:math>; <m:math><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:msub></m:mrow></m:math> is directed away from object B, and <m:math><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:msub></m:mrow></m:math> is opposing the tendency of the relative motion of object B with respect to object A.</para>
+<para id="fs-id1165039101304"><title>Significance</title>
+The object under consideration in each part of this problem was circled in gray. When you are first learning how to draw free-body diagrams, you will find it helpful to circle the object before deciding what forces are acting on that particular object. This focuses your attention, preventing you from considering forces that are not acting on the body.</para>
+</example>
+<example id="fs-id1165039245155">
+<para id="fs-id1165038985673"><title>Two Blocks in Contact</title>
+A force is applied to two blocks in contact, as shown.</para>
+<para id="fs-id1165039071101"><title>Strategy</title>
+Draw a free-body diagram for each block. Be sure to consider Newton’s third law at the interface where the two blocks touch.</para>
+<media id="fs-id1165039123536" alt="Two squares are shown in contact with each other. The left one is smaller and is labeled m1. The right one is bigger and is labeled m2. An arrow pointing right towards m1 is labeled F.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_Blocks1_img.jpg"/>
+</media>
+<para id="fs-id1165038975256"><title>Solution</title></para>
+<media id="fs-id1165038999119" alt="Figure shows two free body diagrams. The first one shows arrow A subscript 21 pointing left and arrow F pointing right. The second one shows arrow A 12 pointing right. Both diagrams also have arrows pointing up and down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_Blocks2_img.jpg"/>
+</media>
+<para id="fs-id1165039103452"><title>Significance</title><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>A</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>21</m:mn></m:mrow></m:msub></m:mrow></m:math> is the action force of block 2 on block 1. <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>A</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mn>12</m:mn></m:mrow></m:msub></m:mrow></m:math> is the reaction force of block 1 on block 2.</para></example>
+<example id="fs-id1165039299982">
+<para id="fs-id1165039123131"><title>Block on the Table (Coupled Blocks)</title>
+A block rests on the table, as shown. A light rope is attached to it and runs over a pulley. The other end of the rope is attached to a second block. The two blocks are said to be coupled. Block <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math> exerts a force due to its weight, which causes the system (two blocks and a string) to accelerate.</para>
+<para id="fs-id1165039099354"><title>Strategy</title>
+We assume that the string has no mass so that we do not have to consider it as a separate object. Draw a free-body diagram for each block.</para>
+<media id="fs-id1165039083076" alt="Figure shows block m1 placed on a table. A string attached to it runs over a pulley and down the right side of the table. A block m2 is suspended from it. An arrow a1 points right and an arrow a2 points down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_CoupldBlkA_img.jpg"/>
+</media>
+<para id="fs-id1165039079950"><title>Solution</title></para>
+<media id="fs-id1165039054106" alt="Figure a shows block m1. An arrow labeled m1g point upwards from it, an arrow N points downwards and an arrow T points right. Figure b shows block m2. An arrow T points upwards from it and an arrow m2g points downwards.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_CoupldBlkB_img.jpg"/>
+</media>
+<para id="fs-id1165039303248"><title>Significance</title>Each block accelerates (notice the labels shown for <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub></m:mrow></m:math>); however, assuming the string remains taut, they accelerate at the same rate. Thus, we have <m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>. If we were to continue solving the problem, we could simply call the magnitude of the acceleration <m:math><m:mi>a</m:mi></m:math>. Also, we use two free-body diagrams because we are usually finding tension <emphasis effect="italics">T</emphasis>, which may require us to use a system of two equations in this type of problem. The tension is the same on both <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>.</para></example>
+<note id="fs-id1165039288730" class="check-understanding">
+<exercise id="fs-id1165039074920">
+<problem id="fs-id1165039096724">
+<para id="fs-id1165039047444"><emphasis effect="bold">Check Your Understanding</emphasis> (a) Draw the free-body diagram for the situation shown. (b) Redraw it showing components; use <emphasis effect="italics">x</emphasis>-axes parallel to the two ramps.</para>
+<media id="fs-id1165039209345" alt="Two carts are tied with a rope which goes over a pulley on top of a hill. Each cart rests on one  slope of the hill on either side of the pulley. The cart on the left is labeled m1 and the one on the right is labeled m2.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_2Carts_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039100589">
+<para id="fs-id1165039251208"><media id="fs-id1165039109280" alt="Figure a shows a free body diagram of an object on a line that slopes down to the right. Arrow T from the object points right and up, parallel to the slope. Arrow N1 points left and up, perpendicular to the slope. Arrow w1 points vertically down. Figure b shows a free body diagram of an object on a line that slopes down to the left. Arrow N2 from the object points right and up, perpendicular to the slope. Arrow T points left and up, parallel to the slope. Arrow w2 points vertically down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_2Carts(a)_img.jpg"/>
+</media>;<newline/>
+<media id="fs-id1165039120614" alt="Figure a shows a free body diagram of an object on a line that slopes down to the right. Arrow T from the object points right and up, parallel to the slope. Arrow N1 points left and up, perpendicular to the slope. Arrow w1 points vertically down. Arrow w1x points left and down, parallel to the slope. Arrow w1y points right and down, perpendicular to the slope. Figure b shows a free body diagram of an object on a line that slopes down to the left. Arrow N2 from the object points right and up, perpendicular to the slope. Arrow T points left and up, parallel to the slope. Arrow w2 points vertically down. Arrow w2y points left and down, perpendicular to the slope. Arrow w2x points right and down, parallel to the slope.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_2Carts(b)_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</note>
+<note id="fs-id1165039188025" class="media-2">
+<para id="fs-id1165039120777">View this <link url="https://openstaxcollege.org/l/21forcemotion" window="new">simulation</link> to predict, qualitatively, how an external force will affect the speed and direction of an object’s motion. Explain the effects with the help of a free-body diagram. Use free-body diagrams to draw position, velocity, acceleration, and force graphs, and vice versa. Explain how the graphs relate to one another. Given a scenario or a graph, sketch all four graphs.</para></note>
+<section id="fs-id1165039009272" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165038973001" list-type="bulleted" bullet-style="bullet">
+<item>To draw a free-body diagram, we draw the object of interest, draw all forces acting on that object, and resolve all force vectors into <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components. We must draw a separate free-body diagram for each object in the problem.</item>
+<item>A free-body diagram is a useful means of describing and analyzing all the forces that act on a body to determine equilibrium according to Newton’s first law or acceleration according to Newton’s second law.</item>
+</list>
+</section>
+<section id="fs-id1165039374258" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1171240074559" class="unnumbered unstyled" summary="This table gives the following formulae: Net external force, vector F net equal to summation of vector F equal to vector F 1 plus vector F2 plus; Newton’s first law, vector v equal to constant when vector F net equal to 0 N; Newton’s second law, vector form, vector F net equal to summation of vector F equal to ma; Newton’s second law, scalar form, F net equal to ma; Newton’s second law, component form, summation vector Fx equal to m vector ax, summation vector Fy equal to m vector ay, summation vector Fz equal to m vector az; Newton’s second law, momentum form, vector f net equal to inexact differential dp by dt; Definition of weight, vector form, vector w equal to m vector g; Definition of weight, scalar form, w equal to mg; Newton’s third law, vector F subscript AB equal to minus F subscript BA; Normal force on an object resting on a horizontal surface, vector form, vector N equal to minus m vector g; Normal force on an object resting on a horizontal surface, scalar form, N equal to mg; Normal force on an object resting on an inclined plane, scalar form, N equal to mg cos theta; Tension in a cable supporting an object of mass m at rest, scalar form, T equal to w equal to mg."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Net external force</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mstyle><m:mo>=</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mtext>⋯</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Newton’s first law</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mtext>constant when</m:mtext><m:mspace width="0.2em"/><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mn>0</m:mn><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Newton’s second law, vector form</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:mo>∑</m:mo><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Newton’s second law, scalar form</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Newton’s second law, component form</entry>
+<entry align="left"><m:math><m:mrow><m:mo>∑</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>a</m:mi><m:mi>x</m:mi></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/>
+<m:mo>∑</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>a</m:mi><m:mi>y</m:mi></m:msub><m:mo>,</m:mo><m:mspace width="0.2em"/>
+<m:mo>∑</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mi>z</m:mi></m:msub></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:msub><m:mi>a</m:mi><m:mi>z</m:mi></m:msub><m:mo>,</m:mo></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Definition of weight, vector form</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>w</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Definition of weight, scalar form</entry>
+<entry align="left"><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Newton’s third law</entry>
+<entry align="left"><m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>F</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mrow><m:mtext>BA</m:mtext></m:mrow></m:msub></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Normal force on an object resting on a<newline/>horizontal surface, vector form</entry>
+<entry align="left"><m:math><m:mrow><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>N</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo>=</m:mo><m:mtext>−</m:mtext><m:mi>m</m:mi><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>g</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Normal force on an object resting on a<newline/>horizontal surface, scalar form</entry>
+<entry align="left"><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Normal force on an object resting on an<newline/>inclined plane, scalar form</entry>
+<entry align="left"><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mtext>cos</m:mtext><m:mspace width="0.2em"/><m:mi>θ</m:mi></m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Tension in a cable supporting an object<newline/>of mass <emphasis effect="italics">m</emphasis> at rest, scalar form</entry>
+<entry align="left"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mi>w</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></section>
+<section id="fs-id1165039394319" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1165039299096">
+<problem id="fs-id1165039198678">
+<para id="fs-id1165038982275">In completing the solution for a problem involving forces, what do we do after constructing the free-body diagram? That is, what do we apply?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039109374">
+<problem id="fs-id1165039192175">
+<para id="fs-id1165039092888">If a book is located on a table, how many forces should be shown in a free-body diagram of the book? Describe them.</para>
+</problem>
+<solution id="fs-id1165039115052">
+<para id="fs-id1165038989061">two forces of different types: weight acting downward and normal force acting upward</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039098409">
+<problem id="fs-id1165039122508">
+<para id="fs-id1165039111385">If the book in the previous question is in free fall, how many forces should be shown in a free-body diagram of the book? Describe them.</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-id1165039072275" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165039244114">
+<problem id="fs-id1165039309673">
+<para id="fs-id1165038993702">A ball of mass <emphasis effect="italics">m</emphasis> hangs at rest, suspended by a string. (a) Sketch all forces. (b) Draw the free-body diagram for the ball.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039078803">
+<problem id="fs-id1165039328873">
+<para id="fs-id1165039051957">A car moves along a horizontal road. Draw a free-body diagram; be sure to include the friction of the road that opposes the forward motion of the car.</para>
+</problem>
+<solution id="fs-id1165039072404">
+<para id="fs-id1165039114501"><media id="fs-id1165039317993" alt="A free body diagram shows a vector F subscript e pointing right, vector N pointing up, vector f pointing left and arrow w pointing down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_CarFBD_img.jpg"/>
+</media>
+</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039077205">
+<problem id="fs-id1165039192054">
+<para id="fs-id1165039119204">A runner pushes against the track, as shown. (a) Provide a free-body diagram showing all the forces on the runner. (<emphasis effect="italics">Hint:</emphasis> Place all forces at the center of his body, and include his weight.) (b) Give a revised diagram showing the <emphasis effect="italics">xy</emphasis>-component form.</para>
+<media id="fs-id1165039071754" alt="A picture of a man running towards the right is shown. An arrow labeled F points up and right from the floor towards his foot.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_Runner_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1165039245852">
+<problem id="fs-id1165039078377">
+<para id="fs-id1165038973742">The traffic light hangs from the cables as shown. Draw a free-body diagram on a coordinate plane for this situation.</para>
+<media id="fs-id1165039115149" alt="Figure shows a traffic light hanging from a horizontal cable by three other cables, T1, T2 and T3. T1 hangs down and right making an angle of 41 degrees with the horizontal cable. T2 hangs down and left, making an angle of 63 degrees with the horizontal cable. These meet at a point and T3 hangs vertically down from here. The light is attached to T3. A vector pointing down from the light is labeled w equal to 200 newtons.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_Lights_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1165039391369">
+<para id="fs-id1165039304274"><media id="fs-id1165039114554" alt="Figure shows coordinate axes. Three arrows radiate out from the origin. T1, labeled 41 degrees points up and left. T2, labeled 63 degrees points up and right. T3 equal to w equal to 200 N is along the negative y axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_LightsAns_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1165039418929" class="review-additional-problems"><title>Additional Problems</title><exercise id="fs-id1165038966002">
+<problem id="fs-id1165039331982">
+<para id="fs-id1165038986417">Draw a free-body diagram of a diver who has entered the water, moved downward, and is acted on by an upward force due to the water which balances the weight (that is, the diver is suspended).</para>
+</problem>
+<solution id="fs-id1165039248940">
+<para id="fs-id1165039353622"><media id="fs-id1165039101223" alt="A free body diagram with arrow F pointing up and arrow w pointing down.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_Diver_img.jpg"/>
+</media></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038974607">
+<problem id="fs-id1165039096407">
+<para id="fs-id1165039074193">For a swimmer who has just jumped off a diving board, assume air resistance is negligible. The swimmer has a mass of 80.0 kg and jumps off a board 10.0 m above the water. Three seconds after entering the water, her downward motion is stopped. What average upward force did the water exert on her?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039439518">
+<problem id="fs-id1165039016229">
+<para id="fs-id1165039078799">(a) Find an equation to determine the magnitude of the net force required to stop a car of mass <emphasis effect="italics">m</emphasis>, given that the initial speed of the car is <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> and the stopping distance is <emphasis effect="italics">x</emphasis>. (b) Find the magnitude of the net force if the mass of the car is 1050 kg, the initial speed is 40.0 km/h, and the stopping distance is 25.0 m.</para>
+</problem>
+<solution id="fs-id1165039376462">
+<para id="fs-id1165038993606">a. <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math>; b. 2590 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039483181">
+<problem id="fs-id1165039479830">
+<para id="fs-id1165039479832">Two forces are applied to a 5.0-kg object, and it accelerates at a rate of <m:math><m:mrow><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> in the positive <emphasis effect="italics">y</emphasis>-direction. If one of the forces acts in the positive <emphasis effect="italics">x</emphasis>-direction with magnitude 12.0 N, find the magnitude of the other force.</para>
+</problem>
+<solution id="fs-id1165039440322">
+<para id="fs-id1165039440324">16 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039440330">
+<problem id="fs-id1165039440332">
+<para id="fs-id1165039485030">The block on the right shown below has more mass than the block on the left (<m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mn>2</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>m</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>). Draw free-body diagrams for each block.</para>
+<media id="fs-id1165039466276" alt="A pulley is attached to the ceiling. A rope goes over it. A block of mass m1 is attached to the left end of the rope and another block labeled m2 is attached to the right end of the rope. M2 hangs lower than m1.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_05_07_Atwood_img.jpg"/>
+</media>
+</problem>
+</exercise>
+</section><section id="fs-id1165039485522" class="review-challenge"><title>Challenge Problems</title><exercise id="fs-id1165039464319">
+<problem id="fs-id1165039464321">
+<para id="fs-id1165039464323">On June 25, 1983, shot-putter Udo Beyer of East Germany threw the 7.26-kg shot 22.22 m, which at that time was a world record. (a) If the shot was released at a height of 2.20 m with a projection angle of <m:math><m:mrow><m:mn>45.0</m:mn><m:mtext>°</m:mtext></m:mrow></m:math>, what was its initial velocity? (b) If while in Beyer’s hand the shot was accelerated uniformly over a distance of 1.20 m, what was the net force on it?</para>
+</problem>
+<solution id="fs-id1165039276003">
+<para id="fs-id1165039276005">a. 14.1 m/s; b. 601 N</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039472721">
+<problem id="fs-id1165039340325">
+<para id="fs-id1165039340328">A body of mass <emphasis effect="italics">m</emphasis> has initial velocity <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> in the positive <emphasis effect="italics">x</emphasis>-direction. It is acted on by a constant force <emphasis effect="italics">F</emphasis> for time <emphasis effect="italics">t</emphasis> until the velocity becomes zero; the force continues to act on the body until its velocity becomes <m:math><m:mrow><m:mtext>−</m:mtext><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:math> in the same amount of time. Write an expression for the total distance the body travels in terms of the variables indicated.</para>
+</problem>
+<solution id="fs-id1165039446850">
+<para id="fs-id1165039446650"><m:math><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>m</m:mi></m:mfrac><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039484736">
+<problem id="fs-id1165039484738">
+<para id="fs-id1165039484740">A bullet shot from a rifle has mass of 10.0 g and travels to the right at 350 m/s. It strikes a target, a large bag of sand, penetrating it a distance of 34.0 cm. Find the magnitude and direction of the retarding force that slows and stops the bullet.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039498567">
+<problem id="fs-id1165039498569">
+<para id="fs-id1165039498571">In a particle accelerator, a proton has mass <m:math><m:mrow><m:mn>1.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−27</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math> and an initial speed of <m:math><m:mrow><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s.</m:mtext></m:mrow></m:mrow></m:math> It moves in a straight line, and its speed increases to <m:math><m:mrow><m:mn>9.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mrow><m:mtext>m</m:mtext><m:mtext>/</m:mtext><m:mtext>s</m:mtext></m:mrow></m:mrow></m:math> in a distance of 10.0 cm. Assume that the acceleration is constant. Find the magnitude of the force exerted on the proton.</para>
+</problem>
+</exercise>
+</section></content>
+</document>

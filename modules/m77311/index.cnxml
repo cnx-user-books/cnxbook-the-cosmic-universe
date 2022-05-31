@@ -1,0 +1,149 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Checking Out the Theory</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m77311</md:content-id>
+  <md:title>Checking Out the Theory</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Explain how the H-R diagram of a star cluster can be related to the cluster’s age and the stages of evolution of its stellar members</item>
+<item>Describe how the main-sequence turnoff of a cluster reveals its age</item>
+</list></md:abstract>
+  <md:uuid>add9d8c8-f4f2-44d7-9a2f-79f9fc0be2c6</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1168047723107">In the previous section, we indicated that open clusters are younger than globular clusters, and associations are typically even younger. In this section, we will show how we determine the ages of these star clusters. The key observation is that the stars in these different types of clusters are found in different places in the H–R diagram, and we can use their locations in the diagram in combination with theoretical calculations to estimate how long they have lived.</para><section id="fs-id1168047918390"><title>H–R Diagrams of Young Clusters</title><para id="fs-id1168047644719">What does theory predict for the H–R diagram of a cluster whose stars have recently condensed from an interstellar cloud? Remember that at every stage of evolution, massive stars evolve more quickly than their lower-mass counterparts. After a few million years (“recently” for astronomers), the most massive stars should have completed their contraction phase and be on the main sequence, while the less massive ones should be off to the right, still on their way to the main sequence. These ideas are illustrated in <link target-id="OSC_Astro_22_03_Cluster"/>, which shows the H–R diagram calculated by R. Kippenhahn and his associates at Munich University for a hypothetical cluster with an age of 3 million years.</para>
+<figure id="OSC_Astro_22_03_Cluster">
+<title>Young Cluster H–R Diagram.</title>
+<media id="fs-id1168047377418" alt="Hypothetical H-R Diagram of a Young Cluster. In this plot titled “M 2001 Age: 3 million years,” the vertical axis is labeled “Luminosity (LSun),” and goes from 0.1 at the bottom to 100,000 at the top. The horizontal axis is labeled “Surface Temperature (K)”, and goes from 40,000 on the left to 3,000 on the right. The zero-age main sequence is drawn as a red diagonal line starting just above 100,000 LSun at the top of the graph down to about 4000 K at the bottom. The “Present position of Sun” is indicated at 5500 K and 1 LSun. Over-plotted on the graph are black dots representing the individual stars in the cluster. About half of the dots lie neatly along the red line until about 10000 K and 100 LSun. At this point, the remainder of the dots lie above the red line, meaning these stars have yet to reach the main sequence.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_22_03_Cluster.jpg"/>
+</media>
+<caption>We see an H–R diagram for a hypothetical young cluster with an age of 3 million years. Note that the high-mass (high-luminosity) stars have already arrived at the main-sequence stage of their lives, while the lower-mass (lower-luminosity) stars are still contracting toward the zero-age main sequence (the red line) and are not yet hot enough to derive all of their energy from the fusion of hydrogen.</caption>
+</figure>
+<para id="fs-id1168047354370"> There are real star clusters that fit this description. The first to be studied (in about 1950) was NGC 2264, which is still associated with the region of gas and dust from which it was born (<link target-id="OSC_Astro_22_03_Young"/>).</para>
+<figure id="OSC_Astro_22_03_Young">
+<title>Young Cluster NGC 2264.</title>
+<media id="fs-id1168045042740" alt="Image of the Young Cluster N G C 2264. This youthful cluster derives its name from the shape outlined by its brightest stars. The “Christmas Tree” is upside down in this image. The brightest star at the top of the frame is the base of the tree. The top of the tree is the star above the dark v-shaped lane in the nebula just left of the center at the bottom of the image.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_22_03_Young.jpg"/>
+</media>
+<caption>Located about 2600 light-years from us, this region of newly formed stars, known as the Christmas Tree Cluster, is a complex mixture of hydrogen gas (which is ionized by hot embedded stars and shown in red), dark obscuring dust lanes, and brilliant young stars. The image shows a scene about 30 light-years across. (credit: ESO)</caption>
+</figure>
+<para id="fs-id1168047544156">The NGC 2264 cluster’s H–R diagram is shown in <link target-id="OSC_Astro_22_03_NGC"/>. The cluster in the middle of the Orion Nebula (shown in <link document="m77307" target-id="OSC_Astro_21_01_Star"/> and <link document="m77307" target-id="OSC_Astro_21_01_Region"/>) is in a similar stage of evolution.</para><figure id="OSC_Astro_22_03_NGC">
+<title>NGC 2264 H–R Diagram.</title>
+<media id="fs-id1168047163444" alt="In this plot the vertical axis is labeled “Luminosity (LSun)” and goes from 0.1 at the bottom to 100,000 at the top. The horizontal axis is labeled “Surface Temperature (K)” and goes from 40,000 on the left to 3,000 on the right. The zero-age main sequence is drawn as a red diagonal line starting just above 100,000 LSun at the top of the graph down to about 4000 K at the bottom. Over plotted are the observed values of stars in N G C 2264, shown as black dots. Stars lie on the line until about 10000 K and 10 LSun, below which the stars reside above the main sequence.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_22_03_NGC.jpg"/>
+</media>
+<caption>Compare this H–R diagram to that in <link target-id="OSC_Astro_22_03_Cluster"/>; although the points scatter a bit more here, the theoretical and observational diagrams are remarkably, and satisfyingly, similar.</caption>
+</figure>
+<para id="fs-id1168047910534">As clusters get older, their H–R diagrams begin to change. After a short time (less than a million years after they reach the main sequence), the most massive stars use up the hydrogen in their cores and evolve off the main sequence to become red giants and supergiants. As more time passes, stars of lower mass begin to leave the main sequence and make their way to the upper right of the H–R diagram.</para>
+<note id="fs-id1168047714622" class="media-2">
+<para id="fs-id1168047698769">To see the evolution of a star cluster in a dwarf galaxy, you can watch this <link url="https://openstax.org/l/30StarCluster">brief animation</link> of how its H–R diagram changes.</para>
+</note>
+<para id="fs-id1168047148971"><link target-id="OSC_Astro_22_03_Redder"/> is a photograph of NGC 3293, a cluster that is about 10 million years old. The dense clouds of gas and dust are gone. One massive star has evolved to become a red giant and stands out as an especially bright orange member of the cluster.</para>
+<figure id="OSC_Astro_22_03_Redder">
+<title>NGC 3293.</title>
+<media id="fs-id1168047709554" alt="Image of N G C 3293. This compact cluster of bright, blue stars is located near the center of this image surrounded by the red wisps of ionized hydrogen left over after the cluster’s formation.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_22_03_Redder.jpg"/>
+</media>
+<caption>All the stars in an open star cluster like NGC 3293 form at about the same time. The most massive stars, however, exhaust their nuclear fuel more rapidly and hence evolve more quickly than stars of low mass. As stars evolve, they become redder. The bright orange star in NGC 3293 is the member of the cluster that has evolved most rapidly. (credit: ESO/G. Beccari)</caption>
+</figure>
+<para id="fs-id1168047627180"><link target-id="OSC_Astro_22_03_Giant"/> shows the H–R diagram of the open cluster M41, which is roughly 100 million years old; by this time, a significant number of stars have moved off to the right and become red giants. Note the gap that appears in this H–R diagram between the stars near the main sequence and the red giants. A gap does not necessarily imply that stars avoid a region of certain temperatures and luminosities. In this case, it simply represents a domain of temperature and luminosity through which stars evolve very quickly. We see a gap for M41 because at this particular moment, we have not caught a star in the process of scurrying across this part of the diagram.</para>
+<figure id="OSC_Astro_22_03_Giant">
+<title>Cluster M41.</title>
+<media id="fs-id1168047671456" alt="In panel (a), on the left, the vertical axis is labeled “Luminosity (LSun)” and goes from 0.1 at the bottom to 100,000 at the top. The horizontal axis is labeled “Surface Temperature (K)” and goes from 40,000 on the left to 3000 on the right. The zero-age main sequence is drawn as a red diagonal line starting just above 100,000 LSun at the top of the graph down to about 4000 K at the bottom. Over plotted are the observed values of the stars in M 41. Approximately half of the stars lie above the main sequence until around 9000 K and 50 LSun, below which the stars all lie on the main sequence. On the right side of the diagram, a small grouping of giant stars are centered around 4000 K and 50 LSun. Panel (b), on the right, shows a photograph of the open cluster M 41.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_22_03_Giant.jpg"/>
+</media>
+<caption>(a) Cluster M41 is older than NGC 2264 (see <link target-id="OSC_Astro_22_03_NGC"/>) and contains several red giants. Some of its more massive stars are no longer close to the zero-age main sequence (red line). (b) This ground-based photograph shows the open cluster M41. Note that it contains several orange-color stars. These are stars that have exhausted hydrogen in their centers, and have swelled up to become red giants. (credit b: modification of work by NOAO/AURA/NSF)</caption>
+</figure>
+</section><section id="fs-id1168047218982"><title>H–R Diagrams of Older Clusters</title><para id="fs-id1168047341238">After 4 billion years have passed, many more stars, including stars that are only a few times more massive than the Sun, have left the main sequence (<link target-id="OSC_Astro_22_03_HRDiagram"/>). This means that no stars are left near the top of the main sequence; only the low-mass stars near the bottom remain. The older the cluster, the lower the point on the main sequence (and the lower the mass of the stars) where stars begin to move toward the red giant region. The location in the H–R diagram where the stars have begun to leave the main sequence is called the <term>main-sequence turnoff</term>.</para>
+<figure id="OSC_Astro_22_03_HRDiagram">
+<title>H–R Diagram for an Older Cluster. </title>
+<media id="fs-id1168048059269" alt="Hypothetical H-R Diagram of an Older Cluster. In this plot titled “M 2001 Age: 4240 million years,” the vertical axis is labeled “Luminosity (LSun)” and goes from 0.1 at the bottom to 100,000 at the top. The horizontal axis is labeled “Surface Temperature (K)” and goes from 40,000 on the left to 3000 on the right. The zero-age main sequence is drawn as a red diagonal line starting just above 100,000 LSun at the top of the graph down to about 4000 K at the bottom. Over-plotted on the graph are black dots representing the individual stars in the cluster. Several of the stars are plotted above and to the right of the main sequence and represent the stars that have begun to enter the giant phase of their evolution. Below about 6500 K and 5 LSun the remaining stars lie on the main sequence.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_22_03_HRDiagram.jpg"/>
+</media>
+<caption>We see the H–R diagram for a hypothetical older cluster at an age of 4.24 billion years. Note that most of the stars on the upper part of the main sequence have turned off toward the red-giant region. And the most massive stars in the cluster have already died and are no longer on the diagram.</caption>
+</figure>
+<para id="fs-id1168047882980">The oldest clusters of all are the globular clusters. <link target-id="OSC_Astro_22_03_Tucanae"/> shows the H–R diagram of globular cluster 47 Tucanae. Notice that the luminosity and temperature scales are different from those of the other H–R diagrams in this chapter. In <link target-id="OSC_Astro_22_03_HRDiagram"/>, for example, the luminosity scale on the left side of the diagram goes from 0.1 to 100,000 times the Sun’s luminosity. But in <link target-id="OSC_Astro_22_03_Tucanae"/>, the luminosity scale has been significantly reduced in extent. So many stars in this old cluster have had time to turn off the main sequence that only the very bottom of the main sequence remains.</para>
+<figure id="OSC_Astro_22_03_Tucanae">
+<title>Cluster 47 Tucanae.</title>
+<media id="fs-id1168047775067" alt="H-R Diagram of 47 Tucanae. In this plot the vertical axis is labeled “Luminosity (LSun)” and goes from 0.01 near the bottom to 100 near the top. The horizontal axis is labeled “Surface Temperature (K)” and goes from 6000 on the left to 3000 on the right. Black dots represent observations of the stars in 47 Tuc. The giant and supergiant branches are seen above Luminosity =1, where the main sequence turn-off begins. The main sequence is well defined from L=1 down to L=0.01, below which there is scatter in the data points due to the faintness of these low-mass stars.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_22_03_Tucanae.jpg"/>
+</media>
+<caption>This H–R diagram is for the globular cluster 47. Note that the scale of luminosity differs from that of the other H–R diagrams in this chapter. We are only focusing on the lower portion of the main sequence, the only part where stars still remain in this old cluster.</caption>
+</figure>
+<note id="fs-id1168047194930" class="media-2">
+<para id="fs-id1168047534070">Check out this brief NASA video with a <link url="https://openstax.org/l/30HRDiagram">3-D visualization</link> of how an H–R diagram is created for the globular cluster Omega Centauri.</para>
+</note>
+<para id="fs-id1168047367284">Just how old are the different clusters we have been discussing? To get their actual ages (in years), we must compare the appearances of our <emphasis effect="italics">calculated</emphasis> H–R diagrams of different ages to <emphasis effect="italics">observed</emphasis> H–R diagrams of real clusters. In practice, astronomers use the position at the top of the main sequence (that is, the luminosity at which stars begin to move off the main sequence to become red giants) as a measure of the age of a cluster (the main-sequence turnoff we discussed previously). For example, we can compare the luminosities of the brightest stars that are still on the main sequence in <link target-id="OSC_Astro_22_03_NGC"/> and <link target-id="OSC_Astro_22_03_HRDiagram"/>.</para>
+<para id="fs-id1168047643384">Using this method, some associations and open clusters turn out to be as young as 1 million years old, while others are several hundred million years old. Once all of the interstellar matter surrounding a cluster has been used to form stars or has dispersed and moved away from the cluster, star formation ceases, and stars of progressively lower mass move off the main sequence, as shown in <link target-id="OSC_Astro_22_03_NGC"/>, <link target-id="OSC_Astro_22_03_Giant"/>, and <link target-id="OSC_Astro_22_03_HRDiagram"/>.</para>
+<para id="fs-id1168047883985">To our surprise, even the youngest of the globular clusters in our Galaxy are found to be older than the oldest open cluster. All of the globular clusters have main sequences that turn off at a luminosity less than that of the Sun. Star formation in these crowded systems ceased billions of years ago, and no new stars are coming on to the main sequence to replace the ones that have turned off (see <link target-id="OSC_Astro_22_03_HRSummary"/>).</para>
+<figure id="OSC_Astro_22_03_HRSummary">
+<title>H–R Diagrams for Clusters of Different Ages.</title>
+<media id="fs-id1168047843950" alt="Simplified H-R Diagrams for Clusters of Different Ages. Each of the three diagrams in this figure have the vertical axis labeled “Luminosity” in arbitrary units and the horizontal axis labeled “Temperature” in arbitrary units. Each also has the “Zero-age Main Sequence” drawn as a red line running from the top left of the diagram to the bottom right. The stars in each diagram are represented as a solid black line. In the left-most diagram, labeled “New-born,” all the cluster stars lie on the Z A M S. The diagram at center is labeled “100 million years,” with the giant branch turning away from the Z A M S in the upper left portion of the diagram. Finally, in the right hand diagram, labeled “10 billion years,” the giant branch turns off the Z A M S in the lower right portion of the diagram.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_22_03_HRSummary.jpg"/>
+</media>
+<caption>This sketch shows how the turn-off point from the main sequence gets lower as we make H–R diagrams for clusters that are older and older.</caption>
+</figure>
+<para id="fs-id1168047659537">Indeed, the globular clusters are the oldest structures in our Galaxy (and in other galaxies as well). The youngest have ages of about 11 billion years and some appear to be even older. Since these are the oldest objects we know of, this estimate is one of the best limits we have on the age of the universe itself—it must be at least 11 billion years old. We will return to the fascinating question of determining the age of the entire universe in the chapter on <link class="target-chapter" document="m71607">Big Bang Cosmology</link>.</para></section><section id="eip-985"><title>H-R Diagrams of Star Clusters Using Magnitudes</title><para id="eip-44">The first important feature of a star cluster, which we have just discussed, it that all of its stars were born at about the same time, and are therefore of the same age. As we have seen, an H-R diagram of the cluster yields a main-sequence turnoff point that indicates the age of the cluster. 
+</para><para id="eip-idm1314367280">But stars in a cluster share one other very important property - they are all located at about the same distance from Earth. Recall from the chapter on <link class="target-chapter" document="m76888">The Brightness of Stars</link> that apparent brightness depends upon the inverse square of its distance from Earth. For stars that are all situated at the same distance from Earth, then, there is a one-to-one correspondence between their apparent brightness and their luminosity.</para><para id="eip-511">Now, there is always a one-to-one (logarthmic, see the chapter on <link class="target-chapter" document="m76888">The Brightness of Stars</link>) relationship between apparent visual magnitude <emphasis effect="italics">V</emphasis> and brightness. Stars with a smaller <emphasis effect="italics">V</emphasis> are brighter. (Remember, magnitude is a kind of "backwards" index.)</para><para id="eip-512">Furthermore, there is always a one-to-one relationship (again, logarithmic, see the chapter on <link class="target-chapter" document="m76888">The Brightness of Stars)</link> between the visual absolute magnitude <emphasis effect="italics">M<sub>V</sub></emphasis> of a star and its luminosity. Stars with a smaller <emphasis effect="italics">M<sub>V</sub></emphasis> are more luminous.</para><para id="eip-125"><title>H-R Diagram by Proxy</title>We can therfore use <emphasis effect="italics">M<sub>V</sub></emphasis> and <emphasis effect="italics">B-V</emphasis> as proxies for luminosity and temperature, and construct an H-R diagram for a particular star cluster. To ensure that more luminous stars are toward the top of the diagram, we must arrange the values of <emphasis effect="italics">V</emphasis> on the vertical axis in <emphasis>descending</emphasis> order. Then, we can use the color index <emphasis effect="italics">B-V</emphasis> along the horizontal axis, because we know that it has a lower value for bluer (hotter) stars and a higher value for redder (cooler) stars (see the section on <link class="target-chapter" document="m76901">The Electromagnetic Spectrum</link> for a discussion of this color index).</para><figure id="proxy-diagram"><title>H-R Diagram Based Upon Magnitudes</title><media id="proxy-pic" alt="An H-R Diagram for a Star Cluster Based upon Measurements of Magnitudes">
+    <image mime-type="image/jpeg" src="../../media/471px-H-R_diagram.jpg"/>
+  </media>
+  
+<caption>This H-R diagram was produced by plotting the absolute visual magnitude, <emphasis effect="italics">M<sub>V</sub></emphasis>, in reverse order along the vertical axis, and the color index, <emphasis effect="italics">B-V</emphasis>, along the horizontal axis. Credit: Rursus [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)]</caption></figure><para id="eip-770">Now imagine two such proxy H-R diagrams, but with one slight difference. On the vertical axis, we plot the stars' apparent visual magnitude, <emphasis effect="italics">V</emphasis>, instead of <emphasis effect="italics">M<sub>V</sub></emphasis>. The first H-R diagram is for a cluster located exactly 10 parsecs from Earth, the other from an actual cluster located at some unknown distance. The first diagram would be identical to <link target-id="proxy-diagram"/>, because of the definition of absolute magnitude. (At a distance of 10 parsecs, <emphasis effect="italics">M<sub>V</sub></emphasis> = <emphasis effect="italics">V</emphasis>.) The second would be shifted (up or down) on the vertical axis by a difference of <emphasis effect="italics">V - M<sub>V</sub></emphasis> for every star in the second cluster.</para><para id="eip-464">If we could line up the two graphs horizontally, and determine their vertical shift along the magnitude scale, we would have a measure of the difference between the absolute and apparent magnitudes of the stars in the second cluster, i.e. <emphasis effect="italics">m-M</emphasis>. Recall from the section on <link class="target chapter" document="m77305">spectroscopic parallax</link>, that the distance to an object can be found from this very quantity. <emphasis effect="italics">m-M</emphasis> is sometimes called the <term>distance modulus</term>. And we know that the distance (in parsecs) is found from <link target-id="eip-825" document="m77305"/></para><note id="eip-idm388099120" class="equation-callout"><equation id="eip-617" class="unnumbered"><label/><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mn>0.2</m:mn><m:mo>(</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>M</m:mi><m:mo>)</m:mo></m:mrow></m:msup></m:mrow></m:math></equation></note><para id="eip-893">This technique allows us to use an H-R diagram of any cluster (formed by using the proxies of V and B-V) to compare with a similar diagram for a theoretical cluster located exactly 10 parsecs from Earth, in order to determine the distance to the actual cluster. It's just another application of <term>spectroscopic parallax</term>.</para><example id="eip-569"><para id="eip-969"><title>Distance to the Pleiades</title>An H-R diagram of the Pleiades cluster indicates that its apparent magnitude is larger than the absolute magnitude of a similar cluster. The distance modulus, <emphasis effect="italics">m-M</emphasis> = 5.68. How far away is the Pleiades?
+</para>
+<para id="eip-idm621379072"><title>Solution</title>137 pc </para></example><note id="eip-537" class="check-understanding"><exercise id="eip-idm1024992880"><problem id="eip-idm1039881408"><para id="eip-idm809906944">If the distance modulus to some cluster (<emphasis effect="italics">m-M</emphasis>) was a negative number, what would that tell us?</para></problem><solution id="eip-idm792166048"><para id="eip-idm1175195280">That the cluster is nearer to Earth than 10 parsecs.</para></solution></exercise></note></section><section id="fs-id1168047973782" class="key-concepts">
+<title>Summary</title>
+<list id="fs-idm1043694768"><item>The H–R diagram of stars in a cluster changes systematically as the cluster grows older.</item><item>The most massive stars evolve most rapidly.</item><item>In the youngest clusters and associations, highly luminous blue stars are on the main sequence; the stars with the lowest masses lie to the right of the main sequence and are still contracting toward it.</item><item>With passing time, stars of progressively lower masses evolve away from (or turn off) the main sequence.</item><item>In globular clusters, which are all at least 11 billion years old, there are no luminous blue stars at all.</item><item>Astronomers can use the turnoff point from the main sequence to determine the age of a cluster.</item>
+<item>Spectroscopic parallax can be used to determine the distance of a star cluster from Earth.</item></list></section>
+<section id="fs-idm473216192" class="key-equations"><title>Key Equations</title><table id="eip-267" class="unnumbered unstyled" summary="One row, two columns: Spectroscopic parallax, d equals ten times ten raised to the power zero point two times the difference of small m minus capital M.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Spectroscopic parallax</entry>
+    <entry><m:math><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mn>0.2</m:mn><m:mo>(</m:mo><m:mi>m</m:mi><m:mo>−</m:mo><m:mi>M</m:mi><m:mo>)</m:mo></m:mrow></m:msup></m:mrow></m:math></entry>
+  </row>
+</tbody>
+
+</tgroup>
+</table></section><section id="fs-idm1178032480" class="review-conceptual-questions"><title>Conceptual Questions</title>
+<exercise id="fs-id1168047363070">
+<problem id="fs-id1168047501826">
+<para id="fs-id1168047670174">Explain how an H–R diagram of the stars in a cluster can be used to determine the age of the cluster.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168047630434">
+<problem id="fs-id1168047221285">
+<para id="fs-id1168047128364">In the H–R diagrams for some young clusters, stars of both very low and very high luminosity are off to the right of the main sequence, whereas those of intermediate luminosity are on the main sequence. Can you offer an explanation for that? Sketch an H–R diagram for such a cluster.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168047456440">
+<problem id="fs-id1168047643821">
+<para id="fs-id1168047287745">Stars that have masses approximately 0.8 times the mass of the Sun take about 18 billion years to turn into red giants. How does this compare to the current age of the universe? Would you expect to find a globular cluster with a main-sequence turnoff for stars of 0.8 solar mass or less? Why or why not?</para>
+</problem>
+</exercise>
+</section>
+<section id="fs-idm961678240" class="review-problems"><title>Problems</title>
+<exercise id="fs-id1168047297355">
+<problem id="fs-id1168047546078">
+<para id="fs-id1168047701344">You can use the equation in <link target-id="fs-id1168047961804" document="m77309"/> to estimate the approximate ages of the clusters in <link target-id="OSC_Astro_22_03_NGC"/>, <link target-id="OSC_Astro_22_03_Giant"/>, and <link target-id="OSC_Astro_22_03_HRDiagram"/>. Use the information in the figures to determine the luminosity of the most massive star still on the main sequence. Now use the data in <link target-id="fs-id1164755015460" document="m77300"/> to estimate the mass of this star. Then calculate the age of the cluster. This method is similar to the procedure used by astronomers to obtain the ages of clusters, except that they use actual data and model calculations rather than simply making estimates from a drawing. How do your ages compare with the ages in the text?</para></problem>
+</exercise><exercise id="eip-35"><problem id="eip-659">
+  <para id="eip-952">
+An exercise in plotting a proxy H-R diagram for the open cluster Pleiades yields an estimated distance modulus of <m:math><m:mrow><m:mi>m</m:mi><m:mo>-</m:mo><m:mi>M</m:mi><m:mo>=</m:mo><m:mn>5.67</m:mn></m:mrow></m:math>.
+  </para><para id="eip-idm1223967840">How far away is the Pleiades cluster from Earth?</para></problem>
+
+<solution id="eip-700">
+  <para id="eip-545">
+    d = 136 pc
+  </para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1168047947166">
+<term>main-sequence turnoff</term>
+<meaning id="fs-id1168047199040">location in the H–R diagram where stars begin to leave the main sequence</meaning>
+</definition>
+<definition id="fs-idm748239952"><term>distance modulus</term><meaning id="fs-idm419477808">the numerical difference between the apparent visual magnitude of an object and its absolute visual magnitude, i.e. m-M</meaning></definition>
+</glossary>
+</document>

@@ -1,0 +1,269 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Moment of Inertia</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71416</md:content-id>
+  <md:title>Moment of Inertia</md:title>
+  <md:abstract>By the end of this section, you will be able to: 
+<list>
+<item>Define the physical concept of moment of inertia in terms of the mass distribution from the rotational axis</item>
+<item>Apply the parallel axis theorem to find the moment of inertia about any axis parallel to one already known</item>
+<item>Calculate the moment of inertia for compound objects</item>
+</list></md:abstract>
+  <md:uuid>3c71c561-694c-41d8-9035-f3ba5d5e9e3d</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167133803097">In <link class="target-chapter" document="m64031"/>, we introduced rotational kinematics: the description of motion for a rotating rigid body with a fixed axis of rotation. We need to define two new quantities that will be helpful for analyzing the properties of rotating objects: <term>moment of inertia</term> and <term>torque</term>. With these properties defined, we will have two important tools we need for analyzing rotational dynamics. We will eventually formulate a version of Newton's Second Law for rotations.</para><section id="fs-id1167133345938"><title>Moment of Inertia</title><para id="fs-id1167133530188">In translational motion, if we think about the role played by the quantity we call <term>mass</term>, it represents the <term>inertia</term> of an object. That is to say, the greater the mass of an object, the more it resists any changes to its motion. So, in Newton's Second Law, the acceleration of an object is inversely proportional to its mass:
+
+<equation id="eip-idm339873088"><label/><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>F</m:mi><m:mo>/</m:mo><m:mi>m</m:mi></m:mrow></m:math></equation>
+
+For rotating objects, however, things are not quite so simple. The resistance of a rigid object to a change in its rotational motion depends not only upon its mass, but upon how that mass is distributed relative to the axis of rotation. This suggests that we have a new rotational variable to add to our list of our analogies between rotational and translational variables.</para><para id="eip-112">Imagine trying to spin two wheels, which have the same radius and total mass. However, they are constructed differently. The first wheel has most of its mass in a hub near its center, but the second wheel has most of its mass around the outside edge as far from the hub as possible. Suppose that, initially, both wheels are at rest. Which wheel would be harder for you to spin into rotation? It turns out that the second wheel, with more mass farther away from the axis of rotation, is harder to get spinning. It has greater resistance to a change in its rotational motion, i.e. greater rotational inertia.</para><para id="eip-54">The quantity which represents the rotational inertia of an object, and is therefore the counterpart for mass in the equations for rotational motion, is called the <term>moment of inertia</term> <emphasis effect="italics">I</emphasis>, with units of <m:math><m:mrow><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>. It is found by summing, for each piece of mass in an object, the product of that mass times the square of its distance from the rotation axis.</para><note id="fs-id1167133613872" class="equation-callout">
+<equation id="fs-id1167133439500"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation></note>
+<para id="fs-id1167133517642">For now, we leave the expression in summation form, representing the moment of inertia of a system of point particles rotating about a fixed axis. We note that the moment of inertia of a single point particle about a fixed axis is simply <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, with <emphasis effect="italics">r</emphasis> being the distance from the point particle to the axis of rotation. (Integral calculus can be used to calculate the moment of inertia of some regular-shaped rigid bodies whose mass is distributed continuously over a volume of some particular shape.)</para>
+<para id="fs-id1167133665443">The moment of inertia is the quantitative measure of rotational inertia, just as in translational motion, and mass is the quantitative measure of linear inertia—that is, the more massive an object is, the more inertia it has, and the greater is its resistance to change in linear velocity. Similarly, the greater the moment of inertia of a rigid body or system of particles, the greater is its resistance to change in angular velocity about a fixed axis of rotation. It is interesting to see how the moment of inertia varies with <emphasis effect="italics">r,</emphasis> the distance to the axis of rotation of the mass particles in <link target-id="fs-id1167133439500"/>. Rigid bodies and systems of particles with more mass concentrated at a greater distance from the axis of rotation have greater moments of inertia than bodies and systems of the same mass, but concentrated near the axis of rotation. In this way, we can see that a hollow cylinder has more rotational inertia than a solid cylinder of the same mass when rotating about an axis through the center.</para>
+<section id="fs-id1167133538983">
+<title>Calculating Moment of Inertia</title><para id="fs-id1167133826555">We defined the moment of inertia <emphasis effect="italics">I</emphasis> of an object to be <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>i</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>i</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math> for all the point masses that make up the object. Because <emphasis effect="italics">r</emphasis> is the distance to the axis of rotation from each piece of mass that makes up the object, the moment of inertia for any object depends on the chosen axis. To see this, let’s take a simple example of two masses at the end of a massless (negligibly small mass) rod (<link target-id="CNX_UPhysics_10_05_Barbell"/>) and calculate the moment of inertia about two different axes. In this case, the summation over the masses is simple because the two masses at the end of the barbell can be approximated as point masses, and the sum therefore has only two terms.</para><para id="fs-id1167133647686">In the case with the axis in the center of the barbell, each of the two masses <emphasis effect="italics">m</emphasis> is a distance <emphasis effect="italics">R</emphasis> away from the axis, giving a moment of inertia of</para>
+<equation id="fs-id1167133521048" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133426576">In the case with the axis at the end of the barbell—passing through one of the masses—the moment of inertia is</para>
+<equation id="fs-id1167133568600" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133456090">From this result, we can conclude that it is twice as hard to rotate the barbell about the end than about its center.</para>
+<figure id="CNX_UPhysics_10_05_Barbell">
+<media id="fs-id1167133538874" alt="Figure A shows a barbell of the length 2 R with the masses m at the ends. It is rotating through its center. Figure B shows a barbell of the length 2 R with the masses m at the ends. It is rotating through one end.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_Barbell.jpg"/>
+</media>
+<caption>(a) A barbell with an axis of rotation through its center; (b) a barbell with an axis of rotation through one end.</caption>
+</figure>
+</section>
+<example id="fs-id1167133565706"><para id="fs-id1167133473126"><title>Moment of Inertia of a System of Particles</title>
+Six small washers are spaced 10 cm apart on a rod of negligible mass and 0.5 m in length. The mass of each washer is 20 g. The rod rotates about an axis located at 25 cm, as shown in <link target-id="CNX_UPhysics_10_04_SysPart"/>. (a) What is the moment of inertia of the system? (b) If the two washers closest to the axis are removed, what is the moment of inertia of the remaining four washers?</para>
+<figure id="CNX_UPhysics_10_04_SysPart">
+<media id="fs-id1167133822890" alt="Figure shows six washers spaced 10 cm apart on a rod rotating about a vertical axis.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_SysPart.jpg"/>
+</media>
+<caption>Six washers are spaced 10 cm apart on a rod of negligible mass and rotating about a vertical axis.</caption>
+</figure>
+<para id="fs-id1167133473202"><title>Strategy</title></para>
+<list id="fs-id1167133467676" list-type="enumerated" number-style="lower-alpha">
+<item>We use the definition for moment of inertia for a system of particles and perform the summation to evaluate this quantity. The masses are all the same so we can pull that quantity in front of the summation symbol.</item>
+<item>We do a similar calculation.</item>
+</list>
+<para id="fs-id1167133677768"><title>Solution</title></para>
+<list id="fs-id1167133697931" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.02</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.0035</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</item>
+<item><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.02</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.25</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.15</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.0034</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</item>
+</list>
+<para id="fs-id1167133326272"><title>Significance</title>
+We can see the individual contributions to the moment of inertia. The masses close to the axis of rotation have a very small contribution. When we removed them, it had a very small effect on the moment of inertia.</para>
+</example><para id="fs-id1167133464006">As mentioned previously, the summation formula given in <link target-id="fs-id1167133439500"/> can be turned (through the use of integral calculus) into a method to calculate moments of inertia for rigid bodies. For the present discussion, it is sufficient that <link target-id="CNX_UPhysics_10_04_RotInertia"/> below gives the expressions for rotational inertia for common object shapes around specified axes.</para><figure id="CNX_UPhysics_10_04_RotInertia">
+<media id="fs-id1167133398687" alt="Figure shows ten rotating objects. These are hoop rotating about cylinder axis, solid cylinder or disk rotating about cylinder axis, thin rod rotating about axis through center solid sphere rotating about diameter, hoop rotating about diameter, annular cylinder rotating about cylinder axis, solid cylinder or disk rotating about central diameter, thin road rotating about the axis through one end perpendicular to the length, thin spherical shell about any diameter, slab about perpendicular axis through center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_RotInertia.jpg"/>
+</media>
+<caption>Values of rotational inertia for common shapes of objects.</caption>
+</figure>
+</section>
+<section id="eip-527"><title>Parallel Axis Theorem</title><para id="fs-id1167133497854">Look at the two examples in <link target-id="CNX_UPhysics_10_04_RotInertia"/> of the uniform thin rod. The difference between the moment of inertia of a rod about an axis through its middle (<m:math><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:math>) and about an axis through its end (<m:math><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:math>) is striking. The fact that <m:math><m:mi>I</m:mi></m:math> is smaller for an axis through the center than for an axis about one end of the rod in just an indication that, when rotating about the center, more of the mass is closer to the axis of rotation. This suggests that there might be a simpler method for determining the moment of inertia for a rod about any axis parallel to the axis through the center of mass. Such an axis is called a <term>parallel axis</term>. There is a theorem for this, called the <term>parallel-axis theorem</term>, which we state here but do not derive in this text.</para><note id="fs-id1167133829900">
+<title>Parallel-Axis Theorem</title>
+<para id="fs-id1167133544524">Let <emphasis effect="italics">m</emphasis> be the mass of an object and let <emphasis effect="italics">d</emphasis> be the distance from an axis through the object’s center of mass to a new axis. Then we have</para>
+<equation id="fs-id1167133536034"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>parallel-axis</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>center of mass</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133803000">Let’s apply this to the rod examples solved above:</para>
+<equation id="fs-id1167133539624" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>end</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>center of mass</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mi>L</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:mo>)</m:mo></m:mrow><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133858580">This result agrees with the results shown in <link target-id="CNX_UPhysics_10_04_RotInertia"/>. This is a useful equation that we apply in some of the examples and problems.</para>
+<note id="eip-578" class="check-understanding"><exercise id="fs-id1167133375616">
+<problem id="fs-id1167133550293">
+<para id="fs-id1167133792700">What is the moment of inertia of a cylinder of radius <emphasis effect="italics">R</emphasis> and mass <emphasis effect="italics">m</emphasis> about an axis through a point on the surface, as shown below?</para>
+<media id="fs-id1167133523823" alt="Figure shows a cylinder of radius R that rotates about an axis through a point on the surface.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_Cyl_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167133824053">
+<para id="fs-id1167132303828"><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>parallel-axis</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>center of mass</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise></note><section id="fs-id1167133353900">
+<title>Calculating the moment of inertia for compound objects</title>
+<para id="fs-id1167133847080">Now consider a compound object such as that in <link target-id="CNX_UPhysics_10_05_RodDisk"/>, which depicts a thin disk at the end of a thin rod. This cannot be easily integrated to find the moment of inertia because it is not a uniformly shaped object. However, if we go back to the initial definition of moment of inertia as a summation, we can reason that a compound object’s moment of inertia can be found from the sum of each part of the object:</para>
+<note id="fs-id1167133828814" class="equation-callout">
+<equation id="fs-id1167133811543"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>I</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1167133553885">It is important to note that the moments of inertia of the objects in <link target-id="fs-id1167133811543"/> are <emphasis effect="italics">about a common axis</emphasis>. In the case of this object, that would be a rod of length <emphasis effect="italics">L</emphasis> rotating about its end, and a thin disk of radius <emphasis effect="italics">R</emphasis> rotating about an axis shifted off of the center by a distance <m:math><m:mrow><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:math>, where <emphasis effect="italics">R</emphasis> is the radius of the disk. Let’s define the mass of the rod to be <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>r</m:mtext></m:msub></m:mrow></m:math> and the mass of the disk to be <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>d</m:mtext></m:msub><m:mo>.</m:mo></m:mrow></m:math></para>
+<figure id="CNX_UPhysics_10_05_RodDisk"><media id="fs-id1167133366218" alt="Figure shows a disk with radius R connected to a rod with length L.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_balldisk_replaced.jpg"/>
+</media>
+
+<caption>Compound object consisting of a disk at the end of a rod. The axis of rotation is located at <emphasis effect="italics">A</emphasis>.</caption></figure><para id="fs-id1167133797122">The moment of inertia of the rod is simply <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mtext>r</m:mtext></m:msub><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, but we have to use the parallel-axis theorem to find the moment of inertia of the disk about the axis shown. The moment of inertia of the disk about its center is <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mtext>d</m:mtext></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and we apply the parallel-axis theorem <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>parallel-axis</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>center of mass</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> to find</para>
+<equation id="fs-id1167133774220" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>parallel-axis</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mtext>d</m:mtext></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mtext>d</m:mtext></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133447451">Adding the moment of inertia of the rod plus the moment of inertia of the disk with a shifted axis of rotation, we find the moment of inertia for the compound object to be</para>
+<equation id="fs-id1167133803182" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mtext>r</m:mtext></m:msub><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mtext>d</m:mtext></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mtext>d</m:mtext></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+</section>
+<section id="fs-id1167133333570">
+<title>Applying moment of inertia calculations to solve problems</title>
+<para id="fs-id1167133697400">Now let’s examine some practical applications of moment of inertia calculations.</para>
+<example id="fs-id1167133824110">
+<para id="fs-id1167133795089"><title>Person on a Merry-Go-Round</title>
+A 25-kg child stands at a distance <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> from the axis of a rotating merry-go-round (<link target-id="CNX_UPhysics_10_05_Merrygor"/>). The merry-go-round can be approximated as a uniform solid disk with a mass of 500 kg and a radius of 2.0 m. Find the moment of inertia of this system.</para>
+<figure id="CNX_UPhysics_10_05_Merrygor">
+<media id="fs-id1167133353424" alt="Figure is a drawing of a child on a merry-go-round. Merry–go-round has a 2 meter radius. Child is standing one meter from the center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_merrygor.jpg"/>
+</media>
+<caption>Calculating the moment of inertia for a child on a merry-go-round.</caption>
+</figure>
+<para id="fs-id1167133360882"><title>Strategy</title>
+This problem involves the calculation of a moment of inertia. We are given the mass and distance to the axis of rotation of the child as well as the mass and radius of the merry-go-round. Since the mass and size of the child are much smaller than the merry-go-round, we can approximate the child as a point mass. The notation we use is <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>25</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:msub><m:mi>r</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>,</m:mo><m:msub><m:mi>m</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mn>500</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo><m:msub><m:mi>r</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para>
+<para id="fs-id1167133677861">Our goal is to find <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>I</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle></m:mrow></m:math>.</para>
+<para id="fs-id1167133612679"><title>Solution</title>
+For the child, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mtext>c</m:mtext></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, and for the merry-go-round, <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mtext>m</m:mtext></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mtext>m</m:mtext></m:msub><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Therefore</para>
+<equation id="fs-id1167133549750" class="unnumbered"><label/><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>25</m:mn><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>500</m:mn><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>+</m:mo><m:mn>1000</m:mn><m:mo>=</m:mo><m:mn>1025</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1167133560326"><title>Significance</title>
+The value should be close to the moment of inertia of the merry-go-round by itself because it has much more mass distributed away from the axis than the child does.</para>
+</example>
+<example id="fs-id1167133345942">
+<para id="fs-id1167133665099"><title>Rod and Solid Sphere</title>
+Find the moment of inertia of the rod and solid sphere combination about the two axes as shown below. The rod has length 0.5 m and mass 2.0 kg. The radius of the sphere is 20.0 cm and has mass 1.0 kg.</para>
+<media id="fs-id1167133318645" alt="Figure A shows a disk with radius R connected to a rod with length L. The point A is at the end of the rod opposite to the disk. Figure B shows a disk with radius R connected to a rod with length L. The point B is at the end of the rod connected to the disk.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_RodSphere_img.jpg"/>
+</media>
+<para id="fs-id1167133401934"><title>Strategy</title>Since we have a compound object in both cases, we can use the parallel-axis theorem to find the moment of inertia about each axis. In (a), the center of mass of the sphere is located at a distance <m:math><m:mrow><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>R</m:mi></m:mrow></m:math> from the axis of rotation. In (b), the center of mass of the sphere is located a distance <emphasis effect="italics">R</emphasis> from the axis of rotation. In both cases, the moment of inertia of the rod is about an axis at one end. Refer to <link target-id="CNX_UPhysics_10_04_RotInertia"/> for the moments of inertia for the individual objects.</para><list id="fs-id1167133324770" list-type="enumerated" number-style="lower-alpha">
+<item><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>I</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>Rod</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>center of mass</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>Rod</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Rod</m:mtext></m:mrow></m:msub><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>L</m:mi><m:mo>+</m:mo><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo>+</m:mo><m:mn>0.2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>;</m:mo></m:mrow></m:math><newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.167</m:mn><m:mo>+</m:mo><m:mn>0.016</m:mn><m:mo>+</m:mo><m:mn>0.490</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.673</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math><newline/></item>
+<item><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>Rod</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Rod</m:mtext></m:mrow></m:msub><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Sphere</m:mtext></m:mrow></m:msub><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.2</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.0</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.2</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>;<newline/>
+<m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.167</m:mn><m:mo>+</m:mo><m:mn>0.016</m:mn><m:mo>+</m:mo><m:mn>0.04</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.223</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></item>
+</list>
+<para id="fs-id1167133796141"><title>Significance</title>
+Using the parallel-axis theorem eases the computation of the moment of inertia of compound objects. We see that the moment of inertia is greater in (a) than (b). This is because the axis of rotation is closer to the center of mass of the system in (b). The simple analogy is that of a rod. The moment of inertia about one end is <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, but the moment of inertia through the center of mass along its length is <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+</example>
+</section>
+</section><section id="fs-id1167133868705" class="key-concepts"><title>Summary</title><list id="fs-id1167133868711" list-type="bulleted" bullet-style="bullet"><item>The moment of inertia for a system of point particles rotating about a fixed axis is <m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle></m:mrow></m:math>, where <m:math><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math> is the mass of the point particle and <m:math><m:mrow><m:msub><m:mi>r</m:mi><m:mi>j</m:mi></m:msub></m:mrow></m:math> is the distance of the point particle to the rotation axis. Because of the <m:math><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> term, the moment of inertia increases as the square of the distance to the fixed rotational axis. The moment of inertia is the rotational counterpart to the mass in linear motion.</item>
+<item>For objects of uniform density with regular, simple shapes, integral calculus can be used to calculate their moments of inertia. Examples of these results are given in <link target-id="CNX_UPhysics_10_04_RotInertia"/>.</item>
+<item>Moment of inertia is larger when an object’s mass is farther from the axis of rotation.</item>
+<item>It is possible to find the moment of inertia of an object about a new axis of rotation once it is known for a parallel axis. This is called the parallel axis theorem given by <m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>parallel-axis</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>center of mass</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, where <emphasis effect="italics">d</emphasis> is the distance from the initial axis to the parallel axis.</item>
+<item>Moment of inertia for a compound object is simply the sum of the moments of inertia for each individual object that makes up the compound object.</item></list></section>
+<section id="fs-id1165039374258" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1171240074559" class="unnumbered unstyled" summary="This table gives the following formula in three rows: Moment of inertia of a group of point masses, I equals the sum over j of m-sub-j times r-sub-j-squared; Parallel-axis theorem, I-sub-parallel-axis equals I-sub-center-of-mass plus m times d-squared; Moment of inertia of a compound object, I-sub-total equals the sum over i of I-sub-i"><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Moment of inertia of a group of point masses</entry>
+<entry align="left"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>j</m:mi></m:munder><m:mrow><m:msub><m:mi>m</m:mi><m:mi>j</m:mi></m:msub><m:msubsup><m:mi>r</m:mi><m:mi>j</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></entry>
+</row>
+  <row>
+    <entry>Parallel axis theorem</entry>
+    <entry><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>parallel-axis</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>center of mass</m:mtext></m:mrow></m:msub><m:mo>+</m:mo><m:mi>m</m:mi><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+  <row>
+    <entry>Moment of inertia of a compound object</entry>
+    <entry><m:math><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mstyle displaystyle="true"><m:munder><m:mo>∑</m:mo><m:mi>i</m:mi></m:munder><m:mrow><m:msub><m:mi>I</m:mi><m:mi>i</m:mi></m:msub></m:mrow></m:mstyle><m:mo>.</m:mo></m:mrow></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1167132278518" class="review-conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1167132278524">
+<problem id="fs-id1167132278526">
+<para id="fs-id1167132278528">What if another planet the same size as Earth were put into orbit around the Sun along with Earth. Would the moment of inertia of the system increase, decrease, or stay the same?</para>
+</problem>
+</exercise>
+<exercise id="eip-903"><problem id="eip-549">
+<para id="eip-548">A vast nebula of matter, out of which a solar system will eventually be born, is shown in the following figure. The matter is rotating around the center of the nebula. We know that, over time, because of the gravitational force, the matter in this nebula will collapse to occupy a smaller portion of space. What will happen to the moment of inertia of the system as it collapses?</para>
+<figure id="eip-idm458926144"><media id="eip-idm626666336" alt="Figure shows an artists' conception of a stellar nebula which may eventually collapse to form a star.">
+<image mime-type="image/jpeg" src="../../media/Solar_Nebula.jpg"/>
+</media><caption>Image courtesy of NASA-JPL/Caltech</caption></figure>
+</problem>
+ 
+<solution id="eip-443">
+  <para id="eip-732">
+    As each piece of matter moves closer to the center of rotation, the moment of inertia will decrease.
+  </para>
+</solution>
+</exercise><exercise id="fs-id1167132278543"><problem id="fs-id1167132278545">
+<para id="fs-id1167132278547">A solid sphere is rotating about an axis through its center. Another hollow sphere of the same mass and radius is rotating about its axis through the center. Which sphere has a greater moment of inteita?</para>
+</problem>
+<solution id="fs-id1167133686306">
+<para id="fs-id1167133686308">The hollow sphere, since the mass is distributed further away from the rotation axis.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133357710">
+<problem id="fs-id1167133357712">
+<para id="fs-id1167133863061">If a child walks toward the center of a merry-go-round, does the moment of inertia increase or decrease?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133359289">
+<problem id="fs-id1167133359292">
+<para id="fs-id1167133359294">A discus thrower rotates with a discus in his hand before letting it go. (a) How does his moment of inertia change after releasing the discus? (b) What would be a good approximation to use in calculating the moment of inertia of the discus thrower and discus?</para>
+</problem>
+<solution id="fs-id1167133845959">
+<para id="fs-id1167133328460">a. It decreases. b. The arms could be approximated with rods and the discus with a disk. The torso is near the axis of rotation so it doesn’t contribute much to the moment of inertia.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133845992">
+<problem id="fs-id1167133845994">
+<para id="fs-id1167133353348">Does increasing the number of blades on a propeller increase or decrease its moment of inertia, and why?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167133357558">
+<problem id="fs-id1167133357560">
+<para id="fs-id1167133357562">The moment of inertia of a long rod spun around an axis through one end perpendicular to its length is <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:math>. Why is this moment of inertia greater than it would be if you spun a point mass <emphasis effect="italics">m</emphasis> at the location of the center of mass of the rod (at <emphasis effect="italics">L</emphasis>/2) (that would be <m:math><m:mrow><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup><m:mtext>/</m:mtext><m:mn>4</m:mn></m:mrow></m:math>)?</para>
+</problem>
+<solution id="fs-id1167133354662">
+<para id="fs-id1167133354664">Because the moment of inertia varies as the square of the distance to the axis of rotation. The mass of the rod located at distances greater than <emphasis effect="italics">L</emphasis>/2 would provide the larger contribution to make its moment of inertia greater than the point mass at <emphasis effect="italics">L</emphasis>/2.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1167133773940">
+<problem id="fs-id1167133773942">
+<para id="fs-id1167133773944">Why is the moment of inertia of a hoop that has a mass <emphasis effect="italics">M</emphasis> and a radius <emphasis effect="italics">R</emphasis> greater than the moment of inertia of a disk that has the same mass and radius?</para>
+</problem>
+</exercise></section><section id="fs-id1167133686314" class="review-problems"><title>Problems</title><exercise id="fs-id1167133686321"><problem id="fs-id1167133686323">
+<para id="fs-id1167133686325">A system of point particles is shown in the following figure. Each particle has mass 0.3 kg and they all lie in the same plane. What is the moment of inertia of the system about the given axis?</para>
+<media id="fs-id1167133686331" alt="Figure shows an XYZ coordinate system. Three particles are located on the X axis at 20 cm from the center, at an Y axis at 60 centimeters from the center and at a Z axis at 40 centimeters from the center.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_PoinPar_img.jpg"/>
+</media>
+</problem>
+</exercise>
+<exercise id="fs-id1167132282082">
+<problem id="fs-id1167132282084">
+<para id="fs-id1167132282086">A system consists of a disk of mass 2.0 kg and radius 50 cm upon which is mounted an annular cylinder of mass 1.0 kg with inner radius 20 cm and outer radius 30 cm (see below). What is the moment of inertia of the system?</para>
+<media id="fs-id1167132282093" alt="Figure shows a disk of radius 50 cm upon which is mounted an annular cylinder with inner radius 20 cm and outer radius 30 cm">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_04_AnnCyl_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167132282106">
+<para id="fs-id1167132282108"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mn>0.315</m:mn><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:math>
+</para></solution>
+</exercise>
+<exercise id="fs-id1167133357822">
+<problem id="fs-id1167133357824">
+<para id="fs-id1167133859006">Using the parallel axis theorem, what is the moment of inertia of the rod of mass <emphasis effect="italics">m</emphasis> about the axis shown below?</para>
+<media id="fs-id1167133325838" alt="Figure shows a rod that rotates around the axis that passes through it at 1/6 of length from one end and 5/6 of length from the opposite end.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_10_05_Prob8_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1167133497626">
+<para id="fs-id1167133497628"><m:math><m:mrow><m:mi>I</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>7</m:mn><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi><m:msup><m:mi>L</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section></content>
+<glossary>
+<definition id="fs-id1167132283419">
+<term>moment of inertia</term>
+<meaning id="fs-id1167132283425">rotational mass of rigid bodies that relates to how easy or hard it will be to change the angular velocity of the rotating rigid body</meaning>
+</definition>
+<definition id="fs-id1167133822794">
+<term>parallel axis</term>
+<meaning id="fs-id1167133802923">axis of rotation that is parallel to an axis about which the moment of inertia of an object is known</meaning>
+</definition>
+<definition id="fs-id1167132202132">
+<term>parallel-axis theorem</term>
+<meaning id="fs-id1167132202137">if the moment of inertia is known for a given axis, it can be found for any axis parallel to it</meaning>
+</definition>
+</glossary>
+</document>

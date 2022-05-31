@@ -1,0 +1,335 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Kepler's Laws of Planetary Motion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m64058</md:content-id>
+  <md:title>Kepler's Laws of Planetary Motion</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Describe the conic sections and how they relate to orbital motion.</item>
+<item>Describe how orbital velocity is related to orbital distance.</item>
+<item>Determine the period of an elliptical orbit from its semimajor axis and vice versa.</item>
+</list></md:abstract>
+  <md:uuid>474ab4c7-b04b-425e-bb45-c328d5377a5d</md:uuid>
+</metadata>
+
+<content>
+
+<figure id="Exoplanet"><title>Kepler-452b</title><media id="eip-idm176776576" alt="Artist rendering of exoplanet Kepler-452b.">
+<image mime-type="image/jpeg" src="../../media/Exoplanet.jpg"/>
+</media>
+
+<caption>This artist's concept depicts one possible appearance of the planet Kepler-452b, the first near-Earth-size world to be found in the habitable zone of a star that is similar to our Sun. (credit: NASA)</caption></figure><para id="eip-305">How would you detect the existence (and determine the properties) of planets that orbit around other stars in our galaxy? That is the question facing astronomers in the 21<sup>st</sup> century. The picture of an Earth-sized planet shown in <link target-id="Exoplanet"/> is from the NASA Kepler Mission, named after the 16<sup>th</sup>-century scientist whose work gave us the laws of planetary kinematics.</para><para id="fs-id1163976463465">How would you find a new planet at the outskirts of our solar system that is too dim to be seen with the unaided eye and is so far away that it moves very slowly among the stars? This was the problem confronting astronomers during the nineteenth century as they tried to pin down a full inventory of our solar system.</para>
+<para id="fs-id1163976414037">If we could look down on the solar system from somewhere out in space, interpreting planetary motions would be much simpler. But the fact is, we must observe the positions of all the other planets from our own moving planet. Scientists of the Renaissance did not know the details of Earth’s motions any better than the motions of the other planets. Their problem was that they had to deduce the nature of all planetary motion using only their earthbound observations of the other planets’ positions in the sky. To solve this complex problem more fully, better observations and better models of the planetary system were needed.</para>
+
+
+<para id="fs-id1163975361682">At about the time that <term class="no-emphasis">Galileo</term> was beginning his experiments with falling bodies, the efforts of two other scientists dramatically advanced our understanding of the motions of the planets. These two astronomers were the observer Tycho Brahe and the mathematician Johannes Kepler. Together, they placed the speculations of Copernicus on a sound mathematical basis and paved the way for the work of Isaac Newton in the next century.</para>
+<section id="fs-id1163975309473">
+<title>Tycho Brahe’s Observatory</title>
+<para id="fs-id1163975382718">Three years after the publication of Copernicus’ <emphasis effect="italics">De Revolutionibus</emphasis>, Tycho <term class="no-emphasis">Brahe</term> was born to a family of Danish nobility. He developed an early interest in astronomy and, as a young man, made significant astronomical observations. Among these was a careful study of what we now know was an exploding star that flared up to great brilliance in the night sky. His growing reputation gained him the patronage of the Danish King Frederick II, and at the age of 30, Brahe was able to establish a fine astronomical observatory on the North Sea island of Hven (<link target-id="OSC_Astro_03_01_Tycho"/>). Brahe was the last and greatest of the pre-telescopic observers in Europe.</para>
+<figure id="OSC_Astro_03_01_Tycho"><title>Tycho Brahe (1546–1601) and Johannes Kepler (1571–1630).</title><media id="fs-id1163975323250" alt="Panel (a), at left, presents a highly stylized engraving of Tycho Brahe in his observatory at Hven. Panel (b), at right, shows a portrait of Johannes Kepler.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_03_01_Tycho.jpg"/>
+</media>
+
+<caption>(a) A stylized engraving shows Tycho Brahe using his instruments to measure the altitude of celestial objects above the horizon. The large curved instrument in the foreground allowed him to measure precise angles in the sky. Note that the scene includes hints of the grandeur of Brahe’s observatory at Hven. (b) Kepler was a German mathematician and astronomer. His discovery of the basic laws that describe planetary motion placed the heliocentric cosmology of Copernicus on a firm mathematical basis.</caption></figure><para id="fs-id1163975316441">At Hven, Brahe made a continuous record of the positions of the Sun, Moon, and planets for almost 20 years. His extensive and precise observations enabled him to note that the positions of the planets varied from those given in published tables, which were based on the work of Ptolemy. These data were extremely valuable, but Brahe didn’t have the ability to analyze them and develop a better model than what Ptolemy had published. He was further inhibited because he was an extravagant and cantankerous fellow, and he accumulated enemies among government officials. When his patron, Frederick II, died in 1597, Brahe lost his political base and decided to leave Denmark. He took up residence in Prague, where he became court astronomer to Emperor Rudolf of Bohemia. There, in the year before his death, Brahe found a most able young mathematician, Johannes Kepler, to assist him in analyzing his extensive planetary data.</para>
+</section>
+<section id="fs-id1163975344592">
+<title>Johannes Kepler</title>
+<para id="fs-id1163975345727">Johannes <term class="no-emphasis">Kepler</term> was born into a poor family in the German province of Württemberg and lived much of his life amid the turmoil of the Thirty Years’ War (see <link target-id="OSC_Astro_03_01_Tycho"/>). He attended university at Tubingen and studied for a theological career. There, he learned the principles of the Copernican system and became converted to the heliocentric hypothesis. Eventually, Kepler went to Prague to serve as an assistant to Brahe, who set him to work trying to find a satisfactory theory of planetary motion—one that was compatible with the long series of observations made at Hven. Brahe was reluctant to provide Kepler with much material at any one time for fear that Kepler would discover the secrets of the universal motion by himself, thereby robbing Brahe of some of the glory. Only after Brahe’s death in 1601 did Kepler get full possession of the priceless records. Their study occupied most of Kepler’s time for more than 20 years.</para>
+<para id="fs-id1163975482752">Through his analysis of the motions of the planets, Kepler developed a series of principles, now known as <emphasis effect="italics">Kepler’s three laws,</emphasis> which described the behavior of planets based on their paths through space. The first two laws of planetary motion were published in 1609 in <emphasis effect="italics">The New Astronomy</emphasis>. Their discovery was a profound step in the development of modern science.</para>
+</section>
+<section id="fs-id1163975525458">
+<title>The Laws of Planetary Motion</title><para id="fs-id1163975352616">The path of an object through space is called its <term>orbit</term>. Kepler initially assumed that the orbits of planets were circles, but doing so did not allow him to find orbits that were consistent with Brahe’s observations. Working with the data for Mars, he eventually discovered that the orbit of that planet had the shape of a somewhat flattened circle, or <term>ellipse</term>. Next to the circle, the ellipse is the simplest kind of closed curve, belonging to a family of curves known as <emphasis effect="italics">conic sections</emphasis> (<link target-id="OSC_Astro_03_01_Conic"/>).</para>
+<figure id="OSC_Astro_03_01_Conic"><title>Conic Sections.</title><media id="fs-id1163975569502" alt="This figure illustrates the conic sections. A cone is drawn with the circular base at bottom and the apex at top. From top to bottom: a “Circle” (drawn in orange) is formed when the intersecting plane is parallel to, but does not touch, the base. An “Ellipse” (drawn in red) is formed when the intersecting plane is at an angle to, but does not touch, the base. A “Parabola” (drawn in aqua) is formed when the intersecting plane is at an angle with and also touches the base. A “Hyperbola” (drawn in blue) is formed when the intersecting plane is nearly perpendicular to and also touches the base.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_03_01_Conic.jpg"/>
+</media>
+
+<caption>The circle, ellipse, parabola, and hyperbola are all formed by the intersection of a plane with a cone. This is why such curves are called conic sections.</caption></figure></section>
+
+
+<para id="fs-id1168329287987">Using the precise data collected by Tycho Brahe, Johannes Kepler carefully analyzed the positions in the sky of all the known planets and the Moon, plotting their positions at regular intervals of time. From this analysis, he formulated three laws, which we address in this section.</para>
+<section id="fs-id1168329183887">
+<title>Kepler’s First Law</title>
+<para id="fs-id1168329462001">The prevailing view during the time of Kepler was that all planetary orbits were circular. The data for Mars presented the greatest challenge to this view and that eventually encouraged Kepler to give up the popular idea. <term>Kepler’s first law</term> states that every planet moves along an ellipse, with the Sun located at a focus of the ellipse. An ellipse is defined as the set of all points such that the sum of the distance from each point to two foci is a constant. <link target-id="CNX_UPhysics_13_05_Ellipse"/> shows an ellipse and describes a simple way to create it.</para>
+<figure id="CNX_UPhysics_13_05_Ellipse">
+<media id="fs-id1168327148139" alt="Figure a shows an x y coordinate system and an ellipse centered on the origin with foci f 1 on the left and f 2 on the right, both on the x axis. Focus f 1 is also labeled M. A point above focus f 2 is labeled m. The right triangle formed by f 1, f 2, and m is shown in red. Figure b shows a similar ellipse, with the sun shown and labeled as M and as Sun at f 1. A planet mass m is shown above f 1, at a vertical distance r from f 1. The location where the ellipse intersects the horizontal axis on the left is labeled as point A, and the location where the ellipse intersects the horizontal axis on the right is labeled as point B.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_05_Ellipse.jpg"/>
+</media>
+<caption>(a) An ellipse is a curve in which the sum of the distances from a point on the curve to two foci <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>f</m:mi><m:mn>1</m:mn></m:msub><m:mspace width="0.2em"/><m:mtext>and</m:mtext><m:mspace width="0.2em"/><m:msub><m:mi>f</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is a constant. From this definition, you can see that an ellipse can be created in the following way. Place a pin at each focus, then place a loop of string around a pencil and the pins. Keeping the string taught, move the pencil around in a complete circuit. If the two foci occupy the same place, the result is a circle—a special case of an ellipse. (b) For an elliptical orbit, if <m:math><m:mrow><m:mi>m</m:mi><m:mo>≪</m:mo><m:mi>M</m:mi></m:mrow></m:math>, then <emphasis effect="italics">m</emphasis> follows an elliptical path with <emphasis effect="italics">M</emphasis> at one focus. More exactly, both <emphasis effect="italics">m</emphasis> and <emphasis effect="italics">M</emphasis> move in their own ellipse about the common center of mass.</caption>
+</figure>
+<para id="fs-id1168329179515">For elliptical orbits, the point of closest approach of a planet to the Sun is called the <term>perihelion</term>. It is labeled point <emphasis effect="italics">A</emphasis> in <link target-id="CNX_UPhysics_13_05_Ellipse"/>. The farthest point is the <term>aphelion</term> and is labeled point <emphasis effect="italics">B</emphasis> in the figure. For the Moon’s orbit about Earth, those points are called the perigee and apogee, respectively.</para>
+<para id="fs-id1168329288308">An ellipse has several mathematical forms, but all are a specific case of the more general equation for conic sections. There are four different conic sections, all given by the equation</para>
+
+<equation id="fs-id1168329150881"><label/><m:math><m:mrow><m:mfrac><m:mi>α</m:mi><m:mi>r</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>e</m:mi><m:mtext>cos</m:mtext><m:mi>θ</m:mi><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1168327081841">The variables <emphasis effect="italics">r</emphasis> and <m:math><m:mi>θ</m:mi></m:math> are shown in <link target-id="CNX_UPhysics_13_05_conic1"/> in the case of an ellipse. The values of <m:math><m:mi>α</m:mi></m:math> and <emphasis effect="italics">e</emphasis> determine which of the four conic sections (hyperbola, parabola, ellipse or circle) represents the path of the satellite. For an ellipse, 0 <m:math><m:mo>≤</m:mo></m:math> <emphasis effect="italics">e</emphasis> <m:math><m:mo>&lt;</m:mo></m:math> 1, with an eccentricity of zero meaning a circular orbit.</para><figure id="CNX_UPhysics_13_05_conic1">
+<media id="fs-id1168326938983" alt="An x y coordinate system and an ellipse centered on the origin with foci f 1 on the left and f 2 on the right, both on the x axis, are shown. Focus f 1 is also labeled M. A point on the ellipse in the first quadrant is labeled m. The horizontal segment connecting the foci f 1 and f 2, and the segment connecting f 1 and m are shown in red. The angle between those segments is labeled Theta.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_05_conic1.jpg"/>
+</media>
+<caption>As before, the distance between the planet and the Sun is <emphasis effect="italics">r</emphasis>, and the angle measured from the <emphasis effect="italics">x</emphasis>-axis, which is along the major axis of the ellipse, is <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math>.</caption>
+</figure>
+<note id="fs-id1168326764113" class="media-2">
+<para id="fs-id1168326791026">You can see an animation of two interacting objects at the <emphasis effect="italics">My Solar System</emphasis> page at <link url="https://openstaxcollege.org/l/21mysolarsys">Phet</link>. Choose the Sun and Planet preset option. You can also view the more complicated multiple body problems as well. You may find the actual path of the Moon quite surprising, yet is obeying Newton’s simple laws of motion.</para>
+</note>
+</section>
+<section id="fs-id1168329125485">
+<title>Kepler’s Second Law</title>
+<para id="fs-id1168329145162"><term>Kepler’s second law</term> states that a planet sweeps out equal areas in equal times, that is, the area divided by time, called the areal velocity, is constant. Consider <link target-id="CNX_UPhysics_13_05_Keplers2nd"/>. The time it takes a planet to move from position <emphasis effect="italics">A</emphasis> to <emphasis effect="italics">B</emphasis>, sweeping out area <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, is exactly the time taken to move from position <emphasis effect="italics">C</emphasis> to <emphasis effect="italics">D</emphasis>, sweeping area <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>, and to move from <emphasis effect="italics">E</emphasis> to <emphasis effect="italics">F</emphasis>, sweeping out area <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>. These areas are the same: <m:math><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>A</m:mi><m:mn>3</m:mn></m:msub></m:mrow></m:math>.</para>
+<figure id="CNX_UPhysics_13_05_Keplers2nd">
+<media id="fs-id1168329048142" alt="An x y coordinate system is shown with the sun, also labeled as M, on the x axis to the left of the origin and an unlabeled point to the right of the origin. A planet, labeled also as m, is shown in the second quadrant. An arrow, labeled v, extends from the planet and points down and left, tangent to the orbit. Points A, B, C, D, E, and F are labeled on the orbit. Points A and B are in the third quadrant. The area of the region defined by A B and the sun is labeled A 1. Points C and D are in on the orbit on either side of the – y axis. The area of the region defined by C D and the sun is labeled A 2. Points E and F are in the first quadrant. The area of the region defined by E F and the sun is labeled A 3. The pair of points A B have the largest distance between them and is closest to the sun. E F have the smallest distance between them and are farthest from the sun.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_05_Keplers2nd.jpg"/>
+</media>
+<caption>The shaded regions shown have equal areas and represent the same time interval.</caption>
+</figure>
+<para id="eip-380">Comparing the areas in the figure and the distance traveled along the ellipse in each case, we can see that in order for the areas to be equal, the planet must speed up as it gets closer to the Sun and slow down as it moves away.</para><para id="fs-id1168329182115">Now consider <link target-id="CNX_UPhysics_13_05_area"/>. A small triangular area <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math> is swept out in time <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math>. The velocity is along the path and it makes an angle <m:math><m:mi>θ</m:mi></m:math> with the radial direction. Hence, the perpendicular velocity is given by <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>perp</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mi>v</m:mi><m:mtext>sin</m:mtext><m:mi>θ</m:mi></m:mrow></m:math>. The planet moves a distance <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi><m:mo>=</m:mo><m:mi>v</m:mi><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mtext>sin</m:mtext><m:mi>θ</m:mi></m:mrow></m:math> projected along the direction perpendicular to <emphasis effect="italics">r</emphasis>. Since the area of a triangle is one-half the base (<emphasis effect="italics">r</emphasis>) times the height <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, for a small displacement, the area is given by <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>r</m:mi><m:mtext>Δ</m:mtext><m:mi>s</m:mi></m:mrow></m:math>.</para><figure id="CNX_UPhysics_13_05_area">
+<media id="fs-id1168326918024" alt="A diagram showing the sun and a planet separated by a distance r. The velocity vector of the planet is shown as an arrow pointing at an obtuse angle to the distance r between the sun and planet. The line connecting the sun and planet is extended past the planet as a dashed line, and another dashed line is drawn from the tip of the velocity arrow to the dashed extension of r. The dashed lines meet at a right angle and form a triangle with the velocity arrow forming the hypotenuse and the planet at one vertex. The angle near the planet is labeled theta. The hypotenuse is also labeled v delta t, and the side opposite the planet labeled v delta t sin theta. The triangular region defined by the sun, planet and the tip of the velocity arrow is labeled Delta A, and the angle near the sun is labeled delta phi.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_05_area.jpg"/>
+</media>
+<caption>The element of area <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow></m:math> swept out in time <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:math> as the planet moves through angle <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>ϕ</m:mi></m:mrow></m:math>. The angle between the radial direction and <m:math><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle></m:math> is <m:math><m:mrow><m:mi>θ</m:mi></m:mrow></m:math>.</caption>
+</figure>
+<para id="fs-id1168329292326">The areal velocity is simply the rate of change of area with time, so we have</para>
+<equation id="fs-idm1123328416"><label/><m:math><m:mrow>
+<m:mtext>areal velocity</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+	<m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>r</m:mi><m:mspace width="mediummathspace"/><m:mi>Δs</m:mi>
+	</m:mrow>
+	<m:mrow><m:mi>Δt</m:mi>
+	</m:mrow>
+</m:mfrac>
+<m:mspace width="mediummathspace"/><m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>r</m:mi><m:mspace width="mediummathspace"/><m:mi>v</m:mi>
+
+</m:mrow></m:math></equation><para id="eip-848">The fact that the areal velocity remains constant, then, implies that the product of the planet's distance from the Sun (<m:math><m:mi>r</m:mi></m:math>) and its instantaneous speed (<m:math><m:mi>v</m:mi></m:math>) is a constant of the motion. Hence, the closer it is to the Sun, the faster it moves, and vice versa.</para><note id="fs-id1168326861426" class="media-2">
+<para id="fs-id1168329266256">You can view an <link url="https://openstaxcollege.org/l/21animationgrav">animated version</link> of <link target-id="CNX_UPhysics_13_05_Keplers2nd"/>, and many other interesting animations as well, at the School of Physics (University of New South Wales) site.</para>
+</note>
+</section>
+<section id="fs-id1168326781140">
+<title>Kepler’s Third Law</title>
+<para id="fs-id1163975389317">Kepler’s first two laws of planetary motion describe the shape of a planet’s orbit and allow us to calculate the speed of its motion at any point in the orbit. Kepler was pleased to have discovered such fundamental rules, but they did not satisfy his quest to fully understand planetary motions. He wanted to know why the orbits of the planets were spaced as they are and to find a mathematical pattern in their movements—a “harmony of the spheres” as he called it. For many years he worked to discover mathematical relationships governing planetary spacing and the time each planet took to go around the Sun.</para>
+<para id="fs-id1163975343234">In 1619, <term class="no-emphasis">Kepler</term> discovered a basic relationship to relate the planets’ orbits to their relative distances from the Sun. We define a planet’s <term>orbital period</term>, (<emphasis effect="bold"><emphasis effect="italics">T</emphasis></emphasis>), as the time it takes a planet to travel once around the Sun. Also, recall that a planet’s semimajor axis, <emphasis effect="italics">a,</emphasis> is equal to its average distance from the Sun. The relationship, now known as <emphasis effect="italics">Kepler’s third law</emphasis>, says that a planet’s orbital period squared is proportional to the semimajor axis of its orbit cubed, or</para><equation id="fs-id1163975325027" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mo>∝</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></equation>
+<para id="fs-id1163975390818">When <emphasis effect="italics">T</emphasis> (the orbital period) is measured in years, and <emphasis effect="italics">a</emphasis> is expressed in a quantity known as an <term>astronomical unit (AU)</term>, the two sides of the formula are not only proportional but equal. One AU is the average distance between Earth and the Sun and is approximately equal to 1.5 × 10<sup>8</sup> kilometers. In these units,</para><equation id="fs-idm859180176"><title>Kepler's Third Law in its Original Form</title><m:math><m:mrow><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></equation><para id="fs-id1163975481052">Kepler’s third law applies to all objects orbiting the Sun, including Earth, and provides a means for calculating their relative distances from the Sun from the time they take to orbit. Let’s look at a specific example to illustrate how useful Kepler’s third law is.</para>
+<para id="fs-id1163975568600">For instance, suppose you time how long Mars takes to go around the Sun (in Earth years). Kepler’s third law can then be used to calculate Mars’ average distance from the Sun. Mars’ orbital period (1.88 Earth years) squared, or <emphasis effect="italics">T</emphasis><sup>2</sup>, is 1.88<sup>2</sup> = 3.53, and according to the equation for Kepler’s third law, this equals the cube of its semimajor axis, or <emphasis effect="italics">a</emphasis><sup>3</sup>. So what number must be cubed to give 3.53? The answer is 1.52 (since 1.52 × 1.52 × 1.52 = 3.53). Thus, Mars’ semimajor axis in astronomical units must be 1.52 AU. In other words, to go around the Sun in a little less than two years, Mars must be about 50% (half again) as far from the Sun as Earth is.</para><example id="fs-id1163975381384">
+<para id="fs-id1163975300336"><title>Calculating Periods</title>
+Imagine an object is traveling around the Sun. What would be the orbital period of the object if its orbit has a semimajor axis of 50 AU?</para>
+<para id="fs-id1163975371568"><title>Solution</title>
+From Kepler’s third law, we know that (when we use units of years and AU)</para>
+<equation id="fs-id1163975515365" class="unnumbered"><label/><m:math><m:mrow><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></equation><para id="fs-id1163975468366">If the object’s orbit has a semimajor axis of 50 AU (<emphasis effect="italics">a</emphasis> = 50), we can cube 50 and then take the square root of the result to get T:</para><equation id="fs-id1163975554415" class="unnumbered"><label/><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>50</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>125,000</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>353.6</m:mn><m:mspace width="0.2em"/><m:mtext>years</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation><para id="fs-id1163975317127">Therefore, the orbital period of the object is about 350 years. This would place our hypothetical object beyond the orbit of Pluto.</para></example>
+
+<para id="fs-id1168329503239"><term>Kepler’s third law</term> states that the square of the period is proportional to the cube of the semi-major axis of the orbit. When written in the form of <link target-id="fs-idm859180176"/>, it is simple and easy to use for objects orbiting our Sun. The distances are measured in AU and the periods in years. These units came naturally out of Kepler's work on the solar system. But, in fact, Kepler's Third Law is much more general, and can be applied to bodies orbiting any large object. To do so, it makes the most sense to measure quantities in SI units. Before we do so, however, we must realize that Kepler's Third Law in the form of <link target-id="fs-idm859180176"/> does in fact contain a missing constant of proportionality, which is the the inverse of the mass of the Sun. The reason that it does not appear in <link target-id="fs-idm859180176"/> is that it is measured in units of "solar masses", which for the Sun has a value of exactly 1. Nevertheless, the full equation for Kepler's Third Law should read:</para><note id="fs-idm530771376" class="equation-callout"><equation id="fs-idm581861616"><title>Kepler's Third Law in Solar Units</title><m:math>
+<m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mfrac>
+</m:math></equation></note><para id="eip-960">where <m:math><m:mi>M</m:mi></m:math> is the mass of the large body (around which the satellite is in orbit) measured in units of solar masses. (Again, <m:math><m:mi>T</m:mi></m:math> is measured in years, while <m:math><m:mi>a</m:mi></m:math> is measured in AU.)
+</para><para id="eip-480">Finally, to express all quantities in SI units, we can rewrite the equation in what is often referred to as "Newton's version":</para><note id="fs-id1168326821418" class="equation-callout">
+<equation id="fs-idm767972240"><title>Newton's Version of Kepler's Third Law</title><m:math><m:mrow><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow></m:mfrac><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></equation></note>
+<para id="fs-id1168329191321">In this equation, the period <m:math><m:mi>T</m:mi></m:math> is measured in seconds, the distance <m:math><m:mi>a</m:mi></m:math> in meters, and the mass <m:math><m:mi>M</m:mi></m:math> in kg. The constant <m:math><m:mrow><m:mi>G</m:mi><m:mo>=</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>-11</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> is Newton's universal gravitational constant, which we will encounter in Chapter 9.</para><example id="fs-id1168326766432">
+<para id="fs-id1168329517500"><title>Orbit of Halley’s Comet</title>
+Determine the semi-major axis of the orbit of <term class="no-emphasis">Halley’s comet</term>, given that it arrives at perihelion every 75.3 years. If the perihelion is 0.586 AU, what is the aphelion?</para>
+<para id="fs-id1168326787614"><title>Strategy</title>We are given the period, so we can rearrange <link target-id="fs-idm767972240"/>, solving for the semi-major axis. Since we know the value for the perihelion, we can use the definition of the semi-major axis, given earlier in this section, to find the aphelion. We note that 1 Astronomical Unit (AU) is the average radius of Earth’s orbit and is defined to be <m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>AU</m:mtext><m:mo>=</m:mo><m:mn>1.50</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>.</para><para id="fs-id1168326764458"><title>Solution</title>Rearranging <link target-id="fs-idm767972240"/> and inserting the values of the period of Halley’s comet and the mass of the Sun, we have</para><equation id="fs-id1168056579806" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd columnalign="left"><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mtext>/kg</m:mtext></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>75.3</m:mn><m:mspace width="0.2em"/><m:mtext>yr</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>365</m:mn><m:mspace width="0.2em"/><m:mtext>days/yr</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>24</m:mn><m:mspace width="0.2em"/><m:mtext>hr/day</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3600</m:mn><m:mspace width="0.2em"/><m:mtext>s/hr</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>/</m:mtext><m:mn>3</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168329173624">This yields a value of <m:math><m:mrow><m:mn>2.67</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> or 17.8 AU for the semi-major axis.</para>
+<para id="fs-id1168329041363">The semi-major axis is one-half the sum of the aphelion and perihelion, so we have</para>
+<equation id="fs-id1168056151854" class="unnumbered"><label/><m:math><m:mtable><m:mtr/><m:mtr><m:mtd columnalign="right"><m:mi>a</m:mi></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mtext>aphelion</m:mtext><m:mo>+</m:mo><m:mtext>perihelion</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mtext>aphelion</m:mtext></m:mtd><m:mtd columnalign="left"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mtext>perihelion</m:mtext><m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation>
+<para id="fs-id1168327144713">Substituting for the values, we found for the semi-major axis and the value given for the perihelion, we find the value of the aphelion to be 35.0 AU.</para>
+<para id="fs-id1168329518634"><title>Significance</title>
+Edmond <term class="no-emphasis">Halley</term>, a contemporary of Newton, first suspected that three comets, reported in 1531, 1607, and 1682, were actually the same comet. Before Tycho Brahe made measurements of comets, it was believed that they were one-time events, perhaps disturbances in the atmosphere, and that they were not affected by the Sun. Halley used Newton’s new mechanics to predict his namesake comet’s return in 1758.</para>
+</example>
+<note id="fs-id1168326788503" class="check-understanding">
+<exercise id="fs-id1168329171728">
+<problem id="fs-id1168326855597">
+<para id="fs-id1168329511181"><emphasis effect="bold">Check Your Understanding</emphasis> The nearly circular orbit of Saturn has an average radius of about 9.5 AU and has a period of 30 years, whereas Uranus averages about 19 AU and has a period of 84 years. Is this consistent with our results for Halley’s comet?</para>
+</problem>
+<solution id="fs-id1168326822487">
+<para id="fs-id1168329148442">The semi-major axis for the highly elliptical orbit of Halley’s comet is 17.8 AU and is the average of the perihelion and aphelion. This lies between the 9.5 AU and 19 AU orbital radii for Saturn and Uranus, respectively. The radius for a circular orbit is the same as the semi-major axis, and since the period increases with an increase of the semi-major axis, the fact that Halley’s period is between the periods of Saturn and Uranus is expected.</para>
+</solution>
+</exercise>
+</note>
+</section>
+<section id="fs-id1168326765523" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1168327054984" list-type="bulleted" bullet-style="bullet"><item>All orbital motion follows the path of a conic section. Bound or closed orbits are either a circle or an ellipse; unbounded or open orbits are either a parabola or a hyperbola.</item>
+<item>The areal velocity of any orbit is constant, meaning that the product of the body's speed and its distance from the Sun is constant.</item>
+<item>The square of the period of an elliptical orbit is proportional to the cube of the semi-major axis of that orbit.</item>
+</list></section>
+<section id="fs-id1170325151762">
+<title>For Further Exploration</title>
+<section id="fs-id1170326464630"><title>Websites</title><note id="eip-idm1461216128" class="media-2">
+<para id="fs-id1170325074877">Gazetteer of Planetary Nomenclature: <link window="new" url="http://planetarynames.wr.usgs.gov/">http://planetarynames.wr.usgs.gov/</link>. Outlines the rules for naming bodies and features in the solar system.</para></note>
+<note id="eip-idm530860864" class="media-2"><para id="fs-id1170325085768">Planetary Photojournal: <link window="new" url="http://photojournal.jpl.nasa.gov/index.html">http://photojournal.jpl.nasa.gov/index.html</link>. This NASA site features thousands of the best images from planetary exploration, with detailed captions and excellent indexing. You can find images by world, feature name, or mission, and download them in a number of formats. And the images are copyright-free because your tax dollars paid for them.</para></note>
+<note id="eip-idm465123568" class="media-2">
+<para id="fs-id1170325053246">The following sites present introductory information and pictures about each of the worlds of our solar system:</para>
+<list id="fs-id1170326030562" list-type="bulleted" bullet-style="bullet">
+<item>NASA/JPL Solar System Exploration pages: <link window="new" url="http://solarsystem.nasa.gov/index.cfm">http://solarsystem.nasa.gov/index.cfm</link>.</item>
+<item>National Space Science Data Center Lunar and Planetary Science pages: <link window="new" url="http://nssdc.gsfc.nasa.gov/planetary/">http://nssdc.gsfc.nasa.gov/planetary/</link>.</item>
+<item>Nine [now 8] Planets Solar System Tour: <link window="new" url="http://www.nineplanets.org/">http://www.nineplanets.org/</link>.</item>
+<item>Planetary Society solar system pages: <link window="new" url="http://www.planetary.org/explore/space-topics/compare/">http://www.planetary.org/explore/space-topics/compare/</link>.</item>
+<item>Views of the Solar System by Calvin J. Hamilton: <link window="new" url="http://www.solarviews.com/eng/homepage.htm">http://www.solarviews.com/eng/homepage.htm</link>.</item>
+</list></note>
+</section><section id="fs-id1170326097257"><title>Videos</title><note id="eip-idm827335728" class="media-2"><para id="fs-id1170325238279">Brown Dwarfs and Free Floating Planets: When You Are Just Too Small to Be a Star: <link window="new" url="https://www.youtube.com/watch?v=zXCDsb4n4KU">https://www.youtube.com/watch?v=zXCDsb4n4KU</link>. A nontechnical talk by Gibor Basri of the University of California at Berkeley, discussing some of the controversies about the meaning of the word “planet” (1:32:52).</para></note>
+<note id="eip-idm841276880" class="media-2"><para id="fs-id1170325097436">In the Land of Enchantment: The Epic Story of the Cassini Mission to Saturn: <link window="new" url="https://www.youtube.com/watch?v=Vx135n8VFxY">https://www.youtube.com/watch?v=Vx135n8VFxY</link>. A public lecture by Dr. Carolyn Porco that focuses mainly on the exploration of Saturn and its moons, but also presents an eloquent explanation of why we explore the solar system (1:37:52).</para></note>
+<note id="eip-idm1042498928" class="media-2">
+<para id="fs-id1170324936445">Origins of the Solar System: <link window="new" url="http://www.pbs.org/wgbh/nova/space/origins-solar-system.html">http://www.pbs.org/wgbh/nova/space/origins-solar-system.html</link>. A video from PBS that focuses on the evidence from meteorites, narrated by Neil deGrasse Tyson (13:02).</para></note>
+<note id="eip-idm840014528" class="media-2">
+<para id="fs-id1170325054445">To Scale: The Solar System: <link window="new" url="https://www.youtube.com/watch?t=84&amp;v=zR3Igc3Rhfg">https://www.youtube.com/watch?t=84&amp;v=zR3Igc3Rhfg</link>. Constructing a scale model of the solar system in the Nevada desert (7:06).</para></note>
+</section></section>
+
+<section id="fs-id1168329320256" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1168329160078">
+<problem id="fs-id1168329340846">
+<para id="fs-id1168326763270">Are Kepler’s laws purely descriptive, or do they contain causal information?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329332078">
+<problem id="fs-id1168326777238">
+<para id="fs-id1168329130138">In the diagram below for a satellite in an elliptical orbit about a much larger mass, indicate where its speed is the greatest and where it is the least. What conservation law dictates this behavior? Indicate the directions of the force, acceleration, and velocity at these points. Draw vectors for these same three quantities at the two points where the <emphasis effect="italics">y</emphasis>-axis intersects (along the semi-minor axis) and from this determine whether the speed is increasing decreasing, or at a max/min.</para>
+<media id="fs-id1168326759021" alt="A diagram showing an x y coordinate system and an ellipse, centered on the origin with foci on the x axis. The focus on the left is labeled f 1 and M. The focus on the right is labeled f 2. A location labeled as m is shown above f 2. The right triangle defined by f 1, f 2, and m is shown in red. The clockwise direction tangent to the ellipse is indicated by blue arrows.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_05_P65_img.jpg"/>
+</media>
+</problem>
+<solution id="fs-id1168329187953">
+<para id="fs-id1168329191139">The speed is greatest where the satellite is closest to the large mass and least where farther away—at the periapsis and apoapsis, respectively. It is conservation of angular momentum that governs this relationship. But it can also be gleaned from conservation of energy, the kinetic energy must be greatest where the gravitational potential energy is the least (most negative). The force, and hence acceleration, is always directed towards <emphasis effect="italics">M</emphasis> in the diagram, and the velocity is always tangent to the path at all points. The acceleration vector has a tangential component along the direction of the velocity at the upper location on the <emphasis effect="italics">y</emphasis>-axis; hence, the satellite is speeding up. Just the opposite is true at the lower position.</para>
+</solution>
+</exercise>
+</section>
+<section id="fs-id1168327957009" class="key-equations">
+<title>Key Equations</title>
+<table id="fs-id1171240074559" class="unnumbered unstyled" summary="This table gives the formula for percent uncertainty. Percent uncertainty is equal to delta A upon A into 100 percent. The second row gives the combined uncertainty (in quadrature) for addition or subtraction of quantities. The third row gives the combined relative uncertainty (in quadrature) for multiplication or division of quantities."><label/>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+<row>
+<entry align="left">Kepler's Second Law</entry>
+<entry align="left"><m:math><m:mrow>
+<m:mtext>areal velocity</m:mtext><m:mo>=</m:mo><m:mspace width="0.2em"/><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi>A</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>r</m:mi><m:mspace width="mediummathspace"/><m:mi>v</m:mi>
+<m:mo>=</m:mo><m:mtext>constant</m:mtext>
+</m:mrow></m:math></entry>
+</row>
+<row>
+<entry align="left">Kepler's Third Law in Solar Units</entry>
+<entry align="left"><m:math>
+<m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mfrac>
+</m:math></entry>
+</row>
+<row>
+<entry align="left">Kepler's Third Law in SI Units</entry>
+<entry align="left"><m:math><m:mrow><m:msup><m:mi>T</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:msup><m:mi>π</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow></m:mfrac><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></section>
+
+<section id="fs-id1168326822588" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1168329105797">
+<problem id="fs-id1168329022150">
+<para id="fs-id1168329519026">Calculate the mass of the Sun based on data for average Earth’s orbit and compare the value obtained with the Sun’s commonly listed value of <m:math><m:mrow><m:mn>1.989</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>.</para>
+</problem>
+<solution id="fs-id1168326851243">
+<para id="fs-id1168329450483"><m:math><m:mrow><m:mn>1.98</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>30</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>kg</m:mtext></m:mrow></m:math>; The values are the same within 0.05%.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329194156">
+<problem id="fs-id1168329083138">
+<para id="fs-id1168326842605">Io orbits Jupiter with an average radius of 421,700 km and a period of 1.769 days. Based upon these data, what is the mass of Jupiter?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168326926286">
+<problem id="fs-id1168329443467">
+<para id="fs-id1168329156360">The “mean” orbital radius listed for astronomical objects orbiting the Sun is typically not an integrated average but is calculated such that it gives the correct period when applied to the equation for circular orbits. Given that, what is the mean orbital radius in terms of aphelion and perihelion?</para>
+</problem>
+<solution id="fs-id1168329510821">
+<para id="fs-id1168329107484">Compare <link document="m58348" target-id="fs-id1168327874347"/> and <link target-id="fs-id1168329126738"/> to see that they differ only in that the circular radius, <emphasis effect="italics">r</emphasis>, is replaced by the semi-major axis, <emphasis effect="italics">a</emphasis>. Therefore, the mean radius is one-half the sum of the aphelion and perihelion, the same as the semi-major axis.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168329196621">
+<problem id="fs-id1168329184371">
+<para id="fs-id1168329264997">The perihelion of Halley’s comet is 0.586 AU and the aphelion is 17.8 AU. Given that its speed at perihelion is 55 km/s, what is the speed at aphelion (<m:math><m:mrow><m:mn>1</m:mn><m:mspace width="0.2em"/><m:mtext>AU</m:mtext><m:mo>=</m:mo><m:mn>1.496</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>)? (<emphasis effect="italics">Hint:</emphasis> You may use either conservation of energy or angular momentum, but the latter is much easier.)</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329319495">
+<problem id="fs-id1168326792076">
+<para id="fs-id1168326857947">The perihelion of the comet Lagerkvist is 2.61 AU and it has a period of 7.36 years. Show that the aphelion for this comet is 4.95 AU.</para>
+</problem>
+<solution id="fs-id1168329148430">
+<para id="fs-id1168329169186">The semi-major axis, 3.78 AU is found from the equation for the period. This is one-half the sum of the aphelion and perihelion, giving an aphelion distance of 4.95 AU.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1168326939686">
+<problem id="fs-id1168329071274">
+<para id="fs-id1168329055659">What is the ratio of the speed at perihelion to that at aphelion for the comet Lagerkvist in the previous problem?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329151836">
+<problem id="fs-id1168329047827">
+<para id="fs-id1168329061232">Eros has an elliptical orbit about the Sun, with a perihelion distance of 1.13 AU and aphelion distance of 1.78 AU. What is the period of its orbit?</para>
+</problem>
+<solution id="fs-id1168329181708">
+<para id="fs-id1168329064510">1.75 years</para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1168329331558">
+<term>aphelion</term>
+<meaning id="fs-id1168326837993">farthest point from the Sun of an orbiting body; the corresponding term for the Moon’s farthest point from Earth is the apogee</meaning>
+</definition>
+<definition id="fs-id1163975582000">
+<term>astronomical unit (AU)</term>
+<meaning id="fs-id1163975544693">the unit of length defined as the average distance between Earth and the Sun; this distance is about 1.5 × 10<sup>8</sup> kilometers</meaning>
+</definition>
+<definition id="fs-id1163975512006">
+<term>eccentricity</term>
+<meaning id="fs-id1163975311655">in an ellipse, the ratio of the distance between the foci to the major axis</meaning>
+</definition>
+<definition id="fs-id1163975286207">
+<term>ellipse</term>
+<meaning id="fs-id1163975311543">a closed curve for which the sum of the distances from any point on the ellipse to two points inside (called the foci) is always the same</meaning>
+</definition>
+<definition id="fs-id1163975384202">
+<term>focus</term>
+<meaning id="fs-id1163975554166">(plural: foci) one of two fixed points inside an ellipse from which the sum of the distances to any point on the ellipse is constant</meaning>
+</definition>
+<definition id="fs-id1163975558265">
+<term>Kepler’s first law</term>
+<meaning id="fs-id1163975575377">each planet moves around the Sun in an orbit that is an ellipse, with the Sun at one focus of the ellipse</meaning>
+</definition>
+<definition id="fs-id1163975554511">
+<term>Kepler’s second law</term>
+<meaning id="fs-id1163975464516">the straight line joining a planet and the Sun sweeps out equal areas in space in equal intervals of time</meaning>
+</definition>
+<definition id="fs-id1163975530165">
+<term>Kepler’s third law</term>
+<meaning id="fs-id1163975544920">the square of a planet’s orbital period is directly proportional to the cube of the semimajor axis of its orbit</meaning>
+</definition>
+<definition id="fs-id1163975409193">
+<term>major axis</term>
+<meaning id="fs-id1163975289544">the maximum diameter of an ellipse</meaning>
+</definition>
+<definition id="fs-id1163975393957">
+<term>orbit</term>
+<meaning id="fs-id1163975559527">the path of an object that is in revolution about another object or point</meaning>
+</definition>
+<definition id="fs-id1163975329277">
+<term>orbital period (<emphasis effect="italics">T</emphasis>)</term>
+<meaning id="fs-id1163975482826">the time it takes an object to travel once around the Sun</meaning>
+</definition>
+<definition id="fs-id1163975358950">
+<term>orbital speed</term>
+<meaning id="fs-id1163975466964">the speed at which an object (usually a planet) orbits around the mass of another object; in the case of a planet, the speed at which each planet moves along its ellipse</meaning>
+</definition>
+<definition id="fs-id1168329454958">
+<term>perihelion</term>
+<meaning id="fs-id1168326778106">point of closest approach to the Sun of an orbiting body; the corresponding term for the Moon’s closest approach to Earth is the perigee</meaning>
+</definition>
+<definition id="fs-id1163975560864">
+<term>semimajor axis</term>
+<meaning id="fs-id1163975409767">half of the major axis of a conic section, such as an ellipse</meaning>
+</definition>
+</glossary>
+</document>

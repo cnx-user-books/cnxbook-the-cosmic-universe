@@ -1,0 +1,292 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Potential Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71571</md:content-id>
+  <md:title>Potential Energy</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Relate the difference of potential energy to work done on a particle for a system without friction or air drag</item>
+<item>Explain the meaning of the zero of the potential energy function for a system</item>
+<item>Calculate and apply the gravitational potential energy for an object near Earth’s surface and the elastic potential energy of a mass-spring system</item>
+<item>Determine changes in gravitational potential energy over great distances</item>
+</list></md:abstract>
+  <md:uuid>856d6f4d-69f6-4293-80cf-094c224632cb</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1165039051689">In <link class="target-chapter" document="m71418">Work</link>, we saw that the work done on an object by the constant gravitational force, near the surface of Earth, over any displacement is a function only of the difference in the positions of the end-points of the displacement. This property allows us to define a different kind of energy for the system than its kinetic energy, which is called <term>potential energy</term>. We consider various properties and types of potential energy in the following subsections.</para><section id="fs-id1165035692628">
+<title>Potential Energy Basics</title>
+<para id="fs-id1165035682820">In <link class="target-chapter" document="m64053">Projectile Motion</link>, we analyzed the motion of a projectile, like kicking a football in <link target-id="CNX_UPhysics_08_01_football"/>. For this example, let’s ignore friction and air resistance. As the football rises, the work done by the gravitational force on the football is negative, because the ball’s displacement is positive vertically and the force due to gravity is negative vertically. We also noted that the ball slowed down until it reached its highest point in the motion, thereby decreasing the ball’s kinetic energy. This loss in kinetic energy translates to a gain in gravitational potential energy of the football-Earth system.</para><para id="fs-id1165035972000">As the football falls toward Earth, the work done on the football is now positive, because the displacement and the gravitational force both point vertically downward. The ball also speeds up, which indicates an increase in kinetic energy. Therefore, energy is converted from gravitational potential energy back into kinetic energy.</para>
+<figure id="CNX_UPhysics_08_01_football">
+<media id="fs-id1165035906458" alt="An illustration of a football’s trajectory and energy. The kicker kicks the ball, doing work on it and giving it maximum kinetic energy. The potential energy is minimum. This is point one. On the way up, at point two, the kinetic energy of the ball decreases and its potential energy decreases. At the highest point, point three, the kinetic energy of the ball  is at its minimum and its potential energy is maximum. As the ball descends, point four, the kinetic energy increases and the potential energy decreases. The receiver catches the ball at the same height above the ground as it was kicked, at point five. The kinetic energy equals maximum, potential energy is minimum.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_01_football.jpg"/>
+</media>
+<caption>As a football starts its descent toward the wide receiver, gravitational potential energy is converted back into kinetic energy.</caption>
+</figure>
+<para id="fs-id1165039251424">Based on this scenario, we can define the difference of potential energy from point <emphasis effect="italics">A</emphasis> to point <emphasis effect="italics">B</emphasis> as the negative of the work done:</para>
+<note id="fs-id1165039074593" class="equation-callout">
+<equation id="fs-id1165039502282"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>U</m:mi><m:mi>A</m:mi></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>W</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039238293">This formula explicitly states a <term>potential energy difference</term>, not just an absolute potential energy. Therefore, we need to define potential energy at a given position in such a way as to state standard values of potential energy on their own, rather than potential energy differences. We do this by rewriting the potential energy function in terms of an arbitrary constant,</para>
+<note id="fs-id1165039391866" class="equation-callout">
+<equation id="fs-id1165039502050"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>U</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165035641022">The choice of the potential energy at a starting location of <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub></m:mrow></m:math> is made out of convenience in the given problem. Most importantly, whatever choice is made should be stated and kept consistent throughout the given problem. There are some well-accepted choices of initial potential energy. For example, the lowest height in a problem is usually defined as zero potential energy, or if an object is in space, the farthest point away from the system is often defined as zero potential energy. Then, the potential energy, with respect to zero at <m:math><m:mrow><m:msub><m:mstyle mathvariant="bold" mathsize="normal"><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mstyle><m:mn>0</m:mn></m:msub><m:mo>,</m:mo></m:mrow></m:math> is just <m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mover accent="true"><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo></m:mover></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></para>
+<para id="fs-id1165039324524">As long as there is no friction or air resistance, the amount of change in kinetic energy of the football equals the amount of change in gravitational potential energy of the football. This can be generalized to any potential energy:</para><equation id="fs-id1165039099001"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>K</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mo>-</m:mo><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>.</m:mo></m:mrow></m:math></equation><para id="fs-id1165039503553">The minus sign is important! If the change in kinetic energy is positive (i.e. the system gains kinetic energy), then the change in potential energy must be negative (it loses potential energy). And, vice-versa.</para></section>
+<section id="fs-id1165039107955">
+<title>Systems of Several Particles</title>
+<para id="fs-id1165039377270">In general, a system of interest could consist of several particles. The difference in the potential energy of the system is the negative of the work done by gravitational or elastic forces, which, as we will see in the next section, are conservative forces. The potential energy difference depends only on the initial and final positions of the particles, and on some parameters that characterize the interaction (like mass for gravity or the spring constant for a Hooke’s law force).</para>
+<para id="fs-id1165039471899">It is important to remember that potential energy is a property of the interactions between objects in a chosen system, and not just a property of each object. This is especially true for electric forces, although in the examples of potential energy we consider below, parts of the system are either so big (like Earth, compared to an object on its surface) or so small (like a massless spring), that the changes those parts undergo are negligible if included in the system.</para>
+</section>
+<section id="fs-id1165039095325">
+<title>Types of Potential Energy</title>
+<para id="fs-id1165039045528">For each type of interaction present in a system, you can label a corresponding type of potential energy. The total potential energy of the system is the sum of the potential energies of all the types. (This follows from the additive property of the dot product in the expression for the work done.) Let’s look at some specific examples of types of potential energy discussed in <link class="target-chapter" document="m71418">Work</link>. First, we consider each of these forces when acting separately, and then when both act together.</para><section id="fs-id1165039369440">
+<title>Gravitational potential energy near Earth’s surface</title>
+<para id="fs-id1165039285376">The system of interest consists of our planet, Earth, and one or more particles near its surface (or bodies small enough to be considered as particles, compared to Earth). The gravitational force on each particle (or body) is just its weight <emphasis effect="italics">mg</emphasis> near the surface of Earth, acting vertically down. According to Newton’s third law, each particle exerts a force on Earth of equal magnitude but in the opposite direction. Newton’s second law tells us that the magnitude of the acceleration produced by each of these forces on Earth is <emphasis effect="italics">mg</emphasis> divided by Earth’s mass. Since the ratio of the mass of any ordinary object to the mass of Earth is vanishingly small, the motion of Earth can be completely neglected. Therefore, we consider this system to be a group of single-particle systems, subject to the uniform gravitational force of Earth.</para>
+<para id="fs-id1165039209828">In <link class="target-chapter" document="m71418">Work</link>, the work done on a body by Earth’s uniform gravitational force, near its surface, depended on the mass of the body, the acceleration due to gravity, and the difference in height the body traversed, as given by <link document="m71418" target-id="fs-id1165035740928"/>. By definition, this work is the negative of the difference in the gravitational potential energy, so that difference is</para><equation id="fs-id1165035676115"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>grav</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mtext>−</m:mtext><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>grav</m:mtext><m:mo>,</m:mo><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mi>B</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mi>A</m:mi></m:msub></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>.</m:mo></m:mrow></m:math></equation>
+<para id="fs-id1165039090814">You can see from this that the <term class="no-emphasis">gravitational potential energy</term> function, near Earth’s surface, is</para>
+<note id="fs-id1165039084074" class="equation-callout">
+<equation id="fs-id1165039441699"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mtext>const</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<para id="fs-id1165039107630">You can choose the value of the constant, as described in the discussion of <link target-id="fs-id1165039502050"/>; however, for solving most problems, the most convenient constant to choose is zero for when <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo></m:mrow></m:math> which is the lowest vertical position in the problem.</para>
+<example id="fs-id1165038964832">
+<para id="fs-id1165035785797"><title>Gravitational Potential Energy of a Hiker</title>
+The summit of Great Blue Hill in Milton, MA, is 147 m above its base and has an elevation above sea level of 195 m (<link target-id="CNX_UPhysics_08_01_GrBlueHill"/>). (Its Native American name, <emphasis effect="italics">Massachusett</emphasis>, was adopted by settlers for naming the Bay Colony and state near its location.) A 75-kg hiker ascends from the base to the summit. What is the gravitational potential energy of the hiker-Earth system with respect to zero gravitational potential energy at base height, when the hiker is (a) at the base of the hill, (b) at the summit, and (c) at sea level, afterward?</para>
+<figure id="CNX_UPhysics_08_01_GrBlueHill">
+<media id="fs-id1165039085986" alt="Sketch of the profile of Great Blue Hill, Milton, MA. The summit is 195 meters above sea level. The base of the hill is 147 meters below the summit.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_08_01_GrBlueHill.jpg"/>
+</media>
+<caption>Sketch of the profile of Great Blue Hill, Milton, MA. The altitudes of the three levels are indicated.</caption>
+</figure>
+<para id="fs-id1165039302945"><title>Strategy</title>
+First, we need to pick an origin for the <emphasis effect="italics">y</emphasis>-axis and then determine the value of the constant that makes the potential energy zero at the height of the base. Then, we can determine the potential energies from <link target-id="fs-id1165039441699"/>, based on the relationship between the zero potential energy height and the height at which the hiker is located.</para>
+<para id="fs-id1165039075284"><title>Solution</title></para>
+<list id="fs-id1165035618779" list-type="enumerated" number-style="lower-alpha">
+<item>Let’s choose the origin for the <emphasis effect="italics">y</emphasis>-axis at base height, where we also want the zero of potential energy to be. This choice makes the constant equal to zero and<newline/>
+<equation id="fs-id1165035704066" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>base</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>At the summit, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>147</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, so<newline/>
+<equation id="fs-id1165039092156" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>summit</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>147</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mi>h</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>147</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>108</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+<item>At sea level, <m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>147</m:mn><m:mo>−</m:mo><m:mn>195</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mtext>m</m:mtext><m:mo>=</m:mo><m:mn>−48</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>, so<newline/>
+<equation id="fs-id1165039297023" class="unnumbered"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>sea-level</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>75</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>9.8</m:mn><m:mspace width="0.2em"/><m:mtext>N</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>−48</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>−35.3</m:mn><m:mspace width="0.2em"/><m:mtext>kJ</m:mtext><m:mo>.</m:mo></m:mrow></m:math></equation></item>
+</list>
+<para id="fs-id1165039442596"><title>Significance</title>
+Besides illustrating the use of <link target-id="fs-id1165035676115"/> and <link target-id="fs-id1165039441699"/>, the values of gravitational potential energy we found are reasonable. The gravitational potential energy is higher at the summit than at the base, and lower at sea level than at the base. Gravity does work on you on your way up, too! It does negative work and not quite as much (in magnitude), as your muscles do. But it certainly does work. Similarly, your muscles do work on your way down, as negative work. The numerical values of the potential energies depend on the choice of zero of potential energy, but the physically meaningful differences of potential energy do not. [Note that since <link target-id="fs-id1165039502050"/> is a difference, the numerical values do not depend on the origin of coordinates.]</para>
+</example>
+<note id="fs-id1165036083411" class="check-understanding">
+<exercise id="fs-id1165035926252">
+<problem id="fs-id1165033367269">
+<para id="fs-id1165035866394"><emphasis effect="bold">Check Your Understanding</emphasis> What are the values of the gravitational potential energy of the hiker at the base, summit, and sea level, with respect to a sea-level zero of potential energy?</para>
+</problem>
+<solution id="fs-id1165035849800">
+<para id="fs-id1165036156053">35.3 kJ, 143 kJ, 0</para>
+</solution>
+</exercise>
+</note>
+</section>
+<note id="fs-id1165039461263" class="media-2">
+<para id="fs-id1165033371194">View this <link url="https://openstax.org/l/21conenerskat">simulation</link> to learn about conservation of energy with a skater! Build tracks, ramps and jumps for the skater and view the kinetic energy, potential energy and friction as he moves. You can also take the skater to different planets or even space!</para>
+</note>
+<para id="fs-id1165039078790">A sample chart of a variety of energies is shown in <link target-id="fs-id1165036086155"/> to give you an idea about typical energy values associated with certain events. Some of these are calculated using kinetic energy, whereas others are calculated by using quantities found in a form of potential energy that may not have been discussed at this point.</para>
+<table id="fs-id1165036086155" summary="The table has two columns and 14 rows. The first row is a header row with headings “Object or Phenomenon” and “Energy in Joules.” Row 2 has “Big Bang” and 10 to the 68. Row 3 has “Annual world energy use” and 4.0 times 10 to the 20. Row 4 has “Large fusion bomb (9 megaton)” and 3.8 times 10 to the 16. Row 5 has “Hiroshima-size fission bomb (10 kiloton)” and 4.2 times 10 to the 13. Row  6 has “1 barrel crude oil” and 5.9 times 10 to the 9. Row 7 has “1 ton TNT” and 4.2   times 10 to the 9. Row 8 has “1 gallon of gasoline”  times 10 to the 8. Row 9 has “Daily adult food intake (recommended)” and 1.2 times 10 to the 7. Row 10 “1000 k g car at 90 k m per h” and 3.1 times 10 to the 5. Row 11 has “Tennis ball at 100 k m per h” and 22. Row 12 has “Mosquito, 10 to the minus 2 gram at 0.5 meters p0er second” and 1.3 times 10 to the minus 6. Row 13 has “single electron in a T V tune beam” and 4.0 times 10 to the minus 15. Row 14 has “Energy to break one D N A strand” and 10 to the –19.">
+<title>Energy of Various Objects and Phenomena</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row valign="top">
+<entry valign="top" align="left">Object/phenomenon</entry>
+<entry valign="top" align="left">Energy in joules</entry>
+</row>
+</thead>
+<tbody>
+<row valign="top">
+<entry valign="top" align="left">Big Bang</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>68</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Annual world energy use</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Large fusion bomb (9 megaton)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3.8</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Hiroshima-size fission bomb (10 kiloton)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1 barrel crude oil</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>5.9</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1 ton TNT</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1 gallon of gasoline</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>8</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Daily adult food intake (recommended)</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.2</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>7</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">1000-kg car at 90 km/h</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>3.1</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Tennis ball at 100 km/h</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>22</m:mn></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Mosquito <m:math><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>g at 0.5 m/s</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>1.3</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−6</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Single electron in a TV tube beam</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:mn>4.0</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−15</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+<row valign="top">
+<entry valign="top" align="left">Energy to break one DNA strand</entry>
+<entry valign="top" align="left"><m:math><m:mrow><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>−19</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section>
+<section id="fs-id1168329462001"><title>Gravitational Potential Energy Beyond Earth</title><para id="fs-id1168329069323">We have defined gravitational potential energy near the surface of the Earth, where the force of gravity is essentially constant (<m:math><m:mi>mg</m:mi></m:math>). However, an expression that is correct over larger distances must take into account the fact that Newton's universal force of gravitation varies inversely as the square of the distance from Earth's center (<m:math><m:mfrac><m:mrow><m:mo>-</m:mo><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mi>E</m:mi></m:msub><m:mi>m</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math>).</para><para id="eip-909">The change in potential energy when an object of mass <m:math><m:mi>m</m:mi></m:math> moves from a distance <m:math><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:math> to a distance <m:math><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:math> away from Earth's center is given by:</para><equation id="fs-id1168057445705" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation><para id="fs-id1168326758339">Since <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>U</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, we can adopt a simple expression for <m:math><m:mi>U</m:mi></m:math>:</para>
+<note id="fs-id1168326814883" class="equation-callout">
+<equation id="fs-id1168329108070"><label/><m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math></equation>
+</note>
+<figure id="CNX_UPhysics_13_03_IntegPath"><media id="fs-id1168329298887" alt="An illustration of the earth and two larger concentric circles centered around it. The radius of the small circle is labeled r 1 with a black arrow and the radius of the larger circle is labeled r 2 with a black arrow. A red arrow extends from the end of the r 1 arrow to the larger circle, then forms an arc on the larger circle to the tip of the r 2 arrow. The red line is labeled Path of integration.">
+<image mime-type="image/jpeg" src="../../media/CNX_UPhysics_13_03_IntegPath.jpg"/>
+</media>
+
+<caption>The change in gravitational potential energy can be evaluated for a displacement from a distance <m:math><m:msub><m:mi>r</m:mi><m:mn>1</m:mn></m:msub></m:math> to a distance <m:math><m:msub><m:mi>r</m:mi><m:mn>2</m:mn></m:msub></m:math>.</caption></figure>
+<para id="fs-id1168329511648">Note two important items with this definition. First, <m:math><m:mrow><m:mi>U</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>as</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo stretchy="false">→</m:mo><m:mi>∞</m:mi></m:mrow></m:math>. The potential energy is zero when the two masses are infinitely far apart. Only the difference in <emphasis effect="italics">U</emphasis> is important, so the choice of <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="0.2em"/><m:mtext>for</m:mtext><m:mspace width="0.2em"/><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>∞</m:mi></m:mrow></m:math> is merely one of convenience. (Recall that in earlier gravity problems, you were free to take <m:math><m:mrow><m:mi>U</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> at the top or bottom of a building, or anywhere.) Second, note that <emphasis effect="italics">U</emphasis> becomes increasingly more negative as the masses get closer. That is consistent with what you learned about potential energy. As the two masses are separated, positive work must be done against the force of gravity, and hence, <emphasis effect="italics">U</emphasis> increases (becomes less negative). All masses naturally fall together under the influence of gravity, falling from a higher to a lower potential energy.</para><example id="fs-id1168329289220">
+<para id="fs-id1168326838712"><title>Lifting a Payload</title>
+How much energy is required to lift the 9000-kg <emphasis effect="italics">Soyuz</emphasis> vehicle from Earth’s surface to the height of the ISS, 400 km above the surface?</para>
+<para id="fs-id1168329041916"><title>Strategy</title>Use <link target-id="fs-id1168057445705"/> to find the change in potential energy of the payload. That amount of work or energy must be supplied to lift the payload.</para><para id="fs-id1168327049596"><title>Solution</title>
+Paying attention to the fact that we start at Earth’s surface and end at 400 km above the surface, the change in <emphasis effect="italics">U</emphasis> is</para>
+<equation id="fs-id1168057715813" class="unnumbered"><label/><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>orbit</m:mtext></m:mrow></m:msub><m:mo>−</m:mo><m:msub><m:mi>U</m:mi><m:mrow><m:mtext>Earth</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mo>+</m:mo><m:mspace width="0.2em"/><m:mn>400</m:mn><m:mspace width="0.2em"/><m:mtext>km</m:mtext></m:mrow></m:mfrac><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>G</m:mi><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mi>m</m:mi></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub></m:mrow></m:mfrac></m:mrow><m:mo>)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation>
+<para id="fs-id1168329191485">We insert the values</para>
+<equation id="fs-id1168057225166" class="unnumbered"><label/><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>9000</m:mn><m:mspace width="0.2em"/><m:mtext>kg,</m:mtext><m:mspace width="1em"/><m:msub><m:mi>M</m:mi><m:mtext>E</m:mtext></m:msub><m:mo>=</m:mo><m:mn>5.96</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:msup><m:mtext>kg,</m:mtext><m:mspace width="1em"/><m:msub><m:mi>R</m:mi><m:mtext>E</m:mtext></m:msub><m:mo>=</m:mo><m:mn>6.37</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168329519057">and convert 400 km into <m:math><m:mrow><m:mn>4.00</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>5</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math>. We find <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mn>3.32</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math>. It is positive, indicating an increase in potential energy, as we would expect.</para>
+<para id="fs-id1168326832817"><title>Significance</title>
+For perspective, consider that the average US household energy use in 2013 was 909 kWh per month. That is energy of</para>
+<equation id="fs-id1168057720314" class="unnumbered"><label/><m:math><m:mrow><m:mn>909</m:mn><m:mspace width="0.2em"/><m:mtext>kWh</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>1000</m:mn><m:mspace width="0.2em"/><m:mtext>W/kW</m:mtext><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:mn>3600</m:mn><m:mspace width="0.2em"/><m:mtext>s/h</m:mtext><m:mo>=</m:mo><m:mn>3.27</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>9</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>J per month.</m:mtext></m:mrow></m:math></equation>
+<para id="fs-id1168327010359">So our result is an energy expenditure equivalent to 10 months. But this is just the energy needed to raise the payload 400 km. If we want the <emphasis effect="italics">Soyuz</emphasis> to be in orbit so it can rendezvous with the ISS and not just fall back to Earth, it needs a lot of kinetic energy. As we see in the next section, that kinetic energy is about five times that of <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi></m:mrow></m:math>. In addition, far more energy is expended lifting the propulsion system itself. Space travel is not cheap.</para>
+</example>
+<note id="fs-id1168329123974" class="check-understanding">
+<exercise id="fs-id1168329325388">
+<problem id="fs-id1168326792810">
+<para id="fs-id1168329140198"><emphasis effect="bold">Check Your Understanding</emphasis> Why not use the simpler expression <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math>? How significant would the error be? (Recall the previous result, in <link target-id="fs-id1168327872551" document="m64179"/>, that the value of <emphasis effect="italics">g</emphasis> at 400 km above the Earth is <m:math><m:mrow><m:mn>8.67</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.)</para></problem>
+<solution id="fs-id1168329079960">
+<para id="fs-id1168326765809">The value of <emphasis effect="italics">g</emphasis> drops by about 10% over this change in height. So <m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> will give too large a value. If we use <m:math><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>9.80</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>, then we get</para>
+<para id="fs-id1168329177680"><m:math><m:mrow><m:mtext>Δ</m:mtext><m:mi>U</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3.53</m:mn><m:mspace width="0.2em"/><m:mo>×</m:mo><m:mspace width="0.2em"/><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+<para id="fs-id1168329513030">which is about 6% greater than that found with the correct method.</para>
+</solution>
+</exercise>
+</note>
+</section><section id="fs-id1165039411801" class="key-concepts">
+<title>Summary</title>
+<list id="fs-id1165039512018" list-type="bulleted" bullet-style="bullet"><item>For a single-particle system, the difference of potential energy is the opposite of the work done by the forces acting on the particle as it moves from one position to another.</item>
+<item>Since only differences of potential energy are physically meaningful, the zero of the potential energy function can be chosen at a convenient location.</item>
+<item>The potential energies for Earth’s constant gravity, near its surface, and for a Hooke’s law force are linear and quadratic functions of position, respectively.</item>
+<item>The force of gravity changes as we move away from Earth, and the expression for gravitational potential energy must reflect this change.</item></list></section>
+<section id="fs-id1165039349944" class="review-conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1165039088707">
+<problem id="fs-id1165035870929">
+<para id="fs-id1165036158227">The kinetic energy of a system must always be positive or zero. Explain whether this is true for the potential energy of a system.</para>
+</problem>
+<solution id="fs-id1165036083174">
+<para id="fs-id1165039119722">The potential energy of a system can be negative because its value is relative to a defined point.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035863734">
+<problem id="fs-id1165039495833">
+<para id="fs-id1165035862588">The force exerted by a diving board is conservative, provided the internal friction is negligible. Assuming friction is negligible, describe changes in the potential energy of a diving board as a swimmer drives from it, starting just before the swimmer steps on the board until just after his feet leave it.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035664421">
+<problem id="fs-id1165036075740">
+<para id="fs-id1165039420504">Describe the gravitational potential energy transfers and transformations for a javelin, starting from the point at which an athlete picks up the javelin and ending when the javelin is stuck into the ground after being thrown.</para>
+</problem>
+<solution id="fs-id1165039508390">
+<para id="fs-id1165035639538">If the reference point of the ground is zero gravitational potential energy, the javelin first increases its gravitational potential energy, followed by a decrease in its gravitational potential energy as it is thrown until it hits the ground. The overall change in gravitational potential energy of the javelin is zero unless the center of mass of the javelin is lower than from where it is initially thrown, and therefore would have slightly less gravitational potential energy.</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035609975">
+<problem id="fs-id1165035676190">
+<para id="fs-id1165039434233">A couple of soccer balls of equal mass are kicked off the ground at the same speed but at different angles. Soccer ball A is kicked off at an angle slightly above the horizontal, whereas ball B is kicked slightly below the vertical. How do each of the following compare for ball A and ball B? (a) The initial kinetic energy and (b) the change in gravitational potential energy from the ground to the highest point? If the energy in part (a) differs from part (b), explain why there is a difference between the two energies.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165035640115">
+<problem id="fs-id1165035971333">
+<para id="fs-id1165039243934">What is the dominant factor that affects the speed of an object that started from rest down a frictionless incline if the only work done on the object is from gravitational forces?</para>
+</problem>
+<solution id="fs-id1165039502736">
+<para id="fs-id1165035734500">the vertical height from the ground to the object</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165035951008">
+<problem id="fs-id1165039210730">
+<para id="fs-id1165035703366">Two people observe a leaf falling from a tree. One person is standing on a ladder and the other is on the ground. If each person were to compare the energy of the leaf observed, would each person find the following to be the same or different for the leaf, from the point where it falls off the tree to when it hits the ground: (a) the kinetic energy of the leaf; (b) the change in gravitational potential energy; (c) the final gravitational potential energy?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1168329150908">
+<problem id="fs-id1168326763944">
+<para id="fs-id1168329164291">It was shown that the energy required to lift a satellite into a <emphasis effect="italics">low</emphasis> Earth orbit (the change in potential energy) is only a small fraction of the kinetic energy needed to keep it in orbit. Is this true for larger orbits? Is there a trend to the ratio of kinetic energy to change in potential energy as the size of the orbit increases?</para>
+</problem>
+<solution id="fs-id1168326791298">
+<para id="fs-id1168326775034">As we move to larger orbits, the change in potential energy increases, whereas the orbital velocity decreases. Hence, the ratio is highest near Earth’s surface (technically infinite if we orbit at Earth’s surface with no elevation change), moving to zero as we reach infinitely far away.</para>
+</solution>
+</exercise></section><section id="fs-id1165039426252" class="review-problems">
+<title>Problems</title>
+<exercise id="fs-id1165035974202">
+<problem id="fs-id1165036084222">
+<para id="fs-id1165035707085">Using values from <link target-id="fs-id1165036086155"/>, how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous X-rays. Later-model tube TVs had shielding that absorbed X-rays before they escaped and exposed viewers.)</para>
+</problem>
+<solution id="fs-id1165039303143">
+<para id="fs-id1165039328857">40,000</para>
+</solution>
+</exercise>
+<exercise id="fs-id1165039195103">
+<problem id="fs-id1165039274912">
+<para id="fs-id1165039045866">If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from <link target-id="eip-335"/>)?</para></problem>
+</exercise>
+<exercise id="fs-id1165035678778">
+<problem id="fs-id1165033368936">
+<para id="fs-id1165039506976">A camera weighing 10 N falls from a small drone hovering <m:math><m:mrow><m:mn>20</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> overhead and enters free fall. What is the gravitational potential energy change of the camera from the drone to the ground if you take a reference point of (a) the ground being zero gravitational potential energy? (b) The drone being zero gravitational potential energy? What is the gravitational potential energy of the camera (c) before it falls from the drone and (d) after the camera lands on the ground if the reference point of zero gravitational potential energy is taken to be a second person looking out of a building <m:math><m:mrow><m:mn>30</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> from the ground?</para>
+</problem>
+<solution id="fs-id1165039026114">
+<para id="fs-id1165035992436"><m:math><m:mrow><m:mtext>a.</m:mtext><m:mspace width="0.2em"/><m:mn>−200</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>b.</m:mtext><m:mspace width="0.2em"/><m:mn>−200</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>c.</m:mtext><m:mspace width="0.2em"/><m:mn>−100</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>d.</m:mtext><m:mspace width="0.2em"/><m:mn>−300</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+<exercise id="fs-id1165038995791">
+<problem id="fs-id1165038963823">
+<para id="fs-id1165039305629">Someone drops a <m:math><m:mrow><m:mn>50</m:mn><m:mo>−</m:mo><m:mtext>g</m:mtext></m:mrow></m:math> pebble off of a docked cruise ship, <m:math><m:mrow><m:mn>70.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> from the water line. A person on a dock <m:math><m:mrow><m:mn>3.0</m:mn><m:mspace width="0.2em"/><m:mtext>m</m:mtext></m:mrow></m:math> from the water line holds out a net to catch the pebble. (a) How much work is done on the pebble by gravity during the drop? (b) What is the change in the gravitational potential energy during the drop? If the gravitational potential energy is zero at the water line, what is the gravitational potential energy (c) when the pebble is dropped? (d) When it reaches the net? What if the gravitational potential energy was <m:math><m:mrow><m:mn>30.0</m:mn></m:mrow></m:math> Joules at water level? (e) Find the answers to the same questions in (c) and (d).</para>
+</problem>
+</exercise>
+<exercise id="fs-id1165039000504">
+<problem id="fs-id1165036159547">
+<para id="fs-id1165039376541">A cat’s crinkle ball toy of mass <m:math><m:mrow><m:mn>15</m:mn><m:mspace width="0.2em"/><m:mtext>g</m:mtext></m:mrow></m:math> is thrown straight up with an initial speed of <m:math><m:mrow><m:mn>3</m:mn><m:mspace width="0.2em"/><m:mtext>m/s</m:mtext></m:mrow></m:math>. Assume in this problem that air drag is negligible. (a) What is the kinetic energy of the ball as it leaves the hand? (b) How much work is done by the gravitational force during the ball’s rise to its peak? (c) What is the change in the gravitational potential energy of the ball during the rise to its peak? (d) If the gravitational potential energy is taken to be zero at the point where it leaves your hand, what is the gravitational potential energy when it reaches the maximum height? (e) What if the gravitational potential energy is taken to be zero at the maximum height the ball reaches, what would the gravitational potential energy be when it leaves the hand? (f) What is the maximum height the ball reaches?</para>
+</problem>
+<solution id="fs-id1165035962196">
+<para id="fs-id1165039218494"><m:math><m:mrow><m:mtext>a.</m:mtext><m:mspace width="0.2em"/><m:mn>0.068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>b.</m:mtext><m:mspace width="0.2em"/><m:mn>−0.068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>c.</m:mtext><m:mspace width="0.2em"/><m:mn>0.068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>d.</m:mtext><m:mspace width="0.2em"/><m:mn>0.068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>e.</m:mtext><m:mspace width="0.2em"/><m:mn>−0.068</m:mn><m:mspace width="0.2em"/><m:mtext>J</m:mtext><m:mo>;</m:mo><m:mspace width="0.2em"/><m:mtext>f.</m:mtext><m:mspace width="0.2em"/><m:mn>46</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext></m:mrow></m:math></para>
+</solution>
+</exercise>
+</section>
+</content>
+<glossary>
+<definition id="fs-id1165039070256">
+<term>potential energy</term>
+<meaning id="fs-id1165035651980">function of position, energy possessed by an object relative to the system considered</meaning>
+</definition>
+<definition id="fs-id1165039314150">
+<term>potential energy difference</term>
+<meaning id="fs-id1165035824264">negative of the work done acting between two points in space</meaning>
+</definition>
+</glossary>
+</document>
