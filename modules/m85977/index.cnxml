@@ -1,0 +1,80 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>The Future of Large Telescopes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m85977</md:content-id>
+  <md:title>The Future of Large Telescopes</md:title>
+  <md:abstract>After completing this section, you will be able to:
+<list>
+<item>Describe the next generation of ground- and space-based observatories</item>
+<item>Explain some of the challenges involved in building these observatories</item>
+</list></md:abstract>
+  <md:uuid>e82f9b43-9d76-4b5e-82ef-8341e06f0ce4</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-id1167470757058">If you’ve ever gone on a hike, you have probably been eager to see what lies just around the next bend in the path. Researchers are no different, and astronomers and engineers are working on the technologies that will allow us to explore even more distant parts of the universe and to see them more clearly.</para>
+<para id="fs-id1167470602191">The premier space facility planned for the next decade is the <term class="no-emphasis">James Webb Space Telescope</term> (<link target-id="OSC_Astro_06_06_JWST"/>), which (in a departure from tradition) is named after one of the early administrators of NASA instead of a scientist. This telescope will have a mirror 6 meters in diameter, made up, like the Keck telescopes, of 36 small hexagons. These will have to unfold into place once the telescope reaches its stable orbit point, some 1.5 million kilometers from Earth (where no astronauts can currently travel if it needs repair.) The telescope is scheduled for launch in 2021 and should have the sensitivity needed to detect the very first generation of stars, formed when the universe was only a few hundred million years old. With the ability to measure both visible and infrared wavelengths, it will serve as the successor to both HST and the Spitzer Space Telescope.</para>
+<figure id="OSC_Astro_06_06_JWST">
+<title>James Webb Space Telescope (JWST).</title>
+<media id="fs-id1167471051367" alt="Photograph of the cryogenic mirror testing assembly and 6 of the hexagonal mirror segments of the James Webb Space Telescope. A technician is seen inspecting the right-most mirror segment.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_06_06_JWST.jpg"/>
+</media>
+<caption>This image shows some of the mirrors of the JWST as they underwent cryogenic testing. The mirrors were exposed to extreme temperatures in order to gather accurate measurements on changes in their shape as they heated and cooled. (credit: NASA/MSFC/David Higginbotham/Emmett Given)</caption>
+</figure>
+<note id="fs-id1167471083052" class="astronomy link-to-learning">
+<para id="fs-id1167470765302">Watch this <link url="https://openstaxcollege.org/l/30JWSTvid">video</link> to learn more about the James Webb Space Telescope and how it will build upon the work that Hubble has allowed us to begin in exploring the universe.</para>
+</note>
+<para id="fs-id1167470923512">On the ground, astronomers have started building the <term class="no-emphasis">Large Synoptic Survey Telescope</term> (LSST), an 8.4-meter telescope with a significantly larger field of view than any existing telescopes. It will rapidly scan the sky to find <emphasis effect="italics">transients</emphasis>, phenomena that change quickly, such as exploding stars and chunks of rock that orbit near Earth. The LSST is expected to see first light in 2021.</para>
+<para id="fs-id1167470606203">The international gamma-ray community is planning the <term class="no-emphasis">Cherenkov Telescope Array</term> (CTA), two arrays of telescopes, one in each hemisphere, which will indirectly measure gamma rays from the ground. The CTA will measure gamma-ray energies a thousand times as great as the Fermi telescope can detect.</para>
+<para id="fs-id1167470761058">Several groups of astronomers around the globe interested in studying visible light and infrared are exploring the feasibility of building ground-based telescopes with mirrors larger than 30 meters across. Stop and think what this means: 30 meters is one-third the length of a football field. It is technically impossible to build and transport a single astronomical mirror that is 30 meters or larger in diameter. The primary mirror of these giant telescopes will consist of smaller mirrors, all aligned so that they act as a very large mirror in combination. These include the Thirty-Meter Telescope for which construction has begun at the top of Mauna Kea in Hawaii.</para>
+<para id="fs-id1167471061491">The most ambitious of these projects is the <term class="no-emphasis">European Extremely Large Telescope</term> (E-ELT) (<link target-id="OSC_Astro_06_06_Conception"/>). (Astronomers try to outdo each other not only with the size of these telescopes, but also their names!) The design of the E-ELT calls for a 39.3-meter primary mirror, which will follow the Keck design and be made up of 798 hexagonal mirrors, each 1.4 meters in diameter and all held precisely in position so that they form a continuous surface.</para>
+<para id="fs-id1167470614672">Construction on the site in the Atacama Desert in Northern Chile started in 2014. The E-ELT, along with the Thirty Meter Telescope and the Giant Magellan Telescope, which are being built by international consortia led by US astronomers, will combine light-gathering power with high-resolution imaging. These powerful new instruments will enable astronomers to tackle many important astronomical problems. For example, they should be able to tell us when, where, and how often planets form around other stars. They should even be able to provide us images and spectra of such planets and thus, perhaps, give us the first real evidence (from the chemistry of these planets’ atmospheres) that life exists elsewhere.</para>
+<figure id="OSC_Astro_06_06_Conception">
+<title>Artist’s Conception of the European Extremely Large Telescope.</title>
+<media id="fs-id1167470942746" alt="Illustration of the European Extremely Large Telescope seen through the open dome of the building, and the surrounding desert landscape in Chile.">
+<image mime-type="image/jpeg" src="../../media/OSC_Astro_06_06_Conception.jpg"/>
+</media>
+<caption>The primary mirror in this telescope is 39.3 meters across. The telescope is under construction in the Atacama Desert in Northern Chile. (credit: ESO/L. Calçada)</caption>
+</figure>
+<note id="fs-id1167470700235" class="astronomy link-to-learning">
+<para id="fs-id1167471062247">Check out this <link url="https://openstaxcollege.org/l/30JWSTdiag">fun diagram</link> comparing the sizes of the largest planned and existing telescopes to a regulation basketball and tennis court.</para>
+</note>
+<section id="fs-id1167470625224" class="summary"><title>Summary</title><list id="eip-idm1076198128"><item>New and even larger telescopes are on the drawing boards.</item><item>The James Webb Space Telescope, a 6-meter successor to Hubble, is currently scheduled for launch in 2021.</item><item>Gamma-ray astronomers are planning to build the CTA to measure very energetic gamma rays.</item><item>Astronomers are building the LSST to observe with an unprecedented field of view and a new generation of visible-light/infrared telescopes with apertures of 24.5 to 39 meters in diameter.</item></list>
+</section><section id="fs-id1167470964084"><title>For Further Exploration</title><section id="eip-id1163976726160"><title>Articles</title>
+<para id="fs-id1167470825466">Blades, J. C. “Fixing the Hubble One Last Time.” <emphasis effect="italics">Sky &amp; Telescope</emphasis> (October 2008): 26. On the last Shuttle service mission and what the Hubble was then capable of doing.</para>
+<para id="fs-id1167470636355">Brown, A. “How Gaia will Map a Billion Stars.” <emphasis effect="italics">Astronomy</emphasis> (December 2014): 32. Nice review of the mission to do photometry and spectroscopy of all stars above a certain brightness.</para>
+<para id="fs-id1167470969827">Irion, R. “Prime Time.” <emphasis effect="italics">Astronomy</emphasis> (February 2001): 46. On how time is allotted on the major research telescopes.</para>
+<para id="fs-id1167470663739">Jedicke, Peter &amp; Robert. “The Coming Giant Sky Patrols.” <emphasis effect="italics">Sky &amp; Telescope</emphasis> (September 2008): 30. About giant telescopes to survey the sky continuously.</para>
+<para id="fs-id1167470770730">Lazio, Joseph, et al. “Tuning in to the Universe: 21<sup>st</sup> Century Radio Astronomy.” <emphasis effect="italics">Sky &amp; Telescope</emphasis> (July 2008): 21. About ALMA and the Square Kilometer Array.</para>
+<para id="fs-id1167470749980">Lowe, Jonathan. “Mirror, Mirror.” <emphasis effect="italics">Sky &amp; Telescope</emphasis> (December 2007): 22. On the Large Binocular Telescope in Arizona.</para>
+<para id="fs-id1167470762283">Lowe, Jonathan. “Next Light: Tomorrow’s Monster Telescopes.” <emphasis effect="italics">Sky &amp; Telescope</emphasis> (April 2008): 20. About plans for extremely large telescopes on the ground.</para>
+<para id="fs-id1167470565664">Mason, Todd &amp; Robin. “Palomar’s Big Eye.” <emphasis effect="italics">Sky &amp; Telescope</emphasis> (December 2008): 36. On the Hale 200-inch telescope.</para>
+<para id="fs-id1167470992584">Subinsky, Raymond. “Who Really Invented the Telescope.” <emphasis effect="italics">Astronomy</emphasis> (August 2008): 84. Brief historical introduction, focusing on Hans Lippershey.</para></section>
+<section id="eip-id1163976548804"><title>Websites</title><para id="fs-id1167470704622">Websites for major telescopes are given in <link target-id="fs-id1167470615449" document="m85898"/>, <link target-id="fs-id1167470936824" document="m85900"/>, <link target-id="fs-id1167470667239" document="m85900"/>, and <link target-id="fs-id1167469604443" document="m85928"/>.</para></section><section id="eip-id1163976872619"><title>Videos</title>
+<para id="fs-id1167470616950">Astronomy from the Stratosphere: SOFIA: <link url="https://www.youtube.com/watch?v=NV98BcBBA9c">https://www.youtube.com/watch?v=NV98BcBBA9c</link>. A talk by Dr. Dana Backman (1:15:32)</para><para id="fs-id1167471082938">Galaxies Viewed in Full Spectrum of Light: <link url="https://www.youtube.com/watch?v=368K0iQv8nE">https://www.youtube.com/watch?v=368K0iQv8nE</link>. Scientists with the Spitzer Observatory show how a galaxy looks different at different wavelengths (6:22)</para><para id="fs-id1167470769763">Lifting the Cosmic Veil: Highlights from a Decade of the Spitzer Space Telescope: <link url="https://www.youtube.com/watch?v=nkrNQcwkY78">https://www.youtube.com/watch?v=nkrNQcwkY78</link>. A talk by Dr. Michael Bicay (1:42:44)</para></section></section>
+<section id="fs-id1167470709036" class="review-conceptual-questions">
+<title>Conceptual Questions</title>
+<exercise id="fs-id1167470665164">
+<problem id="fs-id1167470606527">
+<para id="fs-id1167470596484">What kind of visible-light and infrared telescopes on the ground are astronomers planning for the future? Why are they building them on the ground and not in space?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167470658744">
+<problem id="fs-id1167470633647">
+<para id="fs-id1167471065047">Describe one visible-light or infrared telescope that astronomers are planning to launch into space in the future.</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167471063808">
+<problem id="fs-id1167470633146">
+<para id="fs-id1167470697562">Suppose you are looking for sites for a visible-light observatory, an infrared observatory, and a radio observatory. What are the main criteria of excellence for each? What sites are actually considered the best today?</para>
+</problem>
+</exercise>
+<exercise id="fs-id1167470972263">
+<problem id="fs-id1167470689022">
+<para id="fs-id1167470681522">Radio astronomy involves wavelengths much longer than those of visible light, and many orbiting observatories have probed the universe for radiation of very short wavelengths. What sorts of objects and physical conditions would you expect to be associated with emission of radiation at very long and very short wavelengths?</para>
+</problem>
+</exercise>
+</section>
+</content>
+</document>
